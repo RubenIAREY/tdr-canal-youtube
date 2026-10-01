@@ -252,28 +252,36 @@
 <section id="coste" class="bloque oscuro">
   <div class="contenedor">
     <p class="etiqueta">06 · Lo que cuesta</p>
-    <h2>Menos que la persona<br>que solo subía fotos</h2>
-    <p class="texto">Antes había una persona que costaba unos <strong>500 € al mes</strong> y solo subía fotografías. Ese dinero
-      se pasó a herramientas. Higgsfield y Claude se comparten con otros departamentos y otras tareas, así que al canal solo le toca
-      una parte: muévela para ver el coste real.</p>
+    <h2>Más contenido<br>por menos dinero</h2>
+    <p class="texto">Antes había una persona que costaba unos <strong>500 € al mes</strong> y prácticamente solo subía fotos a
+      Instagram. Ese dinero se pasó a herramientas, y con ellas ahora se hacen <strong>vídeos largos y shorts para YouTube y vídeos
+      para Instagram</strong>. Ninguna herramienta es solo del canal: HeyGen y ElevenLabs se usan también para Instagram, y
+      Higgsfield y Claude, además, en otros departamentos y tareas. Mueve la parte que le toca a YouTube y mira el coste real.</p>
     <div class="dos">
       <div class="costes">
-        <div class="fila"><span>HeyGen <small>avatar de Rubén</small></span><b>25 €</b></div>
-        <div class="fila"><span>ElevenLabs <small>voces de Rubén y Stela</small></span><b>10 €</b></div>
-        <div class="fila"><span>Higgsfield <small>170 $/mes, compartido · parte del canal <output data-for="parte_hf"></output></small>
-          <input type="range" id="parte_hf" min="0.2" max="1" step="0.05" value="0.6"></span><b id="c-hf">96 €</b></div>
-        <div class="fila"><span>Claude Max <small>100 €/mes, compartido · parte del canal <output data-for="parte_cl"></output></small>
-          <input type="range" id="parte_cl" min="0.1" max="1" step="0.05" value="0.4"></span><b id="c-cl">40 €</b></div>
-        <div class="fila total"><span>Coste del canal al mes</span><b id="c-total">171 €</b></div>
-        <div class="fila"><span>Antes, una persona subiendo fotos</span><b>500 €</b></div>
-        <div class="fila ahorro"><span>Diferencia</span><b id="c-ahorro">−329 €</b></div>
+        <div class="fila cabecera"><span>Herramienta <small>lo que cuesta al mes · parte de YouTube</small></span><b>YouTube</b></div>
+        <div class="fila"><span>Higgsfield <small>170 $ (~160 €) · también Instagram y otros departamentos · <output data-for="parte_hf"></output></small>
+          <input type="range" id="parte_hf" min="0.1" max="1" step="0.05" value="0.5"></span><b id="c-hf">–</b></div>
+        <div class="fila"><span>Claude Max <small>100 € · también Instagram y muchas otras tareas · <output data-for="parte_cl"></output></small>
+          <input type="range" id="parte_cl" min="0.1" max="1" step="0.05" value="0.3"></span><b id="c-cl">–</b></div>
+        <div class="fila"><span>HeyGen <small>25 € · avatar de Rubén, también para Instagram · <output data-for="parte_hg"></output></small>
+          <input type="range" id="parte_hg" min="0.1" max="1" step="0.05" value="0.5"></span><b id="c-hg">–</b></div>
+        <div class="fila"><span>ElevenLabs <small>10 € · voces de Rubén y Stela, también para Instagram · <output data-for="parte_el"></output></small>
+          <input type="range" id="parte_el" min="0.1" max="1" step="0.05" value="0.5"></span><b id="c-el">–</b></div>
+        <div class="fila total"><span>Coste de YouTube al mes</span><b id="c-total">–</b></div>
+        <div class="fila"><span>Todas las herramientas, para todo <small>YouTube, Instagram y los otros usos</small></span><b>295 €</b></div>
+        <div class="fila"><span>Antes: una persona <small>casi solo fotos de Instagram</small></span><b>500 €</b></div>
+        <div class="fila ahorro"><span>Ahorro aunque se cuenten enteras</span><b>−205 €</b></div>
       </div>
       <div>
         <div class="lienzo bajo"><canvas id="g-coste"></canvas></div>
         <div class="tarjetas dos compacta">
-          <div class="tarjeta"><b id="c-mil">3,3 €</b><p>por cada 1.000 visitas, con las visitas de septiembre.</p></div>
+          <div class="tarjeta"><b id="c-mil">–</b><p>de herramientas por cada 1.000 visitas en YouTube, con las visitas de septiembre.</p></div>
           <div class="tarjeta"><b>~20 €</b><p>de créditos de Higgsfield por largo con producción completa (≈1.100 créditos); ~8 € en uno estándar (≈450).</p></div>
         </div>
+        <div class="tarjeta roja horas"><b>Lo que no está en la factura: las horas de Rubén</b><p>Ahora Rubén mete horas en montar y
+          afinar el proceso. Es una inversión: el objetivo es que después funcione casi solo, con muy poca atención humana, y que esas
+          horas no crezcan con cada vídeo.</p></div>
         <p class="nota">Ojo con el ritmo: un largo cada 3 días con producción completa son unos 11.000 créditos al mes y el plan da
           9.000, compartidos. Para sostenerlo hay que alternar largos completos y estándar, o ampliar créditos.</p>
       </div>
@@ -289,6 +297,23 @@
     <p class="texto">Claude Code orquesta todo el proceso desde el ordenador de Rubén. Cada paso tiene su herramienta, y solo uno
       sigue siendo manual de verdad: el avatar de HeyGen, porque HeyGen no tiene conexión (MCP) con Claude.</p>
     <ol class="proceso" id="proceso"></ol>
+
+    <h3 class="subtitulo">Todo se controla desde un sitio</h3>
+    <p class="texto">Claude Code está conectado a las herramientas del proceso y a los dos sitios donde se publica. Desde la
+      misma conversación se crea el vídeo, se programa y se miran los resultados: no hace falta abrir cada plataforma.</p>
+    <div class="control">
+      <div class="nucleo"><b>Claude Code</b><span>orquesta, revisa y programa</span></div>
+      <div class="conexiones">
+        <div><b>YouTube</b><span>sube los vídeos, la miniatura, los subtítulos, la descripción con sus enlaces y la fecha de publicación; lee las métricas con YouTube Analytics</span></div>
+        <div class="destacada"><b>Metricool</b><span>programa y publica en YouTube e Instagram desde un solo calendario, y reúne las métricas de las dos redes</span></div>
+        <div><b>Higgsfield</b><span>genera imágenes y clips (Kling, Wan, GPT Image) por conexión directa (MCP)</span></div>
+        <div><b>ElevenLabs</b><span>genera las voces por API</span></div>
+        <div><b>Google Analytics</b><span>mide las visitas que llegan a todoenrecambio.com desde YouTube</span></div>
+        <div class="manual"><b>HeyGen</b><span>sin conexión: el avatar se renderiza a mano y Claude Code lo comprueba al fotograma</span></div>
+      </div>
+    </div>
+    <p class="nota">Instagram: ya hay vídeos de avatar hechos con este mismo proceso, pero todavía no se han empezado a subir, así
+      que esta web solo mide YouTube. El coste de las herramientas sí cubre las dos redes.</p>
     <div class="tarjetas tres">
       <div class="tarjeta"><b>Lo que hace Rubén</b><p>Elige el tema, revisa el guion, renderiza el avatar en HeyGen y da el OK final antes de programar. Nada se publica sin él.</p></div>
       <div class="tarjeta"><b>Lo que se comprueba solo</b><p>Que los labios van con la voz (al fotograma), la sonoridad, que no haya negros ni parpadeos, los capítulos y que cada enlace responde.</p></div>

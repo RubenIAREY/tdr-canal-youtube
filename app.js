@@ -245,34 +245,33 @@ function web() {
 
 /* ───────── 06 · coste ───────── */
 function costes() {
-  const hf = document.getElementById("parte_hf"), cl = document.getElementById("parte_cl");
+  const T = { hf: { id: "parte_hf", eur: 160, nom: "Higgsfield", col: ROJO }, cl: { id: "parte_cl", eur: 100, nom: "Claude", col: TEXTO },
+              hg: { id: "parte_hg", eur: 25, nom: "HeyGen", col: AMBAR }, el: { id: "parte_el", eur: 10, nom: "ElevenLabs", col: "#7cc7ff" } };
   let ch;
   const pinta = () => {
-    const vHf = 160 * +hf.value, vCl = 100 * +cl.value, total = 25 + 10 + vHf + vCl;
-    document.querySelector('output[data-for="parte_hf"]').textContent = fmt(+hf.value * 100) + " %";
-    document.querySelector('output[data-for="parte_cl"]').textContent = fmt(+cl.value * 100) + " %";
-    document.getElementById("c-hf").textContent = fmt(vHf) + " €";
-    document.getElementById("c-cl").textContent = fmt(vCl) + " €";
+    let total = 0; const yt = {};
+    for (const k in T) {
+      const parte = +document.getElementById(T[k].id).value; yt[k] = T[k].eur * parte; total += yt[k];
+      document.querySelector(`output[data-for="${T[k].id}"]`).textContent = "YouTube " + fmt(parte * 100) + " %";
+      document.getElementById("c-" + k).textContent = fmt(yt[k]) + " €";
+    }
     document.getElementById("c-total").textContent = fmt(total) + " €";
-    document.getElementById("c-ahorro").textContent = (total <= 500 ? "−" : "+") + fmt(Math.abs(500 - total)) + " €";
     document.getElementById("c-mil").textContent = fmt(total / (1725.6 * 30.44 / 1000), 1) + " €";
-    const data = [[0, 25], [0, 10], [0, vHf], [0, vCl], [500, 0]];
+    const ks = Object.keys(T);
+    const sets = [{ label: "Antes: una persona", data: [500, 0, 0], backgroundColor: "#3a3a46" }]
+      .concat(ks.map(k => ({ label: T[k].nom, data: [0, T[k].eur, yt[k]], backgroundColor: T[k].col })));
     if (!ch) {
       ch = new Chart(document.getElementById("g-coste"), {
         type: "bar",
-        data: { labels: ["Antes", "Ahora"], datasets: [
-          { label: "Persona que subía fotos", data: [500, 0], backgroundColor: "#3a3a46" },
-          { label: "HeyGen", data: [0, 25], backgroundColor: AMBAR },
-          { label: "ElevenLabs", data: [0, 10], backgroundColor: "#7cc7ff" },
-          { label: "Higgsfield (parte del canal)", data: [0, vHf], backgroundColor: ROJO },
-          { label: "Claude (parte del canal)", data: [0, vCl], backgroundColor: TEXTO }] },
+        data: { labels: ["Antes", "Herramientas", "YouTube"], datasets: sets },
         options: { indexAxis: "y", plugins: { legend: { position: "bottom" }, tooltip: { callbacks: { label: c => `${c.dataset.label}: ${fmt(c.raw)} €` } },
           title: { display: true, text: "Coste al mes", color: TEXTO } },
           scales: { x: { stacked: true, ticks: { callback: v => v + " €" } }, y: { stacked: true, grid: { display: false } } } }
       });
-    } else { ch.data.datasets[3].data = [0, vHf]; ch.data.datasets[4].data = [0, vCl]; ch.update(); }
+    } else { ks.forEach((k, i) => ch.data.datasets[i + 1].data = [0, T[k].eur, yt[k]]); ch.update(); }
   };
-  hf.oninput = cl.oninput = pinta; pinta();
+  for (const k in T) document.getElementById(T[k].id).oninput = pinta;
+  pinta();
 }
 
 /* ───────── 07 · proceso ───────── */
@@ -288,7 +287,7 @@ function proceso() {
     ["Pizarras y paneles", "código propio (Python y Pillow)", 100],
     ["Montaje y sonido", "ffmpeg, al fotograma", 100],
     ["Control de calidad", "labios, negros, parpadeos, enlaces", 100],
-    ["Subida y programación", "API de YouTube · OK de Rubén", 90],
+    ["Subida y programación", "API de YouTube y Metricool · OK de Rubén", 90],
     ["Shorts de cada día", "rutina automática", 95],
   ];
   document.getElementById("proceso").innerHTML = P.map(([t, q, p, m]) =>
