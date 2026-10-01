@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canal YouTube TDR</title>
+<meta name="description" content="Cómo ha crecido el canal de YouTube de TodoEnRecambio desde que se hace con IA, qué cuesta, qué está automatizado y hasta dónde puede llegar en 2027.">
+<meta property="og:title" content="El canal de YouTube de TDR, hecho con IA">
+<meta property="og:description" content="De 182 a 1.545 visitas al día en ocho semanas. Evolución, proyección a 2027, coste y automatización.">
+<link rel="icon" href="logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="barra">
+  <a class="marca" href="#inicio"><img src="logo-tdr.png" alt="TDR"><span>Canal de YouTube</span></a>
+  <nav>
+    <a href="#evolucion">Evolución</a>
+    <a href="#crecimiento">Crecimiento</a>
+    <a href="#proyeccion">Proyección</a>
+    <a href="#videos">Vídeos</a>
+    <a href="#tdr">Qué aporta</a>
+    <a href="#coste">Coste</a>
+    <a href="#automatizacion">Automatización</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ═════════════ PORTADA ═════════════ -->
+<section id="inicio" class="portada">
+  <div class="rejilla-fondo" aria-hidden="true"></div>
+  <div class="contenedor">
+    <p class="antetitulo">TodoEnRecambio · canal de YouTube · datos a <span data-actualizado></span></p>
+    <h1>De <span class="rojo" data-cuenta="182">182</span> a <span class="rojo" data-cuenta="1545">1.545</span><br>visitas al día</h1>
+    <div class="subrayado"></div>
+    <p class="entradilla">El 4 de agosto de 2026 subimos el primer vídeo hecho con inteligencia artificial: la sonda lambda.
+      Ocho semanas después el canal tiene <strong>ocho veces más visitas</strong> y gana <strong>dieciséis veces más suscriptores</strong>.
+      Aquí está cómo, cuánto cuesta, qué hace cada herramienta y hasta dónde puede llegar en 2027.</p>
+    <div class="kpis">
+      <div class="kpi"><b data-cuenta="8.5" data-dec="1">×8,5</b><span>visitas al día<br>que antes de la IA</span></div>
+      <div class="kpi"><b data-cuenta="16" data-pre="×">×16</b><span>suscriptores nuevos<br>al mes</span></div>
+      <div class="kpi"><b data-cuenta="265694">265.694</b><span>visitas totales<br>del canal</span></div>
+      <div class="kpi"><b data-cuenta="125">125</b><span>vídeos con IA en 8 semanas<br>(12 largos y 113 shorts)</span></div>
+    </div>
+    <a class="boton" href="#proyeccion">Ver la proyección a 2027 →</a>
+  </div>
+</section>
+
+<!-- ═════════════ EVOLUCIÓN ═════════════ -->
+<section id="evolucion" class="bloque">
+  <div class="contenedor">
+    <p class="etiqueta">01 · La evolución</p>
+    <h2>El salto empieza el día<br>de la sonda lambda</h2>
+    <p class="texto">Cada barra es una semana del canal desde enero de 2025. Hasta julio de 2026 el canal vivía de vídeos sueltos
+      de motos: entre 1.000 y 2.000 visitas a la semana y casi ningún suscriptor nuevo. El único pico anterior es la EICMA de
+      noviembre de 2025, una semana. Lo nuevo es que desde el 4 de agosto, la línea roja, el nivel alto se mantiene semana tras semana.</p>
+    <div class="selector" data-grafica="semanas">
+      <button class="activo" data-metrica="v">Visitas</button>
+      <button data-metrica="m">Minutos vistos</button>
+      <button data-metrica="g">Suscriptores nuevos</button>
+    </div>
+    <div class="lienzo alto"><canvas id="g-semanas"></canvas></div>
+
+    <div class="comparativa">
+      <div class="col antes">
+        <h3>56 días antes</h3><p class="fechas">9 jun – 3 ago 2026</p>
+        <dl><dt>Visitas al día</dt><dd>182</dd><dt>Minutos vistos al día</dt><dd>127</dd><dt>Suscriptores netos al mes</dt><dd>3,8</dd></dl>
+      </div>
+      <div class="flecha">→</div>
+      <div class="col despues">
+        <h3>56 días con IA</h3><p class="fechas">4 ago – 28 sep 2026</p>
+        <dl><dt>Visitas al día</dt><dd>1.545 <em>×8,5</em></dd><dt>Minutos vistos al día</dt><dd>424 <em>×3,3</em></dd><dt>Suscriptores netos al mes</dt><dd>62 <em>×16</em></dd></dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ CRECIMIENTO ═════════════ -->
+<section id="crecimiento" class="bloque oscuro">
+  <div class="contenedor">
+    <p class="etiqueta">02 · ¿Está creciendo?</p>
+    <h2>Sí, y cada mes más</h2>
+    <div class="dos">
+      <div>
+        <p class="texto">No fue un pico de un día. Agosto dio 1.364 visitas diarias, septiembre 1.726 y las dos últimas semanas de
+          septiembre más de 2.200: <strong>las mejores semanas de la historia del canal</strong>. Los suscriptores van al mismo paso.</p>
+        <div class="lienzo"><canvas id="g-meses"></canvas></div>
+      </div>
+      <div>
+        <p class="texto">El empujón lo dan los <strong>shorts</strong>: en septiembre fueron el 90 % de las visitas. Pero los
+          <strong>vídeos largos</strong> también crecen, de 1.087 visitas en julio a 4.668 en septiembre, y son los que se quedan.</p>
+        <div class="lienzo"><canvas id="g-tipo"></canvas></div>
+      </div>
+    </div>
+    <div class="tarjetas tres">
+      <div class="tarjeta"><b>0,12 %</b><p>de las visitas de un <strong>short</strong> acaba en suscriptor (100 de 80.191).</p></div>
+      <div class="tarjeta roja"><b>0,25 %</b><p>en los <strong>largos</strong>: convierten el doble (16 de 6.318).</p></div>
+      <div class="tarjeta"><b>1,9 min</b><p>vistos de media por cada visita a un largo. Los shorts duran segundos.</p></div>
+    </div>
+    <p class="nota">Conclusión: los shorts traen el volumen hoy; los largos son la base del crecimiento de mañana, porque siguen
+      dando visitas durante años y convierten mejor. El vídeo de las cadenas de 2025 todavía da 10 visitas al día.</p>
+  </div>
+</section>
+
+<!-- ═════════════ PROYECCIÓN ═════════════ -->
+<section id="proyeccion" class="bloque">
+  <div class="contenedor">
+    <p class="etiqueta">03 · Proyección hasta el 31/12/2027</p>
+    <h2>Si seguimos así:<br>un largo cada 3 días y 3 shorts al día</h2>
+    <p class="texto">La proyección no es una media plana. En YouTube unos vídeos se mueren y otros despegan, así que el modelo
+      reparte cada vídeo largo en tres clases, como pasa hoy en el canal: <strong>éxitos</strong> como el del turbo, <strong>medios</strong>
+      como el embrague y el filtro de aceite, y <strong>flojos</strong>. Además, la calidad mejora poco a poco, sin crecimiento exponencial.</p>
+
+    <div class="pestanas" role="tablist">
+      <button data-esc="pesimista">Pesimista</button>
+      <button class="activo" data-esc="normal">Normal</button>
+      <button data-esc="optimista">Optimista</button>
+      <button data-esc="propio">Tu escenario</button>
+    </div>
+    <p class="supuestos" id="supuestos"></p>
+
+    <div class="cifras-proy">
+      <div><span>1 ene 2027</span><b id="p-ene">–</b><small id="p-ene-s"></small></div>
+      <div><span>30 jun 2027</span><b id="p-jun">–</b><small id="p-jun-s"></small></div>
+      <div><span>31 dic 2027</span><b id="p-dic">–</b><small id="p-dic-s"></small></div>
+      <div class="hitos"><span>1.000 suscriptores</span><b id="p-1000">–</b><span>4.000 horas (monetizar)</span><b id="p-4000">–</b></div>
+    </div>
+
+    <div class="selector" data-grafica="proy">
+      <button class="activo" data-vista="vd">Visitas al día</button>
+      <button data-vista="v">Visitas acumuladas</button>
+      <button data-vista="s">Suscriptores</button>
+      <button data-vista="h">Horas para monetizar</button>
+    </div>
+    <div class="lienzo alto"><canvas id="g-proy"></canvas></div>
+
+    <details class="simulador" id="simulador" open>
+      <summary>Mueve los supuestos y mira cómo cambia</summary>
+      <div class="mandos">
+        <label>Un éxito como el del turbo cada <output data-for="exito_cada"></output> días
+          <input type="range" id="exito_cada" min="20" max="180" step="10"></label>
+        <label>Visitas al día de cada éxito <output data-for="exito_vd"></output>
+          <input type="range" id="exito_vd" min="30" max="200" step="10"></label>
+        <label>Vídeos medios al mes <output data-for="medios_mes"></output>
+          <input type="range" id="medios_mes" min="0" max="5" step="1"></label>
+        <label>Visitas al día de un medio <output data-for="medio_vd"></output>
+          <input type="range" id="medio_vd" min="4" max="30" step="1"></label>
+        <label>Mejora de calidad al mes <output data-for="mejora_mes"></output>
+          <input type="range" id="mejora_mes" min="0" max="0.08" step="0.005"></label>
+        <label>Tendencia de los shorts al mes <output data-for="shorts_mes"></output>
+          <input type="range" id="shorts_mes" min="-0.05" max="0.05" step="0.005"></label>
+        <label>Shorts al día <output data-for="sh_dia"></output>
+          <input type="range" id="sh_dia" min="0" max="5" step="0.5"></label>
+        <label>Un vídeo largo cada <output data-for="cada"></output> días
+          <input type="range" id="cada" min="2" max="14" step="1"></label>
+      </div>
+      <p class="nota">El simulador usa el mismo modelo que los tres escenarios, con los datos medidos entre el 4 de agosto y el 28 de
+        septiembre: shorts a 0,125 % de conversión, largos a 0,25 %, 1,87 minutos por visita de largo, y un éxito que, como el del
+        turbo, tarda cinco semanas en despegar y luego pierde un 3 % al mes.</p>
+    </details>
+
+    <div class="tarjetas tres">
+      <div class="tarjeta"><b>Los éxitos lo cambian todo</b><p>Un vídeo como el del turbo da más visitas que treinta flojos juntos.
+        Del escenario pesimista al optimista cambia sobre todo cuántos salen, no la media.</p></div>
+      <div class="tarjeta"><b>Los largos se acumulan</b><p>Un short vive semanas; un largo, años. Por eso en el escenario normal las
+        visitas de largos pasan de 170 a 1.400 al día y en 2028 adelantan a los shorts.</p></div>
+      <div class="tarjeta roja"><b>Monetizar en 2027</b><p>YouTube pide 1.000 suscriptores y 4.000 horas de largos en 12 meses. En el
+        escenario normal llegan a la vez, hacia junio de 2027.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ VÍDEOS ═════════════ -->
+<section id="videos" class="bloque oscuro">
+  <div class="contenedor">
+    <p class="etiqueta">04 · Los vídeos que lo explican</p>
+    <h2>Por qué unos despegan<br>y otros no</h2>
+    <p class="texto">Los doce largos hechos con IA, día a día desde que salieron. Casi todos se quedan planos; el del turbo
+      arrancó igual de flojo y en su sexta semana se disparó. Ahora da unas 117 visitas al día.</p>
+    <div class="lienzo alto"><canvas id="g-largos"></canvas></div>
+    <div class="leyenda-clases"><span class="c-exito">Éxito</span><span class="c-medio">Medio</span><span class="c-flojo">Flojo</span></div>
+
+    <div class="videos">
+      <article class="video exito">
+        <div class="yt" data-id="owrrPGwo4wM"></div>
+        <h3>Turbo del coche: 3 síntomas de que se está muriendo</h3>
+        <p><b>Éxito · 2.425 visitas · ~117 al día ahora.</b> Responde a una búsqueda que hace mucha gente («síntomas turbo») con
+          un título que es esa búsqueda. YouTube tardó cinco semanas en colocarlo y ahora lo enseña cada día.</p>
+      </article>
+      <article class="video medio">
+        <div class="yt" data-id="m-hBOjzFGn0"></div>
+        <h3>Embrague gastado: las 5 señales</h3>
+        <p><b>Medio · ~15 al día.</b> Mismo patrón: un síntoma que se busca y una lista que se cumple dentro del vídeo.</p>
+      </article>
+      <article class="video medio">
+        <div class="yt" data-id="8F-d-tXojfE"></div>
+        <h3>Filtro de aceite: cómo saber cuál lleva tu coche</h3>
+        <p><b>Medio · ~14 al día.</b> La pregunta tal como la escribe la gente, y una respuesta práctica.</p>
+      </article>
+    </div>
+    <div class="tarjetas dos">
+      <div class="tarjeta"><b>Lo que tienen los que funcionan</b><p>Título igual a lo que se busca, un síntoma o una decisión del
+        conductor, y la promesa cumplida en el vídeo. El canal vive del buscador: la mitad de las visitas llegan por búsqueda y
+        solo un 1,7 % por recomendaciones.</p></div>
+      <div class="tarjeta"><b>Lo que tienen los flojos</b><p>Temas de nicho o títulos que nadie escribe («sonda lambda», «bujías»).
+        No son malos vídeos: son malas puertas de entrada. Se corrige en el título y en la miniatura, sin rehacer el vídeo.</p></div>
+    </div>
+
+    <h3 class="subtitulo">Los shorts que más tiran</h3>
+    <div class="shorts" id="shorts"></div>
+  </div>
+</section>
+
+<!-- ═════════════ QUÉ APORTA A TDR ═════════════ -->
+<section id="tdr" class="bloque">
+  <div class="contenedor">
+    <p class="etiqueta">05 · Qué aporta a TodoEnRecambio</p>
+    <h2>Hoy no vende.<br>Está construyendo para vender.</h2>
+    <div class="dos">
+      <div>
+        <p class="texto">Sin rodeos: <strong>desde YouTube llegaron a la tienda 20 visitas en agosto y 6 en septiembre</strong>, y la
+          única compra registrada que vino de YouTube fue en mayo (93 €). Es poco, y tiene explicación: el 90 % de las visitas son
+          shorts, y en un short los enlaces de la descripción no se pueden pulsar.</p>
+        <div class="lienzo bajo"><canvas id="g-web"></canvas></div>
+      </div>
+      <div>
+        <div class="embudo">
+          <div><b>Búsqueda en YouTube</b><span>«el coche se calienta», «síntomas turbo»…</span></div>
+          <div><b>Vídeo largo de TDR</b><span>la respuesta, con la pieza explicada</span></div>
+          <div><b>Enlace a la categoría y al blog</b><span>en la descripción y el comentario fijado</span></div>
+          <div class="final"><b>Compra en todoenrecambio.com</b><span>la pieza que acaba de entender</span></div>
+        </div>
+        <div class="tarjetas dos compacta">
+          <div class="tarjeta roja"><b data-enlaces>107</b><p>de los 168 vídeos de la etapa con IA ya enlazan a TDR: categorías, portada y blog.</p></div>
+          <div class="tarjeta"><b>0,4 %</b><p>de las visitas a largos salta hoy a la web. Con 1.400 visitas de largos al día (escenario normal, fin de 2027) son unas 170 visitas al mes de gente que viene a por una pieza concreta.</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="tarjetas tres">
+      <div class="tarjeta"><b>Marca</b><p>86.000 visitas en ocho semanas de gente con coche o moto que ve el logo de TDR en cada plano.</p></div>
+      <div class="tarjeta"><b>Biblioteca</b><p>Cada largo es un activo que sigue trabajando años, enlazado a su categoría y a su artículo del blog.</p></div>
+      <div class="tarjeta"><b>Confianza</b><p>Explicar la pieza antes de venderla: el cliente que entiende qué necesita compra mejor y devuelve menos.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ COSTE ═════════════ -->
+<section id="coste" class="bloque oscuro">
+  <div class="contenedor">
+    <p class="etiqueta">06 · Lo que cuesta</p>
+    <h2>Menos que la persona<br>que solo subía fotos</h2>
+    <p class="texto">Antes había una persona que costaba unos <strong>500 € al mes</strong> y solo subía fotografías. Ese dinero
+      se pasó a herramientas. Higgsfield y Claude se comparten con otros departamentos y otras tareas, así que al canal solo le toca
+      una parte: muévela para ver el coste real.</p>
+    <div class="dos">
+      <div class="costes">
+        <div class="fila"><span>HeyGen <small>avatar de Rubén</small></span><b>25 €</b></div>
+        <div class="fila"><span>ElevenLabs <small>voces de Rubén y Stela</small></span><b>10 €</b></div>
+        <div class="fila"><span>Higgsfield <small>170 $/mes, compartido · parte del canal <output data-for="parte_hf"></output></small>
+          <input type="range" id="parte_hf" min="0.2" max="1" step="0.05" value="0.6"></span><b id="c-hf">96 €</b></div>
+        <div class="fila"><span>Claude Max <small>100 €/mes, compartido · parte del canal <output data-for="parte_cl"></output></small>
+          <input type="range" id="parte_cl" min="0.1" max="1" step="0.05" value="0.4"></span><b id="c-cl">40 €</b></div>
+        <div class="fila total"><span>Coste del canal al mes</span><b id="c-total">171 €</b></div>
+        <div class="fila"><span>Antes, una persona subiendo fotos</span><b>500 €</b></div>
+        <div class="fila ahorro"><span>Diferencia</span><b id="c-ahorro">−329 €</b></div>
+      </div>
+      <div>
+        <div class="lienzo bajo"><canvas id="g-coste"></canvas></div>
+        <div class="tarjetas dos compacta">
+          <div class="tarjeta"><b id="c-mil">3,3 €</b><p>por cada 1.000 visitas, con las visitas de septiembre.</p></div>
+          <div class="tarjeta"><b>~20 €</b><p>de créditos de Higgsfield por largo con producción completa (≈1.100 créditos); ~8 € en uno estándar (≈450).</p></div>
+        </div>
+        <p class="nota">Ojo con el ritmo: un largo cada 3 días con producción completa son unos 11.000 créditos al mes y el plan da
+          9.000, compartidos. Para sostenerlo hay que alternar largos completos y estándar, o ampliar créditos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ AUTOMATIZACIÓN ═════════════ -->
+<section id="automatizacion" class="bloque">
+  <div class="contenedor">
+    <p class="etiqueta">07 · Cómo se hace</p>
+    <h2>Un canal casi automático:<br><span class="rojo" id="auto-media">88 %</span> del trabajo lo hacen las máquinas</h2>
+    <p class="texto">Claude Code orquesta todo el proceso desde el ordenador de Rubén. Cada paso tiene su herramienta, y solo uno
+      sigue siendo manual de verdad: el avatar de HeyGen, porque HeyGen no tiene conexión (MCP) con Claude.</p>
+    <ol class="proceso" id="proceso"></ol>
+    <div class="tarjetas tres">
+      <div class="tarjeta"><b>Lo que hace Rubén</b><p>Elige el tema, revisa el guion, renderiza el avatar en HeyGen y da el OK final antes de programar. Nada se publica sin él.</p></div>
+      <div class="tarjeta"><b>Lo que se comprueba solo</b><p>Que los labios van con la voz (al fotograma), la sonoridad, que no haya negros ni parpadeos, los capítulos y que cada enlace responde.</p></div>
+      <div class="tarjeta roja"><b>Lo que se ha aprendido</b><p>Probamos cinco modelos de vídeo con la misma foto: Kling 3.0 Pro respeta la imagen y cuesta siete veces menos que Seedance 2.5.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═════════════ SIGUIENTE ═════════════ -->
+<section id="siguiente" class="bloque oscuro">
+  <div class="contenedor">
+    <p class="etiqueta">08 · Lo que viene</p>
+    <h2>Cuatro palancas para que<br>el canal venda</h2>
+    <div class="tarjetas cuatro">
+      <div class="tarjeta"><b>1 · Títulos de búsqueda</b><p>Cada largo con el título que escribe la gente. Es lo que hizo despegar al turbo.</p></div>
+      <div class="tarjeta"><b>2 · Del short al largo</b><p>Cada short enlaza a su vídeo largo como «vídeo relacionado»: el short trae al público y el largo lo convierte.</p></div>
+      <div class="tarjeta"><b>3 · Comentario fijado</b><p>Con el enlace a la categoría de la pieza, en todos los largos.</p></div>
+      <div class="tarjeta"><b>4 · Medir y repetir</b><p>A los 7 y 28 días: impresiones, CTR y retención. Lo que funcione se repite con otra pieza.</p></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="pie">
+  <div class="contenedor">
+    <img src="logo-tdr-texto.png" alt="TDR · todoenrecambio.com">
+    <p>Datos de YouTube Analytics y Google Analytics de todoenrecambio.com, a <span data-actualizado></span>. La proyección es un
+      modelo con supuestos explicados, no una promesa. Hecho con Claude Code.</p>
+    <p><a href="https://todoenrecambio.com" target="_blank" rel="noopener">todoenrecambio.com</a> ·
+       <a href="https://www.youtube.com/channel/UCkye5Kjj44OAmVhT3FaRLMA" target="_blank" rel="noopener">Canal de YouTube</a></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.0.1/dist/chartjs-plugin-annotation.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
