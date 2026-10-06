@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="es" data-paleta="noche" data-letra="barlow" data-densidad="normal" data-aguja="animada" data-testigos="mostrar" data-escala="record">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Cuadro de instrumentos · Panel de redes TDR</title>
+<meta name="description" content="Panel de redes de TodoEnRecambio leído como el cuadro de instrumentos de una moto: visualizaciones y me gusta al día, seguidores, cuentakilómetros y testigos de YouTube, Instagram, TikTok y Facebook.">
+<link rel="icon" href="../../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Geist:wght@400;500;600&family=Saira:wdth,wght@75..125,400..700&family=IBM+Plex+Sans:wght@400;500;600&family=Oxanium:wght@400..700&family=Atkinson+Hyperlegible+Next:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="instrumentos.css">
+<script>
+  /* Aplica los ajustes antes de pintar (la URL manda sobre localStorage) para que no parpadee la paleta. */
+  (function () {
+    var OPC = { paleta: ["noche", "dia", "carbono", "dorsal"], letra: ["barlow", "saira", "oxanium"], densidad: ["compacta", "normal", "amplia"],
+                aguja: ["animada", "fija"], testigos: ["mostrar", "ocultar"], escala: ["record", "redonda"] };
+    var g = {}; try { g = JSON.parse(localStorage.getItem("tdr-panel-instrumentos") || "{}") || {}; } catch (e) {}
+    var q = new URLSearchParams(location.search), h = document.documentElement;
+    for (var k in OPC) { var v = q.get(k) || g[k]; if (OPC[k].indexOf(v) >= 0) h.setAttribute("data-" + k, v); }
+  })();
+</script>
+<script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js" defer></script>
+<script src="instrumentos.js" defer></script>
+</head>
+<body>
+<a class="saltar" href="#cuadro">Saltar al cuadro de instrumentos</a>
+
+<header class="barra">
+  <a class="marca" href="./">
+    <img src="../../logo-tdr.png" alt="TDR" width="36" height="36">
+    <div class="marca-txt"><h1>Panel de redes</h1><span>TodoEnRecambio · cuadro de instrumentos</span></div>
+  </a>
+  <p class="act">Actualizado <b id="actualizado">–</b> <span>· se rehace a las 9:00 y a las 17:00</span></p>
+  <nav class="enlaces" aria-label="Otras páginas">
+    <a href="../">← Todas las versiones</a>
+    <a href="../../panel.html">Panel actual</a>
+    <a href="../../index.html">Web del canal ↗</a>
+  </nav>
+</header>
+
+<nav class="modos" aria-label="Modo del cuadro">
+  <div class="modos-pista" role="tablist" aria-label="Modo del cuadro" id="modos">
+    <span class="modos-et" aria-hidden="true">Modo</span>
+    <button role="tab" id="m-global" data-modo="global" aria-controls="cuadro"><span class="m-raya"></span><span class="m-nombre">Global</span><span class="m-leds"></span></button>
+    <button role="tab" id="m-youtube" data-modo="youtube" aria-controls="cuadro"><span class="m-raya"></span><span class="m-nombre">YouTube</span><span class="m-leds"></span></button>
+    <button role="tab" id="m-instagram" data-modo="instagram" aria-controls="cuadro"><span class="m-raya"></span><span class="m-nombre">Instagram</span><span class="m-leds"></span></button>
+    <button role="tab" id="m-tiktok" data-modo="tiktok" aria-controls="cuadro"><span class="m-raya"></span><span class="m-nombre">TikTok</span><span class="m-leds"></span></button>
+    <button role="tab" id="m-facebook" data-modo="facebook" aria-controls="cuadro"><span class="m-raya"></span><span class="m-nombre">Facebook</span><span class="m-leds"></span></button>
+    <span class="modos-et modos-et-2" aria-hidden="true">Pantalla</span>
+    <button role="tab" id="m-tienda" data-modo="tienda" aria-controls="cuadro" class="m-pant"><span class="m-raya"></span><span class="m-nombre">Tienda</span><span class="m-leds"></span></button>
+    <button role="tab" id="m-videos" data-modo="videos" aria-controls="cuadro" class="m-pant"><span class="m-raya"></span><span class="m-nombre">Vídeos</span><span class="m-leds"></span></button>
+  </div>
+</nav>
+
+<main id="contenido">
+  <section class="cuadro" id="cuadro" tabindex="-1" aria-label="Cuadro de instrumentos" role="tabpanel">
+    <div class="bisel">
+      <div class="pantalla" id="pantalla">
+        <div class="p-sup">
+          <ul class="testigos" id="testigos" aria-label="Testigos"></ul>
+        </div>
+
+        <div class="p-medio" id="p-medio">
+          <figure class="reloj" id="reloj-a"></figure>
+          <div class="centro" id="centro" aria-live="polite"></div>
+          <figure class="reloj" id="reloj-b"></figure>
+        </div>
+
+        <div class="p-videos" id="p-videos" hidden></div>
+
+        <dl class="p-inf" id="p-inf"></dl>
+      </div>
+      <img class="placa" src="../../logo-tdr-texto.png" alt="TDR · todoenrecambio.com" width="78" height="42">
+    </div>
+
+    <details class="como-leer" id="como-leer">
+      <summary><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>Cómo leer el cuadro</summary>
+      <dl id="como-leer-txt"></dl>
+    </details>
+  </section>
+
+  <section class="ordenador" id="ordenador" aria-labelledby="ord-tit">
+    <h2 class="sec-tit" id="ord-tit">Ordenador de a bordo</h2>
+    <div class="ord-rejilla" id="ord-rejilla"></div>
+    <div class="ord-ancha" id="ord-ancha"></div>
+  </section>
+
+  <!-- Pantallas de una red o de las cuatro juntas -->
+  <section class="pantallas" id="v-redes" aria-labelledby="pant-tit">
+    <div class="sec-cab">
+      <h2 class="sec-tit" id="pant-tit">Pantallas</h2>
+      <p class="sec-sub">Gráficas al estilo de la bolsa: arrastra para moverte en el tiempo y pasa el cursor para leer cada día.</p>
+    </div>
+
+    <article class="graf" id="p-seg">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3 id="t-seg">Seguidores</h3><p id="s-seg"></p></div>
+        <div class="graf-mandos">
+          <div class="seg" id="modo-seg" role="group" aria-label="Forma de la gráfica de seguidores"><button data-m="velas" aria-pressed="true">Velas</button><button data-m="linea" aria-pressed="false">Línea</button></div>
+          <div class="seg-et" id="per-seg-caja"><span aria-hidden="true">Vela</span>
+            <div class="seg" id="per-seg" role="group" aria-label="Cada vela de seguidores es un"><button data-p="dia" aria-pressed="false">Día</button><button data-p="semana" aria-pressed="true">Semana</button><button data-p="mes" aria-pressed="false">Mes</button></div>
+          </div>
+          <div class="seg rango" data-graf="seg" role="group" aria-label="Tramo visible"></div>
+        </div>
+      </header>
+      <div class="leyenda" id="ley-seg"></div>
+      <div class="grafica" id="g-seg"></div>
+      <p class="nota" id="n-seg"></p>
+    </article>
+
+    <article class="graf" id="p-vis">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Visualizaciones diarias</h3><p>barras: verde si el día supera su media de 30 días, ámbar si no · líneas: media de 7 y de 30 días · roja: récord de la media de 30 días</p></div>
+        <div class="graf-mandos"><div class="seg rango" data-graf="vis" role="group" aria-label="Tramo visible"></div></div>
+      </header>
+      <div class="leyenda" id="ley-vis"></div>
+      <div class="grafica" id="g-vis"></div>
+    </article>
+
+    <article class="graf" id="p-acum">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Visualizaciones acumuladas</h3><p id="sub-acum"></p></div>
+        <div class="graf-mandos">
+          <div class="seg" id="modo-acum" role="group" aria-label="Forma de la gráfica del acumulado"><button data-m="velas" aria-pressed="true">Velas</button><button data-m="area" aria-pressed="false">Área</button></div>
+          <div class="seg-et" id="per-acum-caja"><span aria-hidden="true">Vela</span>
+            <div class="seg" id="per-acum" role="group" aria-label="Cada vela del acumulado es un"><button data-p="dia" aria-pressed="false">Día</button><button data-p="semana" aria-pressed="true">Semana</button><button data-p="mes" aria-pressed="false">Mes</button></div>
+          </div>
+          <div class="seg rango" data-graf="acum" role="group" aria-label="Tramo visible"></div>
+        </div>
+      </header>
+      <div class="leyenda" id="ley-acum"></div>
+      <div class="grafica" id="g-acum"></div>
+      <p class="nota" id="n-acum"></p>
+    </article>
+
+    <article class="graf" id="p-lk">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Me gusta</h3><p id="sub-lk">barras: verde si el día supera su media de 30 días, ámbar si no · líneas: media de 7 y de 30 días</p></div>
+        <div class="graf-mandos">
+          <div class="seg" id="modo-lk" role="group" aria-label="Forma de la gráfica"><button data-m="dia" aria-pressed="true">Diarios</button><button data-m="acum" aria-pressed="false">Acumulados</button></div>
+          <div class="seg rango" data-graf="lk" role="group" aria-label="Tramo visible"></div>
+        </div>
+      </header>
+      <div class="leyenda" id="ley-lk"></div>
+      <div class="grafica" id="g-lk"></div>
+      <p class="nota" id="n-lk"></p>
+    </article>
+
+    <article class="graf" id="p-comp">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Comparativa por plataforma</h3><p>como en bolsa: % de cambio desde el primer día visible</p></div>
+        <div class="graf-mandos">
+          <div class="seg" id="modo-comp" role="group" aria-label="Qué se compara"><button data-m="seg" aria-pressed="true">Seguidores</button><button data-m="vis" aria-pressed="false">Visualizaciones (media 30 días)</button><button data-m="likes" aria-pressed="false">Me gusta (media 30 días)</button></div>
+          <div class="seg rango" data-graf="comp" role="group" aria-label="Tramo visible"></div>
+        </div>
+      </header>
+      <div class="leyenda" id="ley-comp"></div>
+      <div class="grafica" id="g-comp"></div>
+    </article>
+  </section>
+
+  <!-- Pantalla Tienda -->
+  <section class="pantallas" id="v-tienda" aria-labelledby="tienda-tit" hidden>
+    <div class="sec-cab">
+      <h2 class="sec-tit" id="tienda-tit">Impacto en TodoEnRecambio</h2>
+      <p class="sec-sub">Lo que llega a todoenrecambio.com desde cada red (Google Analytics) y cuánta gente busca la marca en Google (Search Console).</p>
+    </div>
+    <article class="graf">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Visitas a la tienda desde redes</h3><p>sesiones por semana y red</p></div>
+        <div class="graf-mandos"><div class="seg rango" data-graf="tienda" role="group" aria-label="Tramo visible"></div></div>
+      </header>
+      <div class="leyenda" id="ley-tienda"></div>
+      <div class="grafica" id="g-tienda"></div>
+    </article>
+    <article class="graf">
+      <header class="graf-cab">
+        <div class="graf-tit"><h3>Búsquedas de la marca en Google</h3><p>clics de búsquedas con «todoenrecambio» · barras diarias y media de 7 días</p></div>
+        <div class="graf-mandos"><div class="seg rango" data-graf="marca" role="group" aria-label="Tramo visible"></div></div>
+      </header>
+      <div class="leyenda" id="ley-marca"></div>
+      <div class="grafica" id="g-marca"></div>
+    </article>
+    <article class="graf">
+      <header class="graf-cab"><div class="graf-tit"><h3>Ventas atribuidas a redes</h3><p>compras en las que Google Analytics atribuye la visita a una red social (último clic de la sesión)</p></div></header>
+      <div id="tabla-ventas"></div>
+    </article>
+  </section>
+
+  <!-- Pantalla Vídeos -->
+  <section class="pantallas" id="v-videos" aria-labelledby="videos-tit" hidden>
+    <div class="sec-cab">
+      <h2 class="sec-tit" id="videos-tit">Vídeos y publicaciones</h2>
+      <p class="sec-sub">Lo último que se ha subido a cada red, con su enlace y sus números de hoy.</p>
+    </div>
+    <div class="filtros">
+      <div class="seg" id="filtro-red" role="group" aria-label="Red">
+        <button data-f="todas" aria-pressed="true">Todas</button>
+        <button data-f="youtube" aria-pressed="false"><i class="punto" data-red="youtube"></i>YouTube</button>
+        <button data-f="instagram" aria-pressed="false"><i class="punto" data-red="instagram"></i>Instagram</button>
+        <button data-f="tiktok" aria-pressed="false"><i class="punto" data-red="tiktok"></i>TikTok</button>
+        <button data-f="facebook" aria-pressed="false"><i class="punto" data-red="facebook"></i>Facebook</button>
+      </div>
+      <div class="seg" id="filtro-orden" role="group" aria-label="Orden">
+        <button data-o="fecha" aria-pressed="true">Más recientes</button>
+        <button data-o="vis" aria-pressed="false">Más vistos</button>
+        <button data-o="likes" aria-pressed="false">Más me gusta</button>
+      </div>
+    </div>
+    <p class="cuenta-lista" id="cuenta-lista" aria-live="polite"></p>
+    <div class="lista-caja">
+      <table class="lista" id="tabla-videos">
+        <thead><tr><th scope="col">Fecha</th><th scope="col">Red</th><th scope="col">Título</th><th scope="col" class="n">Visualizaciones</th><th scope="col" class="n">Me gusta</th><th scope="col" class="n">Comentarios</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="pie">
+  <p><b>De dónde sale cada número.</b> YouTube: API de YouTube y YouTube Analytics, desde que se abrió el canal (los seguidores de cada día se
+    reconstruyen con los suscriptores ganados y perdidos). Instagram, TikTok y Facebook: Metricool, desde el primer día que tiene guardado
+    (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</p>
+  <p>Visualizaciones: YouTube = visualizaciones de vídeos · Instagram = visualizaciones de la cuenta (publicaciones y reels) ·
+    TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</p>
+  <p>Me gusta: YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
+    Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</p>
+  <p>Gráficas hechas con <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Copyright © TradingView, Inc.).</p>
+  <p class="pie-enlaces"><a href="../">← Todas las versiones</a> · <a href="../../panel.html">Panel actual</a> · <a href="../../index.html">Web del canal de YouTube ↗</a></p>
+</footer>
+
+<!-- Ajustes en vivo -->
+<button class="aj-boton" id="btn-ajustes" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="ajustes">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2.2"/><circle cx="10" cy="17" r="2.2"/></svg>
+  <span>Ajustes</span>
+</button>
+<div class="velo" id="velo" hidden></div>
+<aside class="ajustes" id="ajustes" role="dialog" aria-modal="true" aria-labelledby="aj-tit" hidden>
+  <header class="aj-cab">
+    <h2 id="aj-tit">Ajustes</h2>
+    <button class="aj-cerrar" id="aj-cerrar" type="button" aria-label="Cerrar ajustes">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+  </header>
+  <div class="aj-cuerpo">
+    <fieldset class="aj-grupo" data-aj="paleta">
+      <legend>Paleta</legend>
+      <div class="aj-seg aj-seg-4">
+        <label><input type="radio" name="paleta" value="noche"><span><i class="muestra m-noche"></i>Noche</span></label>
+        <label><input type="radio" name="paleta" value="dia"><span><i class="muestra m-dia"></i>Día</span></label>
+        <label><input type="radio" name="paleta" value="carbono"><span><i class="muestra m-carbono"></i>Carbono</span></label>
+        <label><input type="radio" name="paleta" value="dorsal"><span><i class="muestra m-dorsal"></i>Dorsal</span></label>
+      </div>
+    </fieldset>
+    <fieldset class="aj-grupo" data-aj="letra">
+      <legend>Letra</legend>
+      <div class="aj-seg aj-seg-col">
+        <label><input type="radio" name="letra" value="barlow"><span class="l-barlow">Barlow + Geist</span></label>
+        <label><input type="radio" name="letra" value="saira"><span class="l-saira">Saira + IBM Plex</span></label>
+        <label><input type="radio" name="letra" value="oxanium"><span class="l-oxanium">Oxanium + Atkinson</span></label>
+      </div>
+    </fieldset>
+    <fieldset class="aj-grupo" data-aj="densidad">
+      <legend>Densidad</legend>
+      <div class="aj-seg">
+        <label><input type="radio" name="densidad" value="compacta"><span>Compacta</span></label>
+        <label><input type="radio" name="densidad" value="normal"><span>Normal</span></label>
+        <label><input type="radio" name="densidad" value="amplia"><span>Amplia</span></label>
+      </div>
+    </fieldset>
+    <fieldset class="aj-grupo" data-aj="aguja">
+      <legend>Aguja</legend>
+      <div class="aj-seg">
+        <label><input type="radio" name="aguja" value="animada"><span>Animada</span></label>
+        <label><input type="radio" name="aguja" value="fija"><span>Fija</span></label>
+      </div>
+      <p class="aj-ayuda">Fija: la aguja y los dígitos del cuentakilómetros van directos a su valor.</p>
+    </fieldset>
+    <fieldset class="aj-grupo" data-aj="testigos">
+      <legend>Testigos</legend>
+      <div class="aj-seg">
+        <label><input type="radio" name="testigos" value="mostrar"><span>Mostrar</span></label>
+        <label><input type="radio" name="testigos" value="ocultar"><span>Ocultar</span></label>
+      </div>
+    </fieldset>
+    <fieldset class="aj-grupo" data-aj="escala">
+      <legend>Escala de los relojes</legend>
+      <div class="aj-seg">
+        <label><input type="radio" name="escala" value="record"><span>Récord</span></label>
+        <label><input type="radio" name="escala" value="redonda"><span>Redonda</span></label>
+      </div>
+      <p class="aj-ayuda">Récord: el reloj acaba un 15 % por encima del récord. Redonda: acaba en la siguiente cifra redonda (1, 2 o 5 con ceros). La zona roja empieza siempre en el récord.</p>
+    </fieldset>
+  </div>
+  <footer class="aj-pie">
+    <button type="button" class="aj-accion aj-copiar" id="aj-copiar">Copiar enlace de esta combinación</button>
+    <button type="button" class="aj-accion" id="aj-restablecer">Restablecer</button>
+    <p class="aj-estado" id="aj-estado" role="status" aria-live="polite"></p>
+  </footer>
+</aside>
+</body>
+</html>

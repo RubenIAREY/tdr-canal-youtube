@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="es" data-paleta="papel" data-letra="archivo" data-densidad="normal" data-portada="frase" data-ancho="estrecho" data-notas="si">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Informe de redes · TDR</title>
+<meta name="description" content="Informe de las redes de TodoEnRecambio (YouTube, Instagram, TikTok y Facebook) y de lo que llevan a la tienda. Se rehace a las 9:00 y a las 17:00.">
+<link rel="icon" href="../../logo-tdr.png">
+<script>
+/* Ajustes antes de pintar (la URL manda sobre lo guardado), para que no se vea un parpadeo de otra paleta. */
+(function () {
+  var A = { paleta: ["papel", "imprenta", "plano"], letra: ["archivo", "barlow", "geist"], densidad: ["compacta", "normal", "amplia"],
+            portada: ["frase", "cifras"], ancho: ["estrecho", "ancho"], notas: ["si", "no"] };
+  var F = { barlow: "https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800;900&family=Barlow+Condensed:wght@600;700;800;900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap",
+            geist: "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" };
+  var g = {}; try { g = JSON.parse(localStorage.getItem("tdr-panel-editorial") || "{}") || {}; } catch (e) { g = {}; }
+  var q = new URLSearchParams(location.search), h = document.documentElement;
+  for (var k in A) { var v = q.get(k); if (A[k].indexOf(v) < 0) v = g[k]; if (A[k].indexOf(v) >= 0) h.setAttribute("data-" + k, v); }
+  var l = h.getAttribute("data-letra");
+  if (F[l]) { var e = document.createElement("link"); e.rel = "stylesheet"; e.href = F[l]; e.setAttribute("data-fuente", l); document.head.appendChild(e); }
+  /* Revelado suave de las secciones al hacer scroll. No se activa si se pide menos movimiento ni en capturas automáticas;
+     si editorial.js no llegase a cargar, a los 4 s se enseña todo igualmente. */
+  if (!navigator.webdriver && "IntersectionObserver" in window && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    h.classList.add("revelar");
+    setTimeout(function () { if (!window.__informeEditorial) h.classList.remove("revelar"); }, 4000);
+  }
+})();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap">
+<link rel="stylesheet" href="editorial.css">
+<script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js" defer></script>
+<script src="editorial.js" defer></script>
+</head>
+<body>
+<a class="saltar" href="#resumen">Saltar al resumen</a>
+
+<div class="hoja">
+  <nav class="utiles" aria-label="Otras páginas">
+    <a href="../">← Todas las versiones</a>
+    <a href="../../panel.html">Panel actual</a>
+    <a href="../../index.html">Web del canal de YouTube</a>
+  </nav>
+
+  <header class="cabecera">
+    <img class="cab-logo" src="../../logo-tdr.png" alt="TDR" width="64" height="64">
+    <div class="cab-titulo">
+      <p class="cab-ante">TodoEnRecambio</p>
+      <p class="cab-nombre">Informe de redes</p>
+    </div>
+    <p class="cab-edicion">
+      <span class="cab-et">Edición</span>
+      <b id="edicion">–</b>
+      <span class="cab-ritmo">Los datos se rehacen a las 9:00 y a las 17:00</span>
+    </p>
+  </header>
+  <div class="regla" aria-hidden="true"></div>
+
+  <div id="centinela" aria-hidden="true"></div>
+  <nav class="indice" id="indice" aria-label="Índice del informe">
+    <div class="indice-in">
+      <img class="indice-logo" src="../../logo-tdr.png" alt="" width="24" height="24">
+      <ol id="indice-lista">
+        <li><a href="#resumen">Resumen</a></li>
+        <li><a href="#tendencia">Tendencia</a></li>
+        <li><a href="#redes">Red a red</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#videos">Vídeos</a></li>
+        <li><a href="#como-se-mide">Cómo se mide</a></li>
+      </ol>
+    </div>
+  </nav>
+
+  <main id="main">
+    <!-- ───────── Resumen ───────── -->
+    <section id="resumen" class="seccion portada">
+      <div class="portada-texto">
+        <div class="portada-frase revela">
+          <p class="antetitulo" id="ante-resumen">Resumen</p>
+          <h1 class="tesis" id="tesis">Cargando los datos…</h1>
+          <p class="entradilla" id="entradilla"></p>
+        </div>
+        <div class="portada-cifras revela" id="portada-cifras"></div>
+      </div>
+
+      <aside class="frescura revela" aria-labelledby="frescura-t">
+        <h2 class="frescura-t" id="frescura-t">Hasta qué día llegan los datos</h2>
+        <p class="frescura-nota">Las redes publican con 1-3 días de retraso; cada cifra llega hasta su último día con dato.</p>
+        <div id="frescura"></div>
+      </aside>
+
+      <div class="tira revela" id="tira" role="list" aria-label="Seguidores por red"></div>
+
+      <div class="bloque bloque-global revela">
+        <h2 class="h-bloque">Las cuatro redes juntas, en cifras</h2>
+        <div class="ficha" id="ficha-global"></div>
+      </div>
+    </section>
+
+    <!-- ───────── Tendencia ───────── -->
+    <section id="tendencia" class="seccion">
+      <header class="sec-cab revela">
+        <h2 tabindex="-1" id="tendencia-t">Tendencia</h2>
+        <p class="deck notas">Una sola gráfica para todo: elige la red y la métrica. Arrastra la gráfica para moverte en el tiempo y usa los rangos para acercar o alejar.</p>
+      </header>
+
+      <div class="controles revela" id="ctl-tend">
+        <div class="control">
+          <span class="control-etq" id="etq-red">Red</span>
+          <div class="seg" role="group" aria-labelledby="etq-red" id="t-red"></div>
+        </div>
+        <div class="control">
+          <span class="control-etq" id="etq-met">Métrica</span>
+          <div class="seg" role="group" aria-labelledby="etq-met" id="t-met">
+            <button type="button" data-met="seg">Seguidores</button>
+            <button type="button" data-met="vis">Visualizaciones diarias</button>
+            <button type="button" data-met="acum" title="Visualizaciones acumuladas">Acumulado</button>
+            <button type="button" data-met="lk">Me gusta</button>
+          </div>
+        </div>
+        <div class="control" id="ctl-forma">
+          <span class="control-etq" id="etq-forma">Forma</span>
+          <div class="seg" role="group" aria-labelledby="etq-forma" id="t-forma"></div>
+        </div>
+        <div class="control" id="ctl-periodo">
+          <span class="control-etq" id="etq-periodo">Periodo de cada vela</span>
+          <div class="seg" role="group" aria-labelledby="etq-periodo" id="t-periodo">
+            <button type="button" data-periodo="dia">Día</button>
+            <button type="button" data-periodo="semana">Semana</button>
+            <button type="button" data-periodo="mes">Mes</button>
+          </div>
+        </div>
+        <div class="control">
+          <span class="control-etq" id="etq-rango-t">Rango</span>
+          <div class="seg rango" role="group" aria-labelledby="etq-rango-t" data-rango="tend"></div>
+        </div>
+      </div>
+      <figure class="figura figura-tend revela" aria-labelledby="fig-tend-t">
+        <figcaption class="fig-cab">
+          <h3 class="fig-titulo" id="fig-tend-t">–</h3>
+          <p class="fig-sub notas" id="fig-tend-sub"></p>
+        </figcaption>
+        <div class="leyenda" id="ley-tend"></div>
+        <div class="grafica grande" id="g-tend" role="img" aria-label="Gráfica de la tendencia elegida"></div>
+        <p class="nota notas" id="nota-tend"></p>
+      </figure>
+
+      <figure class="figura revela" aria-labelledby="fig-comp-t">
+        <figcaption class="fig-cab">
+          <h3 class="fig-titulo" id="fig-comp-t">Las cuatro redes, en porcentaje</h3>
+          <p class="fig-sub notas">Como en bolsa: cuánto ha cambiado cada red desde el primer día que se ve en la gráfica. Entre paréntesis, ese cambio en el día del cursor.</p>
+        </figcaption>
+        <div class="controles">
+          <div class="control">
+            <span class="control-etq" id="etq-comp">Qué se compara</span>
+            <div class="seg" role="group" aria-labelledby="etq-comp" id="t-comp">
+              <button type="button" data-comp="seg">Seguidores</button>
+              <button type="button" data-comp="vis">Visualizaciones (media 30 días)</button>
+              <button type="button" data-comp="likes">Me gusta (media 30 días)</button>
+            </div>
+          </div>
+          <div class="control">
+            <span class="control-etq" id="etq-rango-c">Rango</span>
+            <div class="seg rango" role="group" aria-labelledby="etq-rango-c" data-rango="comp"></div>
+          </div>
+        </div>
+        <div class="leyenda" id="ley-comp"></div>
+        <div class="grafica comp" id="g-comp" role="img" aria-label="Comparativa de las cuatro redes en porcentaje"></div>
+      </figure>
+    </section>
+
+    <!-- ───────── Red a red ───────── -->
+    <section id="redes" class="seccion">
+      <header class="sec-cab revela">
+        <h2>Red a red</h2>
+        <p class="deck notas">Cada red con su ficha completa y sus visualizaciones de los últimos tres meses.</p>
+      </header>
+      <div id="redes-lista"></div>
+    </section>
+
+    <!-- ───────── Tienda ───────── -->
+    <section id="tienda" class="seccion">
+      <header class="sec-cab revela">
+        <h2>De las redes a la tienda</h2>
+        <p class="antetitulo antetitulo-sec" id="ante-tienda"></p>
+        <p class="titular-frase" id="tesis-tienda"></p>
+        <p class="deck" id="deck-tienda"></p>
+      </header>
+
+      <div class="bloque revela">
+        <div class="ficha" id="ficha-tienda"></div>
+      </div>
+
+      <div class="bloque revela">
+        <h3 class="h-tabla">Visitas, compras e importe por red</h3>
+        <div class="tabla-caja" id="tabla-redes-tienda"></div>
+      </div>
+
+      <figure class="figura revela" aria-labelledby="fig-tienda-t">
+        <figcaption class="fig-cab">
+          <h3 class="fig-titulo" id="fig-tienda-t">Visitas semanales a la tienda desde cada red</h3>
+          <p class="fig-sub notas">Sesiones en todoenrecambio.com que llegan desde cada red, sumadas por semanas (de lunes a domingo).</p>
+        </figcaption>
+        <div class="controles">
+          <div class="control">
+            <span class="control-etq" id="etq-rango-ti">Rango</span>
+            <div class="seg rango" role="group" aria-labelledby="etq-rango-ti" data-rango="tienda"></div>
+          </div>
+        </div>
+        <div class="leyenda" id="ley-tienda"></div>
+        <div class="grafica comp" id="g-tienda" role="img" aria-label="Visitas semanales a la tienda desde cada red"></div>
+        <p class="nota notas" id="nota-tienda"></p>
+      </figure>
+
+      <figure class="figura revela" aria-labelledby="fig-marca-t">
+        <figcaption class="fig-cab">
+          <h3 class="fig-titulo" id="fig-marca-t">Búsquedas de la marca en Google</h3>
+          <p class="fig-sub notas">Clics de búsquedas con «todoenrecambio» (Search Console). Barras: cada día. Línea roja: media de 7 días.</p>
+        </figcaption>
+        <div class="controles">
+          <div class="control">
+            <span class="control-etq" id="etq-rango-m">Rango</span>
+            <div class="seg rango" role="group" aria-labelledby="etq-rango-m" data-rango="marca"></div>
+          </div>
+        </div>
+        <div class="leyenda" id="ley-marca"></div>
+        <div class="grafica comp" id="g-marca" role="img" aria-label="Clics diarios de búsquedas de la marca en Google"></div>
+      </figure>
+
+      <div class="bloque revela">
+        <h3 class="h-tabla">Ventas atribuidas a las redes</h3>
+        <div class="tabla-caja" id="tabla-ventas"></div>
+        <p class="nota">Compras en las que Google Analytics atribuye la visita a una red social (último clic de la sesión).</p>
+      </div>
+    </section>
+
+    <!-- ───────── Vídeos ───────── -->
+    <section id="videos" class="seccion">
+      <header class="sec-cab revela">
+        <h2>Lo último publicado</h2>
+        <p class="deck notas">Lo último que se ha subido a cada red, con su enlace y sus números de hoy.</p>
+      </header>
+      <div class="controles revela">
+        <div class="control">
+          <span class="control-etq" id="etq-vred">Red</span>
+          <div class="seg" role="group" aria-labelledby="etq-vred" id="v-red"></div>
+        </div>
+        <div class="control">
+          <span class="control-etq" id="etq-vord">Orden</span>
+          <div class="seg" role="group" aria-labelledby="etq-vord" id="v-orden">
+            <button type="button" data-orden="fecha">Más recientes</button>
+            <button type="button" data-orden="vis">Más vistos</button>
+            <button type="button" data-orden="likes">Más me gusta</button>
+          </div>
+        </div>
+      </div>
+      <div class="tabla-caja lista-caja revela">
+        <table class="tabla lista-videos" id="tabla-videos">
+          <caption class="sr" id="videos-cap">Publicaciones</caption>
+          <thead><tr><th scope="col">Fecha</th><th scope="col">Red</th><th scope="col">Título</th><th scope="col" class="n">Visualizaciones</th><th scope="col" class="n">Me gusta</th><th scope="col" class="n">Comentarios</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="mas-videos"><button type="button" class="boton" id="v-mas" hidden></button></p>
+    </section>
+  </main>
+
+  <!-- ───────── Cómo se mide (pie) ───────── -->
+  <footer id="como-se-mide" class="seccion pie">
+    <header class="sec-cab revela">
+      <h2>Cómo se mide</h2>
+      <p class="deck">De dónde sale cada número y qué significa.</p>
+    </header>
+    <dl class="metodo revela">
+      <div>
+        <dt>De dónde sale cada número</dt>
+        <dd>YouTube: API de YouTube y YouTube Analytics, desde que se abrió el canal (los seguidores de cada día se
+          reconstruyen con los suscriptores ganados y perdidos). Instagram, TikTok y Facebook: Metricool, desde el primer día que tiene guardado
+          (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</dd>
+      </div>
+      <div>
+        <dt>Visualizaciones</dt>
+        <dd>YouTube = visualizaciones de vídeos · Instagram = visualizaciones de la cuenta (publicaciones y reels) ·
+          TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</dd>
+      </div>
+      <div>
+        <dt>Me gusta</dt>
+        <dd>YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
+          Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</dd>
+      </div>
+      <div>
+        <dt>Tendencia</dt>
+        <dd>Media de visualizaciones de los últimos 30 días frente a la de hace 30 días: más de un 3&nbsp;% por encima, «Creciendo»; más de un 3&nbsp;% por debajo, «Bajando»; entre medias, «Estable».</dd>
+      </div>
+      <div>
+        <dt>Velas</dt>
+        <dd>Cada vela es un día, una semana o un mes: abre con el cierre del periodo anterior y cierra con el último dato del periodo. Verde si ha subido; naranja si ha bajado. En el acumulado, el cuerpo de la vela es lo que se ha sumado en ese periodo.</dd>
+      </div>
+      <div>
+        <dt>Días sin dato</dt>
+        <dd>No se pintan ni cuentan como cero: las gráficas acaban en el último día que cada red ha publicado, y las medias de 7 y 30 días se hacen con los días que tienen dato.</dd>
+      </div>
+      <div>
+        <dt>Comparaciones con poca base</dt>
+        <dd>Cuando el periodo anterior tiene menos de 50, las frases dan la cifra anterior en vez del porcentaje, porque con tan poca base el porcentaje exagera. Las fichas dan siempre el porcentaje.</dd>
+      </div>
+      <div>
+        <dt>Actualización</dt>
+        <dd>El informe se rehace a las 9:00 y a las 17:00. Esta edición es del <b id="edicion-pie">–</b>.</dd>
+      </div>
+    </dl>
+    <div class="pie-final">
+      <p class="credito">Gráficas hechas con <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Copyright © TradingView, Inc.).</p>
+      <nav class="pie-enlaces" aria-label="Otras páginas">
+        <a href="../">← Todas las versiones</a>
+        <a href="../../panel.html">Panel actual</a>
+        <a href="../../index.html">Web del canal de YouTube</a>
+      </nav>
+    </div>
+  </footer>
+</div>
+
+<!-- ───────── Ajustes ───────── -->
+<button type="button" class="btn-ajustes" id="btn-ajustes" aria-haspopup="dialog" aria-expanded="false" aria-controls="ajustes">
+  <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+    <path d="M4 6h9M17 6h3M4 12h3M11 12h9M4 18h11M19 18h1"/><circle cx="15" cy="6" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="17" cy="18" r="2"/>
+  </svg>
+  <span>Ajustes</span>
+</button>
+<div class="velo" id="velo" aria-hidden="true"></div>
+<div class="ajustes" id="ajustes" role="dialog" aria-modal="true" aria-labelledby="aj-titulo" inert>
+  <div class="aj-cab">
+    <h2 id="aj-titulo">Ajustes</h2>
+    <button type="button" class="aj-cerrar" id="aj-cerrar" aria-label="Cerrar ajustes">
+      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div id="aj-controles"></div>
+  <div class="aj-acciones">
+    <button type="button" class="boton boton-tinta" id="aj-copiar">Copiar enlace de esta combinación</button>
+    <button type="button" class="boton" id="aj-reset">Restablecer</button>
+    <p class="aj-aviso" id="aj-aviso" role="status" aria-live="polite">Los cambios se ven al momento y se guardan en este navegador.</p>
+    <input class="aj-url" id="aj-url" type="text" readonly hidden aria-label="Enlace de esta combinación">
+  </div>
+</div>
+</body>
+</html>

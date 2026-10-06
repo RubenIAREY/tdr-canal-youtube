@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Mapa de vídeos · Globo · TDR</title>
+<meta name="description" content="Cada vídeo de TodoEnRecambio en YouTube, Instagram, TikTok y Facebook como una estrella de una constelación: cada red en su zona, tamaño según sus visualizaciones.">
+<link rel="icon" href="../../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="mapa.css">
+<script>
+  window.MODO = "globo";
+  // paleta, letra y densidad antes de pintar (la URL manda sobre lo guardado)
+  (function () { try {
+    var q = new URLSearchParams(location.search), g = {};
+    try { g = JSON.parse(localStorage.getItem("tdr-mapa-ajustes") || "{}") || {}; } catch (e) { g = {}; }
+    var h = document.documentElement, ok = { paleta: ["noche", "asfalto", "papel"], letra: ["geist", "barlow"], densidad: ["compacta", "normal", "amplia"] };
+    for (var k in ok) { var v = ok[k].indexOf(q.get(k)) >= 0 ? q.get(k) : g[k]; if (ok[k].indexOf(v) >= 0) h.setAttribute("data-" + k, v); }
+  } catch (e) {} })();
+</script>
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js", "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/" } }
+</script>
+<script type="module" src="mapa.js"></script>
+</head>
+<body>
+<noscript><p style="padding:24px">El mapa de vídeos necesita JavaScript.</p></noscript>
+</body>
+</html>

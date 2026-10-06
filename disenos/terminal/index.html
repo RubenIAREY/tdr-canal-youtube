@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es" data-paleta="grafito" data-letra="plex" data-densidad="normal" data-graficas="cuadricula" data-rejilla="si" data-animar="si">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Terminal · Panel de redes TDR</title>
+<meta name="description" content="Prueba de diseño «Terminal» del panel de redes de TodoEnRecambio.">
+<link rel="icon" href="../../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link id="fuentes" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="terminal.css">
+<script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+<a class="saltar" href="#principal">Saltar al contenido</a>
+<header class="barra">
+  <a class="marca" href="./"><img src="../../logo-tdr.png" alt="TDR" width="28" height="28"><span class="marca-txt"><b>Panel de redes</b><span>Terminal · prueba</span></span></a>
+  <p class="act"><span class="punto" aria-hidden="true"></span>Datos del <b id="actualizado">–</b> · se rehacen a las 9:00 y a las 17:00</p>
+  <nav class="enlaces" aria-label="Otras páginas"><a href="../">← Todas las versiones</a><a href="../../panel.html">Panel actual</a><a href="../../index.html">Web del canal ↗</a></nav>
+</header>
+
+<div class="cinta" id="cinta" aria-label="Seguidores por red"></div>
+
+<nav class="pestanas" id="pestanas" role="tablist" aria-label="Vistas">
+  <button role="tab" data-vista="global" aria-selected="true"><i style="background:#d71119"></i>Global <span class="tk">TOTAL</span></button>
+  <button role="tab" data-vista="youtube" aria-selected="false"><i style="background:#ff3b30"></i>YouTube <span class="tk">YT</span></button>
+  <button role="tab" data-vista="instagram" aria-selected="false"><i style="background:#e1306c"></i>Instagram <span class="tk">IG</span></button>
+  <button role="tab" data-vista="tiktok" aria-selected="false"><i style="background:#25f4ee"></i>TikTok <span class="tk">TT</span></button>
+  <button role="tab" data-vista="facebook" aria-selected="false"><i style="background:#1877f2"></i>Facebook <span class="tk">FB</span></button>
+  <span class="sep" aria-hidden="true"></span>
+  <button role="tab" data-vista="impacto" aria-selected="false">Impacto en TDR</button>
+  <button role="tab" data-vista="videos" aria-selected="false">Vídeos</button>
+</nav>
+
+<main id="principal">
+  <section id="v-red" class="vista vista-red">
+    <div class="columna">
+      <header class="simbolo" id="simbolo"></header>
+      <div class="cotizaciones" id="cotizaciones"></div>
+      <div class="mandos">
+        <span class="et">Periodo</span>
+        <div class="grupo rango" data-graf="seg" role="group" aria-label="Periodo de las gráficas"></div>
+      </div>
+      <div class="panes" id="panes">
+        <article class="caja pane" id="p-seg">
+          <div class="caja-cab">
+            <h2 id="t-seg">Seguidores</h2>
+            <div class="botones"><div class="grupo" id="modo-seg" role="group" aria-label="Tipo de gráfica"><button data-m="velas" class="on">Velas</button><button data-m="linea">Línea</button></div>
+              <div class="grupo" id="periodo-seg" role="group" aria-label="Cada vela es"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div></div>
+            <div class="leyenda" id="ley-seg"></div>
+          </div>
+          <div class="grafica" id="g-seg"></div>
+          <p class="nota" id="n-seg"></p>
+        </article>
+        <article class="caja pane" id="p-vis">
+          <div class="caja-cab">
+            <h2>Visualizaciones diarias <small>barra verde: el día supera su media de 30 días</small></h2>
+            <div class="leyenda" id="ley-vis"></div>
+          </div>
+          <div class="grafica" id="g-vis"></div>
+          <p class="nota">Líneas: media de 7 días y media de 30 días.</p>
+        </article>
+        <article class="caja pane" id="p-acum">
+          <div class="caja-cab">
+            <h2>Visualizaciones acumuladas</h2>
+            <div class="botones"><div class="grupo" id="modo-acum" role="group" aria-label="Tipo de gráfica"><button data-m="velas" class="on">Velas</button><button data-m="area">Área</button></div>
+              <div class="grupo" id="periodo-acum" role="group" aria-label="Cada vela es"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div></div>
+            <div class="leyenda" id="ley-acum"></div>
+          </div>
+          <div class="grafica" id="g-acum"></div>
+          <p class="nota" id="sub-acum"></p>
+        </article>
+        <article class="caja pane" id="p-lk">
+          <div class="caja-cab">
+            <h2>Me gusta</h2>
+            <div class="botones"><div class="grupo" id="modo-lk" role="group" aria-label="Me gusta"><button data-m="dia" class="on">Diarios</button><button data-m="acum">Acumulados</button></div></div>
+            <div class="leyenda" id="ley-lk"></div>
+          </div>
+          <div class="grafica" id="g-lk"></div>
+          <p class="nota" id="n-lk"></p>
+        </article>
+        <article class="caja pane ancho" id="p-comp">
+          <div class="caja-cab">
+            <h2>Comparativa por red <small>% de cambio desde el primer día visible, como en bolsa</small></h2>
+            <div class="botones">
+              <div class="grupo" id="modo-comp" role="group" aria-label="Qué comparar"><button data-m="seg" class="on">Seguidores</button><button data-m="vis">Visualizaciones</button><button data-m="likes">Me gusta</button></div>
+              <div class="grupo rango" data-graf="comp" role="group" aria-label="Periodo de la comparativa"></div>
+            </div>
+            <div class="leyenda" id="ley-comp"></div>
+          </div>
+          <div class="grafica" id="g-comp"></div>
+          <p class="nota">Visualizaciones y me gusta: media de 30 días de cada red, para que el ruido diario no tape la tendencia.</p>
+        </article>
+      </div>
+    </div>
+
+    <aside class="carril" aria-label="Resumen lateral">
+      <section class="caja c-valores">
+        <div class="caja-cab"><h2>Valores <small>seguidores · cambio en 30 días</small></h2></div>
+        <div class="lista-valores" id="valores" role="list"></div>
+      </section>
+      <section class="caja">
+        <div class="caja-cab"><h2>Tienda <small>visitas que llegan desde redes, 30 días</small></h2></div>
+        <div class="tienda-mini" id="tienda-mini"></div>
+        <button class="mas" data-ir="impacto">Ver el impacto en TDR <span aria-hidden="true">→</span></button>
+      </section>
+      <section class="caja">
+        <div class="caja-cab"><h2>Últimas publicaciones</h2></div>
+        <ul class="teletipo" id="teletipo"></ul>
+        <button class="mas" data-ir="videos">Ver todos los vídeos <span aria-hidden="true">→</span></button>
+      </section>
+    </aside>
+  </section>
+
+  <section id="v-impacto" class="vista vista-ancha oculta">
+    <header class="simbolo"><div class="izq"><div class="ico" style="background:var(--capa2)"><img src="../../logo-tdr.png" alt="" width="30" height="30"></div>
+      <div><div class="ticker"><em>TDR</em>:TIENDA</div><h1>Impacto en TodoEnRecambio <small>lo que llega a todoenrecambio.com desde cada red</small></h1></div></div></header>
+    <div class="kpis" id="kpis-tienda"></div>
+    <div class="panes">
+      <article class="caja pane">
+        <div class="caja-cab"><h2>Visitas a la tienda desde redes <small>sesiones por semana</small></h2>
+          <div class="botones"><div class="grupo rango" data-graf="tienda" role="group" aria-label="Periodo"></div></div>
+          <div class="leyenda" id="ley-tienda"></div></div>
+        <div class="grafica" id="g-tienda"></div>
+        <p class="nota">Google Analytics: sesiones cuya fuente es YouTube, Instagram, TikTok o Facebook.</p>
+      </article>
+      <article class="caja pane">
+        <div class="caja-cab"><h2>Búsquedas de la marca en Google <small>clics de búsquedas con «todoenrecambio»</small></h2>
+          <div class="botones"><div class="grupo rango" data-graf="marca" role="group" aria-label="Periodo"></div></div>
+          <div class="leyenda" id="ley-marca"></div></div>
+        <div class="grafica" id="g-marca"></div>
+        <p class="nota">Search Console: barras diarias y media de 7 días.</p>
+      </article>
+    </div>
+    <article class="caja"><div class="caja-cab"><h2>Ventas atribuidas a redes</h2></div><div id="tabla-ventas"></div></article>
+  </section>
+
+  <section id="v-videos" class="vista vista-ancha oculta">
+    <header class="simbolo"><div class="izq"><div class="ico" style="background:var(--capa2)"><img src="../../logo-tdr.png" alt="" width="30" height="30"></div>
+      <div><div class="ticker"><em>TDR</em>:VÍDEOS</div><h1>Vídeos y publicaciones <small>lo último de cada red, con su enlace y sus números de hoy</small></h1></div></div></header>
+    <div class="filtros" id="filtros">
+      <button data-f="todas" class="on">Todas</button>
+      <button data-f="youtube"><i style="background:#ff3b30"></i>YouTube</button><button data-f="instagram"><i style="background:#e1306c"></i>Instagram</button>
+      <button data-f="tiktok"><i style="background:#25f4ee"></i>TikTok</button><button data-f="facebook"><i style="background:#1877f2"></i>Facebook</button>
+      <span class="sep" aria-hidden="true"></span>
+      <button data-o="fecha" class="on">Más recientes</button><button data-o="vis">Más vistos</button><button data-o="likes">Más me gusta</button>
+    </div>
+    <article class="caja"><div class="tabla-wrap"><table class="tabla" id="tabla-videos">
+      <thead><tr><th>Fecha</th><th>Red</th><th>Título</th><th class="n">Visualizaciones</th><th class="n">Me gusta</th><th class="n col-com">Comentarios</th></tr></thead>
+      <tbody></tbody></table></div></article>
+  </section>
+</main>
+
+<footer class="pie">
+  <p><b>De dónde sale cada número.</b> YouTube: API de YouTube y YouTube Analytics, desde que se abrió el canal (los seguidores de cada día se
+    reconstruyen con los suscriptores ganados y perdidos). Instagram, TikTok y Facebook: Metricool, desde el primer día que tiene guardado
+    (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</p>
+  <p>Visualizaciones: YouTube = visualizaciones de vídeos · Instagram = visualizaciones de la cuenta (publicaciones y reels) ·
+    TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</p>
+  <p>Me gusta: YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
+    Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</p>
+  <p>Gráficas hechas con <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Copyright © TradingView, Inc.). Versión de prueba «Terminal».</p>
+</footer>
+
+<button class="ajustes-btn" id="ajustes-btn" aria-haspopup="dialog" aria-expanded="false" aria-controls="ajustes">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>
+  Ajustes
+</button>
+<div class="ajustes" id="ajustes" role="dialog" aria-labelledby="aj-titulo" aria-hidden="true">
+  <header><h2 id="aj-titulo">Ajustes del diseño</h2>
+    <button class="cerrar" id="aj-cerrar" aria-label="Cerrar ajustes"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M3 3l10 10M13 3L3 13"/></svg></button></header>
+  <div id="aj-cuerpo"></div>
+  <div class="aj-acciones"><button class="prim" id="aj-copiar">Copiar enlace de esta combinación</button></div>
+  <div class="aj-acciones"><button id="aj-reset">Restablecer</button></div>
+  <p class="aj-aviso" id="aj-aviso" role="status"></p>
+</div>
+<script src="terminal.js"></script>
+</body>
+</html>

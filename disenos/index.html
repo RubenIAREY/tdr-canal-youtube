@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Diseños del panel · TDR</title>
+<meta name="description" content="Versiones de prueba del panel de redes de TodoEnRecambio para elegir una.">
+<link rel="icon" href="../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@500;600;700&family=Geist:wght@400;500&family=Geist+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fondo: #0d1014; --capa1: #14181e; --capa2: #1b2028; --tinta: #eceef1; --suave: #a0a7b2; --tenue: #737a86;
+    --linea: #252b35; --marca: #d71119; --marca-tinta: #ff5a63;
+    --curva: cubic-bezier(0.23, 1, 0.32, 1);
+    --sombra: inset 0 1px 0 #ffffff08, 0 1px 2px #0000004d, 0 18px 40px -22px #000000b3;
+    --sombra-2: inset 0 1px 0 #ffffff0d, 0 2px 6px #00000059, 0 30px 60px -24px #000000cc;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--fondo); -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--fondo); color: var(--tinta); font: 400 15px/1.6 "Geist", system-ui, sans-serif; }
+  a { color: inherit; }
+  :focus-visible { outline: 2px solid var(--marca); outline-offset: 3px; }
+  .barra { height: 3px; background: var(--marca); }
+  .envoltorio { max-width: 1240px; margin: 0 auto; padding: 48px 32px 96px; }
+  header.cab { display: grid; grid-template-columns: auto 1fr; gap: 24px; align-items: start; margin-bottom: 48px; }
+  header.cab img { width: 64px; height: 64px; }
+  .eyebrow { font: 500 12px/1.4 "Geist Mono", monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--tenue); margin: 4px 0 8px; }
+  h1 { font: 600 clamp(30px, 4vw, 46px)/1.05 "Instrument Sans", sans-serif; letter-spacing: -0.03em; margin: 0 0 16px; max-width: 18ch; text-wrap: balance; }
+  .intro { color: var(--suave); max-width: 64ch; margin: 0; }
+  .pasos { list-style: none; padding: 0; margin: 24px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; max-width: 920px; }
+  .pasos li { background: var(--capa1); border: 1px solid var(--linea); border-radius: 12px; padding: 12px 16px; font-size: 14px; color: var(--suave); box-shadow: var(--sombra); }
+  .pasos b { display: block; color: var(--tinta); font: 600 14px "Instrument Sans", sans-serif; margin-bottom: 2px; }
+  .rejilla { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  .tarjeta {
+    position: relative; display: flex; flex-direction: column; background: var(--capa1); border: 1px solid var(--linea); border-radius: 16px;
+    overflow: hidden; text-decoration: none; box-shadow: var(--sombra); transition: transform 280ms var(--curva), border-color 200ms var(--curva);
+  }
+  .tarjeta::after { content: ""; position: absolute; inset: 0; border-radius: 16px; box-shadow: var(--sombra-2); opacity: 0; transition: opacity 280ms var(--curva); pointer-events: none; }
+  .tarjeta:hover { transform: translateY(-4px); border-color: #343b47; }
+  .tarjeta:hover::after { opacity: 1; }
+  .tarjeta:active { transform: translateY(-1px); }
+  .miniatura { aspect-ratio: 16 / 10; background: var(--capa2); overflow: hidden; border-bottom: 1px solid var(--linea); }
+  .miniatura img { width: 100%; height: 100%; object-fit: cover; object-position: top left; display: block; transition: transform 600ms var(--curva); }
+  .tarjeta:hover .miniatura img { transform: scale(1.03); }
+  .cuerpo { padding: 16px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .cuerpo .num { font: 500 11.5px "Geist Mono", monospace; letter-spacing: .08em; color: var(--tenue); text-transform: uppercase; }
+  .cuerpo h2 { margin: 0; font: 600 22px/1.15 "Instrument Sans", sans-serif; letter-spacing: -0.02em; }
+  .cuerpo p { margin: 0; color: var(--suave); font-size: 14.5px; line-height: 1.55; }
+  .cuerpo .ajustes { font: 500 12px/1.5 "Geist Mono", monospace; color: var(--tenue); margin-top: auto; padding-top: 8px; }
+  .abrir { display: inline-flex; align-items: center; gap: 8px; font: 600 14px "Instrument Sans", sans-serif; color: var(--tinta); margin-top: 4px; }
+  .abrir span { transition: transform 200ms var(--curva); color: var(--marca-tinta); }
+  .tarjeta:hover .abrir span { transform: translateX(4px); }
+  .tarjeta.comparar { background: transparent; border-style: dashed; box-shadow: none; }
+  .nota-mapa { grid-column: 1 / -1; margin: 8px 0 0; color: var(--tenue); font-size: 13.5px; }
+  footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--linea); color: var(--tenue); font-size: 13px; }
+  @media (max-width: 1000px) { .rejilla { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 640px) {
+    .envoltorio { padding: 32px 16px 64px; }
+    header.cab { grid-template-columns: 1fr; gap: 16px; }
+    header.cab img { width: 52px; height: 52px; }
+    .pasos { grid-template-columns: 1fr; }
+    .rejilla { grid-template-columns: 1fr; gap: 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition-duration: 0ms !important; } }
+</style>
+</head>
+<body>
+<div class="barra" aria-hidden="true"></div>
+<div class="envoltorio">
+  <header class="cab">
+    <img src="../logo-tdr.png" alt="TDR" width="64" height="64">
+    <div>
+      <p class="eyebrow">Panel de redes · pruebas de diseño · 6 oct 2026</p>
+      <h1>Cuatro formas de ver las redes de TDR</h1>
+      <p class="intro">Todas usan los datos reales del panel y se actualizan solas a las 9:00 y a las 17:00. Las velas de seguidores y de visualizaciones acumuladas se pueden ver por día, semana o mes (también en el panel actual), que sigue igual hasta que elijas una versión.</p>
+      <ol class="pasos">
+        <li><b>1 · Abre una versión</b>Y muévete por ella como en el panel de siempre: redes, tienda y vídeos.</li>
+        <li><b>2 · Toca «Ajustes»</b>Abajo a la derecha: paleta, letra, densidad y lo propio de cada versión.</li>
+        <li><b>3 · Copia el enlace</b>«Copiar enlace de esta combinación» y pégamelo: así sé exactamente cuál te gusta.</li>
+      </ol>
+    </div>
+  </header>
+
+  <main class="rejilla">
+    <a class="tarjeta" href="terminal/">
+      <div class="miniatura"><img src="capturas/terminal.jpg" alt="Captura de la versión Terminal" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Versión A</span>
+        <h2>Terminal</h2>
+        <p>Como una terminal de bolsa: cada red es un valor (TDR:YT, TDR:IG…), con su cotización, una cuadrícula de gráficas y las últimas publicaciones como teletipo.</p>
+        <span class="ajustes">Velas de día, semana o mes · Ajustes: 4 paletas · 3 letras · densidad · cuadrícula o columna · rejilla · cifras</span>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a class="tarjeta" href="editorial/">
+      <div class="miniatura"><img src="capturas/editorial.jpg" alt="Captura de la versión Editorial" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Versión B</span>
+        <h2>Editorial</h2>
+        <p>Un informe que se lee de arriba abajo: la portada es una frase escrita con los datos del mes y cada sección cuenta una parte (tendencia, red a red, tienda y vídeos).</p>
+        <span class="ajustes" id="aj-editorial">Velas de día, semana o mes · Ajustes: papel técnico, imprenta y plano · letras · densidad · portada · ancho de lectura</span>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a class="tarjeta" href="instrumentos/">
+      <div class="miniatura"><img src="capturas/instrumentos.jpg" alt="Captura de la versión Cuadro de instrumentos" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Versión C</span>
+        <h2>Cuadro de instrumentos</h2>
+        <p>El panel como la pantalla de una moto: cuentarrevoluciones de visualizaciones al día, cuentakilómetros con las históricas y testigos que solo se encienden cuando pasa algo.</p>
+        <span class="ajustes" id="aj-instrumentos">Velas de día, semana o mes · Ajustes: noche, día, carbono y dorsal · letras · densidad · aguja · testigos · escala</span>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a class="tarjeta" href="mapa/globo.html">
+      <div class="miniatura"><img src="capturas/mapa-globo.jpg" alt="Captura del mapa 3D en forma de globo" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Versión D · mapa 3D</span>
+        <h2>Mapa de vídeos · Globo</h2>
+        <p>Cada vídeo es una estrella del color de su red y su tamaño son las visualizaciones. Las redes forman constelaciones alrededor del logo. Con «Reproducir crecimiento» se ve cómo se ha ido llenando.</p>
+        <span class="ajustes">Ajustes: paletas · brillo · rotación · tamaño y color</span>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a class="tarjeta" href="mapa/galaxia.html">
+      <div class="miniatura"><img src="capturas/mapa-galaxia.jpg" alt="Captura del mapa 3D en forma de galaxia" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Versión D · mapa 3D</span>
+        <h2>Mapa de vídeos · Galaxia</h2>
+        <p>Cada red es un brazo de la galaxia: cuanto más hacia fuera, más reciente; cuanto más alto, más visto. Se lee el tiempo y el alcance de un vistazo.</p>
+        <span class="ajustes">Ajustes: paletas · brillo · rotación · tamaño y color</span>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <a class="tarjeta comparar" href="../panel.html">
+      <div class="miniatura"><img src="capturas/actual.jpg" alt="Captura del panel actual" loading="lazy" width="720" height="450"></div>
+      <div class="cuerpo">
+        <span class="num">Para comparar</span>
+        <h2>Panel actual</h2>
+        <p>El que está publicado hoy, ya con las velas por día, semana o mes. Se quedará como está hasta que elijas una versión.</p>
+        <span class="abrir">Abrir <span aria-hidden="true">→</span></span>
+      </div>
+    </a>
+    <p class="nota-mapa">El mapa 3D no sustituye al panel: iría como una pestaña más («Mapa») dentro de la versión que elijas.</p>
+  </main>
+
+  <footer>Pruebas de diseño del panel de redes de TodoEnRecambio. Los datos son los mismos que los del panel publicado. Logo: el real de TDR.</footer>
+</div>
+</body>
+</html>
