@@ -42,7 +42,8 @@
         <h2 id="t-seg">Seguidores</h2>
         <div class="leyenda" id="ley-seg"></div>
         <div class="botones">
-          <div class="grupo" id="modo-seg"><button data-m="velas" class="on">Velas semanales</button><button data-m="linea">Línea diaria</button></div>
+          <div class="grupo" id="modo-seg"><button data-m="velas" class="on">Velas</button><button data-m="linea">Línea</button></div>
+          <div class="grupo" id="periodo-seg" title="Cada vela es un día, una semana o un mes"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div>
           <div class="grupo rango" data-graf="seg"></div>
         </div>
       </div>
@@ -63,9 +64,14 @@
       <div class="caja-cab">
         <h2>Visualizaciones acumuladas <small id="sub-acum"></small></h2>
         <div class="leyenda" id="ley-acum"></div>
-        <div class="botones"><div class="grupo rango" data-graf="acum"></div></div>
+        <div class="botones">
+          <div class="grupo" id="modo-acum"><button data-m="velas" class="on">Velas</button><button data-m="area">Área</button></div>
+          <div class="grupo" id="periodo-acum" title="Cada vela es un día, una semana o un mes"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div>
+          <div class="grupo rango" data-graf="acum"></div>
+        </div>
       </div>
-      <div class="grafica baja" id="g-acum"></div>
+      <div class="grafica" id="g-acum"></div>
+      <p class="nota" id="n-acum"></p>
     </div>
 
     <div class="caja">

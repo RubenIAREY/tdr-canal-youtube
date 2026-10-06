@@ -94,3 +94,5 @@ main { max-width: 1320px; margin: 0 auto; padding: 18px; }
 
 .tk .c.lk { color: #ff8fa6; font-weight: 500; }
 .tk { grid-template-rows: auto auto auto; }
+
+.leyenda b.sube { color: var(--verde); } .leyenda b.baja { color: var(--rojo); }

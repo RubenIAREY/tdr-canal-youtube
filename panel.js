@@ -15,6 +15,7 @@ const pct = (a, b) => b ? (a - b) / b * 100 : null;
 const flecha = n => n == null ? "" : n > 0 ? "▲ " : n < 0 ? "▼ " : "■ ";
 
 let D, vista = "global", modoSeg = "velas", modoComp = "seg", modoLk = "dia", filtroRed = "todas", orden = "fecha";
+let periodoSeg = "semana", modoAcum = "velas", periodoAcum = "semana";   // velas de seguidores y del acumulado: día, semana o mes
 let graficas = {}, sincronizando = false;
 
 fetch("datos_redes.json?" + Date.now()).then(r => r.json()).then(d => { D = d; arrancar(); })
@@ -24,7 +25,10 @@ function arrancar() {
   document.getElementById("actualizado").textContent = fecha(D.actualizado) + " " + D.actualizado.slice(11);
   ticker();
   document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => ir(b.dataset.vista));
-  document.querySelectorAll("#modo-seg button").forEach(b => b.onclick = () => { modoSeg = b.dataset.m; marcar("#modo-seg", b); pintarRed(vista, true); });
+  document.querySelectorAll("#modo-seg button").forEach(b => b.onclick = () => { modoSeg = b.dataset.m; marcar("#modo-seg", b); seguidores(vista); });
+  document.querySelectorAll("#periodo-seg button").forEach(b => b.onclick = () => { periodoSeg = b.dataset.p; marcar("#periodo-seg", b); seguidores(vista); });
+  document.querySelectorAll("#modo-acum button").forEach(b => b.onclick = () => { modoAcum = b.dataset.m; marcar("#modo-acum", b); acumulado(vista); });
+  document.querySelectorAll("#periodo-acum button").forEach(b => b.onclick = () => { periodoAcum = b.dataset.p; marcar("#periodo-acum", b); acumulado(vista); });
   document.querySelectorAll("#modo-comp button").forEach(b => b.onclick = () => { modoComp = b.dataset.m; marcar("#modo-comp", b); comparativa(); });
   document.querySelectorAll("#modo-lk button").forEach(b => b.onclick = () => { modoLk = b.dataset.m; marcar("#modo-lk", b); megusta(vista); });
   document.querySelectorAll("#filtros button[data-f]").forEach(b => b.onclick = () => { filtroRed = b.dataset.f; marcar("#filtros", b, "[data-f]"); tablaVideos(); });
@@ -80,12 +84,19 @@ function media(vals, n) {
   return out;
 }
 function lunes(t) { const d = new Date(t + "T00:00:00Z"); const w = (d.getUTCDay() + 6) % 7; d.setUTCDate(d.getUTCDate() - w); return d.toISOString().slice(0, 10); }
-function velasSemanales(p) {
-  const sem = new Map(); p.forEach(x => { const k = lunes(x.time); if (!sem.has(k)) sem.set(k, []); sem.get(k).push(x.value); });
+// velas por periodo: "dia", "semana" (lunes) o "mes" (día 1). Abre con el cierre del periodo anterior y cierra con su último dato.
+function clavePeriodo(t, periodo) { return periodo === "mes" ? t.slice(0, 7) + "-01" : periodo === "semana" ? lunes(t) : t; }
+function velas(p, periodo) {
+  const grupos = new Map(); p.forEach(x => { const k = clavePeriodo(x.time, periodo); if (!grupos.has(k)) grupos.set(k, []); grupos.get(k).push(x.value); });
   let prev = null; const out = [];
-  for (const [k, a] of sem) { const open = prev ?? a[0], close = a[a.length - 1];
+  for (const [k, a] of grupos) { const open = prev ?? a[0], close = a[a.length - 1];
     out.push({ time: k, open, close, high: Math.max(open, ...a), low: Math.min(open, ...a) }); prev = close; }
   return out;
+}
+const NOMBRE_PERIODO = { dia: "un día", semana: "una semana", mes: "un mes" };
+function etiquetaPeriodo(t, periodo) {
+  if (periodo === "mes") { const [y, m] = t.split("-"); return `${MES[+m - 1]} ${y}`; }
+  return (periodo === "semana" ? "semana del " : "") + fecha(t);
 }
 function crear(id, extra = {}) {
   const el = document.getElementById(id); el.innerHTML = "";
@@ -100,12 +111,18 @@ function crear(id, extra = {}) {
   graficas[id] = ch;
   return ch;
 }
+const enlaces = {};                                    // un solo enlace de sincronía por gráfica (se rehacen al cambiar de vela)
 function sincronizar(ids) {
-  ids.forEach(a => graficas[a] && graficas[a].timeScale().subscribeVisibleTimeRangeChange(r => {
-    if (sincronizando || !r) return; sincronizando = true;
-    ids.forEach(b => { if (b !== a && graficas[b]) try { graficas[b].timeScale().setVisibleRange(r); } catch (e) {} });
-    sincronizando = false;
-  }));
+  ids.forEach(a => {
+    const ch = graficas[a]; if (!ch) return;
+    if (enlaces[a] && enlaces[a].ch === ch) ch.timeScale().unsubscribeVisibleTimeRangeChange(enlaces[a].fn);
+    const fn = r => {
+      if (sincronizando || !r) return; sincronizando = true;
+      ids.forEach(b => { if (b !== a && graficas[b]) try { graficas[b].timeScale().setVisibleRange(r); } catch (e) {} });
+      sincronizando = false;
+    };
+    ch.timeScale().subscribeVisibleTimeRangeChange(fn); enlaces[a] = { ch, fn };
+  });
 }
 const TRES = ["g-seg", "g-vis", "g-acum", "g-lk"];
 const GRAF = { seg: TRES, vis: TRES, acum: TRES, lk: TRES, comp: ["g-comp"], tienda: ["g-tienda"], marca: ["g-marca"] };
@@ -121,50 +138,31 @@ function rango(graf, r) {
   if (GRAF[graf] === TRES) document.querySelectorAll('.grupo.rango[data-graf="seg"],.grupo.rango[data-graf="vis"],.grupo.rango[data-graf="acum"],.grupo.rango[data-graf="lk"]')
     .forEach(g => g.querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.r === r)));
 }
-function leyenda(id, ch, filas) {                    // filas: [{nombre, color, serie, fmt}]
+function leyenda(id, ch, filas, periodo = null) {     // filas: [{nombre, color, serie, fmt}]; periodo: si la serie son velas
   const el = document.getElementById(id);
   const pinta = (param) => {
     let t = null; const vals = filas.map(f => {
-      let v = null;
-      if (param && param.time && param.seriesData) { const d = param.seriesData.get(f.serie); if (d) v = d.close ?? d.value; t = param.time; }
-      else { const datos = f.datos; const u = datos[datos.length - 1]; if (u) { v = u.close ?? u.value; t = u.time; } }
-      return `<span><i style="background:${f.color}"></i>${f.nombre} <b>${v == null ? "–" : (f.fmt || fmt)(v)}</b></span>`;
+      let d = null;
+      if (param && param.time && param.seriesData) { d = param.seriesData.get(f.serie) || null; t = param.time; }
+      else { const datos = f.datos; const u = datos[datos.length - 1]; if (u) { d = u; t = u.time; } }
+      const v = d ? (d.close ?? d.value) : null, cambio = d && d.open != null ? d.close - d.open : null;
+      return `<span><i style="background:${f.color}"></i>${f.nombre} <b>${v == null ? "–" : (f.fmt || fmt)(v)}</b>` +
+        (cambio != null ? ` · cambio <b class="${cls(cambio)}">${signo(cambio)}</b>` : "") + `</span>`;
     });
-    el.innerHTML = `<span>${t ? fecha(typeof t === "string" ? t : `${t.year}-${String(t.month).padStart(2, "0")}-${String(t.day).padStart(2, "0")}`) : ""}</span>` + vals.join("");
+    const tt = t ? (typeof t === "string" ? t : `${t.year}-${String(t.month).padStart(2, "0")}-${String(t.day).padStart(2, "0")}`) : null;
+    el.innerHTML = `<span>${tt ? (periodo ? etiquetaPeriodo(tt, periodo) : fecha(tt)) : ""}</span>` + vals.join("");
   };
   ch.subscribeCrosshairMove(pinta); pinta(null);
 }
 
 /* ─────────── vista de una red (o global) ─────────── */
-function pintarRed(k, soloSeg = false) {
+function pintarRed(k) {
   const esG = k === "global";
   const R = esG ? D.global_ : D.redes[k].resumen;
   const color = esG ? C.tdr : D.redes[k].color;
   const s = serieDe(k);
-  if (!soloSeg) perfilYkpis(k, R, s, color);
-
-  // seguidores
-  const segs = s.filter(x => x.seg != null).map(x => ({ time: x.t, value: x.seg }));
-  if (graficas["g-seg"]) { graficas["g-seg"].remove(); delete graficas["g-seg"]; }
-  const g1 = crear("g-seg");
-  let serie1;
-  if (modoSeg === "velas") {
-    serie1 = g1.addCandlestickSeries({ upColor: C.verde, downColor: C.rojo, borderVisible: false, wickUpColor: C.verde, wickDownColor: C.rojo,
-      priceFormat: { type: "price", precision: 0, minMove: 1 } });
-    serie1.setData(velasSemanales(segs));
-  } else {
-    serie1 = g1.addAreaSeries({ lineColor: color, topColor: color + "55", bottomColor: color + "05", lineWidth: 2, priceFormat: { type: "price", precision: 0, minMove: 1 } });
-    serie1.setData(segs);
-  }
-  const d1 = modoSeg === "velas" ? velasSemanales(segs) : segs;
-  leyenda("ley-seg", g1, [{ nombre: modoSeg === "velas" ? "Cierre semana" : "Seguidores", color, serie: serie1, datos: d1 }]);
-  document.getElementById("t-seg").textContent = esG ? "Seguidores · suma de las cuatro redes" : `Seguidores en ${D.redes[k].nombre}`;
-  document.getElementById("n-seg").textContent = esG
-    ? `La suma empieza el ${fecha(R.desde_seg)}, el primer día con seguidores medidos en las cuatro redes. Cada vela es una semana: abre con el cierre de la semana anterior; verde si ha subido y roja si ha bajado.`
-    : (k === "youtube" ? "Desde que se abrió el canal: los seguidores de cada día salen de los suscriptores ganados y perdidos que da YouTube Analytics. "
-                       : `Metricool guarda los seguidores de ${D.redes[k].nombre} desde el ${fecha(R.desde_seg)}. `) +
-      (modoSeg === "velas" ? "Cada vela es una semana: verde si ha subido y roja si ha bajado." : "");
-  if (soloSeg) { rango("seg", k === "youtube" ? "1A" : "Todo"); return; }
+  perfilYkpis(k, R, s, color);
+  seguidores(k, true);
 
   // visualizaciones diarias: barras (verde si supera su media de 30 días) + media 7 y 30
   const sv = recortarCola(s.filter(x => x.t >= (R.desde_vis || "0")), "vis");
@@ -181,21 +179,70 @@ function pintarRed(k, soloSeg = false) {
     { nombre: "Media 7 d", color: C.amarillo, serie: l7, datos: l7.data(), fmt: v => fmt(v) },
     { nombre: "Media 30 d", color: C.azul, serie: l30, datos: l30.data(), fmt: v => fmt(v) }]);
 
-  // acumulado
-  let acum = 0; const ac = sv.map(x => ({ time: x.t, value: (acum += x.vis || 0) }));
-  const g3 = crear("g-acum");
-  const a3 = g3.addAreaSeries({ lineColor: color, topColor: color + "44", bottomColor: color + "03", lineWidth: 2, priceFormat: { type: "volume" } });
-  a3.setData(ac);
-  leyenda("ley-acum", g3, [{ nombre: "Acumulado", color, serie: a3, datos: ac }]);
-  document.getElementById("sub-acum").textContent = esG
-    ? `suma de las cuatro redes desde ${fecha(sv[0] && sv[0].t)} (cada red entra cuando hay datos)`
-    : `desde ${fecha(sv[0] && sv[0].t)}${k === "youtube" ? ", el primer día del canal" : " (lo que guarda Metricool)"}`;
-
+  acumulado(k, true);
   megusta(k, true);
   sincronizar(["g-vis", "g-acum", "g-lk"]);
   document.getElementById("caja-comp").style.display = esG ? "" : "none";
   if (esG) comparativa();
   rango("seg", k === "youtube" || esG ? "1A" : "Todo");
+}
+function rangoActual(k) {
+  const act = document.querySelector('.grupo.rango[data-graf="seg"] button.on');
+  return act ? act.dataset.r : (k === "youtube" || k === "global" ? "1A" : "Todo");
+}
+
+/* ─────────── seguidores: velas (día, semana o mes) o línea ─────────── */
+function seguidores(k, inicial = false) {
+  const esG = k === "global", R = esG ? D.global_ : D.redes[k].resumen, color = esG ? C.tdr : D.redes[k].color;
+  const segs = serieDe(k).filter(x => x.seg != null).map(x => ({ time: x.t, value: x.seg }));
+  if (graficas["g-seg"]) { graficas["g-seg"].remove(); delete graficas["g-seg"]; }
+  const g1 = crear("g-seg");
+  let serie1, d1;
+  if (modoSeg === "velas") {
+    serie1 = g1.addCandlestickSeries({ upColor: C.verde, downColor: C.rojo, borderVisible: false, wickUpColor: C.verde, wickDownColor: C.rojo,
+      priceFormat: { type: "price", precision: 0, minMove: 1 } });
+    d1 = velas(segs, periodoSeg);
+  } else {
+    serie1 = g1.addAreaSeries({ lineColor: color, topColor: color + "55", bottomColor: color + "05", lineWidth: 2, priceFormat: { type: "price", precision: 0, minMove: 1 } });
+    d1 = segs;
+  }
+  serie1.setData(d1);
+  document.getElementById("periodo-seg").style.display = modoSeg === "velas" ? "" : "none";
+  leyenda("ley-seg", g1, [{ nombre: modoSeg === "velas" ? "Cierre" : "Seguidores", color, serie: serie1, datos: d1 }], modoSeg === "velas" ? periodoSeg : null);
+  document.getElementById("t-seg").textContent = esG ? "Seguidores · suma de las cuatro redes" : `Seguidores en ${D.redes[k].nombre}`;
+  const nv = modoSeg === "velas" ? ` Cada vela es ${NOMBRE_PERIODO[periodoSeg]}: abre con el cierre del periodo anterior; verde si ha subido y roja si ha bajado.` : "";
+  document.getElementById("n-seg").textContent = (esG
+    ? `La suma empieza el ${fecha(R.desde_seg)}, el primer día con seguidores medidos en las cuatro redes.`
+    : k === "youtube" ? "Desde que se abrió el canal: los seguidores de cada día salen de los suscriptores ganados y perdidos que da YouTube Analytics."
+      : `Metricool guarda los seguidores de ${D.redes[k].nombre} desde el ${fecha(R.desde_seg)}.`) + nv;
+  if (!inicial) rango("seg", rangoActual(k));
+}
+
+/* ─────────── visualizaciones acumuladas: velas (día, semana o mes) o área ─────────── */
+function acumulado(k, inicial = false) {
+  const esG = k === "global", R = esG ? D.global_ : D.redes[k].resumen, color = esG ? C.tdr : D.redes[k].color;
+  const sv = recortarCola(serieDe(k).filter(x => x.t >= (R.desde_vis || "0")), "vis");
+  let acum = 0; const ac = sv.map(x => ({ time: x.t, value: (acum += x.vis || 0) }));
+  if (graficas["g-acum"]) { graficas["g-acum"].remove(); delete graficas["g-acum"]; }
+  const g3 = crear("g-acum");
+  let a3, d3;
+  if (modoAcum === "velas") {
+    a3 = g3.addCandlestickSeries({ upColor: C.verde, downColor: C.rojo, borderVisible: false, wickUpColor: C.verde, wickDownColor: C.rojo, priceFormat: { type: "volume" } });
+    d3 = velas(ac, periodoAcum);
+  } else {
+    a3 = g3.addAreaSeries({ lineColor: color, topColor: color + "44", bottomColor: color + "03", lineWidth: 2, priceFormat: { type: "volume" } });
+    d3 = ac;
+  }
+  a3.setData(d3);
+  document.getElementById("periodo-acum").style.display = modoAcum === "velas" ? "" : "none";
+  leyenda("ley-acum", g3, [{ nombre: modoAcum === "velas" ? "Cierre" : "Acumulado", color, serie: a3, datos: d3 }], modoAcum === "velas" ? periodoAcum : null);
+  document.getElementById("sub-acum").textContent = esG
+    ? `suma de las cuatro redes desde ${fecha(sv[0] && sv[0].t)} (cada red entra cuando hay datos)`
+    : `desde ${fecha(sv[0] && sv[0].t)}${k === "youtube" ? ", el primer día del canal" : " (lo que guarda Metricool)"}`;
+  document.getElementById("n-acum").textContent = modoAcum === "velas"
+    ? `Cada vela es ${NOMBRE_PERIODO[periodoAcum]}: el cuerpo son las visualizaciones sumadas en ese periodo (el acumulado solo puede subir).`
+    : "Suma de todas las visualizaciones, día a día.";
+  if (!inicial) { sincronizar(["g-vis", "g-acum", "g-lk"]); rango("seg", rangoActual(k)); }
 }
 
 /* ─────────── me gusta: diarios (barras + medias 7 y 30) o acumulados ─────────── */
