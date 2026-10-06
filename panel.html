@@ -68,12 +68,25 @@
       <div class="grafica baja" id="g-acum"></div>
     </div>
 
+    <div class="caja">
+      <div class="caja-cab">
+        <h2>Me gusta <small id="sub-lk">barras: verde si el día supera su media de 30 días · líneas: media 7 y 30 días</small></h2>
+        <div class="leyenda" id="ley-lk"></div>
+        <div class="botones">
+          <div class="grupo" id="modo-lk"><button data-m="dia" class="on">Diarios</button><button data-m="acum">Acumulados</button></div>
+          <div class="grupo rango" data-graf="lk"></div>
+        </div>
+      </div>
+      <div class="grafica" id="g-lk"></div>
+      <p class="nota" id="n-lk"></p>
+    </div>
+
     <div class="caja" id="caja-comp">
       <div class="caja-cab">
         <h2>Comparativa por plataforma <small>como en bolsa: % de cambio desde el primer día visible</small></h2>
         <div class="leyenda" id="ley-comp"></div>
         <div class="botones">
-          <div class="grupo" id="modo-comp"><button data-m="seg" class="on">Seguidores</button><button data-m="vis">Visualizaciones (media 30 días)</button></div>
+          <div class="grupo" id="modo-comp"><button data-m="seg" class="on">Seguidores</button><button data-m="vis">Visualizaciones (media 30 días)</button><button data-m="likes">Me gusta (media 30 días)</button></div>
           <div class="grupo rango" data-graf="comp"></div>
         </div>
       </div>
@@ -104,7 +117,7 @@
     <div class="filtros" id="filtros">
       <button data-f="todas" class="on">Todas</button><button data-f="youtube">YouTube</button><button data-f="instagram">Instagram</button>
       <button data-f="tiktok">TikTok</button><button data-f="facebook">Facebook</button>
-      <span class="sep"></span><button data-o="fecha" class="on o">Más recientes</button><button data-o="vis" class="o">Más vistos</button>
+      <span class="sep"></span><button data-o="fecha" class="on o">Más recientes</button><button data-o="vis" class="o">Más vistos</button><button data-o="likes" class="o">Más me gusta</button>
     </div>
     <div class="tabla-wrap"><table class="tabla" id="tabla-videos"><thead><tr><th>Fecha</th><th>Red</th><th>Título</th><th class="n">Visualizaciones</th><th class="n">Me gusta</th><th class="n">Comentarios</th></tr></thead><tbody></tbody></table></div>
   </section>
@@ -116,6 +129,8 @@
     (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</p>
   <p>Visualizaciones: YouTube = visualizaciones de vídeos · Instagram = visualizaciones de la cuenta (publicaciones y reels) ·
     TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</p>
+  <p>Me gusta: YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
+    Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</p>
   <p>Gráficas hechas con <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Copyright © TradingView, Inc.).</p>
 </footer>
 <script src="panel.js"></script>

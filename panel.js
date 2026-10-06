@@ -14,7 +14,7 @@ const fecha = s => { if (!s) return "–"; const [y, m, d] = s.slice(0, 10).spli
 const pct = (a, b) => b ? (a - b) / b * 100 : null;
 const flecha = n => n == null ? "" : n > 0 ? "▲ " : n < 0 ? "▼ " : "■ ";
 
-let D, vista = "global", modoSeg = "velas", modoComp = "seg", filtroRed = "todas", orden = "fecha";
+let D, vista = "global", modoSeg = "velas", modoComp = "seg", modoLk = "dia", filtroRed = "todas", orden = "fecha";
 let graficas = {}, sincronizando = false;
 
 fetch("datos_redes.json?" + Date.now()).then(r => r.json()).then(d => { D = d; arrancar(); })
@@ -26,6 +26,7 @@ function arrancar() {
   document.querySelectorAll("#tabs button").forEach(b => b.onclick = () => ir(b.dataset.vista));
   document.querySelectorAll("#modo-seg button").forEach(b => b.onclick = () => { modoSeg = b.dataset.m; marcar("#modo-seg", b); pintarRed(vista, true); });
   document.querySelectorAll("#modo-comp button").forEach(b => b.onclick = () => { modoComp = b.dataset.m; marcar("#modo-comp", b); comparativa(); });
+  document.querySelectorAll("#modo-lk button").forEach(b => b.onclick = () => { modoLk = b.dataset.m; marcar("#modo-lk", b); megusta(vista); });
   document.querySelectorAll("#filtros button[data-f]").forEach(b => b.onclick = () => { filtroRed = b.dataset.f; marcar("#filtros", b, "[data-f]"); tablaVideos(); });
   document.querySelectorAll("#filtros button[data-o]").forEach(b => b.onclick = () => { orden = b.dataset.o; marcar("#filtros", b, "[data-o]"); tablaVideos(); });
   document.querySelectorAll(".grupo.rango").forEach(g => {
@@ -46,7 +47,8 @@ function ticker() {
   const item = (k, nombre, color, r) => {
     const p = pct(r.seguidores, r.seguidores - (r.d30 || 0));
     return `<div class="tk" data-k="${k}"><span class="p" style="background:${color}"></span><span class="n">${nombre}</span>
-      <span class="v">${fmt(r.seguidores)}</span><span class="c ${cls(r.d30)}">${flecha(r.d30)}${signo(r.d30)} (${signo(p, 2)} %) 30 d</span></div>`;
+      <span class="v">${fmt(r.seguidores)}</span><span class="c ${cls(r.d30)}">${flecha(r.d30)}${signo(r.d30)} (${signo(p, 2)} %) 30 d</span>
+      <span class="c lk">♥ ${fmt(r.lk_30)} me gusta en 30 d</span></div>`;
   };
   t.innerHTML = item("global", "TDR · TOTAL", C.tdr, D.global_) + REDES.map(r => item(r, D.redes[r].nombre.toUpperCase(), D.redes[r].color, D.redes[r].resumen)).join("");
   t.querySelectorAll(".tk").forEach(e => e.onclick = () => ir(e.dataset.k));
@@ -66,8 +68,8 @@ function ir(v) {
 
 /* ─────────── utilidades de series ─────────── */
 function serieDe(k) {
-  if (k === "global") return D.global_serie.map(x => ({ t: x[0], seg: x[1], vis: x[2] }));
-  return D.series[k].map(x => ({ t: x[0], seg: x[1], vis: x[2], gan: x[3], per: x[4] }));
+  if (k === "global") return D.global_serie.map(x => ({ t: x[0], seg: x[1], vis: x[2], likes: x[3] }));
+  return D.series[k].map(x => ({ t: x[0], seg: x[1], vis: x[2], gan: x[3], per: x[4], likes: x[5] }));
 }
 function recortarCola(s, campo) {                     // quita los últimos días sin dato (las redes van con 1-3 días de retraso)
   let i = s.length; while (i > 0 && (s[i - 1][campo] == null)) i--; return s.slice(0, i);
@@ -105,7 +107,8 @@ function sincronizar(ids) {
     sincronizando = false;
   }));
 }
-const GRAF = { seg: ["g-seg", "g-vis", "g-acum"], vis: ["g-seg", "g-vis", "g-acum"], acum: ["g-seg", "g-vis", "g-acum"], comp: ["g-comp"], tienda: ["g-tienda"], marca: ["g-marca"] };
+const TRES = ["g-seg", "g-vis", "g-acum", "g-lk"];
+const GRAF = { seg: TRES, vis: TRES, acum: TRES, lk: TRES, comp: ["g-comp"], tienda: ["g-tienda"], marca: ["g-marca"] };
 function rango(graf, r) {
   const ids = GRAF[graf];
   const hasta = new Date(D.actualizado.slice(0, 10) + "T00:00:00Z");
@@ -115,7 +118,7 @@ function rango(graf, r) {
     const desde = new Date(hasta); desde.setUTCMonth(desde.getUTCMonth() - meses);
     try { ch.timeScale().setVisibleRange({ from: desde.toISOString().slice(0, 10), to: hasta.toISOString().slice(0, 10) }); } catch (e) {}
   });
-  if (GRAF[graf] === GRAF.seg) document.querySelectorAll('.grupo.rango[data-graf="seg"],.grupo.rango[data-graf="vis"],.grupo.rango[data-graf="acum"]')
+  if (GRAF[graf] === TRES) document.querySelectorAll('.grupo.rango[data-graf="seg"],.grupo.rango[data-graf="vis"],.grupo.rango[data-graf="acum"],.grupo.rango[data-graf="lk"]')
     .forEach(g => g.querySelectorAll("button").forEach(b => b.classList.toggle("on", b.dataset.r === r)));
 }
 function leyenda(id, ch, filas) {                    // filas: [{nombre, color, serie, fmt}]
@@ -188,10 +191,51 @@ function pintarRed(k, soloSeg = false) {
     ? `suma de las cuatro redes desde ${fecha(sv[0] && sv[0].t)} (cada red entra cuando hay datos)`
     : `desde ${fecha(sv[0] && sv[0].t)}${k === "youtube" ? ", el primer día del canal" : " (lo que guarda Metricool)"}`;
 
-  sincronizar(["g-vis", "g-acum"]);
+  megusta(k, true);
+  sincronizar(["g-vis", "g-acum", "g-lk"]);
   document.getElementById("caja-comp").style.display = esG ? "" : "none";
   if (esG) comparativa();
   rango("seg", k === "youtube" || esG ? "1A" : "Todo");
+}
+
+/* ─────────── me gusta: diarios (barras + medias 7 y 30) o acumulados ─────────── */
+const NOTA_LK = {
+  youtube: "YouTube: me gusta recibidos cada día por todos los vídeos del canal (YouTube Analytics).",
+  tiktok: "TikTok: me gusta recibidos cada día por los vídeos de la cuenta (Metricool).",
+  instagram: "Instagram: me gusta de cada publicación y reel, contados el día que se publicó (Metricool no los da por día recibido).",
+  facebook: "Facebook: reacciones a las publicaciones de la página y me gusta de los reels (Metricool).",
+  global: "Suma de las cuatro redes. YouTube y TikTok cuentan los me gusta del día; Instagram, los de lo publicado ese día; Facebook, reacciones y me gusta de reels.",
+};
+function megusta(k, inicial = false) {
+  const esG = k === "global", R = esG ? D.global_ : D.redes[k].resumen;
+  if (graficas["g-lk"]) { graficas["g-lk"].remove(); delete graficas["g-lk"]; }
+  const s = recortarCola(serieDe(k).filter(x => x.t >= (R.desde_lk || "9999")), "likes");
+  const vals = s.map(x => x.likes || 0);
+  const g = crear("g-lk");
+  if (modoLk === "dia") {
+    const m7 = media(vals, 7), m30 = media(vals, 30);
+    const b = g.addHistogramSeries({ priceFormat: { type: "volume" }, priceLineVisible: false });
+    b.setData(s.map((x, i) => ({ time: x.t, value: vals[i], color: vals[i] >= m30[i] ? C.verde + "cc" : C.rojo + "aa" })));
+    const l7 = g.addLineSeries({ color: C.amarillo, lineWidth: 2, priceLineVisible: false, lastValueVisible: false });
+    l7.setData(s.map((x, i) => ({ time: x.t, value: m7[i] })));
+    const l30 = g.addLineSeries({ color: C.azul, lineWidth: 2, priceLineVisible: false, lastValueVisible: false });
+    l30.setData(s.map((x, i) => ({ time: x.t, value: m30[i] })));
+    leyenda("ley-lk", g, [{ nombre: "♥ Día", color: C.verde, serie: b, datos: b.data() },
+      { nombre: "Media 7 d", color: C.amarillo, serie: l7, datos: l7.data(), fmt: v => fmt(v, 1) },
+      { nombre: "Media 30 d", color: C.azul, serie: l30, datos: l30.data(), fmt: v => fmt(v, 1) }]);
+  } else {
+    let a = 0; const ac = s.map(x => ({ time: x.t, value: (a += x.likes || 0) }));
+    const col = "#ff6b8b";
+    const ar = g.addAreaSeries({ lineColor: col, topColor: col + "44", bottomColor: col + "03", lineWidth: 2, priceFormat: { type: "volume" } });
+    ar.setData(ac);
+    leyenda("ley-lk", g, [{ nombre: "♥ Acumulados", color: col, serie: ar, datos: ac }]);
+  }
+  document.getElementById("n-lk").textContent = (NOTA_LK[k] || "") + (s.length ? ` Desde el ${fecha(s[0].t)}.` : " Todavía no hay datos.");
+  if (!inicial) {
+    sincronizar(["g-vis", "g-acum", "g-lk"]);
+    const act = document.querySelector('.grupo.rango[data-graf="lk"] button.on');
+    rango("lk", act ? act.dataset.r : (k === "youtube" || esG ? "1A" : "Todo"));
+  }
 }
 
 function perfilYkpis(k, R, s, color) {
@@ -223,6 +267,10 @@ function perfilYkpis(k, R, s, color) {
     kpi("Media diaria (30 días)", fmt(R.vis_media_30), `últimos 7 días: ${fmt(R.vis_7)}`),
     kpi("Tendencia de las visualizaciones", tend == null ? "–" : (tend > 3 ? "Creciendo" : tend < -3 ? "Bajando" : "Estable"),
       tend == null ? "falta historia" : `media 30 d: ${signo(tend, 1)} % en un mes`, cls(tend)),
+    kpi("♥ Me gusta históricos", fmt(R.lk_total), R.desde_lk ? `medidos desde ${fecha(R.desde_lk)}` : "sin datos"),
+    kpi("♥ Me gusta: 30 días", fmt(R.lk_30), R.lk_cambio_30 == null ? "sin comparación" : `${flecha(R.lk_cambio_30)}${signo(R.lk_cambio_30, 1)} % frente a los 30 anteriores`, cls(R.lk_cambio_30)),
+    kpi("♥ Media diaria de me gusta", fmt(R.lk_media_30, 1), `últimos 7 días: ${fmt(R.lk_7)}`),
+    kpi("♥ Me gusta por cada 100 visualizaciones", R.vis_30 ? fmt(R.lk_30 / R.vis_30 * 100, 2) : "–", "últimos 30 días"),
   ].join("");
 }
 
@@ -233,7 +281,8 @@ function comparativa() {
   REDES.forEach(r => {
     const s = serieDe(r); let datos;
     if (modoComp === "seg") datos = s.filter(x => x.seg != null).map(x => ({ time: x.t, value: x.seg }));
-    else { const sv = recortarCola(s.filter(x => x.t >= (D.redes[r].resumen.desde_vis || "0")), "vis"); const m = media(sv.map(x => x.vis || 0), 30);
+    else { const campo = modoComp === "likes" ? "likes" : "vis", desde = modoComp === "likes" ? D.redes[r].resumen.desde_lk : D.redes[r].resumen.desde_vis;
+      const sv = recortarCola(s.filter(x => x.t >= (desde || "9999")), campo); const m = media(sv.map(x => x[campo] || 0), 30);
       datos = sv.map((x, i) => ({ time: x.t, value: Math.max(m[i], 0.01) })); }
     const l = g.addLineSeries({ color: D.redes[r].color, lineWidth: 2, priceLineVisible: false });
     l.setData(datos); filas.push({ nombre: D.redes[r].nombre, color: D.redes[r].color, serie: l, datos, fmt: v => fmt(v) });
@@ -293,7 +342,7 @@ function impacto() {
 /* ─────────── vídeos ─────────── */
 function tablaVideos() {
   let L = D.publicaciones.filter(p => filtroRed === "todas" || p.red === filtroRed);
-  L = L.slice().sort((a, b) => orden === "vis" ? b.vis - a.vis : b.fecha.localeCompare(a.fecha));
+  L = L.slice().sort((a, b) => orden === "vis" ? b.vis - a.vis : orden === "likes" ? b.likes - a.likes : b.fecha.localeCompare(a.fecha));
   document.querySelector("#tabla-videos tbody").innerHTML = L.map(p => `<tr><td>${fecha(p.fecha)}</td>
     <td><span class="chip" style="background:${D.redes[p.red].color};${p.red === "tiktok" ? "color:#000" : ""}">${D.redes[p.red].nombre}</span>${p.tipo ? `<span class="tipo">${p.tipo}</span>` : ""}</td>
     <td><a href="${p.url}" target="_blank" rel="noopener">${(p.titulo || "(sin título)").replace(/</g, "&lt;")}</a></td>

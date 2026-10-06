@@ -45,6 +45,20 @@ function vivos() {
   const ex = (a, b) => ` <em>×${fmt(a / b, 1)}</em>`;
   const dd = (id, v, b) => { const e = document.getElementById(id); if (e) e.innerHTML = fmt(v) + ex(v, b); };
   dd("c-vd", h.vd, an.vd); dd("c-md", h.md, an.md); dd("c-subs", h.subs_mes, an.subs_mes);
+  // me gusta al día en los tres tramos (del panel de redes, que está en el mismo repositorio)
+  fetch("datos_redes.json?" + Date.now()).then(r => r.json()).then(RD => {
+    const s = RD.series.youtube.filter(x => x[5] != null);
+    if (!s.length) return;
+    const lk = (a, b) => { const xs = s.filter(x => x[0] >= a && x[0] <= b); return xs.length ? xs.reduce((t, x) => t + x[5], 0) / xs.length : null; };
+    const ult = s[s.length - 1][0], d28 = new Date(Date.parse(ult) - 27 * 864e5).toISOString().slice(0, 10);
+    const v = [lk("2026-06-09", "2026-08-03"), lk("2026-08-04", "2026-09-28"), lk(d28, ult)];
+    document.querySelectorAll(".comparativa .col dl").forEach((dl, i) => {
+      if (dl.querySelector(".lk")) return;
+      const dt = document.createElement("dt"); dt.textContent = "Me gusta al día"; dt.className = "lk";
+      const dd = document.createElement("dd"); dd.innerHTML = fmt(v[i], 1) + (i > 0 && v[0] ? ` <em>×${fmt(v[i] / v[0], 1)}</em>` : "");
+      dl.append(dt, dd);
+    });
+  }).catch(() => {});
   const W = D.web.meses, wt = document.getElementById("web-texto");
   if (wt && W.length) {
     const ult = W.slice(-3).map(m => `${fmt(m[1])} visitas en ${m[0]}`).join(", ");

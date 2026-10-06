@@ -91,3 +91,6 @@ main { max-width: 1320px; margin: 0 auto; padding: 18px; }
 .ticker::-webkit-scrollbar, .tabs::-webkit-scrollbar, .tabla-wrap::-webkit-scrollbar { height: 6px; }
 .ticker::-webkit-scrollbar-thumb, .tabs::-webkit-scrollbar-thumb, .tabla-wrap::-webkit-scrollbar-thumb { background: #2a3140; border-radius: 3px; }
 .ticker::-webkit-scrollbar-track, .tabs::-webkit-scrollbar-track { background: transparent; }
+
+.tk .c.lk { color: #ff8fa6; font-weight: 500; }
+.tk { grid-template-rows: auto auto auto; }
