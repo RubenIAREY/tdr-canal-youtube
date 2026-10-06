@@ -25,9 +25,34 @@ const graficas = {};
 fetch("datos.json").then(r => r.json()).then(datos => {
   D = datos;
   document.querySelectorAll("[data-actualizado]").forEach(e => e.textContent = fechaLarga(D.actualizado));
-  semanas(); meses(); tipo(); largos(); web(); shorts(); proceso(); costes(); proyeccionInit();
+  vivos(); semanas(); meses(); tipo(); largos(); web(); shorts(); proceso(); costes(); proyeccionInit();
   contadores(); aparicion(); navegacion(); videosClic();
 });
+
+
+/* ───────── 06/10 · cifras de hoy (salen de datos.json, que se regenera cada día) ───────── */
+function vivos() {
+  const A = D.antes_despues, an = A.antes, h = A.ahora || A.despues;
+  const pon = (id, valor, dec, pre) => { const e = document.getElementById(id); if (!e) return;
+    e.dataset.cuenta = valor; e.dataset.dec = dec || 0; if (pre) e.dataset.pre = pre; e.textContent = (pre || "") + fmt(valor, dec || 0); };
+  const xv = h.vd / an.vd, xs = h.subs_mes / an.subs_mes;
+  pon("vd-ahora", Math.round(h.vd)); pon("k-xvis", +xv.toFixed(1), 1, "×"); pon("k-xsubs", Math.round(xs), 0, "×");
+  pon("k-views", D.canal.views); pon("k-subs", D.canal.subs);
+  const t = (id, txt) => { const e = document.getElementById(id); if (e) e.textContent = txt; };
+  t("x-vis-txt", `${fmt(xv, 1)} veces más visitas`); t("x-subs-txt", `${fmt(xs, 0)} veces más suscriptores`);
+  const f = new Date(D.actualizado); f.setDate(f.getDate() - 28);
+  t("f-hoy", `últimos 28 días · hasta ${fechaLarga(D.actualizado)}`);
+  const ex = (a, b) => ` <em>×${fmt(a / b, 1)}</em>`;
+  const dd = (id, v, b) => { const e = document.getElementById(id); if (e) e.innerHTML = fmt(v) + ex(v, b); };
+  dd("c-vd", h.vd, an.vd); dd("c-md", h.md, an.md); dd("c-subs", h.subs_mes, an.subs_mes);
+  const W = D.web.meses, wt = document.getElementById("web-texto");
+  if (wt && W.length) {
+    const ult = W.slice(-3).map(m => `${fmt(m[1])} visitas en ${m[0]}`).join(", ");
+    wt.innerHTML = `Sin rodeos: <strong>desde YouTube llegaron a la tienda ${ult}</strong>, y la última compra registrada que vino de YouTube
+      fue el ${D.web.compra.mes} (${fmt(D.web.compra.importe, 2)} €). Es poco, y tiene explicación: el 90 % de las visitas son
+      shorts, y en un short los enlaces de la descripción no se pueden pulsar.`;
+  }
+}
 
 /* ───────── 01 · semanas ───────── */
 function semanas() {
@@ -236,7 +261,7 @@ function web() {
   new Chart(document.getElementById("g-web"), {
     type: "bar",
     data: { labels: M.map(m => m[0]), datasets: [{ label: "Visitas a la tienda desde YouTube", data: M.map(m => m[1]),
-      backgroundColor: M.map(m => ["ago", "sep"].includes(m[0]) ? ROJO : "#3a3a46"), borderRadius: 4 }] },
+      backgroundColor: M.map((m, i) => i >= M.length - 3 ? ROJO : "#3a3a46"), borderRadius: 4 }] },
     options: { plugins: { legend: { display: false }, tooltip: { callbacks: { label: c => `${fmt(c.raw)} visitas a todoenrecambio.com` } },
       title: { display: true, text: "Visitas a todoenrecambio.com que vienen de YouTube (2026)", color: TEXTO } },
       scales: { x: { grid: { display: false } }, y: { beginAtZero: true } } }

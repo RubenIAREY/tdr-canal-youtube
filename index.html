@@ -25,6 +25,7 @@
     <a href="#tdr">Qué aporta</a>
     <a href="#coste">Coste</a>
     <a href="#automatizacion">Automatización</a>
+    <a href="panel.html" class="al-panel">Panel de redes ↗</a>
   </nav>
 </header>
 
@@ -35,16 +36,16 @@
   <div class="rejilla-fondo" aria-hidden="true"></div>
   <div class="contenedor">
     <p class="antetitulo">TodoEnRecambio · canal de YouTube · datos a <span data-actualizado></span></p>
-    <h1>De <span class="rojo" data-cuenta="182">182</span> a <span class="rojo" data-cuenta="1545">1.545</span><br>visitas al día</h1>
+    <h1>De <span class="rojo" data-cuenta="182">182</span> a <span class="rojo" id="vd-ahora" data-cuenta="1545">1.545</span><br>visitas al día</h1>
     <div class="subrayado"></div>
     <p class="entradilla">El 4 de agosto de 2026 subimos el primer vídeo hecho con inteligencia artificial: la sonda lambda.
-      Ocho semanas después el canal tiene <strong>ocho veces más visitas</strong> y gana <strong>dieciséis veces más suscriptores</strong>.
+      Hoy, con la media de los últimos 28 días, el canal tiene <strong id="x-vis-txt">ocho veces más visitas</strong> y gana <strong id="x-subs-txt">dieciséis veces más suscriptores</strong> que antes.
       Aquí está cómo, cuánto cuesta, qué hace cada herramienta y hasta dónde puede llegar en 2027.</p>
     <div class="kpis">
-      <div class="kpi"><b data-cuenta="8.5" data-dec="1">×8,5</b><span>visitas al día<br>que antes de la IA</span></div>
-      <div class="kpi"><b data-cuenta="16" data-pre="×">×16</b><span>suscriptores nuevos<br>al mes</span></div>
-      <div class="kpi"><b data-cuenta="265694">265.694</b><span>visitas totales<br>del canal</span></div>
-      <div class="kpi"><b data-cuenta="125">125</b><span>vídeos con IA en 8 semanas<br>(12 largos y 113 shorts)</span></div>
+      <div class="kpi"><b id="k-xvis" data-cuenta="8.5" data-dec="1" data-pre="×">×8,5</b><span>visitas al día<br>que antes de la IA</span></div>
+      <div class="kpi"><b id="k-xsubs" data-cuenta="16" data-pre="×">×16</b><span>suscriptores nuevos<br>al mes</span></div>
+      <div class="kpi"><b id="k-views" data-cuenta="265694">265.694</b><span>visitas totales<br>del canal</span></div>
+      <div class="kpi"><b id="k-subs" data-cuenta="347">347</b><span>suscriptores<br>del canal</span></div>
     </div>
     <a class="boton" href="#proyeccion">Ver la proyección a 2027 →</a>
   </div>
@@ -74,6 +75,11 @@
       <div class="col despues">
         <h3>56 días con IA</h3><p class="fechas">4 ago – 28 sep 2026</p>
         <dl><dt>Visitas al día</dt><dd>1.545 <em>×8,5</em></dd><dt>Minutos vistos al día</dt><dd>424 <em>×3,3</em></dd><dt>Suscriptores netos al mes</dt><dd>62 <em>×16</em></dd></dl>
+      </div>
+      <div class="flecha">→</div>
+      <div class="col despues hoy">
+        <h3>Hoy</h3><p class="fechas" id="f-hoy">últimos 28 días</p>
+        <dl><dt>Visitas al día</dt><dd id="c-vd">–</dd><dt>Minutos vistos al día</dt><dd id="c-md">–</dd><dt>Suscriptores netos al mes</dt><dd id="c-subs">–</dd></dl>
       </div>
     </div>
   </div>
@@ -222,7 +228,7 @@
     <h2>Hoy no vende.<br>Está construyendo para vender.</h2>
     <div class="dos">
       <div>
-        <p class="texto">Sin rodeos: <strong>desde YouTube llegaron a la tienda 20 visitas en agosto y 6 en septiembre</strong>, y la
+        <p class="texto" id="web-texto">Sin rodeos: <strong>desde YouTube llegaron a la tienda 20 visitas en agosto y 6 en septiembre</strong>, y la
           única compra registrada que vino de YouTube fue en mayo (93 €). Es poco, y tiene explicación: el 90 % de las visitas son
           shorts, y en un short los enlaces de la descripción no se pueden pulsar.</p>
         <div class="lienzo bajo"><canvas id="g-web"></canvas></div>

@@ -88,7 +88,7 @@ h3 { font-size: 19px; margin: 0 0 6px; }
 .pestanas button { font-size: 15px; padding: 10px 20px; }
 
 /* antes / después */
-.comparativa { display: grid; grid-template-columns: 1fr auto 1fr; gap: 18px; align-items: center; margin-top: 28px; }
+.comparativa { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; gap: 18px; align-items: center; margin-top: 28px; }
 .comparativa .col { background: var(--panel); border: 1px solid var(--borde); border-radius: var(--radio); padding: 22px; }
 .comparativa .despues { border-color: var(--rojo); box-shadow: 0 0 0 1px var(--rojo) inset, 0 20px 50px rgba(226, 0, 26, .12); }
 .comparativa h3 { font-family: Anton, Impact, sans-serif; font-weight: 400; text-transform: uppercase; font-size: 26px; margin: 0; }
@@ -229,3 +229,7 @@ input[type=range] { width: 100%; accent-color: var(--rojo); margin-top: 8px; }
 .conexiones span { color: var(--suave); font-size: 14px; }
 @media (max-width: 960px) { .control { grid-template-columns: 1fr; } .conexiones { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .conexiones { grid-template-columns: 1fr; } }
+
+/* 06/10: tercera columna «Hoy» y enlace al panel de redes */
+.comparativa .hoy { border-color: var(--ambar, #ffb547); box-shadow: 0 0 0 1px #ffb547 inset, 0 20px 50px rgba(255,181,71,.10); }
+.barra nav a.al-panel { color: #fff; background: var(--rojo); border-radius: 999px; padding: 4px 12px; }
