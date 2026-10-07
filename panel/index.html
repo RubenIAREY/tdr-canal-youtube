@@ -37,6 +37,7 @@
   <span class="sep" aria-hidden="true"></span>
   <button role="tab" data-vista="impacto" aria-selected="false">Impacto en TDR</button>
   <button role="tab" data-vista="videos" aria-selected="false">Vídeos</button>
+  <button role="tab" data-vista="comentarios" aria-selected="false">Comentarios</button>
   <button role="tab" data-vista="futuro" aria-selected="false">Futuro</button>
   <button role="tab" data-vista="mapa" aria-selected="false">Mapa de vídeos</button>
 </nav>
@@ -123,6 +124,11 @@
         <div class="tienda-mini" id="tienda-mini"></div>
         <button class="mas" data-ir="impacto">Ver el impacto en TDR <span aria-hidden="true">→</span></button>
       </section>
+      <section class="caja c-coment" id="carril-com" aria-labelledby="carril-com-t">
+        <div class="caja-cab"><h2 id="carril-com-t">Comentarios <small>últimos 30 días</small></h2></div>
+        <div class="com-mini" id="com-mini"><p class="nota">Cargando los comentarios…</p></div>
+        <button class="mas" id="com-ir">Ver comentarios <span aria-hidden="true">→</span></button>
+      </section>
       <section class="caja">
         <div class="caja-cab"><h2>Últimas publicaciones</h2></div>
         <ul class="teletipo" id="teletipo"></ul>
@@ -168,6 +174,9 @@
       <thead><tr><th>Fecha</th><th>Red</th><th>Título</th><th class="n">Visualizaciones</th><th class="n">Me gusta</th><th class="n col-com">Comentarios</th></tr></thead>
       <tbody></tbody></table></div></article>
   </section>
+  <section id="v-comentarios" class="vista vista-ancha oculta" aria-label="Comentarios y preguntas">
+    <div id="comentarios" class="comentarios-anfitrion"><p class="futuro-aviso">Cargando la sección Comentarios…</p></div>
+  </section>
   <section id="v-futuro" class="vista vista-ancha oculta" aria-label="Futuro: previsión de las redes">
     <div id="futuro" class="futuro-anfitrion"><p class="futuro-aviso">Cargando la sección Futuro…</p></div>
   </section>
@@ -184,6 +193,8 @@
     TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</p>
   <p>Me gusta: YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
     Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</p>
+  <p>Comentarios: YouTube con su API (texto, fecha y respuestas de cada comentario; aquí sin nombres, porque la página es pública). Instagram, TikTok y
+    Facebook con Metricool, que da cuántos comentarios tiene cada publicación pero no el texto (se cuentan el día en que se publicó).</p>
   <p>Tramos de horas (2H a 12H): son una estimación en todas las redes, no una medición: el dato de cada día repartido según la actividad de la
     audiencia por hora y día de la semana que da Metricool. En YouTube, aparte, se da lo medido entre las fotos del canal que toman las rutinas de las
     9:00 y las 17:00. Eventos: los marca la rutina que repasa los datos (subidas, bajadas y vídeos largos nuevos) o se escriben a mano.</p>

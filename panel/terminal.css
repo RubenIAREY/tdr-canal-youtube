@@ -831,3 +831,20 @@ html.con-pantalla-fija, html.con-pantalla-fija body { overflow: hidden; }
 .medido-et { display: inline-block; margin-right: 6px; padding: 1px 6px; border-radius: 3px; background: var(--sube); color: #fff;
   font: 700 10.5px/1.5 var(--f-cifra); letter-spacing: .08em; text-transform: uppercase; vertical-align: 1px; }
 html[data-tono="oscuro"] .medido-et { color: #0b1210; }
+
+/* pestaña Comentarios (módulo comun/comentarios.js) y su tarjeta pequeña en el carril de cada red */
+.comentarios-anfitrion { position: relative; min-height: 420px; }
+.com-mini { padding: var(--s2) var(--s4) 0; display: flex; flex-direction: column; gap: 2px; }
+.com-mini .nota { padding: 0 0 var(--s2); }
+.com-cifra { display: flex; align-items: baseline; gap: var(--s2); flex-wrap: wrap; }
+.com-cifra b { font: 600 24px/1.1 var(--f-cifra); letter-spacing: -0.02em; }
+.com-cifra span { font: 500 12.5px var(--f-cifra); }
+.com-sub, .com-leye, .com-dato, .com-alerta { margin: 0; font-size: 12px; line-height: 1.45; color: var(--tinta-suave); }
+.com-mini .spark { height: 28px; margin-top: var(--s1); }
+.com-leye { font-size: 11px; }
+.com-dato b { font: 600 12.5px var(--f-cifra); color: var(--tinta); }
+.com-alerta { margin-top: var(--s2); padding: 6px var(--s2); border-radius: var(--r1); border: 1px solid var(--baja); color: var(--tinta);
+  background: color-mix(in oklab, var(--baja) 9%, var(--capa1)); }
+.com-alerta b { font: 700 13px var(--f-cifra); color: var(--baja); }
+.com-dato { margin-top: var(--s1); }
+.c-coment .mas { min-height: 40px; }

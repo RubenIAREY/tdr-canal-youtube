@@ -6,7 +6,8 @@
    - tramos de 2, 4, 8 y 12 horas: ESTIMADOS en todas las redes, repartiendo el dato del día con la actividad de la audiencia por hora
      (../datos/perfil_horario.json, Metricool); en YouTube, además, lo medido entre las fotos del canal de las 9:00 y las 17:00
      (../datos/intradia_youtube.json);
-   - bloque «¿A qué hora está tu audiencia?», pestaña «Futuro» (módulo ../comun/futuro.js) y más paletas, con una personalizada.
+   - bloque «¿A qué hora está tu audiencia?», pestaña «Futuro» (módulo ../comun/futuro.js) y más paletas, con una personalizada;
+   - pestaña «Comentarios» (módulo ../comun/comentarios.js, datos ../datos/comentarios.json) y su tarjeta pequeña en el carril de cada red.
    Gráficas: TradingView lightweight-charts 4.2. Excel: SheetJS (se carga solo al descargar). */
 "use strict";
 const LC = window.LightweightCharts;
@@ -156,6 +157,7 @@ function aplicarAjustes(conRepintado = true) {
   pintarAjustes();
   if (mapa) mapa.setTema(temaMapa());
   if (futuro) try { futuro.actualizarTema(); } catch (e) { /* el módulo se repinta en su próximo cambio */ }
+  if (comentarios && !(conRepintado && D)) try { comentarios.actualizarTema(); } catch (e) { /* idem */ }
   if (conRepintado && D) repintar();
 }
 function pintarAjustes() {
@@ -221,6 +223,8 @@ let D, vista = "global", modoSeg = "velas", modoComp = "seg", modoLk = "dia", fi
 let periodoSeg = "semana", modoAcum = "velas", periodoAcum = "semana", periodoVis = "dia", periodoLk = "dia";
 let graficas = {}, INFO = {}, sincronizando = false, paneCompleta = null;
 let mapa = null, cargandoMapa = null, futuro = null, cargandoFuturo = null, intentosFuturo = 0;
+const COM_URL = "../datos/comentarios.json";
+let COM = null, COM_ESTADO = "cargando", comentarios = null, cargandoCom = null, intentosCom = 0, redCom = null;
 let EV = [], EV_POR_ID = {}, EV_ESTADO = "cargando", INTRA = null, PERFIL = null, redAudiencia = "youtube";
 
 leerAjustes(); montarAjustes(); aplicarAjustes(false);
@@ -230,6 +234,7 @@ Promise.all([
   leerJSON("../datos/eventos.json").then(cargarEventos, () => { EV_ESTADO = "falta"; }),
   leerJSON("../datos/intradia_youtube.json").then(cargarIntradia, () => { INTRA = null; }),
   leerJSON("../datos/perfil_horario.json").then(p => { PERFIL = p && p.redes ? p : null; }, () => { PERFIL = null; }),
+  leerJSON(COM_URL).then(j => { COM = j && j.redes ? j : null; COM_ESTADO = COM ? "ok" : "falta"; }, () => { COM = null; COM_ESTADO = "falta"; }),
 ]).then(([d]) => (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => { D = d; arrancar(); }))
   .catch(e => { $("#principal").innerHTML = `<p class="nota">No se han podido cargar los datos (${esc(e)}).</p>`; });
 
@@ -266,11 +271,12 @@ function arrancar() {
     g.querySelectorAll("button").forEach(b => b.onclick = () => rango(g.dataset.graf, b.dataset.r));
   });
   $("#descargar-todo").onclick = () => descargarTodo($("#descargar-todo"));
+  $("#com-ir").onclick = () => { redCom = vista; ir("comentarios"); };
   $("#ficha-ev .cerrar").onclick = () => cerrarFicha();
   document.addEventListener("fullscreenchange", alCambiarPantalla);
   document.addEventListener("webkitfullscreenchange", alCambiarPantalla);
   const h = location.hash.slice(1);
-  ir(["global", ...REDES, "impacto", "videos", "futuro", "mapa"].includes(h) ? h : "global");
+  ir(["global", ...REDES, "impacto", "videos", "comentarios", "futuro", "mapa"].includes(h) ? h : "global");
 }
 function marcar(sel, b, filtro = "") {
   const g = typeof sel === "string" ? $(sel) : sel;
@@ -439,17 +445,19 @@ function ir(v, conAnimacion = true) {
   $("#v-red").classList.toggle("oculta", !(v === "global" || REDES.includes(v)));
   $("#v-impacto").classList.toggle("oculta", v !== "impacto");
   $("#v-videos").classList.toggle("oculta", v !== "videos");
+  $("#v-comentarios").classList.toggle("oculta", v !== "comentarios");
   $("#v-futuro").classList.toggle("oculta", v !== "futuro");
   $("#v-mapa").classList.toggle("oculta", v !== "mapa");
   if (v !== "mapa" && mapa) mapa.pausar();
   if (v === "impacto") impacto(conAnimacion); else if (v === "videos") tablaVideos(); else if (v === "mapa") abrirMapa();
-  else if (v === "futuro") abrirFuturo(); else pintarRed(v, conAnimacion);
+  else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios(); else pintarRed(v, conAnimacion);
   if (conAnimacion) window.scrollTo({ top: 0 });
 }
 function repintar() {
   if (!D) return;
   ir(vista, false);
   if (futuro) try { futuro.actualizarTema(); } catch (e) { /* nada */ }
+  if (comentarios) try { comentarios.actualizarTema(); } catch (e) { /* nada */ }
 }
 
 /* ─────────── gráficas ─────────── */
@@ -670,6 +678,7 @@ function pintarRed(k, conAnimacion = true) {
   if (esG) comparativa();
   avisoDatos(k);
   audiencia(k);
+  comentariosMini(k);
   const act = document.querySelector('.grupo.rango[data-graf="seg"] button.on');
   rango("seg", act && !conAnimacion ? act.dataset.r : (k === "youtube" || esG ? "1A" : "Todo"));
 }
@@ -1194,8 +1203,12 @@ async function descargarGrafica(id, formato, boton) {
   const info = INFO[id], ch = graficas[id];
   if (!info || !ch) { toast("Esta gráfica no tiene datos que descargar."); return; }
   const r0 = ch.timeScale().getVisibleRange(), r = r0 && { from: normT(r0.from), to: normT(r0.to) };
-  const def = info.datos(r), v = info.vista || vista;
-  const nombre = ["TDR-redes", v, info.slug, info.periodo, D.actualizado.slice(0, 10)].filter(Boolean).join("-");
+  return bajarDatos(info.datos(r), { vista: info.vista || vista, titulo: info.titulo, slug: info.slug, periodo: info.periodo, cadaFila: info.cadaFila, nota: info.nota }, formato, boton);
+}
+// CSV o Excel de una tabla {columnas, tipos, filas[, anchos]}; meta: {vista, vistaNombre?, titulo, slug, periodo?, cadaFila?, alcance?, nota?}.
+// La usan las gráficas de la página y el módulo de Comentarios (opción «descargar»).
+async function bajarDatos(def, meta, formato, boton) {
+  const nombre = ["TDR-redes", meta.vista, meta.slug, meta.periodo, D.actualizado.slice(0, 10)].filter(Boolean).join("-");
   if (formato === "csv") {
     bajarBlob(new Blob([aCSV(def)], { type: "text/csv;charset=utf-8" }), nombre + ".csv");
     toast(`Descargado ${nombre}.csv · ${fmt(def.filas.length)} filas`); return;
@@ -1203,13 +1216,15 @@ async function descargarGrafica(id, formato, boton) {
   ocupado(boton, true);
   try {
     const X = await cargarXLSX(), wb = X.utils.book_new();
-    X.utils.book_append_sheet(wb, hoja(X, def.columnas, def.tipos, def.filas), "Datos");
-    const f0 = def.filas.length ? def.filas[0][0] : null, f1 = def.filas.length ? def.filas[def.filas.length - 1][0] : null;
+    X.utils.book_append_sheet(wb, hoja(X, def.columnas, def.tipos, def.filas, def.anchos), "Datos");
+    const esT = ["fecha", "ts"].includes(def.tipos[0]) && def.filas.length;
+    const f0 = esT ? def.filas[0][0] : null, f1 = esT ? def.filas[def.filas.length - 1][0] : null;
     const txt = t => t == null ? "–" : typeof t === "number" ? fechaHora(t) : fecha(t);
     X.utils.book_append_sheet(wb, hoja(X, ["Dato", "Valor"], ["txt", "txt"], [
-      ["Panel", "Panel de redes de TodoEnRecambio (Terminal papel 2)"], ["Vista", nombreVista(v)], ["Gráfica", info.titulo], ["Cada fila", info.cadaFila || "–"],
-      ["Lo que se veía", `${txt(f0)} – ${txt(f1)}`], ["Filas", fmt(def.filas.length)], ["Datos del", `${fecha(D.actualizado)} ${D.actualizado.slice(11)}`],
-      ...(info.nota ? [["Nota", info.nota]] : [])], [20, 100]), "Info");
+      ["Panel", "Panel de redes de TodoEnRecambio (Terminal papel 2)"], ["Vista", meta.vistaNombre || nombreVista(meta.vista)], ["Gráfica o tabla", meta.titulo], ["Cada fila", meta.cadaFila || "–"],
+      ...(esT ? [["Lo que se veía", `${txt(f0)} – ${txt(f1)}`]] : []), ...(meta.alcance ? [["Filtro", meta.alcance]] : []),
+      ["Filas", fmt(def.filas.length)], ["Datos del", `${fecha(D.actualizado)} ${D.actualizado.slice(11)}`],
+      ...(meta.nota ? [["Nota", meta.nota]] : [])], [20, 100]), "Info");
     X.writeFile(wb, nombre + ".xlsx", { compression: true });
     toast(`Descargado ${nombre}.xlsx · ${fmt(def.filas.length)} filas`);
   } catch (e) { toast("No se ha podido preparar el Excel: " + (e && e.message || e)); }
@@ -1238,7 +1253,7 @@ function hojaPrediccion(X, P) {
 async function descargarTodo(boton) {
   ocupado(boton, true);
   try {
-    const [X, pred] = await Promise.all([cargarXLSX(), leerJSON("../datos/prediccion.json").catch(() => null)]);
+    const [X, pred, com] = await Promise.all([cargarXLSX(), leerJSON("../datos/prediccion.json").catch(() => null), COM ? Promise.resolve(COM) : leerJSON(COM_URL).catch(() => null)]);
     const wb = X.utils.book_new(), add = (n, ws) => X.utils.book_append_sheet(wb, ws, n);
     const resumen = ["global", ...REDES].map(k => {
       const R = k === "global" ? D.global_ : D.redes[k].resumen;
@@ -1268,12 +1283,74 @@ async function descargarTodo(boton) {
       EV.map(e => [e.fecha, e.hasta, e.red === "global" ? "Global" : D.redes[e.red] ? D.redes[e.red].nombre : e.red, NOMBRE_MET[e.metrica] || e.metrica, NOMBRE_TIPO[e.tipo] || e.tipo,
         e.titulo, e.valor, e.esperado, e.detalle || "", (e.causa || []).map(c => `${c.titulo}${c.vis != null ? ` (${fmt(c.vis)} visualizaciones)` : ""}${c.url ? " " + c.url : ""}`).join(" | "),
         e.origen === "manual" ? "Escrito a mano" : "Rutina automática"]), [12, 12, 10, 15, 9, 44, 10, 12, 80, 80, 16]));
+    if (com && com.redes) hojasComentarios(X, com).forEach(([n, ws]) => add(n, ws));
     if (pred && pred.redes) add("Predicción", hojaPrediccion(X, pred));
     const nombre = `TDR-redes-datos-${D.actualizado.slice(0, 10)}.xlsx`;
     X.writeFile(wb, nombre, { compression: true });
     toast(`Descargado ${nombre} · ${wb.SheetNames.length} hojas${pred && pred.redes ? "" : " (sin predicción: no se ha podido leer prediccion.json)"}`);
   } catch (e) { toast("No se ha podido preparar el Excel: " + (e && e.message || e)); }
   finally { ocupado(boton, false); }
+}
+
+function hojasComentarios(X, c) {
+  const n = v => v == null || v === "" || !isFinite(+v) ? null : +v;
+  const filas = [["Global (las cuatro redes)", n(c.global && c.global.total), null, n(c.global && c.global.ultimos_30), n(c.global && c.global.previos_30), null, null, null, null, null, null, null, null]];
+  REDES.forEach(r => { const S = c.redes[r]; if (!S) return;
+    filas.push([S.nombre || D.redes[r].nombre, n(S.total_comentarios), n(S.total_sin_sorteos), n(S.ultimos_30), n(S.previos_30), n(S.por_1000_vis), n(S.por_1000_vis_sin_sorteos),
+      n(S.total_respuestas), n(S.respuestas_tdr), n(S.pct_respondidos_tdr), n(S.mediana_respuesta_h), n(S.preguntas), n(S.preguntas_sin_responder)]); });
+  filas.push({ t: ["txt"], v: [] }, { t: ["txt"], v: [`Comentarios del ${c.generado || "–"}. YouTube: texto y respuestas (sin nombres). Instagram, TikTok y Facebook: Metricool, solo cuántos hay en cada publicación.`] });
+  const hojas = [["Comentarios", hoja(X, ["Red", "Comentarios totales", "Sin sorteos", "Últimos 30 días", "30 días anteriores", "Por cada 1.000 visualizaciones", "Por cada 1.000 (sin sorteos)",
+    "Respuestas", "Respuestas de TDR", "Hilos contestados por TDR (%)", "Mediana hasta nuestra respuesta (h)", "Preguntas", "Preguntas sin responder"],
+    ["txt", "n0", "n0", "n0", "n0", "n2", "n2", "n0", "n0", "pct", "n1", "n0", "n0"], filas, [26])]];
+  const Y = c.redes.youtube;
+  if (Y && Array.isArray(Y.hilos) && Y.hilos.length) {
+    const tipo = { pregunta: "Pregunta", peticion: "Petición", correccion: "Corrección", agradecimiento: "Agradecimiento", opinion: "Opinión", queja: "Queja", otro: "Otro" };
+    hojas.push(["Comentarios YouTube", hoja(X, ["Fecha", "Vídeo", "Short o largo", "Tipo", "Temas", "Comentario", "Me gusta", "Respuestas", "Respuestas de TDR", "Contestado por TDR", "Horas hasta nuestra respuesta", "Enlace"],
+      ["fechahora", "txt", "txt", "txt", "txt", "txt", "n0", "n0", "n0", "txt", "n1", "url"],
+      Y.hilos.filter(h => h && h.id).map(h => { const rs = (h.respuestas || []).filter(Boolean); return [String(h.fecha || "").replace("T", " ").slice(0, 16), h.video_titulo || "", h.video_tipo || "",
+        h.de_tdr ? "Nuestro" : tipo[h.tipo] || h.tipo || "", (h.temas || []).join(", "), h.texto || "", n(h.likes), rs.length, rs.filter(x => x.es_tdr).length,
+        h.de_tdr ? "es nuestro" : h.respondido_tdr ? "sí" : "no", n(h.horas_hasta_respuesta), h.url || ""]; }), [16, 44, 10, 14, 24, 80, 8, 10, 10, 12, 12, 40])]);
+  }
+  return hojas;
+}
+
+/* ─────────── comentarios: tarjeta pequeña del carril y pestaña (módulo comun/comentarios.js) ─────────── */
+function comentariosMini(k) {
+  const el = $("#com-mini"), boton = $("#com-ir"); if (!el) return;
+  boton.innerHTML = `Ver comentarios${k === "global" ? "" : " de " + esc(nombreRed(k))} <span aria-hidden="true">→</span>`;
+  const S = COM && (k === "global" ? COM.global : COM.redes[k]);
+  if (!S) { el.innerHTML = `<p class="nota">${COM_ESTADO === "cargando" ? "Cargando los comentarios…" : "No se ha podido leer el fichero de comentarios (datos/comentarios.json)."}</p>`; return; }
+  const u = S.ultimos_30, p = S.previos_30, d = u != null && p != null ? u - p : null, pc = pct(u, p);
+  // comentarios por semana, últimas 12 semanas hasta la fecha de los datos (las semanas sin comentarios valen 0)
+  const fin = lunes(String(COM.generado || D.actualizado).slice(0, 10)), sem = new Map();
+  for (let i = 11; i >= 0; i--) { const t = new Date(fin + "T00:00:00Z"); t.setUTCDate(t.getUTCDate() - i * 7); sem.set(t.toISOString().slice(0, 10), 0); }
+  (S.serie || []).forEach(x => { if (Array.isArray(x) && typeof x[0] === "string") { const w = lunes(x[0]); if (sem.has(w)) sem.set(w, sem.get(w) + (+x[1] || 0)); } });
+  const Y = COM.redes.youtube, sin = Y && Y.texto && (k === "global" || k === "youtube") ? Y.preguntas_sin_responder : null;
+  const conS = S.comentarios_sorteos > 0, p1 = conS ? S.por_1000_vis_sin_sorteos : S.por_1000_vis;
+  el.innerHTML = `<div class="com-cifra"><b>${fmt(u)}</b><span class="${cls(d)}">${flecha(d)}${signo(d)}${pc != null ? ` (${signo(pc, 0)} %)` : ""}</span></div>
+    <p class="com-sub">comentarios; ${fmt(p)} en los 30 días anteriores</p>
+    ${spark([...sem.values()], colorRed(k), 28)}<p class="com-leye">Por semana, últimas 12 semanas</p>
+    ${sin > 0 ? `<p class="com-alerta"><b>${fmt(sin)}</b> ${sin === 1 ? "pregunta" : "preguntas"} sin responder en YouTube</p>` : ""}
+    ${p1 != null ? `<p class="com-dato"><b>${fmt(p1, p1 < 10 ? 2 : 1)}</b> comentarios por cada 1.000 visualizaciones${conS ? " (sin sorteos)" : ""}</p>` : ""}`;
+}
+function abrirComentarios() {
+  const red = redCom; redCom = null;
+  if (comentarios) { if (red) comentarios.elegirRed(red); return; }
+  if (cargandoCom) return;
+  const cont = $("#comentarios");
+  cargandoCom = (async () => {
+    try {
+      const { montarComentarios } = await import("../comun/comentarios.js" + (intentosCom ? "?r=" + intentosCom : ""));
+      cont.innerHTML = "";
+      comentarios = await montarComentarios(cont, { datos: COM || COM_URL, red: red || undefined, clave: "tdr-terminal-papel-2-comentarios",
+        logo: "../logo-tdr.png", descargar: bajarDatos });
+    } catch (e) {
+      comentarios = null;
+      cont.innerHTML = `<p class="futuro-aviso">La sección Comentarios se está preparando.</p>`;
+    }
+    intentosCom++;
+    cargandoCom = null;
+  })();
 }
 
 /* ─────────── mapa de vídeos (módulo común, se carga al abrir la pestaña) ─────────── */
