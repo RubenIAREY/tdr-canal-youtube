@@ -1,0 +1,1692 @@
+{
+ "generado": "2026-10-07 09:06",
+ "eventos": [
+  {
+   "id": "2024-11-14-global-vis-subida",
+   "fecha": "2024-11-14",
+   "hasta": "2024-11-14",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 907,
+   "esperado": 71,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Novedades EICMA 2024: Las mejores motos para 2025",
+     "url": "https://youtu.be/MFfXC3B9oyg",
+     "vis": 830
+    },
+    {
+     "red": "youtube",
+     "titulo": "Víctor López: Primer Español en Ganar la Isla de Man, consejos y marcas",
+     "url": "https://youtu.be/qo2vckk6bv0",
+     "vis": 41
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 14 nov 2024 las cuatro redes juntas llegaron a 907 visualizaciones en un día (lo normal eran unas 71). YouTube: 904 en su mejor día («Novedades EICMA 2024: Las mejores motos para 2025»)."
+  },
+  {
+   "id": "2024-11-14-youtube-vis-subida",
+   "fecha": "2024-11-14",
+   "hasta": "2024-11-14",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 904,
+   "esperado": 71,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Novedades EICMA 2024: Las mejores motos para 2025",
+     "url": "https://youtu.be/MFfXC3B9oyg",
+     "vis": 830
+    },
+    {
+     "red": "youtube",
+     "titulo": "Víctor López: Primer Español en Ganar la Isla de Man, consejos y marcas",
+     "url": "https://youtu.be/qo2vckk6bv0",
+     "vis": 41
+    },
+    {
+     "red": "youtube",
+     "titulo": "Black Friday para moteros",
+     "url": "https://youtu.be/v32DTLDueV4",
+     "vis": 6
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Novedades EICMA 2024: Las mejores moto»",
+   "detalle": "El 14 nov 2024 el canal llegó a 904 visualizaciones en un día (lo normal eran unas 71). El vídeo que más sumó fue «Novedades EICMA 2024: Las mejores motos para 2025», con 830. El 84 % llegó desde los suscriptores. Esos días se publicaron 4 vídeos."
+  },
+  {
+   "id": "2024-11-19-youtube-vis-subida",
+   "fecha": "2024-11-19",
+   "hasta": "2024-11-19",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 535,
+   "esperado": 74,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Black Friday para moteros",
+     "url": "https://youtu.be/v32DTLDueV4",
+     "vis": 426
+    },
+    {
+     "red": "youtube",
+     "titulo": "Black Friday 2024 para moteros",
+     "url": "https://youtu.be/00LhLqnW0TU",
+     "vis": 55
+    },
+    {
+     "red": "youtube",
+     "titulo": "Novedades EICMA 2024: Las mejores motos para 2025",
+     "url": "https://youtu.be/MFfXC3B9oyg",
+     "vis": 22
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Black Friday para moteros»",
+   "detalle": "El 19 nov 2024 el canal llegó a 535 visualizaciones en un día (lo normal eran unas 74). El vídeo que más sumó fue «Black Friday para moteros», con 426. El 90 % llegó desde ADVERTISING."
+  },
+  {
+   "id": "2025-01-06-youtube-vis-subida",
+   "fecha": "2025-01-06",
+   "hasta": "2025-01-07",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 656,
+   "esperado": 64,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Víctor López: Primer Español en Ganar la Isla de Man, consejos y marcas",
+     "url": "https://youtu.be/qo2vckk6bv0",
+     "vis": 1162
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tipos de pastillas de Freno delanteras Brembo Explicadas por el piloto Víctor López",
+     "url": "https://youtu.be/0xWHVIMBay8",
+     "vis": 17
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 17
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Víctor López: Primer Español en Ganar »",
+   "detalle": "Del 6 ene 2025 al 7 ene 2025 el canal llegó a 656 visualizaciones en un día (lo normal eran unas 64). El vídeo que más sumó fue «Víctor López: Primer Español en Ganar la Isla de Man, consejos y marcas», con 1.162. El 84 % llegó desde los suscriptores."
+  },
+  {
+   "id": "2025-02-06-youtube-largo-uWKdl5lqZIc",
+   "fecha": "2025-02-06",
+   "hasta": "2025-02-06",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: 🔧 Cambio de Aceite y Filtro en una Yamah",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «🔧 Cambio de Aceite y Filtro en una Yamaha R6R con Sara Román 🏍️🔥 | Guía Paso a Paso» (4 min). Hoy lleva 1.479 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "🔧 Cambio de Aceite y Filtro en una Yamaha R6R con Sara Román 🏍️🔥 | Guía Paso a Paso",
+     "url": "https://youtu.be/uWKdl5lqZIc",
+     "vis": 1479
+    }
+   ]
+  },
+  {
+   "id": "2025-03-19-youtube-largo-AzXsKI0b5Ro",
+   "fecha": "2025-03-19",
+   "hasta": "2025-03-19",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Masterclass de Cadenas Regina con Víctor",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Masterclass de Cadenas Regina con Víctor López – Parte 1: Introducción y Cadenas On-Road» (3 min). Hoy lleva 1.242 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Masterclass de Cadenas Regina con Víctor López – Parte 1: Introducción y Cadenas On-Road",
+     "url": "https://youtu.be/AzXsKI0b5Ro",
+     "vis": 1242
+    }
+   ]
+  },
+  {
+   "id": "2025-03-27-youtube-largo-b-r-f-uk9bo",
+   "fecha": "2025-03-27",
+   "hasta": "2025-03-27",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Masterclass Cadenas Regina – Parte 2: Ca",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Masterclass Cadenas Regina – Parte 2: Cadenas Off-Road con Víctor López.» (4 min). Hoy lleva 611 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Masterclass Cadenas Regina – Parte 2: Cadenas Off-Road con Víctor López.",
+     "url": "https://youtu.be/b-r-f-uk9bo",
+     "vis": 611
+    }
+   ]
+  },
+  {
+   "id": "2025-05-08-global-vis-subida",
+   "fecha": "2025-05-08",
+   "hasta": "2025-05-08",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 788,
+   "esperado": 78,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Lluvia en plena ruta? Protege tus pies sin complicarte",
+     "url": "https://youtu.be/yXoJDmR6KPc",
+     "vis": 699
+    },
+    {
+     "red": "youtube",
+     "titulo": "Todo lo que necesitas tu  y tu moto en todoenrecambio.com",
+     "url": "https://youtu.be/_4RkuEo9qIM",
+     "vis": 24
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 8 may 2025 las cuatro redes juntas llegaron a 788 visualizaciones en un día (lo normal eran unas 78). YouTube: 788 en su mejor día («¿Lluvia en plena ruta? Protege tus pies sin complicarte»)."
+  },
+  {
+   "id": "2025-05-08-youtube-vis-subida",
+   "fecha": "2025-05-08",
+   "hasta": "2025-05-08",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 788,
+   "esperado": 78,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Lluvia en plena ruta? Protege tus pies sin complicarte",
+     "url": "https://youtu.be/yXoJDmR6KPc",
+     "vis": 699
+    },
+    {
+     "red": "youtube",
+     "titulo": "Todo lo que necesitas tu  y tu moto en todoenrecambio.com",
+     "url": "https://youtu.be/_4RkuEo9qIM",
+     "vis": 24
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 13
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «¿Lluvia en plena ruta? Protege tus pie»",
+   "detalle": "El 8 may 2025 el canal llegó a 788 visualizaciones en un día (lo normal eran unas 78). El vídeo que más sumó fue «¿Lluvia en plena ruta? Protege tus pies sin complicarte», con 699. El 88 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2025-05-11-global-vis-subida",
+   "fecha": "2025-05-11",
+   "hasta": "2025-05-11",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1000,
+   "esperado": 82,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Lluvia en plena ruta? Protege tus pies sin complicarte",
+     "url": "https://youtu.be/yXoJDmR6KPc",
+     "vis": 920
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 18
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 11 may 2025 las cuatro redes juntas llegaron a 1.000 visualizaciones en un día (lo normal eran unas 82). YouTube: 1.000 en su mejor día («¿Lluvia en plena ruta? Protege tus pies sin complicarte»)."
+  },
+  {
+   "id": "2025-05-11-youtube-vis-subida",
+   "fecha": "2025-05-11",
+   "hasta": "2025-05-11",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1000,
+   "esperado": 82,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Lluvia en plena ruta? Protege tus pies sin complicarte",
+     "url": "https://youtu.be/yXoJDmR6KPc",
+     "vis": 920
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 18
+    },
+    {
+     "red": "youtube",
+     "titulo": "Todo lo que necesitas tu  y tu moto en todoenrecambio.com",
+     "url": "https://youtu.be/_4RkuEo9qIM",
+     "vis": 16
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «¿Lluvia en plena ruta? Protege tus pie»",
+   "detalle": "El 11 may 2025 el canal llegó a 1.000 visualizaciones en un día (lo normal eran unas 82). El vídeo que más sumó fue «¿Lluvia en plena ruta? Protege tus pies sin complicarte», con 920. El 85 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2025-05-14-youtube-largo-9bVoksxuMZ0",
+   "fecha": "2025-05-14",
+   "hasta": "2025-05-14",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Como cortar, montar y remachar tu cadena",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Como cortar, montar y remachar tu cadena de moto como un auténtico pro» (9 min). Hoy lleva 5.205 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Como cortar, montar y remachar tu cadena de moto como un auténtico pro",
+     "url": "https://youtu.be/9bVoksxuMZ0",
+     "vis": 5205
+    }
+   ]
+  },
+  {
+   "id": "2025-06-17-youtube-largo-iiA8tdNhXaA",
+   "fecha": "2025-06-17",
+   "hasta": "2025-06-17",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: 🎥 NOVEDADES EN CASCOS ACERBIS 2025 | Jet",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «🎥 NOVEDADES EN CASCOS ACERBIS 2025 | Jet, Integrales y Adventure» (3 min). Hoy lleva 1.156 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "🎥 NOVEDADES EN CASCOS ACERBIS 2025 | Jet, Integrales y Adventure",
+     "url": "https://youtu.be/iiA8tdNhXaA",
+     "vis": 1156
+    }
+   ]
+  },
+  {
+   "id": "2025-06-24-youtube-largo-QbFinfXlOlE",
+   "fecha": "2025-06-24",
+   "hasta": "2025-06-24",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: ¡Ya están aquí los nuevos filtros de air",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «¡Ya están aquí los nuevos filtros de aire DNA presentados en el EICMA 2024!» (6 min). Hoy lleva 47 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¡Ya están aquí los nuevos filtros de aire DNA presentados en el EICMA 2024!",
+     "url": "https://youtu.be/QbFinfXlOlE",
+     "vis": 47
+    }
+   ]
+  },
+  {
+   "id": "2025-09-04-global-vis-subida",
+   "fecha": "2025-09-04",
+   "hasta": "2025-09-06",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1134,
+   "esperado": 73,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en las cuatro redes",
+   "detalle": "Del 4 sep 2025 al 6 sep 2025 las cuatro redes juntas llegaron a 1.134 visualizaciones en un día, frente a unas 73 normales."
+  },
+  {
+   "id": "2025-09-11-global-vis-subida",
+   "fecha": "2025-09-11",
+   "hasta": "2025-09-12",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1172,
+   "esperado": 76,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Tu moto no arranca? Puede que sea la batería...",
+     "url": "https://youtu.be/23ijzbpayMI",
+     "vis": 835
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 11
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "Del 11 sep 2025 al 12 sep 2025 las cuatro redes juntas llegaron a 1.172 visualizaciones en un día (lo normal eran unas 76). YouTube: 899 en su mejor día («¿Tu moto no arranca? Puede que sea la batería...»)."
+  },
+  {
+   "id": "2025-09-12-youtube-vis-subida",
+   "fecha": "2025-09-12",
+   "hasta": "2025-09-12",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 899,
+   "esperado": 63,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "¿Tu moto no arranca? Puede que sea la batería...",
+     "url": "https://youtu.be/23ijzbpayMI",
+     "vis": 835
+    },
+    {
+     "red": "youtube",
+     "titulo": "Los Mejores Recambios de Moto en Todoenrecambio.com - Envíos Rápidos y Seguros",
+     "url": "https://youtu.be/CpFMlajJC_Q",
+     "vis": 11
+    },
+    {
+     "red": "youtube",
+     "titulo": "Cadenas Regina HPE. Sin mantenimiento!!",
+     "url": "https://youtu.be/TAx3crKTE00",
+     "vis": 7
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «¿Tu moto no arranca? Puede que sea la »",
+   "detalle": "El 12 sep 2025 el canal llegó a 899 visualizaciones en un día (lo normal eran unas 63). El vídeo que más sumó fue «¿Tu moto no arranca? Puede que sea la batería...», con 835. El 88 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2025-09-26-global-vis-subida",
+   "fecha": "2025-09-26",
+   "hasta": "2025-09-26",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1733,
+   "esperado": 347,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en las cuatro redes",
+   "detalle": "El 26 sep 2025 las cuatro redes juntas llegaron a 1.733 visualizaciones en un día, frente a unas 347 normales."
+  },
+  {
+   "id": "2025-09-29-global-vis-subida",
+   "fecha": "2025-09-29",
+   "hasta": "2025-09-30",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1629,
+   "esperado": 372,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico en Instagram",
+   "detalle": "Del 29 sep 2025 al 30 sep 2025 las cuatro redes juntas llegaron a 1.629 visualizaciones en un día (lo normal eran unas 372). Instagram: 1.557 en su mejor día."
+  },
+  {
+   "id": "2025-09-29-instagram-vis-subida",
+   "fecha": "2025-09-29",
+   "hasta": "2025-09-30",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1557,
+   "esperado": 284,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "Del 29 sep 2025 al 30 sep 2025 Instagram llegó a 1.557 visualizaciones en un día, frente a unas 284 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2025-10-07-global-vis-subida",
+   "fecha": "2025-10-07",
+   "hasta": "2025-10-07",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1874,
+   "esperado": 414,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Guantes de moto Oxford Montreal 4 0 Ms Dry2dry   GM201101",
+     "url": "https://youtu.be/9VA13iHStJM",
+     "vis": 1424
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tipos de pastillas de Freno delanteras Brembo Explicadas por el piloto Víctor López",
+     "url": "https://youtu.be/0xWHVIMBay8",
+     "vis": 10
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 7 oct 2025 las cuatro redes juntas llegaron a 1.874 visualizaciones en un día (lo normal eran unas 414). YouTube: 1.469 en su mejor día («Guantes de moto Oxford Montreal 4 0 Ms Dry2dry   GM201101»)."
+  },
+  {
+   "id": "2025-10-07-youtube-vis-subida",
+   "fecha": "2025-10-07",
+   "hasta": "2025-10-07",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1469,
+   "esperado": 66,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Guantes de moto Oxford Montreal 4 0 Ms Dry2dry   GM201101",
+     "url": "https://youtu.be/9VA13iHStJM",
+     "vis": 1424
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tipos de pastillas de Freno delanteras Brembo Explicadas por el piloto Víctor López",
+     "url": "https://youtu.be/0xWHVIMBay8",
+     "vis": 10
+    },
+    {
+     "red": "youtube",
+     "titulo": "Como cortar, montar y remachar tu cadena de moto como un auténtico pro",
+     "url": "https://youtu.be/9bVoksxuMZ0",
+     "vis": 7
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Guantes de moto Oxford Montreal 4 0 Ms»",
+   "detalle": "El 7 oct 2025 el canal llegó a 1.469 visualizaciones en un día (lo normal eran unas 66). El vídeo que más sumó fue «Guantes de moto Oxford Montreal 4 0 Ms Dry2dry   GM201101», con 1.424. El 94 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2025-10-27-global-vis-subida",
+   "fecha": "2025-10-27",
+   "hasta": "2025-10-27",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2137,
+   "esperado": 354,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Casco Acerbis Jet Aria",
+     "url": "https://youtu.be/I_hdI4lmYcI",
+     "vis": 1846
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tipos de pastillas de Freno delanteras Brembo Explicadas por el piloto Víctor López",
+     "url": "https://youtu.be/0xWHVIMBay8",
+     "vis": 7
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 27 oct 2025 las cuatro redes juntas llegaron a 2.137 visualizaciones en un día (lo normal eran unas 354). YouTube: 1.890 en su mejor día («Casco Acerbis Jet Aria»)."
+  },
+  {
+   "id": "2025-10-27-youtube-vis-subida",
+   "fecha": "2025-10-27",
+   "hasta": "2025-10-27",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1890,
+   "esperado": 61,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Casco Acerbis Jet Aria",
+     "url": "https://youtu.be/I_hdI4lmYcI",
+     "vis": 1846
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tipos de pastillas de Freno delanteras Brembo Explicadas por el piloto Víctor López",
+     "url": "https://youtu.be/0xWHVIMBay8",
+     "vis": 7
+    },
+    {
+     "red": "youtube",
+     "titulo": "Como cortar, montar y remachar tu cadena de moto como un auténtico pro",
+     "url": "https://youtu.be/9bVoksxuMZ0",
+     "vis": 7
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Casco Acerbis Jet Aria»",
+   "detalle": "El 27 oct 2025 el canal llegó a 1.890 visualizaciones en un día (lo normal eran unas 61). El vídeo que más sumó fue «Casco Acerbis Jet Aria», con 1.846. El 95 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2025-11-04-global-eicma",
+   "fecha": "2025-11-04",
+   "hasta": "2025-11-08",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 15380,
+   "esperado": 205,
+   "titulo": "EICMA 2025: el mejor día de las redes",
+   "detalle": "El 5 de noviembre de 2025 las cuatro redes juntas sumaron 15.380 visualizaciones, el mejor día que tiene el panel: shorts en YouTube y reels en Instagram grabados en la feria EICMA de Milán.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Ducati Panigale V4 R 2026",
+     "url": "https://youtu.be/mGBwFmDMNCw",
+     "vis": 10398
+    },
+    {
+     "red": "instagram",
+     "titulo": "Yamaha Tracer 7 2026 (EICMA 2025)",
+     "url": "https://www.instagram.com/reel/DQpJuTFk34g/",
+     "vis": 2089
+    }
+   ],
+   "origen": "manual"
+  },
+  {
+   "id": "2025-11-04-instagram-eicma",
+   "fecha": "2025-11-04",
+   "hasta": "2025-11-08",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 6450,
+   "esperado": 112,
+   "titulo": "EICMA 2025: 17 reels desde Milán",
+   "detalle": "Del 4 al 7 de noviembre se publicaron 17 reels de las motos nuevas de EICMA 2025. Hoy suman unas 20.600 visualizaciones; los más vistos, la Yamaha Tracer 7 (2.089), la BMW F 900 GS Adventure (2.041) y la Ducati Panigale V4 R (1.798, la de más me gusta).",
+   "causa": [
+    {
+     "red": "instagram",
+     "titulo": "Yamaha Tracer 7 2026 (EICMA 2025)",
+     "url": "https://www.instagram.com/reel/DQpJuTFk34g/",
+     "vis": 2089
+    },
+    {
+     "red": "instagram",
+     "titulo": "BMW F 900 GS Adventure (EICMA 2025)",
+     "url": "https://www.instagram.com/reel/DQwLsh8jKva/",
+     "vis": 2041
+    },
+    {
+     "red": "instagram",
+     "titulo": "Ducati Panigale V4 R 2026 (EICMA 2025)",
+     "url": "https://www.instagram.com/reel/DQo_ub5ktn8/",
+     "vis": 1798
+    }
+   ],
+   "origen": "manual"
+  },
+  {
+   "id": "2025-11-04-youtube-eicma",
+   "fecha": "2025-11-04",
+   "hasta": "2025-11-08",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 12141,
+   "esperado": 68,
+   "titulo": "EICMA 2025: shorts de las motos nuevas",
+   "detalle": "Desde la feria EICMA de Milán se publicaron shorts de las motos 2026 (18 del 4 al 18 de noviembre). El de la Ducati Panigale V4 R sumó 10.398 visualizaciones del 3 al 12 de noviembre (4.560 solo el día 5), casi todas desde el feed de Shorts. La serie lleva hoy 98.194 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Ducati Panigale V4 R 2026",
+     "url": "https://youtu.be/mGBwFmDMNCw",
+     "vis": 10398
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Yamaha WR125R 2026",
+     "url": "https://youtu.be/wNQfeOf9shY",
+     "vis": 2896
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Triumph TF 450 X 2026",
+     "url": "https://youtu.be/Ln0Rm6TBCIY",
+     "vis": 2439
+    }
+   ],
+   "origen": "manual"
+  },
+  {
+   "id": "2025-11-05-youtube-seg-subida",
+   "fecha": "2025-11-05",
+   "hasta": "2025-11-06",
+   "red": "youtube",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 24,
+   "esperado": 0,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Ducati Panigale V4 R 2026",
+     "url": "https://youtu.be/mGBwFmDMNCw",
+     "vis": 6700
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Morbidelli T502X 2026",
+     "url": "https://youtu.be/vEvGforVmus",
+     "vis": 1662
+    }
+   ],
+   "origen": "auto",
+   "titulo": "+24 seguidores en YouTube",
+   "detalle": "Del 5 nov 2025 al 6 nov 2025 YouTube ganó 24 seguidores; lo normal era 0 al día. El vídeo más visto esos días fue «EICMA 2025 - Ducati Panigale V4 R 2026»."
+  },
+  {
+   "id": "2026-02-03-facebook-vis-subida",
+   "fecha": "2026-02-03",
+   "hasta": "2026-02-05",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 6395,
+   "esperado": 7,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "Del 3 feb 2026 al 5 feb 2026 Facebook llegó a 6.395 visualizaciones en un día, frente a unas 7 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-02-03-global-vis-subida",
+   "fecha": "2026-02-03",
+   "hasta": "2026-02-05",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 9243,
+   "esperado": 486,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico en Facebook y Instagram",
+   "detalle": "Del 3 feb 2026 al 5 feb 2026 las cuatro redes juntas llegaron a 9.243 visualizaciones en un día (lo normal eran unas 486). Facebook: 6.395 en su mejor día. Instagram: 2.465 en su mejor día."
+  },
+  {
+   "id": "2026-02-03-instagram-vis-subida",
+   "fecha": "2026-02-03",
+   "hasta": "2026-02-05",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2465,
+   "esperado": 150,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "Del 3 feb 2026 al 5 feb 2026 Instagram llegó a 2.465 visualizaciones en un día, frente a unas 150 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-02-04-instagram-seg-subida",
+   "fecha": "2026-02-04",
+   "hasta": "2026-02-05",
+   "red": "instagram",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 44,
+   "esperado": 0,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "+44 seguidores en Instagram",
+   "detalle": "Del 4 feb 2026 al 5 feb 2026 Instagram ganó 44 seguidores; lo normal era 0 al día."
+  },
+  {
+   "id": "2026-03-19-instagram-vis-subida",
+   "fecha": "2026-03-19",
+   "hasta": "2026-03-19",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 528,
+   "esperado": 146,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "El 19 mar 2026 Instagram llegó a 528 visualizaciones en un día, frente a unas 146 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-03-23-facebook-vis-subida",
+   "fecha": "2026-03-23",
+   "hasta": "2026-03-28",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 361,
+   "esperado": 9,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "Del 23 mar 2026 al 28 mar 2026 Facebook llegó a 361 visualizaciones en un día, frente a unas 9 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-03-23-global-vis-subida",
+   "fecha": "2026-03-23",
+   "hasta": "2026-03-28",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2350,
+   "esperado": 504,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico en Instagram y Facebook",
+   "detalle": "Del 23 mar 2026 al 28 mar 2026 las cuatro redes juntas llegaron a 2.350 visualizaciones en un día (lo normal eran unas 504). Instagram: 1.860 en su mejor día. Facebook: 361 en su mejor día."
+  },
+  {
+   "id": "2026-03-23-instagram-vis-subida",
+   "fecha": "2026-03-23",
+   "hasta": "2026-03-28",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1860,
+   "esperado": 159,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "Del 23 mar 2026 al 28 mar 2026 Instagram llegó a 1.860 visualizaciones en un día, frente a unas 159 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-03-23-instagram-seg-subida",
+   "fecha": "2026-03-23",
+   "hasta": "2026-03-23",
+   "red": "instagram",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 11,
+   "esperado": 0,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "+11 seguidores en Instagram",
+   "detalle": "El 23 mar 2026 Instagram ganó 11 seguidores; lo normal era 0 al día."
+  },
+  {
+   "id": "2026-04-13-instagram-vis-subida",
+   "fecha": "2026-04-13",
+   "hasta": "2026-04-13",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 736,
+   "esperado": 192,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "El 13 abr 2026 Instagram llegó a 736 visualizaciones en un día, frente a unas 192 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-04-29-facebook-vis-subida",
+   "fecha": "2026-04-29",
+   "hasta": "2026-05-01",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1306,
+   "esperado": 8,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "Del 29 abr 2026 al 1 may 2026 Facebook llegó a 1.306 visualizaciones en un día, frente a unas 8 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-04-29-facebook-seg-subida",
+   "fecha": "2026-04-29",
+   "hasta": "2026-04-29",
+   "red": "facebook",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 10,
+   "esperado": 0,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "+10 seguidores en Facebook",
+   "detalle": "El 29 abr 2026 Facebook ganó 10 seguidores; lo normal era 0 al día."
+  },
+  {
+   "id": "2026-04-29-global-vis-subida",
+   "fecha": "2026-04-29",
+   "hasta": "2026-05-01",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2794,
+   "esperado": 485,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico en Instagram y Facebook",
+   "detalle": "Del 29 abr 2026 al 1 may 2026 las cuatro redes juntas llegaron a 2.794 visualizaciones en un día (lo normal eran unas 485). Instagram: 1.385 en su mejor día. Facebook: 1.306 en su mejor día."
+  },
+  {
+   "id": "2026-04-29-instagram-vis-subida",
+   "fecha": "2026-04-29",
+   "hasta": "2026-05-01",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1385,
+   "esperado": 202,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "Del 29 abr 2026 al 1 may 2026 Instagram llegó a 1.385 visualizaciones en un día, frente a unas 202 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-05-01-instagram-seg-subida",
+   "fecha": "2026-05-01",
+   "hasta": "2026-05-01",
+   "red": "instagram",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 14,
+   "esperado": 0,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "+14 seguidores en Instagram",
+   "detalle": "El 1 may 2026 Instagram ganó 14 seguidores; lo normal era 0 al día."
+  },
+  {
+   "id": "2026-05-10-facebook-vis-subida",
+   "fecha": "2026-05-10",
+   "hasta": "2026-05-10",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 165,
+   "esperado": 8,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "El 10 may 2026 Facebook llegó a 165 visualizaciones en un día, frente a unas 8 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-06-05-facebook-vis-subida",
+   "fecha": "2026-06-05",
+   "hasta": "2026-06-05",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 203,
+   "esperado": 2,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "El 5 jun 2026 Facebook llegó a 203 visualizaciones en un día, frente a unas 2 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-06-15-facebook-vis-subida",
+   "fecha": "2026-06-15",
+   "hasta": "2026-06-19",
+   "red": "facebook",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 474,
+   "esperado": 4,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Facebook",
+   "detalle": "Del 15 jun 2026 al 19 jun 2026 Facebook llegó a 474 visualizaciones en un día, frente a unas 4 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-06-15-global-vis-subida",
+   "fecha": "2026-06-15",
+   "hasta": "2026-06-22",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1662,
+   "esperado": 367,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico en Instagram y Facebook",
+   "detalle": "Del 15 jun 2026 al 22 jun 2026 las cuatro redes juntas llegaron a 1.662 visualizaciones en un día (lo normal eran unas 367). Instagram: 973 en su mejor día. Facebook: 474 en su mejor día."
+  },
+  {
+   "id": "2026-06-16-instagram-vis-subida",
+   "fecha": "2026-06-16",
+   "hasta": "2026-06-23",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 973,
+   "esperado": 141,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Pico de visualizaciones en Instagram",
+   "detalle": "Del 16 jun 2026 al 23 jun 2026 Instagram llegó a 973 visualizaciones en un día, frente a unas 141 normales. Pendiente de revisar: las publicaciones y reels guardados de esos días no lo explican (puede venir de historias o de algo compartido por otros)."
+  },
+  {
+   "id": "2026-06-24-instagram-vis-bajada",
+   "fecha": "2026-06-24",
+   "hasta": "2026-07-09",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "bajada",
+   "valor": 85,
+   "esperado": 226,
+   "causa": [],
+   "origen": "auto",
+   "titulo": "Bajada de visualizaciones en Instagram",
+   "detalle": "Del 24 jun 2026 al 9 jul 2026 la media bajó a 85 al día, frente a 226 en las cuatro semanas anteriores."
+  },
+  {
+   "id": "2026-07-28-global-vis-subida",
+   "fecha": "2026-07-28",
+   "hasta": "2026-07-28",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1753,
+   "esperado": 584,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Guantes de verano Acerbis Ramsey MY Vented | TodoEnRecambio",
+     "url": "https://youtu.be/v4TRt8A-s14",
+     "vis": 545
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - BMW F 800 GS 2026",
+     "url": "https://youtu.be/r2LMiCelafE",
+     "vis": 45
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 28 jul 2026 las cuatro redes juntas llegaron a 1.753 visualizaciones en un día (lo normal eran unas 584). YouTube: 711 en su mejor día («Guantes de verano Acerbis Ramsey MY Vented | TodoEnRecambio»)."
+  },
+  {
+   "id": "2026-07-28-youtube-vis-subida",
+   "fecha": "2026-07-28",
+   "hasta": "2026-07-28",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 711,
+   "esperado": 152,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Guantes de verano Acerbis Ramsey MY Vented | TodoEnRecambio",
+     "url": "https://youtu.be/v4TRt8A-s14",
+     "vis": 545
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - BMW F 800 GS 2026",
+     "url": "https://youtu.be/r2LMiCelafE",
+     "vis": 45
+    },
+    {
+     "red": "youtube",
+     "titulo": "EICMA 2025 - Morbidelli F352 2026",
+     "url": "https://youtu.be/eCUdq0FhBfc",
+     "vis": 21
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Guantes de verano Acerbis Ramsey MY Ve»",
+   "detalle": "El 28 jul 2026 el canal llegó a 711 visualizaciones en un día (lo normal eran unas 152). El vídeo que más sumó fue «Guantes de verano Acerbis Ramsey MY Vented | TodoEnRecambio», con 545. El 77 % llegó desde el feed de Shorts. Esos días se publicaron 1 vídeos."
+  },
+  {
+   "id": "2026-08-04-global-ia",
+   "fecha": "2026-08-04",
+   "hasta": "2026-08-04",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "hito",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Empiezan los vídeos hechos con IA",
+   "detalle": "Desde el 4 de agosto de 2026 YouTube pasa a publicar largos y shorts hechos con avatar e IA: 160 vídeos hasta el 5 de octubre, frente a 3 en los dos meses anteriores.",
+   "causa": [],
+   "origen": "manual"
+  },
+  {
+   "id": "2026-08-04-instagram-vis-subida",
+   "fecha": "2026-08-04",
+   "hasta": "2026-08-04",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1179,
+   "esperado": 65,
+   "causa": [
+    {
+     "red": "instagram",
+     "titulo": "En el off-road, tarde o temprano se cae (petos Acerbis)",
+     "url": "https://www.instagram.com/reel/DbnaOzIjpsh/",
+     "vis": 1238
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «En el off-road, tarde o temprano se ca»",
+   "detalle": "El 4 ago 2026 Instagram llegó a 1.179 visualizaciones en un día, frente a unas 65 normales."
+  },
+  {
+   "id": "2026-08-04-youtube-largo-2O1Fu6S6drw",
+   "fecha": "2026-08-04",
+   "hasta": "2026-08-04",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Tu coche gasta más gasolina: empieza por",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Tu coche gasta más gasolina: empieza por la sonda lambda» (5 min). Hoy lleva 23 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Tu coche gasta más gasolina: empieza por la sonda lambda",
+     "url": "https://youtu.be/2O1Fu6S6drw",
+     "vis": 23
+    }
+   ]
+  },
+  {
+   "id": "2026-08-04-youtube-ia",
+   "fecha": "2026-08-04",
+   "hasta": "2026-08-04",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "hito",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Empiezan los vídeos hechos con IA",
+   "detalle": "Primer vídeo largo hecho con avatar e IA («Tu coche gasta más gasolina: empieza por la sonda lambda»). Del 1 de junio al 3 de agosto se publicaron 3 vídeos; del 4 de agosto al 5 de octubre, 160 (14 largos y el resto shorts).",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Tu coche gasta más gasolina: empieza por la sonda lambda",
+     "url": "https://youtu.be/2O1Fu6S6drw",
+     "vis": null
+    }
+   ],
+   "origen": "manual"
+  },
+  {
+   "id": "2026-08-06-youtube-largo-pRd2_-7b8LQ",
+   "fecha": "2026-08-06",
+   "hasta": "2026-08-06",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Tu coche tironea al arrancar: mira cómo ",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Tu coche tironea al arrancar: mira cómo están tus bujías» (5 min). Hoy lleva 74 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Tu coche tironea al arrancar: mira cómo están tus bujías",
+     "url": "https://youtu.be/pRd2_-7b8LQ",
+     "vis": 74
+    }
+   ]
+  },
+  {
+   "id": "2026-08-08-youtube-vis-subida",
+   "fecha": "2026-08-08",
+   "hasta": "2026-08-20",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2303,
+   "esperado": 148,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Gira a más de cien mil vueltas por minuto",
+     "url": "https://youtu.be/aDWAYpg9k7w",
+     "vis": 2917
+    },
+    {
+     "red": "youtube",
+     "titulo": "¿Tirones? La chispa se está fugando por la carbonilla",
+     "url": "https://youtu.be/XC7Ebt_iF-0",
+     "vis": 1958
+    },
+    {
+     "red": "youtube",
+     "titulo": "Solo ciudad y trayectos cortos: esto les pasa a tus bujías",
+     "url": "https://youtu.be/x1z-4mQhLjQ",
+     "vis": 1792
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «Gira a más de cien mil vueltas por min»",
+   "detalle": "Del 8 ago 2026 al 20 ago 2026 el canal llegó a 2.303 visualizaciones en un día (lo normal eran unas 148). El vídeo que más sumó fue «Gira a más de cien mil vueltas por minuto», con 2.917. El 83 % llegó desde el feed de Shorts. Esos días se publicaron 16 vídeos."
+  },
+  {
+   "id": "2026-08-09-global-vis-subida",
+   "fecha": "2026-08-09",
+   "hasta": "2026-08-09",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2335,
+   "esperado": 570,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Gira a más de cien mil vueltas por minuto",
+     "url": "https://youtu.be/aDWAYpg9k7w",
+     "vis": 2917
+    },
+    {
+     "red": "youtube",
+     "titulo": "¿Tirones? La chispa se está fugando por la carbonilla",
+     "url": "https://youtu.be/XC7Ebt_iF-0",
+     "vis": 1958
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 9 ago 2026 las cuatro redes juntas llegaron a 2.335 visualizaciones en un día (lo normal eran unas 570). YouTube: 2.303 en su mejor día («Gira a más de cien mil vueltas por minuto»)."
+  },
+  {
+   "id": "2026-08-12-global-vis-subida",
+   "fecha": "2026-08-12",
+   "hasta": "2026-08-18",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2803,
+   "esperado": 578,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Gira a más de cien mil vueltas por minuto",
+     "url": "https://youtu.be/aDWAYpg9k7w",
+     "vis": 2917
+    },
+    {
+     "red": "youtube",
+     "titulo": "¿Tirones? La chispa se está fugando por la carbonilla",
+     "url": "https://youtu.be/XC7Ebt_iF-0",
+     "vis": 1958
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "Del 12 ago 2026 al 18 ago 2026 las cuatro redes juntas llegaron a 2.803 visualizaciones en un día (lo normal eran unas 578). YouTube: 2.303 en su mejor día («Gira a más de cien mil vueltas por minuto»)."
+  },
+  {
+   "id": "2026-08-13-youtube-largo-owrrPGwo4wM",
+   "fecha": "2026-08-13",
+   "hasta": "2026-08-13",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Turbo del coche: 3 síntomas de que se es",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata» (11 min). Hoy lleva 3.075 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata",
+     "url": "https://youtu.be/owrrPGwo4wM",
+     "vis": 3075
+    }
+   ]
+  },
+  {
+   "id": "2026-08-24-youtube-largo-AIg81H7sAlk",
+   "fecha": "2026-08-24",
+   "hasta": "2026-08-24",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Mayonesa en el aceite: así avisa la junt",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Mayonesa en el aceite: así avisa la junta de culata» (10 min). Hoy lleva 266 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Mayonesa en el aceite: así avisa la junta de culata",
+     "url": "https://youtu.be/AIg81H7sAlk",
+     "vis": 266
+    }
+   ]
+  },
+  {
+   "id": "2026-08-25-youtube-vis-subida",
+   "fecha": "2026-08-25",
+   "hasta": "2026-08-26",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 2978,
+   "esperado": 676,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "La pieza con peor fama del motor entero",
+     "url": "https://youtu.be/gEJAFysMPEA",
+     "vis": 1670
+    },
+    {
+     "red": "youtube",
+     "titulo": "Mayonesa en el tapón del aceite: esto es lo que es",
+     "url": "https://youtu.be/RNQr1ERbjVg",
+     "vis": 1230
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tu motor se está bebiendo el refrigerante",
+     "url": "https://youtu.be/m8UGL3sPyAQ",
+     "vis": 965
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «La pieza con peor fama del motor enter»",
+   "detalle": "Del 25 ago 2026 al 26 ago 2026 el canal llegó a 2.978 visualizaciones en un día (lo normal eran unas 676). El vídeo que más sumó fue «La pieza con peor fama del motor entero», con 1.670. El 86 % llegó desde el feed de Shorts. Esos días se publicaron 5 vídeos."
+  },
+  {
+   "id": "2026-08-28-youtube-largo-91tpf3ckH2c",
+   "fecha": "2026-08-28",
+   "hasta": "2026-08-28",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Filtro de aire: por qué te quita fuerza ",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Filtro de aire: por qué te quita fuerza y qué le hace al caudalímetro» (7 min). Hoy lleva 76 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Filtro de aire: por qué te quita fuerza y qué le hace al caudalímetro",
+     "url": "https://youtu.be/91tpf3ckH2c",
+     "vis": 76
+    }
+   ]
+  },
+  {
+   "id": "2026-09-02-youtube-largo-BzaE2kY8kWY",
+   "fecha": "2026-09-02",
+   "hasta": "2026-09-02",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Pastillas de freno: las señales que avis",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Pastillas de freno: las señales que avisan antes de que te salga caro» (10 min). Hoy lleva 58 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Pastillas de freno: las señales que avisan antes de que te salga caro",
+     "url": "https://youtu.be/BzaE2kY8kWY",
+     "vis": 58
+    }
+   ]
+  },
+  {
+   "id": "2026-09-07-youtube-largo-8MX72C-UrSs",
+   "fecha": "2026-09-07",
+   "hasta": "2026-09-07",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Anticongelante: por qué no debes echarle",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Anticongelante: por qué no debes echarle agua (y cuál lleva tu coche)» (9 min). Hoy lleva 100 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Anticongelante: por qué no debes echarle agua (y cuál lleva tu coche)",
+     "url": "https://youtu.be/8MX72C-UrSs",
+     "vis": 100
+    }
+   ]
+  },
+  {
+   "id": "2026-09-11-youtube-largo-m-hBOjzFGn0",
+   "fecha": "2026-09-11",
+   "hasta": "2026-09-11",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: EMBRAGUE GASTADO: las 5 señales que da m",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «EMBRAGUE GASTADO: las 5 señales que da meses antes de dejarte tirado» (11 min). Hoy lleva 182 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "EMBRAGUE GASTADO: las 5 señales que da meses antes de dejarte tirado",
+     "url": "https://youtu.be/m-hBOjzFGn0",
+     "vis": 182
+    }
+   ]
+  },
+  {
+   "id": "2026-09-16-youtube-largo-8F-d-tXojfE",
+   "fecha": "2026-09-16",
+   "hasta": "2026-09-16",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Filtro de aceite: cómo saber cuál lleva ",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Filtro de aceite: cómo saber cuál lleva tu coche (y el fallo que nadie cuenta)» (10 min). Hoy lleva 252 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Filtro de aceite: cómo saber cuál lleva tu coche (y el fallo que nadie cuenta)",
+     "url": "https://youtu.be/8F-d-tXojfE",
+     "vis": 252
+    }
+   ]
+  },
+  {
+   "id": "2026-09-21-youtube-largo--CeRG5wpIug",
+   "fecha": "2026-09-21",
+   "hasta": "2026-09-21",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: El coche no arranca: cómo saber si es la",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «El coche no arranca: cómo saber si es la batería y qué la está matando» (10 min). Hoy lleva 69 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "El coche no arranca: cómo saber si es la batería y qué la está matando",
+     "url": "https://youtu.be/-CeRG5wpIug",
+     "vis": 69
+    }
+   ]
+  },
+  {
+   "id": "2026-09-24-instagram-vis-subida",
+   "fecha": "2026-09-24",
+   "hasta": "2026-09-25",
+   "red": "instagram",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 1663,
+   "esperado": 49,
+   "causa": [
+    {
+     "red": "instagram",
+     "titulo": "¿Y si tu perro también se viene de ruta? (Bagster Puppy)",
+     "url": "https://www.instagram.com/reel/DdrDklhiVjo/",
+     "vis": 2014
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «¿Y si tu perro también se viene de rut»",
+   "detalle": "Del 24 sep 2026 al 25 sep 2026 Instagram llegó a 1.663 visualizaciones en un día, frente a unas 49 normales."
+  },
+  {
+   "id": "2026-09-24-youtube-largo-DgVqRPczOqk",
+   "fecha": "2026-09-24",
+   "hasta": "2026-09-24",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Cómo llevar a tu perro en moto: la norma",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Cómo llevar a tu perro en moto: la norma y la bolsa que usamos» (4 min). Hoy lleva 47 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Cómo llevar a tu perro en moto: la norma y la bolsa que usamos",
+     "url": "https://youtu.be/DgVqRPczOqk",
+     "vis": 47
+    }
+   ]
+  },
+  {
+   "id": "2026-09-28-youtube-largo-zqbl3mRGB00",
+   "fecha": "2026-09-28",
+   "hasta": "2026-09-28",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Amortiguadores gastados: las señales que",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Amortiguadores gastados: las señales que notas conduciendo (y la que no admite discusión)» (9 min). Hoy lleva 51 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Amortiguadores gastados: las señales que notas conduciendo (y la que no admite discusión)",
+     "url": "https://youtu.be/zqbl3mRGB00",
+     "vis": 51
+    }
+   ]
+  },
+  {
+   "id": "2026-09-30-youtube-vis-subida",
+   "fecha": "2026-09-30",
+   "hasta": "2026-10-03",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 8510,
+   "esperado": 1790,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "A la correa de distribución la mata otra cosa",
+     "url": "https://youtu.be/5zSbQQUnMpw",
+     "vis": 1733
+    },
+    {
+     "red": "youtube",
+     "titulo": "Las grietas de la correa: dónde se miran",
+     "url": "https://youtu.be/Gtf4CTaX7eo",
+     "vis": 1578
+    },
+    {
+     "red": "youtube",
+     "titulo": "Tu embrague está apretado siempre menos cuando pisas",
+     "url": "https://youtu.be/OdiUHr5ViW0",
+     "vis": 1502
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico: «A la correa de distribución la mata ot»",
+   "detalle": "Del 30 sep 2026 al 3 oct 2026 el canal llegó a 8.510 visualizaciones en un día (lo normal eran unas 1.790). El vídeo que más sumó fue «A la correa de distribución la mata otra cosa», con 1.733. El 80 % llegó desde el feed de Shorts. Esos días se publicaron 38 vídeos."
+  },
+  {
+   "id": "2026-09-30-youtube-seg-subida",
+   "fecha": "2026-09-30",
+   "hasta": "2026-09-30",
+   "red": "youtube",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 13,
+   "esperado": 2,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "No todo chirrido significa pastillas malas",
+     "url": "https://youtu.be/PuemfmaSd7s",
+     "vis": 1108
+    },
+    {
+     "red": "youtube",
+     "titulo": "Luces flojas y ventanillas lentas: la batería va justa",
+     "url": "https://youtu.be/JQjb-4tDcmo",
+     "vis": 1099
+    }
+   ],
+   "origen": "auto",
+   "titulo": "+13 seguidores en YouTube",
+   "detalle": "El 30 sep 2026 YouTube ganó 13 seguidores; lo normal era 2 al día. El vídeo más visto esos días fue «No todo chirrido significa pastillas malas»."
+  },
+  {
+   "id": "2026-10-02-youtube-largo-Gseqihh4toc",
+   "fecha": "2026-10-02",
+   "hasta": "2026-10-02",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Correa de distribución: cuándo se cambia",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)» (11 min). Hoy lleva 241 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)",
+     "url": "https://youtu.be/Gseqihh4toc",
+     "vis": 241
+    }
+   ]
+  },
+  {
+   "id": "2026-10-03-global-vis-subida",
+   "fecha": "2026-10-03",
+   "hasta": "2026-10-03",
+   "red": "global",
+   "metrica": "vis",
+   "tipo": "subida",
+   "valor": 9173,
+   "esperado": 2655,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "A la correa de distribución la mata otra cosa",
+     "url": "https://youtu.be/5zSbQQUnMpw",
+     "vis": 1733
+    },
+    {
+     "red": "youtube",
+     "titulo": "Las grietas de la correa: dónde se miran",
+     "url": "https://youtu.be/Gtf4CTaX7eo",
+     "vis": 1578
+    }
+   ],
+   "origen": "auto",
+   "titulo": "Pico en YouTube",
+   "detalle": "El 3 oct 2026 las cuatro redes juntas llegaron a 9.173 visualizaciones en un día (lo normal eran unas 2.655). YouTube: 8.510 en su mejor día («A la correa de distribución la mata otra cosa»)."
+  },
+  {
+   "id": "2026-10-03-youtube-seg-subida",
+   "fecha": "2026-10-03",
+   "hasta": "2026-10-03",
+   "red": "youtube",
+   "metrica": "seg",
+   "tipo": "subida",
+   "valor": 15,
+   "esperado": 2,
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "A la correa de distribución la mata otra cosa",
+     "url": "https://youtu.be/5zSbQQUnMpw",
+     "vis": 1733
+    },
+    {
+     "red": "youtube",
+     "titulo": "Las grietas de la correa: dónde se miran",
+     "url": "https://youtu.be/Gtf4CTaX7eo",
+     "vis": 1578
+    }
+   ],
+   "origen": "auto",
+   "titulo": "+15 seguidores en YouTube",
+   "detalle": "El 3 oct 2026 YouTube ganó 15 seguidores; lo normal era 2 al día. El vídeo más visto esos días fue «A la correa de distribución la mata otra cosa»."
+  },
+  {
+   "id": "2026-10-05-youtube-largo-h_TgaUz-ANE",
+   "fecha": "2026-10-05",
+   "hasta": "2026-10-05",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Nueva normativa moto 2026: guantes, calz",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Nueva normativa moto 2026: guantes, calzado, chaleco, arcén y casco (lo que dice el BOE)» (9 min). Hoy lleva 15 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Nueva normativa moto 2026: guantes, calzado, chaleco, arcén y casco (lo que dice el BOE)",
+     "url": "https://youtu.be/h_TgaUz-ANE",
+     "vis": 15
+    }
+   ]
+  }
+ ]
+}

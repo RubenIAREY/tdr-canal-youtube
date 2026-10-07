@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel de redes TDR</title>
+<meta name="description" content="Seguidores, visualizaciones e impacto en la tienda de TodoEnRecambio en YouTube, Instagram, TikTok y Facebook. Se actualiza a las 9:00 y a las 17:00.">
+<meta property="og:title" content="Panel de redes · TodoEnRecambio">
+<meta property="og:description" content="Seguidores y visualizaciones de YouTube, Instagram, TikTok y Facebook, en gráficas al estilo de la bolsa.">
+<link rel="icon" href="logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="panel.css">
+<script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="marca" href="panel.html"><img src="logo-tdr.png" alt="TDR"><span><b>TDR</b> · Panel de redes</span></a>
+  <span class="act">Actualizado <b id="actualizado">–</b> · se actualiza a las 9:00 y a las 17:00</span>
+  <a class="volver" href="index.html">Web del canal de YouTube ↗</a>
+</header>
+
+<div class="ticker" id="ticker" aria-label="Seguidores por red"></div>
+
+<nav class="tabs" id="tabs" role="tablist">
+  <button data-vista="global" class="on">Global</button>
+  <button data-vista="youtube">YouTube</button>
+  <button data-vista="instagram">Instagram</button>
+  <button data-vista="tiktok">TikTok</button>
+  <button data-vista="facebook">Facebook</button>
+  <button data-vista="impacto">Impacto en TDR</button>
+  <button data-vista="videos">Vídeos</button>
+</nav>
+
+<main id="main">
+  <section id="v-red" class="vista">
+    <div class="perfil" id="perfil"></div>
+    <div class="kpis" id="kpis"></div>
+
+    <div class="caja">
+      <div class="caja-cab">
+        <h2 id="t-seg">Seguidores</h2>
+        <div class="leyenda" id="ley-seg"></div>
+        <div class="botones">
+          <div class="grupo" id="modo-seg"><button data-m="velas" class="on">Velas</button><button data-m="linea">Línea</button></div>
+          <div class="grupo" id="periodo-seg" title="Cada vela es un día, una semana o un mes"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div>
+          <div class="grupo rango" data-graf="seg"></div>
+        </div>
+      </div>
+      <div class="grafica" id="g-seg"></div>
+      <p class="nota" id="n-seg"></p>
+    </div>
+
+    <div class="caja">
+      <div class="caja-cab">
+        <h2>Visualizaciones diarias <small>barras: verde si el día supera su media de 30 días · líneas: media 7 y 30 días</small></h2>
+        <div class="leyenda" id="ley-vis"></div>
+        <div class="botones"><div class="grupo rango" data-graf="vis"></div></div>
+      </div>
+      <div class="grafica" id="g-vis"></div>
+    </div>
+
+    <div class="caja">
+      <div class="caja-cab">
+        <h2>Visualizaciones acumuladas <small id="sub-acum"></small></h2>
+        <div class="leyenda" id="ley-acum"></div>
+        <div class="botones">
+          <div class="grupo" id="modo-acum"><button data-m="velas" class="on">Velas</button><button data-m="area">Área</button></div>
+          <div class="grupo" id="periodo-acum" title="Cada vela es un día, una semana o un mes"><button data-p="dia">Día</button><button data-p="semana" class="on">Semana</button><button data-p="mes">Mes</button></div>
+          <div class="grupo rango" data-graf="acum"></div>
+        </div>
+      </div>
+      <div class="grafica" id="g-acum"></div>
+      <p class="nota" id="n-acum"></p>
+    </div>
+
+    <div class="caja">
+      <div class="caja-cab">
+        <h2>Me gusta <small id="sub-lk">barras: verde si el día supera su media de 30 días · líneas: media 7 y 30 días</small></h2>
+        <div class="leyenda" id="ley-lk"></div>
+        <div class="botones">
+          <div class="grupo" id="modo-lk"><button data-m="dia" class="on">Diarios</button><button data-m="acum">Acumulados</button></div>
+          <div class="grupo rango" data-graf="lk"></div>
+        </div>
+      </div>
+      <div class="grafica" id="g-lk"></div>
+      <p class="nota" id="n-lk"></p>
+    </div>
+
+    <div class="caja" id="caja-comp">
+      <div class="caja-cab">
+        <h2>Comparativa por plataforma <small>como en bolsa: % de cambio desde el primer día visible</small></h2>
+        <div class="leyenda" id="ley-comp"></div>
+        <div class="botones">
+          <div class="grupo" id="modo-comp"><button data-m="seg" class="on">Seguidores</button><button data-m="vis">Visualizaciones (media 30 días)</button><button data-m="likes">Me gusta (media 30 días)</button></div>
+          <div class="grupo rango" data-graf="comp"></div>
+        </div>
+      </div>
+      <div class="grafica" id="g-comp"></div>
+    </div>
+  </section>
+
+  <section id="v-impacto" class="vista oculta">
+    <div class="perfil"><div class="p-izq"><div class="ico tdr">TDR</div><div><h1>Impacto en TodoEnRecambio</h1>
+      <p>Lo que llega a <b>todoenrecambio.com</b> desde cada red (Google Analytics) y cuánta gente busca la marca en Google (Search Console).</p></div></div></div>
+    <div class="kpis" id="kpis-tienda"></div>
+    <div class="caja">
+      <div class="caja-cab"><h2>Visitas a la tienda desde redes <small>sesiones por semana</small></h2><div class="leyenda" id="ley-tienda"></div>
+        <div class="botones"><div class="grupo rango" data-graf="tienda"></div></div></div>
+      <div class="grafica" id="g-tienda"></div>
+    </div>
+    <div class="caja">
+      <div class="caja-cab"><h2>Búsquedas de la marca en Google <small>clics de búsquedas con «todoenrecambio» · barras diarias y media de 7 días</small></h2>
+        <div class="leyenda" id="ley-marca"></div><div class="botones"><div class="grupo rango" data-graf="marca"></div></div></div>
+      <div class="grafica" id="g-marca"></div>
+    </div>
+    <div class="caja"><h2>Ventas atribuidas a redes</h2><div id="tabla-ventas"></div></div>
+  </section>
+
+  <section id="v-videos" class="vista oculta">
+    <div class="perfil"><div class="p-izq"><div class="ico tdr">▶</div><div><h1>Vídeos y publicaciones</h1>
+      <p>Lo último que se ha subido a cada red, con su enlace y sus números de hoy.</p></div></div></div>
+    <div class="filtros" id="filtros">
+      <button data-f="todas" class="on">Todas</button><button data-f="youtube">YouTube</button><button data-f="instagram">Instagram</button>
+      <button data-f="tiktok">TikTok</button><button data-f="facebook">Facebook</button>
+      <span class="sep"></span><button data-o="fecha" class="on o">Más recientes</button><button data-o="vis" class="o">Más vistos</button><button data-o="likes" class="o">Más me gusta</button>
+    </div>
+    <div class="tabla-wrap"><table class="tabla" id="tabla-videos"><thead><tr><th>Fecha</th><th>Red</th><th>Título</th><th class="n">Visualizaciones</th><th class="n">Me gusta</th><th class="n">Comentarios</th></tr></thead><tbody></tbody></table></div>
+  </section>
+</main>
+
+<footer class="pie">
+  <p><b>De dónde sale cada número.</b> YouTube: API de YouTube y YouTube Analytics, desde que se abrió el canal (los seguidores de cada día se
+    reconstruyen con los suscriptores ganados y perdidos). Instagram, TikTok y Facebook: Metricool, desde el primer día que tiene guardado
+    (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</p>
+  <p>Visualizaciones: YouTube = visualizaciones de vídeos · Instagram = visualizaciones de la cuenta (publicaciones y reels) ·
+    TikTok = visualizaciones de vídeos del día · Facebook = visualizaciones del contenido de la página.</p>
+  <p>Me gusta: YouTube y TikTok = los recibidos cada día · Instagram = los de cada publicación y reel, contados el día que se publicó ·
+    Facebook = reacciones a las publicaciones de la página y me gusta de los reels.</p>
+  <p>Gráficas hechas con <a href="https://www.tradingview.com/" target="_blank" rel="noopener">TradingView Lightweight Charts™</a> (Copyright © TradingView, Inc.).</p>
+</footer>
+<script src="panel.js"></script>
+</body>
+</html>
