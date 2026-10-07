@@ -502,3 +502,6 @@ html[data-tono="oscuro"] .co-nuevo { color: #0b1210; }
   .co-mandos-graf .co-grupo button { flex: 1 0 auto; justify-content: center; }
   .co-t-etqs { display: flex; margin: 4px 0 0; }
 }
+
+/* kraft: el fondo es oscuro para el gris de apoyo; lo que va directamente sobre él se escribe con la tinta */
+html[data-paleta="kraft"] .co :is(.co-sub, .co-et, .co-ticker, .co-avisos .co-nota) { color: var(--tinta); }

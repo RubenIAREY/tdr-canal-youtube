@@ -130,7 +130,7 @@ function aplicarPropia() {
     "--sombra-1": claro ? `0 1px 1px ${t}12, 0 2px 4px ${t}0f, 0 14px 30px -18px ${t}55` : "inset 0 1px 0 #ffffff08, 0 1px 2px #0000004d, 0 10px 28px -16px #000000a6",
     "--sombra-2": claro ? `0 2px 6px ${t}1f, 0 26px 50px -22px ${t}66` : "inset 0 1px 0 #ffffff0d, 0 2px 6px #00000059, 0 24px 48px -20px #000000cc",
     "color-scheme": claro ? "light" : "dark",
-    "--tex-fondo": claro ? 'url("tex-grano.jpg")' : 'url("tex-grano-osc.jpg")', "--tex-caja": claro ? 'url("tex-grano.jpg")' : 'url("tex-grano-osc.jpg")',
+    "--tex-fondo": claro ? 'url("../comun/tex/tex-grano.jpg")' : 'url("../comun/tex/tex-grano-osc.jpg")', "--tex-caja": claro ? 'url("../comun/tex/tex-grano.jpg")' : 'url("../comun/tex/tex-grano-osc.jpg")',
   };
   Object.entries(V).forEach(([k, v]) => st.setProperty(k, v));
 }

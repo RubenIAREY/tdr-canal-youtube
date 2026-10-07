@@ -326,6 +326,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
     u = num(u); p = num(p);
     if (u == null || p == null) return { s: "sin comparación con los 30 días anteriores", c: "igual" };
     const d = u - p, pc = pct(u, p);
+    if (d === 0) return { s: `sin cambio <span>frente a los 30 anteriores (${fmt(p)})</span>`, c: "igual" };
     return { s: `${flecha(d)}${signo(d)}${pc != null ? ` (${signo(pc, Math.abs(pc) < 10 ? 1 : 0)} %)` : ""} <span>frente a los 30 anteriores (${fmt(p)})</span>`, c: cls(d) };
   }
   const p1000 = n => n == null ? "–" : fmt(n, Math.abs(n) < 10 ? 2 : 1);
@@ -490,11 +491,12 @@ export async function montarComentarios(contenedor, opciones = {}) {
     datosA = AC;
     chA = LC.createChart(gA, opcGrafica(.04));
     chA.applyOptions({ localization: { timeFormatter: t => fecha(claveT(t)) } });
-    chA.addAreaSeries(Object.assign({}, base, { lineColor: T.cA, topColor: rgba(T.ma30, .26), bottomColor: rgba(T.ma30, .02), lineWidth: 2 }))
+    const sinNegativos = original => { const r = original(); if (r && r.priceRange) r.priceRange.minValue = Math.max(0, r.priceRange.minValue); return r; };
+    chA.addAreaSeries(Object.assign({}, base, { autoscaleInfoProvider: sinNegativos, lineColor: T.cA, topColor: rgba(T.ma30, .26), bottomColor: rgba(T.ma30, .02), lineWidth: 2 }))
       .setData(AC.map(x => ({ time: x.time, value: x.c })));
     if (conResp) {
-      chA.addLineSeries(Object.assign({}, base, { color: T.suave, lineWidth: 2 })).setData(AC.map(x => ({ time: x.time, value: x.r })));
-      chA.addLineSeries(Object.assign({}, base, { color: T.cT, lineWidth: 2 })).setData(AC.map(x => ({ time: x.time, value: x.tdr })));
+      chA.addLineSeries(Object.assign({}, base, { autoscaleInfoProvider: sinNegativos, color: T.suave, lineWidth: 2 })).setData(AC.map(x => ({ time: x.time, value: x.r })));
+      chA.addLineSeries(Object.assign({}, base, { autoscaleInfoProvider: sinNegativos, color: T.cT, lineWidth: 2 })).setData(AC.map(x => ({ time: x.time, value: x.tdr })));
     }
     const leyA = $("ley-a");
     const pintaA = param => {
