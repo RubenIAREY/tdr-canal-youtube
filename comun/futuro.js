@@ -181,6 +181,38 @@ class VistaHoy {
   }
 }
 
+/* zona rayada con rótulo (meses en los que el canal aún no cobra): primitiva de serie, por debajo de las barras */
+class CapaRayada {
+  constructor(o) { this.o = o; this.r = null; const yo = this; this.vista = { zOrder: () => "bottom", renderer: () => yo.pintor() }; }
+  attached({ chart }) { this.chart = chart; }
+  detached() { this.chart = null; }
+  paneViews() { return [this.vista]; }
+  updateAllViews() {
+    this.r = null; const o = this.o, t = o.tiempos;
+    if (!this.chart || t.length < 2) return;
+    const ts = this.chart.timeScale(), x0 = ts.timeToCoordinate(t[0]), x1 = ts.timeToCoordinate(t[1]);
+    if (x0 == null || x1 == null) return;
+    const m = (x1 - x0) / 2, xb = o.hasta ? ts.timeToCoordinate(o.hasta) : ts.timeToCoordinate(t[t.length - 1]);
+    if (xb == null) return;
+    this.r = [x0 - m, o.hasta ? xb - m : xb + m];
+  }
+  pintor() {
+    const r = this.r, o = this.o;
+    return { draw(tg) { if (!r || r[1] - r[0] < 2) return; tg.useBitmapCoordinateSpace(({ context: c, bitmapSize: b, horizontalPixelRatio: h, verticalPixelRatio: v }) => {
+      const a = Math.max(0, r[0] * h), z = Math.min(b.width, r[1] * h);
+      c.save(); c.beginPath(); c.rect(a, 0, z - a, b.height); c.clip();
+      c.fillStyle = o.fondo; c.fillRect(a, 0, z - a, b.height);
+      c.strokeStyle = o.raya; c.lineWidth = Math.max(1, h);
+      for (let x = a - b.height; x < z; x += 9 * h) { c.beginPath(); c.moveTo(x, b.height); c.lineTo(x + b.height, 0); c.stroke(); }
+      c.restore();
+      c.save(); c.font = `600 ${10 * v}px ${o.letra}`; c.textBaseline = "top";
+      const w = c.measureText(o.texto).width, pad = 5 * h;
+      if (w + pad * 2 < z - a) { const xx = a + (z - a - w) / 2 - pad, y = 8 * v;
+        c.fillStyle = o.fondoEtq; c.fillRect(xx, y - 3 * v, w + pad * 2, 17 * v); c.fillStyle = o.tinta; c.fillText(o.texto, xx + pad, y + 1 * v); }
+      c.restore(); }); } };
+  }
+}
+
 /* ═══════════════════════════════════════════ módulo ═══════════════════════════════════════════ */
 export async function montarFuturo(contenedor, opciones = {}) {
   if (!contenedor) throw new Error("montarFuturo: falta el contenedor");
@@ -219,7 +251,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
     red: [opciones.red, guardado.red, "global"].find(r => r && P.redes[r]) || redesHay[0],
     met: [opciones.metrica, guardado.met, "seg"].find(m => m && metricas[m]) || "seg",
     hor: [opciones.horizonte, guardado.hor, "6m"].find(h => h && plazos.some(p => p.k === h)) || "6m",
-    abierta: null, ficha: null, todosEv: false,
+    abierta: null, ficha: null, todosEv: false, esc: "probable", monTabla: false, porQue: new Set(),
   };
   const guardar = () => { try { localStorage.setItem(CLAVE, JSON.stringify({ red: est.red, met: est.met, hor: est.hor })); } catch (e) { /* sin almacenamiento */ } };
   const serieDe = (r, m) => (P.redes[r] && P.redes[r].series && P.redes[r].series[m]) || null;
@@ -282,6 +314,8 @@ export async function montarFuturo(contenedor, opciones = {}) {
       <div class="fu-tarjetas" data-fu="tarjetas"></div>
       <p class="fu-tarj-clave" data-fu="tarjclave" aria-hidden="true"></p>
     </section>
+    <div data-fu="monacceso"></div>
+    <section class="fu-caja fu-numerada caja fu-mon" data-fu="mon" aria-labelledby="${uid}-t-mon" hidden></section>
     <div class="fu-doble">
       <section class="fu-caja fu-numerada caja" aria-labelledby="${uid}-t-obj">
         <div class="fu-caja-cab"><h2 id="${uid}-t-obj">Objetivos <small>como la autonomía de un coche eléctrico: cuánto llevas y cuándo llegarías a este ritmo</small></h2></div>
@@ -321,6 +355,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
     if (g === "redes") { est.red = b.dataset.r; asegurarMetrica(); est.abierta = null; est.ficha = null; est.todosEv = false; cambiar(); }
     else if (g === "mets") { est.met = b.dataset.m; est.ficha = null; est.todosEv = false; cambiar(); }
     else if (g === "hors") { est.hor = b.dataset.h; guardar(); pintarMandos(); encuadrar(); pintarLeyenda(null); }
+    else if (g === "escs") { est.esc = b.dataset.e; pintarMon(); const n = raiz.querySelector(`[data-fu="escs"] button[data-e="${CSS.escape(est.esc)}"]`); if (n) n.focus(); }
   });
   function cambiar() { guardar(); pintarTodo(); }
 
@@ -662,6 +697,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
     if (!lista.length) { el.innerHTML = `<p class="fu-nota fu-hueco">${esc(defRed(r).largo)} no tiene objetivos marcados en la previsión.</p>`; return; }
     el.innerHTML = `<div class="fu-hitos-lista">${lista.map(([x, hs]) => hs.map(h => hitoHTML(x, h)).join("")).join("")}</div>` +
       (r === "global" ? `<p class="fu-nota fu-hueco">En Global salen los objetivos de las cuatro redes juntas y el de monetizar YouTube; los demás, en la vista de cada red.</p>` : "");
+    el.querySelectorAll("[data-irmon]").forEach(b => b.onclick = irAMon);
     el.querySelectorAll("[data-verhito]").forEach(b => b.onclick = () => {
       const [rr, mm] = b.dataset.verhito.split("|");
       est.red = rr; est.met = mm; est.hor = "2a"; est.abierta = null; est.ficha = null; asegurarMetrica(); cambiar();
@@ -700,6 +736,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
         <div class="fu-bat-txt">${fmt(prog * 100, prog < .1 ? 1 : 0)} %<small>conseguido</small></div></div>
       ${cifras}${tl}<p class="fu-h-txt">${txt}</p>
       ${ver ? `<div class="fu-h-acciones"><button type="button" class="fu-enlace" data-verhito="${esc(r)}|${esc(h.metrica)}">Verlo en la gráfica (2 años) <span aria-hidden="true">→</span></button></div>` : ""}
+      ${comp && r === "youtube" && MON ? `<div class="fu-h-acciones"><button type="button" class="fu-enlace" data-irmon="1">Cuándo y cuánto se cobraría <span aria-hidden="true">→</span></button></div>` : ""}
     </article>`;
   }
 
@@ -798,6 +835,137 @@ export async function montarFuturo(contenedor, opciones = {}) {
   document.addEventListener("keydown", alTecla);
   $("lleno").onclick = alternarLleno;
 
+  /* ─── Monetizar YouTube: cuándo y cuánto (redes.youtube.monetizacion) ─── */
+  const MON = P.redes.youtube && P.redes.youtube.monetizacion;
+  const ESC_GRAF = ["probable", "conservador", "muy_conservador"];
+  const ESC_ETQ = { probable: "Lo más probable", conservador: "Prudente", muy_conservador: "Muy prudente", sin_crecer: "Sin crecimiento" };
+  let chartMon = null;
+  const euros = (a, b) => a == null ? "–" : (b == null || a === b ? fmt(a) : `${fmt(a)}–${fmt(b)}`) + " €";
+  const nombreEsc = id => { const e = MON && (MON.escenarios || []).find(x => x.id === id); return e ? e.nombre : id; };
+  const anfitrion = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } };
+  function quitarMon() { if (chartMon) { chartMon.remove(); chartMon = null; } }
+  function irAMon() {
+    if (est.red !== "youtube") { est.red = "youtube"; asegurarMetrica(); est.abierta = null; est.ficha = null; est.todosEv = false; cambiar(); }
+    const el = $("mon"); if (!el || el.hidden) return;
+    el.scrollIntoView({ block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+    const h = el.querySelector("h2"); if (h) { h.setAttribute("tabindex", "-1"); h.focus({ preventScroll: true }); }
+  }
+  function pintarMon() {
+    quitarMon();
+    const el = $("mon"), acc = $("monacceso");
+    if (!MON || !Array.isArray(MON.meses)) { el.hidden = true; el.innerHTML = ""; acc.innerHTML = ""; return; }
+    const escs = MON.escenarios || [], prob = escs.find(e => e.id === "probable"), tot = MON.totales_2a || {};
+    if (est.red !== "youtube") {
+      el.hidden = true; el.innerHTML = "";
+      acc.innerHTML = est.red !== "global" ? "" : `<div class="fu-caja caja fu-mon-acceso">
+        <span class="fu-chip"><i style="background:${esc(defRed("youtube").color)}"></i>YT</span>
+        <p><b>Monetizar YouTube.</b> ${prob ? (prob.fecha ? `Lo más probable: <strong class="fu-cifra">${mesAno(prob.fecha)}</strong>.` : "Lo más probable es que no llegue en 2 años.") : ""}
+          ${tot.probable ? ` En 2 años, entre <span class="fu-cifra">${euros(tot.probable.eur_min, tot.probable.eur_max)}</span> de anuncios (estimación).` : ""}</p>
+        <button type="button" class="fu-enlace fu-mon-ir" data-irmon="1">Ver cuándo se monetiza YouTube <span aria-hidden="true">→</span></button></div>`;
+      const b = acc.querySelector("[data-irmon]"); if (b) b.onclick = irAMon;
+      return;
+    }
+    acc.innerHTML = ""; el.hidden = false;
+    if (!ESC_GRAF.includes(est.esc)) est.esc = "probable";
+    const filas = MON.meses, E0 = est.esc, rpm = MON.rpm || {}, rep = MON.reparto_actual || {};
+    const tarjeta = e => {
+      const largo = (e.por_que || "").length > 130, abierto = est.porQue.has(e.id), t = tot[e.id];
+      const fechaTxt = e.fecha ? mesAno(e.fecha) : e.id === "sin_crecer" ? "No se llega" : "No se llega en 2 años";
+      return `<article class="fu-esc ${esc(e.id)}${ESC_GRAF.includes(e.id) && e.id === E0 ? " en-grafica" : ""}">
+        <span class="fu-esc-tag">${esc(ESC_ETQ[e.id] || e.nombre)}</span>
+        <h3>${esc(e.nombre)}</h3>
+        <p class="fu-esc-fecha${e.fecha ? "" : " no"}">${fechaTxt}</p>
+        ${t ? `<p class="fu-esc-tot">En 2 años: <b>${euros(t.eur_min, t.eur_max)}</b></p>` : e.id === "sin_crecer" ? `<p class="fu-esc-tot">En 2 años: sin ingresos por anuncios</p>` : ""}
+        <p class="fu-esc-pq${largo && !abierto ? " corto" : ""}" id="${uid}-pq-${esc(e.id)}">${esc(e.por_que || "")}</p>
+        ${largo ? `<button type="button" class="fu-enlace fu-pq-btn" data-pq="${esc(e.id)}" aria-expanded="${abierto}" aria-controls="${uid}-pq-${esc(e.id)}">${abierto ? "Leer menos" : "Por qué"}</button>` : ""}
+      </article>`;
+    };
+    const celdaEur = x => !x ? "–" : x.monetizado <= 0 ? `<span class="fu-sin">sin monetizar</span>`
+      : `${euros(x.eur_min, x.eur_max)}${x.monetizado < 1 ? `<small>${fmt(x.monetizado * 100)} % del mes</small>` : ""}`;
+    el.innerHTML = `
+      <div class="fu-caja-cab"><h2 id="${uid}-t-mon">Monetizar YouTube: cuándo y cuánto <small>fechas del modelo; los euros, con un RPM supuesto</small></h2></div>
+      <div class="fu-mon-cuerpo">
+        <div class="fu-esc-lista">${escs.map(tarjeta).join("")}</div>
+        <div class="fu-mon-graf">
+          <div class="fu-mon-graf-cab">
+            <h3>Ingresos por anuncios al mes <small>parte llena: lo mínimo · parte clara: hasta lo máximo</small></h3>
+            <div class="fu-grupo" data-fu="escs" role="group" aria-label="Escenario de la gráfica">${ESC_GRAF.filter(id => escs.some(e => e.id === id)).map(id =>
+              `<button type="button" data-e="${id}" aria-pressed="${id === E0}">${esc(nombreEsc(id))}</button>`).join("")}</div>
+          </div>
+          <div class="fu-leyenda" data-fu="monley"></div>
+          <div class="fu-grafica fu-mon-grafica" data-fu="mongraf" role="img" aria-label="Ingresos estimados por mes en el escenario ${esc(nombreEsc(E0).toLowerCase())}"></div>
+          <p class="fu-nota">Rayado: meses en los que el canal aún no cobra. El primer mes puede ser parcial (se cobra desde el día en que se monetiza).</p>
+        </div>
+        <div class="fu-totales">
+          <h3>En 2 años <small>suma de los ${fmt(filas.length)} meses</small></h3>
+          <div class="fu-tot-lista">${ESC_GRAF.filter(id => tot[id]).map(id => `<div class="fu-tot${id === E0 ? " sel" : ""}"><span>${esc(nombreEsc(id))}</span><b>${euros(tot[id].eur_min, tot[id].eur_max)}</b></div>`).join("")}</div>
+        </div>
+        <details class="fu-mon-tabla" data-fu="montabla"${est.monTabla ? " open" : ""}>
+          <summary>${ICONO.derecha} Mes a mes <small>euros de los tres escenarios y visualizaciones del ${esc(nombreEsc(E0).toLowerCase())}</small></summary>
+          <div class="fu-tabla-caja"><table class="fu-tabla fu-tabla-mon">
+            <thead><tr><th>Mes</th>${ESC_GRAF.map(id => `<th class="n${id === E0 ? " sel" : ""}">${esc(nombreEsc(id))} <small>€ al mes</small></th>`).join("")}<th class="n">Shorts <small>visualizaciones</small></th><th class="n">Largos <small>visualizaciones</small></th></tr></thead>
+            <tbody>${filas.map(f => `<tr><th scope="row" class="f">${esc(f.nombre || mesAno(f.mes))}</th>${ESC_GRAF.map(id => `<td class="n${id === E0 ? " sel" : ""}">${celdaEur(f[id])}</td>`).join("")}<td class="n">${fmt(f[E0] && f[E0].vis_shorts)}</td><td class="n">${fmt(f[E0] && f[E0].vis_largos)}</td></tr>`).join("")}</tbody>
+            <tfoot><tr><th scope="row">Total</th>${ESC_GRAF.map(id => `<td class="n${id === E0 ? " sel" : ""}"><b>${tot[id] ? euros(tot[id].eur_min, tot[id].eur_max) : "–"}</b></td>`).join("")}<td></td><td></td></tr></tfoot>
+          </table></div>
+        </details>
+        <div class="fu-mon-notas">
+          <p class="fu-mon-aviso"><b>Los euros son una estimación con un RPM supuesto</b> (lo que paga YouTube por cada 1.000 visualizaciones).
+            ${rpm.shorts && rpm.largos && !/shorts\s+[\d,.]+/i.test(rpm.nota || "") ? `Se usa ${fmt(rpm.shorts[0], 2)}–${fmt(rpm.shorts[1], 2)} ${esc(rpm.moneda || "€")} en shorts y ${fmt(rpm.largos[0], rpm.largos[0] % 1 ? 2 : 0)}–${fmt(rpm.largos[1], rpm.largos[1] % 1 ? 2 : 0)} ${esc(rpm.moneda || "€")} en largos. ` : ""}${esc(rpm.nota || "")}
+            ${Array.isArray(rpm.fuentes) && rpm.fuentes.length ? `Fuentes: ${rpm.fuentes.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(anfitrion(u))}</a>`).join(", ")}.` : ""}</p>
+          ${MON.requisitos ? `<p><b>Requisitos.</b> ${esc(MON.requisitos)}</p>` : ""}
+          ${MON.como_se_cobra ? `<p><b>Cómo se cobra.</b> ${esc(MON.como_se_cobra)}</p>` : ""}
+          ${rep.cuota_shorts != null ? `<p><b>Cómo se reparte hoy.</b> El ${fmt(rep.cuota_shorts * 100, 1)} % de las visualizaciones son de shorts, que pagan muy poco${rep.min_por_vis_largo != null ? `; cada visualización de un vídeo largo dura ${fmt(rep.min_por_vis_largo, 2)} minutos de media` : ""}${rep.horas_largos_30d != null ? ` y los largos sumaron ${fmt(rep.horas_largos_30d)} horas en los últimos 30 días` : ""}.</p>` : ""}
+          <p class="fu-apunte">El dinero de verdad está en lo que estos vídeos venden en la tienda.</p>
+        </div>
+      </div>`;
+    el.querySelectorAll("[data-pq]").forEach(b => b.onclick = () => {
+      const id = b.dataset.pq; est.porQue.has(id) ? est.porQue.delete(id) : est.porQue.add(id);
+      const abierto = est.porQue.has(id), t = el.querySelector(`#${CSS.escape(uid + "-pq-" + id)}`);
+      t.classList.toggle("corto", !abierto); b.setAttribute("aria-expanded", String(abierto)); b.textContent = abierto ? "Leer menos" : "Por qué";
+    });
+    el.querySelector('[data-fu="montabla"]').addEventListener("toggle", e => { est.monTabla = e.target.open; });
+
+    // gráfica mensual: barra llena hasta el mínimo y prolongación clara hasta el máximo
+    const g = el.querySelector('[data-fu="mongraf"]'), ley = el.querySelector('[data-fu="monley"]');
+    if (!LC) { g.innerHTML = `<p class="fu-nota fu-error">No se ha cargado la librería de gráficas.</p>`; return; }
+    const col = colorRed("youtube"), tiempos = filas.map(f => f.mes + "-01");
+    const tope = Math.max(10, ...filas.flatMap(f => ESC_GRAF.map(id => (f[id] && f[id].eur_max) || 0))) * 1.08;
+    const pfE = { type: "custom", formatter: v => v < -1e-9 ? "" : fmt(v) + " €", minMove: 1 };
+    chartMon = LC.createChart(g, {
+      autoSize: true,
+      layout: { background: { type: "solid", color: "rgba(0,0,0,0)" }, textColor: T.texto, fontFamily: T.letra, fontSize: 11, attributionLogo: false },
+      grid: { vertLines: { color: "rgba(0,0,0,0)" }, horzLines: { color: T.sinRejilla ? "rgba(0,0,0,0)" : T.rejilla } },
+      rightPriceScale: { borderColor: T.borde, scaleMargins: { top: .14, bottom: 0 } },
+      timeScale: { borderColor: T.borde, fixLeftEdge: true, fixRightEdge: true, lockVisibleTimeRangeOnResize: true },
+      handleScroll: false, handleScale: false,
+      crosshair: { mode: LC.CrosshairMode.Normal, horzLine: { visible: false, labelVisible: false } },
+      localization: { locale: "es-ES", priceFormatter: v => v < -1e-9 ? "" : fmt(v) + " €", timeFormatter: t => { const k = claveT(t); const f = filas.find(x => x.mes + "-01" === k); return f ? f.nombre : mesAno(k); } },
+    });
+    const escala = () => ({ priceRange: { minValue: 0, maxValue: tope } });
+    const oscuro = lum(rgb(T.capa1) || [255, 255, 255]) < .2;
+    const sMax = chartMon.addHistogramSeries({ color: rgba(col, oscuro ? .42 : .26), priceFormat: pfE, priceLineVisible: false, lastValueVisible: false, autoscaleInfoProvider: escala });
+    const sMin = chartMon.addHistogramSeries({ color: col, priceFormat: pfE, priceLineVisible: false, lastValueVisible: false, autoscaleInfoProvider: escala });
+    sMax.setData(filas.map(f => ({ time: f.mes + "-01", value: (f[E0] && f[E0].eur_max) || 0 })));
+    sMin.setData(filas.map(f => ({ time: f.mes + "-01", value: (f[E0] && f[E0].eur_min) || 0, color: f[E0] && f[E0].monetizado > 0 ? col : rgba(T.tenue, .55) })));
+    const primer = filas.find(f => f[E0] && f[E0].monetizado > 0);
+    if (typeof sMax.attachPrimitive === "function" && (!primer || primer !== filas[0]))
+      sMax.attachPrimitive(new CapaRayada({ tiempos, hasta: primer ? primer.mes + "-01" : null, texto: "AÚN SIN MONETIZAR",
+        fondo: rgba(T.tinta, .03), raya: rgba(T.tinta, .09), fondoEtq: rgba(T.capa1, .9), tinta: T.suave, letra: T.letra }));
+    chartMon.timeScale().fitContent();
+    const t2 = tot[E0];
+    const resumen = `<span class="fu-l-f">${esc(nombreEsc(E0))}</span>` +
+      (primer ? `<span>Primer mes con ingresos: <b>${esc(primer.nombre || mesAno(primer.mes))}</b>${primer[E0].monetizado < 1 ? ` (${fmt(primer[E0].monetizado * 100)} % del mes)` : ""}</span>` : `<span><b>No se monetiza</b> en estos ${fmt(filas.length)} meses</span>`) +
+      (t2 ? `<span>En 2 años <b>${euros(t2.eur_min, t2.eur_max)}</b></span>` : "");
+    const pintaLey = param => {
+      const k = param && param.time ? claveT(param.time) : null, f = k && filas.find(x => x.mes + "-01" === k), x = f && f[E0];
+      if (!x) { ley.innerHTML = resumen; return; }
+      ley.innerHTML = `<span class="fu-l-f">${esc(f.nombre || mesAno(f.mes))}</span>` +
+        (x.monetizado > 0 ? `<span>Anuncios <b>${euros(x.eur_min, x.eur_max)}</b>${x.monetizado < 1 ? ` (monetizado el ${fmt(x.monetizado * 100)} % del mes)` : ""}</span>` : `<span><b>Aún sin monetizar</b></span>`) +
+        `<span>Shorts <b>${fmt(x.vis_shorts)}</b> vis.</span><span>Largos <b>${fmt(x.vis_largos)}</b> vis.</span>`;
+    };
+    chartMon.subscribeCrosshairMove(pintaLey); pintaLey(null);
+  }
+
   /* ─── pintar ─── */
   function pintarTodo() {
     leerTema();
@@ -819,6 +987,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
     alMoverse();
     pintarLeyenda(null);
     pintarTarjetas();
+    pintarMon();
     pintarHitos();
     pintarPicos();
     pintarAcierto();
@@ -845,6 +1014,7 @@ export async function montarFuturo(contenedor, opciones = {}) {
       document.removeEventListener("keydown", alTecla);
       if (document.fullscreenElement && raiz.contains(document.fullscreenElement)) document.exitFullscreen().catch(() => {});
       quitarGrafica();
+      quitarMon();
       raiz.remove();
       if (linkCss && !document.querySelector(".fu")) linkCss.remove();
     },

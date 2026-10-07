@@ -264,6 +264,75 @@ html[data-textura="si"] .fu-det { background-image: var(--tex-caja, none); backg
 .fu-chip { display: inline-flex; align-items: center; gap: 5px; font: 600 10.5px/1 var(--f-cifra); letter-spacing: .05em; padding: 3px 7px; border-radius: 4px; color: var(--tinta); background: var(--capa3); white-space: nowrap; }
 .fu-chip i { width: 7px; height: 7px; border-radius: 2px; }
 
+/* ───────── Monetizar YouTube: cuándo y cuánto ───────── */
+.fu-mon, .fu-graf-caja { scroll-margin-top: 120px; }
+.fu-mon h2[tabindex]:focus { outline: none; }
+.fu-mon-acceso { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2) var(--s4); padding: var(--s3) var(--s4); border-left: 3px solid var(--marca); }
+.fu-mon-acceso p { margin: 0; flex: 1 1 320px; min-width: 0; font-size: 13.5px; }
+.fu-mon-acceso strong { font-weight: 600; }
+.fu-mon-ir { font-weight: 600; color: var(--tinta); min-height: 40px; }
+.fu-mon-cuerpo { padding: var(--s3) var(--s4) var(--s4); display: flex; flex-direction: column; gap: var(--s4); }
+.fu-esc-lista { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--s3); align-items: start; }
+.fu-esc {
+  position: relative; display: flex; flex-direction: column; gap: 4px; min-width: 0; padding: var(--s3) var(--s4) var(--s3);
+  border: 1px dashed var(--linea-fuerte); border-radius: var(--r2); background: color-mix(in oklab, var(--capa2) 60%, transparent);
+}
+.fu-esc h3 { color: var(--tinta); text-transform: none; letter-spacing: -0.01em; font: 600 16px/1.2 var(--f-titulo); margin-top: 2px; }
+.fu-esc-tag { align-self: flex-start; font: 700 10.5px/1 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 3px;
+  color: var(--tinta-suave); box-shadow: inset 0 0 0 1px var(--linea-fuerte); }
+.fu-esc-fecha { margin: 2px 0 0; font: 600 24px/1.05 var(--f-cifra); letter-spacing: -0.03em; color: var(--tinta); }
+.fu-esc-fecha.no { font: 600 17px/1.2 var(--f-titulo); letter-spacing: -0.01em; color: var(--baja); }
+.fu-esc-tot { margin: 0; font-size: 12.5px; color: var(--tinta-suave); }
+.fu-esc-tot b { font: 600 12.5px var(--f-cifra); color: var(--tinta); }
+.fu-esc-pq { margin: 4px 0 0; font-size: 12.5px; line-height: 1.5; color: var(--tinta-suave); }
+.fu-esc-pq.corto { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.fu-pq-btn { align-self: flex-start; padding: 4px 0; min-height: 32px; text-decoration: underline; text-underline-offset: 3px; }
+.fu-esc.probable { border: 2px solid var(--marca); background: var(--capa1); box-shadow: var(--sombra-1); }
+html[data-textura="si"] .fu-esc.probable { background-image: var(--tex-caja, none); background-size: 900px auto; }
+.fu-esc.probable .fu-esc-tag { background: var(--marca); color: #fff; box-shadow: none; }
+.fu-esc.probable .fu-esc-fecha { font-size: 32px; }
+.fu-esc.sin_crecer .fu-esc-tag { color: var(--baja); box-shadow: inset 0 0 0 1px var(--baja); }
+.fu-esc.en-grafica::after {
+  content: "en la gráfica"; position: absolute; top: var(--s3); right: var(--s3); font: 500 10.5px/1 var(--f-cifra); color: var(--tinta-tenue);
+}
+.fu-mon-graf { display: flex; flex-direction: column; gap: var(--s2); }
+.fu-mon-graf-cab { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--s2) var(--s3); }
+.fu-mon-graf-cab h3 small { display: inline; }
+.fu-mon-grafica { height: 280px; margin-top: 0; }
+.fu-totales { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s2) var(--s4); padding-top: var(--s3); border-top: 1px dashed var(--linea); }
+.fu-tot-lista { display: flex; flex-wrap: wrap; gap: var(--s2); }
+.fu-tot { display: flex; flex-direction: column; gap: 2px; padding: var(--s2) var(--s3); border-radius: var(--r1); border: 1px solid var(--linea); background: var(--capa2); min-width: 150px; }
+.fu-tot span { font: 600 10.5px/1.2 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-tenue); }
+.fu-tot b { font: 600 17px/1.2 var(--f-cifra); letter-spacing: -0.02em; }
+.fu-tot.sel { border-color: var(--marca); box-shadow: inset 0 0 0 1px var(--marca); }
+.fu-mon-tabla { border: 1px solid var(--linea); border-radius: var(--r2); background: var(--capa1); }
+.fu-mon-tabla summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; flex-wrap: wrap; gap: 4px var(--s2); padding: var(--s2) var(--s3); min-height: 44px;
+  font: 600 12px/1.25 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-suave); border-radius: var(--r2);
+}
+.fu-mon-tabla summary::-webkit-details-marker { display: none; }
+.fu-mon-tabla summary svg { width: 14px; height: 14px; flex: none; transition: transform 200ms var(--fu-curva); }
+.fu-mon-tabla[open] summary svg { transform: rotate(90deg); }
+.fu-mon-tabla summary:hover { color: var(--tinta); }
+.fu-mon-tabla summary small { text-transform: none; letter-spacing: 0; font: 400 12px var(--f-texto); color: var(--tinta-tenue); }
+.fu-mon-tabla .fu-tabla-caja { padding: 0 var(--s3) var(--s3); }
+.fu-tabla-mon th.f { font: 500 12px var(--f-cifra); white-space: nowrap; text-transform: none; letter-spacing: 0; color: var(--tinta); }
+.fu-tabla-mon tbody th, .fu-tabla-mon tfoot th, .fu-tabla-mon thead th:first-child { position: sticky; left: 0; z-index: 1; background: var(--capa1); }
+.fu-tabla-mon .sel { background: var(--marca-suave, #d7111916); }
+.fu-tabla-mon tfoot th, .fu-tabla-mon tfoot td { border-top: 2px solid var(--linea-fuerte); border-bottom: 0; }
+.fu-sin { font: 400 11.5px var(--f-texto); color: var(--tinta-tenue); white-space: nowrap; }
+.fu-mon-notas { display: flex; flex-direction: column; gap: var(--s2); font-size: 13px; max-width: 980px; }
+.fu-mon-notas p { margin: 0; color: var(--tinta-suave); }
+.fu-mon-notas b { color: var(--tinta); font-weight: 600; }
+.fu-mon-notas a { color: var(--tinta); text-underline-offset: 3px; }
+.fu-mon-notas a:hover { color: var(--marca-tinta); }
+.fu-mon-aviso { padding: var(--s2) var(--s3); border-left: 3px solid var(--baja); background: color-mix(in oklab, var(--baja) 8%, transparent); border-radius: 0 var(--r1) var(--r1) 0; }
+.fu-apunte {
+  align-self: flex-start; margin-top: var(--s1) !important; padding: var(--s2) var(--s3); transform: rotate(-.6deg);
+  font: italic 500 15px/1.4 var(--f-titulo); color: var(--tinta) !important; background: color-mix(in oklab, var(--sube) 10%, var(--capa1));
+  border: 1px solid color-mix(in oklab, var(--sube) 35%, transparent); border-radius: 2px; box-shadow: var(--sombra-1);
+}
+
 /* ───────── objetivos (hitos) y acierto ───────── */
 .fu-doble { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: var(--s4); align-items: start; }
 .fu-doble > .fu-caja { padding-bottom: var(--s4); }
@@ -382,6 +451,7 @@ html[data-textura="si"] .fu-det { background-image: var(--tex-caja, none); backg
 /* ───────── pantallas medianas y móvil ───────── */
 @media (max-width: 1180px) {
   .fu-tarjetas { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .fu-esc-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .fu-doble { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 900px) {
@@ -414,6 +484,14 @@ html[data-textura="si"] .fu-det { background-image: var(--tex-caja, none); backg
   .fu-hueco, .fu-picos { padding-left: var(--s3); padding-right: var(--s3); }
   .fu-hito.destacado { padding: var(--s3); }
   .fu-prec { grid-template-columns: minmax(0, 1fr); }
+  .fu-mon-cuerpo { padding: var(--s3) var(--s3) var(--s4); }
+  .fu-mon-acceso { padding: var(--s3); }
+  .fu-esc-lista { grid-template-columns: minmax(0, 1fr); gap: var(--s2); }
+  .fu-esc.probable .fu-esc-fecha { font-size: 28px; }
+  .fu-mon-graf-cab .fu-grupo { width: 100%; }
+  .fu-mon-grafica { height: 260px; }
+  .fu-tot { flex: 1 1 140px; min-width: 0; }
+  .fu-mon-tabla .fu-tabla-caja { padding: 0 var(--s2) var(--s2); }
   .fu-h-prob b { font-size: 19px; }
   .fu-ev { min-height: 40px; }
 }
