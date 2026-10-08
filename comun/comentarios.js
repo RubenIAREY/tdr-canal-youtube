@@ -649,7 +649,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
   function pintarListaCaja() {
     const el = $("lista"), etq = est.red === "global" ? " · YouTube" : "";
     const cuenta = k => HILOS.filter(filtroFn[k]).length;
-    el.innerHTML = `<div class="co-caja-cab"><h2 id="${uid}-t-lista">Comentarios${etq} <small>sin nombres: la página es pública</small></h2>
+    el.innerHTML = `<div class="co-caja-cab"><h2 id="${uid}-t-lista">Comentarios${etq} <small>con el nombre de quien comenta</small></h2>
         <div class="co-botones">${descargas("hilos", "los comentarios de la lista, con los filtros puestos")}</div></div>
       <div class="co-l-mandos">
         <div class="co-grupo co-filtros" role="group" aria-label="Qué comentarios se ven">${FILTROS.map(([k, n]) => `<button type="button" data-filtro="${k}" aria-pressed="${est.filtro === k}">${n} <small>${fmt(cuenta(k))}</small></button>`).join("")}</div>
@@ -676,7 +676,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
         : `<span class="co-estado ${espera ? "sin" : "nada"}">Sin respuesta de TDR</span>`;
     return `<li class="co-hilo${abierto ? " abierto" : ""}${espera ? " espera" : ""}${nuestro ? " nuestro" : ""}" id="${id}"><article tabindex="-1" aria-labelledby="${id}-t">
       <div class="co-h-meta">${nuestro ? `<span class="co-nuestro"><img src="${esc(LOGO)}" alt="" width="20" height="20"><b>TDR</b></span>` : ""}
-        <time datetime="${esc(h.fecha)}">${fechaHora(h.fecha)}</time>${h.nuevo && !TODOS_NUEVOS ? `<span class="co-nuevo">Nuevo</span>` : ""}
+        ${!nuestro && h.nombre ? `<b class="co-quien">${esc(h.nombre)}</b>` : ""}<time datetime="${esc(h.fecha)}">${fechaHora(h.fecha)}</time>${h.nuevo && !TODOS_NUEVOS ? `<span class="co-nuevo">Nuevo</span>` : ""}
         <span class="co-h-donde">${vt ? `<span class="co-vt">${vt}</span>` : ""}${uv ? `<a class="co-h-vid" href="${esc(uv)}" target="_blank" rel="noopener">${esc(corto(h.video_titulo || "(vídeo sin título)", 80))}</a>` : `<span class="co-h-vid">${esc(corto(h.video_titulo || "", 80))}</span>`}</span></div>
       <p class="co-h-txt" id="${id}-t">${esc(h.texto || "")}</p>
       <div class="co-h-pie"><span class="co-h-etq"><span class="co-tipo ${tipo}">${esc(TIPOS[tipo][0])}</span>${(h.temas || []).map(t => `<span class="co-tema-etq">${esc(t)}</span>`).join("")}
@@ -687,7 +687,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
         ${url ? `<a class="co-h-yt" href="${esc(url)}" target="_blank" rel="noopener">Ver en YouTube ↗</a>` : ""}
       </div>
       ${resp.length ? `<ol class="co-resp" id="${id}-r"${abierto ? "" : " hidden"}>${resp.map(x => `<li class="co-r${x.es_tdr ? " tdr" : ""}">
-        <div class="co-r-cab">${x.es_tdr ? `<img src="${esc(LOGO)}" alt="" width="20" height="20"><b>TDR</b><span class="co-r-quien">nuestra respuesta</span>` : `<b class="co-r-otro">Respuesta</b>`}
+        <div class="co-r-cab">${x.es_tdr ? `<img src="${esc(LOGO)}" alt="" width="20" height="20"><b>TDR</b><span class="co-r-quien">nuestra respuesta</span>` : `<b class="co-r-otro">${esc(x.nombre || "Respuesta")}</b>`}
           <time datetime="${esc(x.fecha)}">${fechaHora(x.fecha)}</time>${num(x.likes) ? `<span class="co-likes">${plural(+x.likes, "me gusta", "me gusta")}</span>` : ""}</div>
         <p>${esc(x.texto || "")}</p></li>`).join("")}</ol>` : ""}
     </article></li>`;
@@ -783,7 +783,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
           filas: L.map(h => { const rs = (h.respuestas || []).filter(Boolean); return [String(h.fecha || "").replace("T", " ").slice(0, 16), h.video_titulo || "", h.video_tipo || "",
             h.de_tdr ? "Nuestro" : (TIPOS[h.tipo] || TIPOS.otro)[0],
             (h.temas || []).join(", "), h.texto || "", num(h.likes), rs.length, rs.filter(x => x.es_tdr).length, h.de_tdr ? "es nuestro" : h.respondido_tdr ? "sí" : "no", num(h.horas_hasta_respuesta), h.url || ""]; }), anchos: [16, 44, 10, 14, 24, 80, 8, 10, 10, 12, 12, 40] },
-        meta: { titulo: "Comentarios de YouTube", slug: "comentarios-lista", cadaFila: "un comentario (hilo)", alcance: filtro, nota: "Sin nombres de autor: la página es pública." } };
+        meta: { titulo: "Comentarios de YouTube", slug: "comentarios-lista", cadaFila: "un comentario (hilo)", alcance: filtro, nota: "Con el nombre de quien comenta (decisión de Rubén, 08/10)." } };
     }
     if (que === "tabla") {
       const F = filasTabla(), esG = r === "global";
@@ -850,7 +850,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
     if (conTexto(est.red)) { pintarDicen(); pintarTemas(); pintarTipos(); pintarListaCaja(); }
     pintarTabla();
     const arriba = num(YT && YT.comentarios_tdr_arriba);
-    $("avisos").innerHTML = `<p class="co-nota">Comentarios: datos del ${esc(GEN)}. YouTube da el texto, la fecha y las respuestas de cada comentario (aquí sin nombres); Instagram, TikTok y Facebook, a través de Metricool, solo cuántos comentarios tiene cada publicación.` +
+    $("avisos").innerHTML = `<p class="co-nota">Comentarios: datos del ${esc(GEN)}. YouTube da el texto, el nombre, la fecha y las respuestas de cada comentario; Instagram, TikTok y Facebook, a través de Metricool, solo cuántos comentarios tiene cada publicación.` +
       `${arriba ? ` Los ${fmt(arriba)} comentarios que ponemos nosotros en nuestros vídeos salen en la lista con el logo, pero no cuentan en las cifras.` : ""}` +
       `${TODOS_NUEVOS && conTexto(est.red) ? " Es la primera carga: todos los comentarios han llegado en esta actualización; desde la próxima, los que lleguen saldrán como «Nuevo»." : ""}</p>`;
     alCambiarLleno();

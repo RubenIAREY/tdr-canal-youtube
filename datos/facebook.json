@@ -1,0 +1,1827 @@
+{
+ "actualizado": "2026-10-08 18:32",
+ "pagina": {
+  "id": "734060443287447",
+  "nombre": "Todoenrecambio.com",
+  "usuario": "todoenrecambio",
+  "enlace": "https://www.facebook.com/todoenrecambio",
+  "seguidores": 2796,
+  "me_gusta_pagina": 2796,
+  "categoria": "Compras y ventas minoristas",
+  "hablando": 3,
+  "foto": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-1/581939911_1138119135196802_1096470745443176145_n.jpg?stp=cp0_dst-jpg_s50x50_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=f907e8&_nc_ohc=q9v66OBvsnEQ7kNvwGKsb_W&_nc_oc=Adr3b-bV4D9vpDo9B4wutFXJS3IK3H6tR5_W9RtxXbhFCaK-cnLzokLEa6u2qag7N7E&_nc_zt=24&_nc_ht=scontent.fmad25-1.fna&edm=AJdBtusEAAAA&_nc_gid=mkWGQcKuViV7bODY8pVzWA&_nc_tpa=Q5bMBQJUR3M0APWIxoV0uFqkfQVBW5HlQvWawRqPvFxeoDlu_2GucOijMgiXeM5MnchcrWqFys-WOvJkDw&oh=00_AQMTVW7C6ghPfULGUl6UmEW-ltjlqUks3SCtvM4NEbYtQw&oe=6ACDA09C"
+ },
+ "estadisticas": {
+  "page_media_view": {
+   "nombre": "Visualizaciones del contenido",
+   "dias": [
+    [
+     "2026-09-09",
+     2
+    ],
+    [
+     "2026-09-10",
+     6
+    ],
+    [
+     "2026-09-11",
+     5
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     3
+    ],
+    [
+     "2026-09-14",
+     0
+    ],
+    [
+     "2026-09-15",
+     2
+    ],
+    [
+     "2026-09-16",
+     8
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     0
+    ],
+    [
+     "2026-09-19",
+     5
+    ],
+    [
+     "2026-09-20",
+     0
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     13
+    ],
+    [
+     "2026-09-23",
+     6
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     15
+    ],
+    [
+     "2026-09-26",
+     5
+    ],
+    [
+     "2026-09-27",
+     1
+    ],
+    [
+     "2026-09-28",
+     5
+    ],
+    [
+     "2026-09-29",
+     0
+    ],
+    [
+     "2026-09-30",
+     5
+    ],
+    [
+     "2026-10-01",
+     11
+    ],
+    [
+     "2026-10-02",
+     2
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     5
+    ],
+    [
+     "2026-10-05",
+     9
+    ],
+    [
+     "2026-10-06",
+     18
+    ],
+    [
+     "2026-10-07",
+     211
+    ],
+    [
+     "2026-10-08",
+     307
+    ],
+    [
+     "2026-10-09",
+     44
+    ]
+   ]
+  },
+  "page_total_media_view_unique": {
+   "nombre": "Espectadores (personas)",
+   "dias": [
+    [
+     "2026-09-09",
+     2
+    ],
+    [
+     "2026-09-10",
+     5
+    ],
+    [
+     "2026-09-11",
+     4
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     2
+    ],
+    [
+     "2026-09-14",
+     0
+    ],
+    [
+     "2026-09-15",
+     1
+    ],
+    [
+     "2026-09-16",
+     6
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     0
+    ],
+    [
+     "2026-09-19",
+     3
+    ],
+    [
+     "2026-09-20",
+     0
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     5
+    ],
+    [
+     "2026-09-23",
+     4
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     11
+    ],
+    [
+     "2026-09-26",
+     4
+    ],
+    [
+     "2026-09-27",
+     1
+    ],
+    [
+     "2026-09-28",
+     4
+    ],
+    [
+     "2026-09-29",
+     0
+    ],
+    [
+     "2026-09-30",
+     2
+    ],
+    [
+     "2026-10-01",
+     6
+    ],
+    [
+     "2026-10-02",
+     2
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     4
+    ],
+    [
+     "2026-10-05",
+     9
+    ],
+    [
+     "2026-10-06",
+     4
+    ],
+    [
+     "2026-10-07",
+     202
+    ],
+    [
+     "2026-10-08",
+     283
+    ],
+    [
+     "2026-10-09",
+     43
+    ]
+   ]
+  },
+  "page_views_total": {
+   "nombre": "Visitas a la página",
+   "dias": [
+    [
+     "2026-09-09",
+     3
+    ],
+    [
+     "2026-09-10",
+     1
+    ],
+    [
+     "2026-09-11",
+     7
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     0
+    ],
+    [
+     "2026-09-14",
+     2
+    ],
+    [
+     "2026-09-15",
+     1
+    ],
+    [
+     "2026-09-16",
+     1
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     1
+    ],
+    [
+     "2026-09-19",
+     3
+    ],
+    [
+     "2026-09-20",
+     1
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     5
+    ],
+    [
+     "2026-09-23",
+     1
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     0
+    ],
+    [
+     "2026-09-26",
+     0
+    ],
+    [
+     "2026-09-27",
+     0
+    ],
+    [
+     "2026-09-28",
+     1
+    ],
+    [
+     "2026-09-29",
+     1
+    ],
+    [
+     "2026-09-30",
+     7
+    ],
+    [
+     "2026-10-01",
+     2
+    ],
+    [
+     "2026-10-02",
+     1
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     1
+    ],
+    [
+     "2026-10-05",
+     0
+    ],
+    [
+     "2026-10-06",
+     3
+    ],
+    [
+     "2026-10-07",
+     2
+    ],
+    [
+     "2026-10-08",
+     1
+    ],
+    [
+     "2026-10-09",
+     2
+    ]
+   ]
+  },
+  "page_follows": {
+   "nombre": "Seguidores",
+   "dias": [
+    [
+     "2026-09-09",
+     2795
+    ],
+    [
+     "2026-09-10",
+     2795
+    ],
+    [
+     "2026-09-11",
+     2795
+    ],
+    [
+     "2026-09-12",
+     2795
+    ],
+    [
+     "2026-09-13",
+     2795
+    ],
+    [
+     "2026-09-14",
+     2795
+    ],
+    [
+     "2026-09-15",
+     2795
+    ],
+    [
+     "2026-09-16",
+     2795
+    ],
+    [
+     "2026-09-17",
+     2795
+    ],
+    [
+     "2026-09-18",
+     2795
+    ],
+    [
+     "2026-09-19",
+     2795
+    ],
+    [
+     "2026-09-20",
+     2795
+    ],
+    [
+     "2026-09-21",
+     2795
+    ],
+    [
+     "2026-09-22",
+     2795
+    ],
+    [
+     "2026-09-23",
+     2795
+    ],
+    [
+     "2026-09-24",
+     2795
+    ],
+    [
+     "2026-09-25",
+     2795
+    ],
+    [
+     "2026-09-26",
+     2795
+    ],
+    [
+     "2026-09-27",
+     2795
+    ],
+    [
+     "2026-09-28",
+     2795
+    ],
+    [
+     "2026-09-29",
+     2795
+    ],
+    [
+     "2026-09-30",
+     2796
+    ],
+    [
+     "2026-10-01",
+     2796
+    ],
+    [
+     "2026-10-02",
+     2796
+    ],
+    [
+     "2026-10-03",
+     2796
+    ],
+    [
+     "2026-10-04",
+     2796
+    ],
+    [
+     "2026-10-05",
+     2796
+    ],
+    [
+     "2026-10-06",
+     2796
+    ],
+    [
+     "2026-10-07",
+     2796
+    ],
+    [
+     "2026-10-08",
+     2796
+    ],
+    [
+     "2026-10-09",
+     2796
+    ]
+   ]
+  },
+  "page_daily_follows_unique": {
+   "nombre": "Nuevos seguidores",
+   "dias": [
+    [
+     "2026-09-09",
+     0
+    ],
+    [
+     "2026-09-10",
+     0
+    ],
+    [
+     "2026-09-11",
+     0
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     0
+    ],
+    [
+     "2026-09-14",
+     0
+    ],
+    [
+     "2026-09-15",
+     0
+    ],
+    [
+     "2026-09-16",
+     0
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     0
+    ],
+    [
+     "2026-09-19",
+     0
+    ],
+    [
+     "2026-09-20",
+     0
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     0
+    ],
+    [
+     "2026-09-23",
+     0
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     0
+    ],
+    [
+     "2026-09-26",
+     0
+    ],
+    [
+     "2026-09-27",
+     0
+    ],
+    [
+     "2026-09-28",
+     0
+    ],
+    [
+     "2026-09-29",
+     0
+    ],
+    [
+     "2026-09-30",
+     1
+    ],
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     0
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     0
+    ],
+    [
+     "2026-10-05",
+     0
+    ],
+    [
+     "2026-10-06",
+     0
+    ],
+    [
+     "2026-10-07",
+     0
+    ],
+    [
+     "2026-10-08",
+     0
+    ],
+    [
+     "2026-10-09",
+     0
+    ]
+   ]
+  },
+  "page_post_engagements": {
+   "nombre": "Interacciones",
+   "dias": [
+    [
+     "2026-09-09",
+     0
+    ],
+    [
+     "2026-09-10",
+     0
+    ],
+    [
+     "2026-09-11",
+     0
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     0
+    ],
+    [
+     "2026-09-14",
+     0
+    ],
+    [
+     "2026-09-15",
+     0
+    ],
+    [
+     "2026-09-16",
+     0
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     0
+    ],
+    [
+     "2026-09-19",
+     0
+    ],
+    [
+     "2026-09-20",
+     0
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     0
+    ],
+    [
+     "2026-09-23",
+     0
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     0
+    ],
+    [
+     "2026-09-26",
+     0
+    ],
+    [
+     "2026-09-27",
+     0
+    ],
+    [
+     "2026-09-28",
+     0
+    ],
+    [
+     "2026-09-29",
+     0
+    ],
+    [
+     "2026-09-30",
+     0
+    ],
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     0
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     0
+    ],
+    [
+     "2026-10-05",
+     0
+    ],
+    [
+     "2026-10-06",
+     0
+    ],
+    [
+     "2026-10-07",
+     0
+    ],
+    [
+     "2026-10-08",
+     2
+    ],
+    [
+     "2026-10-09",
+     0
+    ]
+   ]
+  },
+  "page_video_views": {
+   "nombre": "Reproducciones de vídeo",
+   "dias": [
+    [
+     "2026-09-09",
+     0
+    ],
+    [
+     "2026-09-10",
+     0
+    ],
+    [
+     "2026-09-11",
+     0
+    ],
+    [
+     "2026-09-12",
+     0
+    ],
+    [
+     "2026-09-13",
+     0
+    ],
+    [
+     "2026-09-14",
+     0
+    ],
+    [
+     "2026-09-15",
+     0
+    ],
+    [
+     "2026-09-16",
+     0
+    ],
+    [
+     "2026-09-17",
+     0
+    ],
+    [
+     "2026-09-18",
+     0
+    ],
+    [
+     "2026-09-19",
+     0
+    ],
+    [
+     "2026-09-20",
+     0
+    ],
+    [
+     "2026-09-21",
+     0
+    ],
+    [
+     "2026-09-22",
+     0
+    ],
+    [
+     "2026-09-23",
+     0
+    ],
+    [
+     "2026-09-24",
+     0
+    ],
+    [
+     "2026-09-25",
+     0
+    ],
+    [
+     "2026-09-26",
+     0
+    ],
+    [
+     "2026-09-27",
+     0
+    ],
+    [
+     "2026-09-28",
+     0
+    ],
+    [
+     "2026-09-29",
+     0
+    ],
+    [
+     "2026-09-30",
+     0
+    ],
+    [
+     "2026-10-01",
+     0
+    ],
+    [
+     "2026-10-02",
+     0
+    ],
+    [
+     "2026-10-03",
+     0
+    ],
+    [
+     "2026-10-04",
+     0
+    ],
+    [
+     "2026-10-05",
+     0
+    ],
+    [
+     "2026-10-06",
+     0
+    ],
+    [
+     "2026-10-07",
+     29
+    ],
+    [
+     "2026-10-08",
+     54
+    ],
+    [
+     "2026-10-09",
+     14
+    ]
+   ]
+  }
+ },
+ "publicaciones": [
+  {
+   "id": "734060443287447_1407098834965496",
+   "fecha": "2026-10-08T08:04:03+0000",
+   "texto": "🦺 ¿Chaleco reflectante en la moto: llevarlo o llevarlo puesto?\n\nLa moto tiene que llevar chaleco reflectante de alta visibilidad, igual que el coche.\n\n✅ Particular: no circulas con él. Te lo pones al bajarte en la calzada o el arcén de una vía interurbana (una avería, un accidente).\n✅ Si trabajas en moto (reparto, mensajería): puesto siempre que circules, en todo tipo de vías.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Chaleco Oxford OF398 Active Bright Top:\nhttps://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/varios-proteccion/chaleco-alta-visibilidad-oxford-of398-active-bright-top-amarillo-fluorescente-of398oxf.html\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#ChalecoReflectante #NormativaMoto #Oxford #DGT #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/4611591305726444/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/839476777_4611591735726401_197265203173089131_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=mARNJDbsyQsQ7kNvwHMgAHe&_nc_oc=AdptB5DsmYkrSBhFYspCEX-4L9aeCkNxltaB7na9FgL3UzYL01Gddr7G-HyqdDkn2gI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKAXTh43AFlmZ1rB4VeHELPYsOk4dV9sJS8iznm6BOpsd5EzhrKATeLS3wD_egwuDoJb271TtHKCw&oh=00_AQO3DUjQSLAAsdQ9nN50gfA460bJcX7z7KGPRsgEzCR3jA&oe=6ACD89A4",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1406585238350189",
+   "fecha": "2026-10-07T17:03:48+0000",
+   "texto": "🧤 Desde el 1 de octubre, los guantes en moto ya no son opcionales.\n\nEl Real Decreto 518/2026 obliga a llevar guantes de protección al conductor y al pasajero en vías interurbanas. Las especificaciones técnicas las fijará una orden del Ministerio del Interior; mientras no se publique, valen guantes de protección como los que se usan ahora.\n\n✅ Acerbis X-Street: certificación CE (EN 13594:2015, nivel 1 KP)\n✅ Acerbis Urban WP: certificación CE\n✅ Para conductor y pasajero\n\nℹ️ Fuente: BOE-A-2026-13889 (RD 518/2026, art. 118).\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Guantes Acerbis X-Street:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/guantes-de-moto/guantes-moto-acerbis-ce-x-street-0024019-negro-touring-road-con-certificacion-ce-0024019090061acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#GuantesObligatorios #DGT #GuantesDeMoto #Acerbis #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1815855019457444/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/836807408_1815855256124087_5065073323356269606_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=XAQs4UWYrVYQ7kNvwHizGr_&_nc_oc=AdrdNLLektqZYARzlyyFtie7Q7PPgKAygDB1_BREnf6L6hZNmjauca6hS9fVrHKFT4E&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJXKui9cRVm8o4kGGA5Sx5hBraA0H37a5NVSwcpf_epG07PlCd9nJWqSfRH0E83eoScPaXWug6SpA&oh=00_AQPGcTz4nStuKDUH4Dil2u7GSh0zEyxvlNZvTCm2pjJOUg&oe=6ACD820E",
+   "reacciones": 1,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1406212111720835",
+   "fecha": "2026-10-07T08:04:18+0000",
+   "texto": "🩴 Se acabaron las chanclas en la moto.\n\nCalzado cerrado que cubra todo el pie, en todo tipo de vías: ciudad, carretera y autopista. Para el conductor y para el pasajero.\n\nUnas zapatillas cerradas cumplen, pero cumplir no es lo mismo que proteger: lo que te protege el tobillo es una bota de moto con su norma, la EN 13634.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Botas de moto:\nhttps://todoenrecambio.com/botas\n🛒 Guía: botas de moto, tipos y talla:\nhttps://todoenrecambio.com/blog/botas-de-moto-tipos-protecciones-talla/\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#CalzadoCerrado #NormativaMoto #BotasDeMoto #DGT #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1014012785067525/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/838987980_1014013041734166_8923220466976239595_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=kFZbON8DAUAQ7kNvwHQ6qmE&_nc_oc=AdoaXFkzAfQ8bnjx3yrXNLCxYivdQvUUlP4OIS3CA3AA0aPRmTZonygKH2rpLnTu1to&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQI7DH8BJ1YGy1qs8rLd2bFCX2ZIx3_Oi0_KuitvEX7mXr83I-mtaz22vlIte06LtULqZpbuOyw6nQ&oh=00_AQNmEzzwPpbbprwgYDnt3AWg3QyiGZK5QgbLcP6IlDk9WA&oe=6ACD7EB1",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1405420381800008",
+   "fecha": "2026-10-06T11:01:41+0000",
+   "texto": "🧰 La avería siempre pasa cuando no tienes la herramienta.\n\nUn kit compacto bajo el asiento te saca de más apuros que media caja de herramientas en casa. En la zona de herramientas de TDR tienes desde kits de viaje hasta útiles de taller.\n\n✅ Oxford Biker Toolkit OX771 — 28 piezas en estuche compacto · 19,66 €\n✅ Bolsa de herramientas portátil Oxford OX770 · 39,33 €\n✅ Herramienta de válvula/obús Oxford OX695 · 2,95 €\n\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Oxford #Herramientas #Taller #Garaje #MantenimientoMoto #KitDeHerramientas #Motero #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1405420381800008",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/839166136_1405420361800010_2012221186018517040_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0rV3lyjlLgkQ7kNvwGoMkEZ&_nc_oc=AdpZ8IGhKahYEebxalwX1SsFBaD4MJg32uhdkxGe_48AKVRrAXtLV11tir5vBvJVpiM&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJC3Vfntqu6GkjKB9pYD-SP3ugxPn659xXFO-9Rux3PLHZWpj9Iv9W-HWHoOLEGt85Ll1FRbgDKBg&oh=00_AQNBaV0_smx-6D2fnWMftK3J_sIUUSDD1uuKHpiWXht4YA&oe=6ACDAC3A",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1405344305140949",
+   "fecha": "2026-10-06T09:04:14+0000",
+   "texto": "💸 Sin guantes o en chanclas: 200 € de multa.\n\nNo llevar guantes en vía interurbana, ir sin calzado cerrado o no llevar el chaleco cuando toca es infracción grave: 200 € (100 € con pronto pago). Y es por persona: si vais dos sin guantes, dos multas.\n\n¿Puntos? La nota de la DGT solo habla de la multa. La ley quita 4 por no usar el casco y los demás elementos de protección obligatorios. Hasta que se aclare, no te la juegues.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Equipamiento para moto:\nhttps://todoenrecambio.com/equipamiento-motorista\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#MultaMoto #NormativaMoto #DGT #GuantesObligatorios #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/3760183310785987/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/838987972_3760183734119278_4364974279404853520_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=QFXoHCSearUQ7kNvwH1tlAg&_nc_oc=AdoqQAwTEEepZljDjiabAs6U5rKeZjaJ8AFKiCNBUoA71H5W998XE_fbOUJ8AYLU_iI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKEglFZ1fsEXZmp4eP72B_gv4knmb0l5XqbbP2oS-uu7lPv57IY5AUDbIHHSONw_sYbEaop-WVoVw&oh=00_AQP3J5kkNiLvnLvm5GHqXkj6Oq9xcWsusBsSCJzp9K_nyg&oe=6ACD7CD5",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1402536352088411",
+   "fecha": "2026-10-03T11:01:35+0000",
+   "texto": "🏷️ ¿Ya has visto el Outlet de TodoEnRecambio?\n\nRecambios, accesorios y productos seleccionados con descuentos de hasta el 60%. Marcas de primera, no restos raros: Bosch, Motul, Ferodo…\n\n✅ Batería de litio Bosch LTX7L-BS\n✅ Aceite Motul 300V Factory Line\n✅ Pastillas Ferodo Eco-Friction\n\n👉 Stock limitado: lo que se agota no vuelve al mismo precio.\n\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com/outlet\n\n#Outlet #Ofertas #Bosch #Motul #Ferodo #Descuentos #RecambiosMoto #Motero #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1402536352088411",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/832231781_1402536338755079_6188815318409037545_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hK7xFcCCTQcQ7kNvwH0rSLW&_nc_oc=AdrjSoHbx6VPAN9xywfFgNXEHe712xvPAR8oxbvdOoBXpYkmXu8hT-GtoJqlVEUZN5w&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKA-j13vA73KCHRDNw6ygk9MnramVU1oQIAiQotG3NEVh-4kRkPVmHkNtA-dd_osYMx9WFFH3feyw&oh=00_AQMIJ3CmOCtbC1JWgDhgsVdAYbHbdU0Rsgb7tINSwOjmLQ&oe=6ACDA3C4",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1399486375726742",
+   "fecha": "2026-09-30T11:01:52+0000",
+   "texto": "⛓️ Si tu moto duerme siempre en el mismo sitio, ya saben dónde encontrarla.\n\nUn candado de disco va contigo. Pero en el garaje, el trastero o tu plaza habitual, lo que marca la diferencia es anclarla a algo que no se puede llevar: el suelo.\n\n✅ Anclaje fijo al suelo\n✅ Alta seguridad para plaza fija\n✅ Oxford Beast Floor Lock\n\n🔧 Ref. LK115 · 235,94 € (−35%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Oxford #Antirrobo #AnclajeDeSuelo #Garaje #SeguridadEnMoto #Motero #AccesoriosMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1399486375726742",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/829493193_1399486359060077_1732115504089437954_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-UxsEO_Pv3gQ7kNvwHtfqkJ&_nc_oc=AdqFthQDR7A1d8Z3fF1oFPuB7UFfLxqBl9uK6rbdxJGuO52UArSTpXl1eJavjzEic7Y&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKBNDOWsVEQZoPyqcmcPm9LYoWB_qw_eiL1NWnyHKRfCEEmAZTq0WKh94t2o0YGvIsSiYvcg_Y33Q&oh=00_AQPyEUK-7v-ecLsmD8fZ6W1mYMVokmM2ZE8tGKdLq5uMkA&oe=6ACDAD12",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1396560292686017",
+   "fecha": "2026-09-27T11:01:36+0000",
+   "texto": "🦺 Se te para la moto en el arcén de una interurbana, de noche. ¿Te ven a tiempo?\n\nDesde el 1 de octubre de 2026 el chaleco reflectante pasa a ser dotación obligatoria en la moto. Lo recoge el Real Decreto 518/2026, ya publicado en BOE.\n\n✅ Llévalo siempre en la moto\n✅ Úsalo al bajar y ocupar calzada o arcén en vías interurbanas\n✅ Carpriss 79620032: alta visibilidad y conformidad CE\n\n👉 Quedan días. Con envío en 24/48h llegas de sobra.\n\n🔧 Ref. 79620032BOL · 6,20 €\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#ChalecoReflectante #RealDecreto518 #Normativa2026 #SeguridadVial #DGT #Motero #SeguridadEnMoto #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1396560292686017",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/825336859_1396560282686018_192175284354791053_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=L6YILoPtVyAQ7kNvwGj17I7&_nc_oc=AdprNFtaj61Ug71zwSTeq7qZnLxjg2gul759xnqIUQ8VT2LBvXVU1JwER4asG2vG4m8&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLJfGWHpf1o4SyLffUarH3BTWjlMtZEDGdExwGIcmZpHCnRWJ5R9BX1U6w-dg8n721bJ01eRSHoNw&oh=00_AQOgFhceAWkYO7FBhRdw64IxfwfTQwP_PulXJqNIDsQ0jQ&oe=6ACD8F59",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1393587752983271",
+   "fecha": "2026-09-24T11:01:45+0000",
+   "texto": "🔧 Engrasar la cadena de rodillas en el suelo. Todos hemos pasado por ahí.\n\nCon la moto elevada y estable el mantenimiento es otra cosa: limpias, engrasas, revisas y desmontas sin pelearte con el caballete ni con tu espalda.\n\n✅ Eleva la moto de forma estable\n✅ Mantenimiento y reparación mucho más cómodos\n✅ Elevador hidráulico Acerbis\n\n🔧 Ref. 0023860 · 69,96 € (−30%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Acerbis #Elevador #Caballete #Taller #MantenimientoMoto #Enduro #Motocross #Herramientas #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1393587752983271",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/817329475_1393587729649940_308538607753691739_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gekiKlDJLRIQ7kNvwEvPLjK&_nc_oc=AdrhcrfDwKMrwSswk9lhMwMWvcKQcvtWUIZKb-VimUjdQCJlsLRH7yMGcvcPJsLAsUI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLWUc2ykXfXfyL4J_QKR4EnkhfkjNaQ0L7_6T0xHTspG_NUcQO1YdxWN7MYBGX7uoPLQtUYSsuHyQ&oh=00_AQNxIkj1kyLnb5wTcBG_CtWtK7M606daWhT2RlJwoO6NQw&oe=6ACD8DDC",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1390948139913899",
+   "fecha": "2026-09-21T11:01:41+0000",
+   "texto": "🌧️ Septiembre también trae lluvia. Y las escobillas llevan todo el verano al sol.\n\nEl calor endurece la goma. Cuando llega la primera tromba ya no barren: dejan marcas, hacen ruido y te quitan visibilidad justo cuando más la necesitas.\n\n✅ ¿Dejan marcas en el cristal?\n✅ ¿Hacen ruido al barrer?\n✅ Cámbialas antes de necesitarlas\n\n⚠️ La medida correcta depende de tu vehículo: compruébalo en la web antes de comprar.\n\n🔧 Valeo 574110 · 6,50 €\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Valeo #Escobillas #Limpiaparabrisas #Lluvia #Visibilidad #MantenimientoCoche #RecambiosCoche #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1390948139913899",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/799370142_1390948116580568_5468585645549642702_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=QaYkBTdKv6EQ7kNvwFnKY7F&_nc_oc=AdorZqvSIckxHmodUsDhNznilfp-hcIHvrhwL2ZPidSiOnqwF4hyp_-gx-hf49AUCs0&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLqe4KAGEcPv8gySftn14v9ZcMo_mpt144TawvIXAPycsAypf3BhevwzHx4JLRaR3r_01By6krpMg&oh=00_AQNpq50C860W3BOdnhEskmuWZAIrrW3GrUAqUNkk-0d0lQ&oe=6ACD94B0",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1388403960168317",
+   "fecha": "2026-09-18T11:01:41+0000",
+   "texto": "🔧 ¿ITV a la vista? No lo dejes para el día antes.\n\nEl Pack PRE ITV de Motul son dos pasos: limpia el sistema de inyección y trata el filtro de partículas. Se echa al depósito y trabaja mientras conduces los días previos.\n\n✅ Diesel System Clean — inyectores y válvulas\n✅ DPF Clean — filtro de partículas\n✅ Certificación de formulación alemana TÜV\n\n🔧 Ref. 111259 (Diésel) · 13,25 €\n🔧 También en versión Gasolina (ref. 111258)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Motul #ITV #PreITV #Diesel #DPF #Aditivos #MantenimientoCoche #RecambiosCoche #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1388403960168317",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/796668595_1388403916834988_3924578930339116814_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CDNX915LRDMQ7kNvwFvoHXo&_nc_oc=AdrVxutABYOW8SxCGmtg5rcQi72-LC5wcHS5cKwfAKTluR0uHb2IH1EU2KwmuANFJbo&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJ-chYFGAPDtppryEi9NRBqkYf86RLmHASElnSemBPU5Jh8Tyr1GNmgWNZoJKCVanZOYlfuXH1bbw&oh=00_AQPk6QDL8WXFuLPJLlASc6JUK-_G0eANWIEU9cDgNedibQ&oe=6ACDB44F",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1385840433758003",
+   "fecha": "2026-09-15T11:01:48+0000",
+   "texto": "😷 Abres el coche después del verano y ese olor… no se va con un ambientador.\n\nPolvo, humedad y calor han estado trabajando dos meses dentro de tus conductos de A/C. El spray higienizante limpia evaporadores y canalizaciones, que es donde está el problema de verdad.\n\n✅ Limpia evaporadores y conductos de A/C\n✅ Elimina olores desagradables por humedad o tabaco\n✅ Tratamiento purificador para el habitáculo\n\n🔧 Ref. 19Z0599 · 10,95 €\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Higienizante #AireAcondicionado #LimpiezaCoche #MantenimientoCoche #Habitaculo #VueltaAlaRutina #RecambiosCoche #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1385840433758003",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/812281481_1385840407091339_7807077563764955952_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=wi-La3tzIiMQ7kNvwG8hMrQ&_nc_oc=AdqaUMII-pskpXbb6DdWinIrBYq45op_Gp0E3vVnxdYiITxR9volWgoOWbWOYnHXdyc&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLUXcfPiyhjXaLqpU3sCQzpxAfTJsL1RZ1Gio_IapLenCS9td0kiaJWo2Fw73OUXlb5Lh599G5u_g&oh=00_AQNxyPpO9f6YC8Uy0R_1QWxxRHMDicjwOZePWzK-bTY40w&oe=6ACD7D08",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1383301797345200",
+   "fecha": "2026-09-12T11:01:36+0000",
+   "texto": "🔒 Aparcas en la calle, te vas… y cruzas los dedos.\n\nUn candado de disco normal disuade. El Oxford Screamer 7 hace algo más: si alguien manipula la moto, salta la alarma. Y una alarma sonando en plena calle es lo último que quiere quien intenta llevarse tu moto.\n\n✅ Candado de disco: bloquea la rueda\n✅ Alarma integrada, se activa ante un ataque\n✅ Compacto: se lleva bajo el asiento\n\n🔧 Ref. LK289 · 49,15 € (antes 75,61 €, −35%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Oxford #Screamer7 #CandadoDeDisco #Antirrobo #SeguridadEnMoto #Motero #AccesoriosMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1383301797345200",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/807673637_1383301774011869_7468038317222814528_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0QzH18KVjO4Q7kNvwEYqfOD&_nc_oc=AdobbJrBPww3b56a2Id-zG6DLdAbMxxKLJ2qwPs5h2a1udvr6hT3484nO8oUA95yyCc&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLY52QznozvuCanyohilnFJJWR7CbKyxt2LdjDynfiPbwhQUOvc328j2_qVrd6mG6R69C9uVQyUKg&oh=00_AQMYypvF7jtZSY4-I-Igsxf_xfM-dbzdDzfA0RFEXRrOaQ&oe=6ACD9660",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1380750044267042",
+   "fecha": "2026-09-09T11:01:45+0000",
+   "texto": "🧤 Guantes para cada momento. Y con la obligación a la vuelta de la esquina.\n\nDesde el 1 de octubre los guantes son obligatorios en vías interurbanas. Mejor elegir con cabeza ahora que corriendo la última semana. Dos opciones Acerbis homologadas CE:\n\n✅ X-Street — protección CE, touring y road\n✅ Urban WP — impermeable, para el día a día\n✅ Ambos con certificación CE\n\n🔧 X-Street ref. 0024019 · 31,47 € (−30%)\n🔧 Urban WP ref. 0024018.090\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Acerbis #GuantesDeMoto #CE #Homologados #XStreet #UrbanWP #Impermeable #Motero #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1380750044267042",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/801883655_1380750024267044_6392773849295309541_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=grFNSf_04CYQ7kNvwGMbUsC&_nc_oc=AdrnwS-Xf1jwCzZQWSxXTqC7l4BY5O37VkUjF9-5vY_zTf4HDDil8itbkCvSYB3MnQM&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJN0gAI9JlSijQoIp7tSVrtxg_V3lIRFbYGlVTExjYdP97-8KeP5e0vjHklhSELrwt5ZveQJFg4RA&oh=00_AQMHMCJeirF6w5N2Fkidz-xYibdTCShFkqW12C_Pnd5mQA&oe=6ACDB049",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1378198221188891",
+   "fecha": "2026-09-06T11:01:34+0000",
+   "texto": "🧤 Ya es oficial: desde el 1 de octubre de 2026, guantes obligatorios en moto.\n\nLa nueva norma afecta al conductor Y al pasajero de motocicletas y ciclomotores en vías interurbanas. Los requisitos técnicos concretos quedan pendientes de la orden ministerial.\n\n▪️ Entrada en vigor: 1 de octubre de 2026\n▪️ Afecta a conductor y pasajero\n▪️ Ámbito: vías interurbanas\n\n👉 Quedan semanas. Mejor equiparse con tiempo que a última hora.\n\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#DGT #GuantesObligatorios #Normativa2026 #SeguridadEnMoto #Motero #GuantesDeMoto #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1378198221188891",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/798021749_1378198207855559_2610365262981781399_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=eQvkwQq7lrMQ7kNvwE2dEfq&_nc_oc=AdqHvFj9gDXe5yXZm8ktfzjSA4WMV2dqqcQBYkxxE1gS7YPbTs5RtA_-5ak2BR1MHUo&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQIFfFozRU7vy9RKF8XAMNyJ6gx4ooU1XkRh6rUrRY8JJwcyj2ISKgzxAUz08HFXpf5uxhv8ZZtE3w&oh=00_AQNBTR2QDQXcl-YmQzcreICL8YznCngvXPxyzH7qdMK0NQ&oe=6ACD8287",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1375592461449467",
+   "fecha": "2026-09-03T11:01:46+0000",
+   "texto": "⚡ ¿Cuántas bujías lleva tu coche? La respuesta rápida: normalmente, una por cilindro.\n\n4 cilindros = 4 bujías. Cada cilindro necesita su chispa para encender la mezcla de aire y combustible.\n\nPero ojo, hay excepciones:\n▪️ Algunos motores llevan dos bujías por cilindro (twin spark)\n▪️ Los diésel no llevan bujías: llevan calentadores\n\n👉 Antes de comprar, identifica tu motor y comprueba la referencia exacta.\n\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Bujias #Encendido #MecanicaBasica #MantenimientoCoche #Motor #SabiasQue #RecambiosCoche #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1375592461449467",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/793001919_1375592448116135_8758606038677256899_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Ui3lqJ036VYQ7kNvwFgY9Dk&_nc_oc=AdrjNzgQAx15YxwgsEMV55GnOGQWgwqGW8bh7qESmZljhA_4L3AtiwTFLcw_0LjDKaU&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJnIqZSFbPVuYeJqEbqS4wZXguL2jbzTBA0qpiQi4cvd0Bk_HTuyG0V4GFbE89MqM-pF4ufnL9sTQ&oh=00_AQN2FB7jRke4mkQrT7efdlTukHlVfmlrS2W5ox_-cuPS8Q&oe=6ACDAC5E",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1373115935030453",
+   "fecha": "2026-08-31T11:01:47+0000",
+   "texto": "🔧 Se te rompe el cable del embrague a 80 km de casa. ¿Y ahora qué?\n\nEs de esas averías tontas que te dejan tirado. El kit Oxford OX774 te saca del apuro: repara temporalmente cables de embrague, acelerador o freno para poder llegar al taller.\n\n✅ Cabe en cualquier maleta o bolsillo\n✅ Para embrague, acelerador o freno\n✅ Solución temporal → luego, reparación definitiva\n\n🔧 Ref. OX774 · 11,80 € (antes 18,15 €, −35%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n⚠️ Es una reparación de emergencia: haz revisar el cable por un profesional en cuanto puedas.\n\n#Oxford #KitReparacion #Averia #Ruta #Motero #Herramientas #Enduro #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1373115935030453",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/789651950_1373115911697122_7899485770006051382_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3DCs3vmSJW0Q7kNvwEe8E_z&_nc_oc=AdofwPnoLnbvQVHcmI-Opm5IFL7leQCnm8GlH9CYwoYaH_dJWU-g8MjlzshfzasHnEw&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQInEYkgsdwgX9w0IaHFBsXKi2k3Vk08WEq3WRFEV_YCFFgxwKFylmTeT8KFDXw-hjfB_HQ3Jei-7A&oh=00_AQON9H564RmiLLFrag8ht9drW3m6fDsGCTZJNR9Jjp2KPA&oe=6ACD9561",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1370587061950007",
+   "fecha": "2026-08-28T11:01:46+0000",
+   "texto": "🛞 ¿Cuándo miraste la presión de los neumáticos por última vez?\n\nSi la respuesta es \"no me acuerdo\", ya vas tarde. Una presión incorrecta desgasta antes el neumático, sube el consumo y te quita agarre justo cuando más lo necesitas.\n\nEl Oxford AirGauge OX752 es un comprobador digital de bolsillo: lo llevas siempre encima y lo compruebas en 30 segundos.\n\n✅ Lectura digital, sin adivinar\n✅ Compacto: cabe bajo el asiento\n✅ Para moto y coche\n\n🔧 Ref. OX752 · 14,74 € (antes 22,67 €, −35%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Oxford #PresionNeumaticos #Neumaticos #MantenimientoMoto #Herramientas #SeguridadEnMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1370587061950007",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/786242862_1370587045283342_2534375313817399483_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=P12HQCE7dE8Q7kNvwGaUJJB&_nc_oc=AdoL5m4ZfTtUQYDFBYlDJOvUdFkQEvsfdRnkKo0SGopTOfCm9uaHLN0R5sTLYglJytA&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQI46t5Kt1EyoRypdyIW6rOX9aXI3sOaBaL5ZzEyxzQJD3NCtuDnbwEE09CHy6JkKLj5estBlS3bbQ&oh=00_AQNa8wcsB0KQW6UPmtpHa92s19bZc_agORyUvEqjQ2MkFQ&oe=6ACD84FF",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1368007085541338",
+   "fecha": "2026-08-25T11:01:44+0000",
+   "texto": "🌧️ Tormenta de verano, polvo, insectos… y tú viendo borroso.\n\nEn verano el sol y el calor endurecen la goma de las escobillas. Cuando llega la primera tromba ya no barren: rayan. Valeo 574110, escobilla de recambio para tu coche.\n\n✅ Recambio directo\n✅ Visibilidad recuperada\n✅ La medida correcta depende de tu vehículo → compruébalo en la web\n\n🔧 Ref. 574110 · 6,50 €\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Valeo #Escobillas #Limpiaparabrisas #MantenimientoCoche #Visibilidad #RecambiosCoche #Verano #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1368007085541338",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/786801836_1368007068874673_1783330556482451187_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-hmRlhygO8UQ7kNvwEPk3i7&_nc_oc=Adqqppg_S5NKPbUHExqhhuFDKW_2u68ZiPhH5ttiMWcsAJbmNLnaG1TzqiRLuGgo9-0&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJPXJWj1938DDD69TgHolWl8a_XVibOBKGmRQGHFzKSf1ykjlWP_OQpvn-ZR0UhcdL8kbNxT3q4Gg&oh=00_AQPHKKSPlTQmo7c1fAxBefRi0tgoMgkMr_oHngjm47vuqw&oe=6ACD9F05",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1365464975795549",
+   "fecha": "2026-08-22T11:01:37+0000",
+   "texto": "🪖 ¿Dejas el casco tirado en el asiento del coche o colgado del manillar?\n\nAsí es como se raya la calota y se estropea el interior. La bolsa Acerbis Helmet Bag 2.0 le da su sitio: 28 litros, con asas para llevarlo cómodo a donde vayas.\n\n✅ 28 L de capacidad\n✅ Asas para transporte\n✅ Guarda y protege tu casco cuando no lo usas\n\n🔧 Ref. 0025464.090 · 24,47 € (antes 34,96 €, −30%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Acerbis #BolsaCasco #CascoDeMoto #AccesoriosMoto #Motero #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1365464975795549",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/784063013_1365464952462218_4965124850077731824_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=i_zyrSjGjLIQ7kNvwElD90V&_nc_oc=Adpxq0XhldeR2Khjsd8r7Up-nt-yaSpfJAnNQdCGQJlKGkhzHoykVqLoxTn4jRVzhuA&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLWgYII9H4iTyMXRZXfC_QqnTCy3U46SBLkxZ1ZXzzcv2Etu2h9fbIzABAhhe9LPhMbVRRjSuHUTQ&oh=00_AQPHQYEpOPy2SxSSmGHVWjpEaf-aBF_QGBtNRc-yizL_HQ&oe=6ACD886C",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1362908706051176",
+   "fecha": "2026-08-19T11:01:58+0000",
+   "texto": "🦵 En el off-road, las rodillas van siempre en primera línea.\n\nDos caminos según cómo ruedes: Impact EVO 3.0 con estructura articulada, o Impact PRO con panel perforado más ligero y ventilado.\n\n✅ Impact EVO 3.0 — protección articulada\n✅ Impact PRO — ligera y ventilada\n✅ Acerbis, para enduro y cross\n\n🔧 Impact PRO ref. 0027097.090 · 62,97 € (antes 89,95 €, −30%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Acerbis #Rodilleras #ProteccionMoto #Enduro #Motocross #OffRoad #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1362908706051176",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/778517810_1362908662717847_6005834071564705932_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=r8l-jEnncRAQ7kNvwEmTl2u&_nc_oc=Ado1XeQ8MxIQr5x0OCaGX7XVSo0z8wdIJExg8yyB98slqufErRXkg_hoPUg17x-ocDQ&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKwCj0Y7tdZJ1kY01Cip9EL_Q7222XbgG0rVufVke9TLUjKNU1Q5ZtV5HpxwbTSqHJn0sfG_s596A&oh=00_AQNhi_6NVkFmk6chuj95ZcbG2KitFWXbJ8FD0Hg7w2_pBA&oe=6ACD8B13",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1360385136303533",
+   "fecha": "2026-08-16T11:01:40+0000",
+   "texto": "🐛 Vuelves de ruta y el frontal parece un parabrisas de camión.\n\nY cuanto más esperas, más se pega. Rain-X 26211 disuelve los restos de insectos del exterior del coche sin frotar como un poseído.\n\n✅ Parabrisas y lunas\n✅ Carrocería\n✅ 500 ml · rinde para todo el verano\n\n🔧 Ref. 26211 · 9,31 € (antes 15,56 €)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#RainX #EliminadorDeInsectos #LimpiezaCoche #Parabrisas #DetailingCoche #MantenimientoCoche #Viaje #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1360385136303533",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/775272387_1360385106303536_4061197509842154850_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kUpFi5AHAEMQ7kNvwGxD5nk&_nc_oc=Adpu8pEmhQ9CvQQgr28A4n4Djl6a0Q7FRAweaK4fVAtNZUg8fySgSDN4-C8nLh22IQE&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKekjk0UDPw0hUhGiVlnqMNulsx8CajXATOlzjpUhGaL5svWJQ6prApJpTKSCrOIhsxjl45GkCOUw&oh=00_AQMiWl48MR49t8N-utjYxA_y8tkCqSNiaPFeBE8PysggtQ&oe=6ACD81BC",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1357762206565826",
+   "fecha": "2026-08-13T11:02:41+0000",
+   "texto": "☀️ Casco y guantes de una sola vez. Y en tres estilos.\n\nEl pack Acerbis junta el casco Jet Aria 22-06 con los guantes Ramsey MY Vented ventilados. Tres combinaciones reales: negro total, blanco/amarillo flúor o blanco/naranja.\n\n✅ Casco jet Acerbis Aria 22-06\n✅ Guantes Ramsey MY Vented, ventilados para verano\n✅ Elige tu combinación → desliza para verlas\n\n🔧 Ref. 0023478.090.064 (pack negro)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Acerbis #CascoJet #JetAria #RamseyVented #GuantesDeMoto #EquipacionMoto #Motero #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1357762206565826",
+   "tipo": "album",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/772647674_1357762106565836_8625685584988175214_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=3Dr81TpV65cQ7kNvwFsXiy9&_nc_oc=AdoOm_x5djg5qFZNwPtQEsAXcp0LlxHfwLdzezHkebFHdYdT9hO_Zb7qS8E_xqO69Pw&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLzMc5eWRikpCS8kB679C1R68mLIIvsP5QP_NV43MadyZyvdZPb-My5LwtOpRkUV6qNYQF-5735qg&oh=00_AQO_JC59YUkG3F2YTsPb4491g0YNT-IxbW6FN-lSs0Zjhw&oe=6ACDA9B5",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1351852327156814",
+   "fecha": "2026-08-06T11:02:02+0000",
+   "texto": "⚙️ KIT DE TRANSMISIÓN BAIKA — Honda CBR1000RR (2008-2016)\n\nPiñón + corona + cadena Regina 530 ZRT: kit completo y listo para montar. Configuración 16/42 · paso 530 · 116 eslabones. Componentes de alta resistencia para una transmisión más eficiente, suave y duradera.\n\n🔧 Ref. CBR10RR08161BAI\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Baika #KitDeTransmision #HondaCBR1000RR #CBR1000RR #Fireblade #Regina #Moto #RecambiosMoto #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1351852327156814",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/764340209_1351852290490151_4279592702112196878_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=glsezXFjMd0Q7kNvwGBdT8E&_nc_oc=AdqlYGJb2EJkJcDXZji9OGmQZsKREjpa_v0Sn1Dl0YVHjvLg-RlgVqVk6WLeaNqfefU&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQIk2fNVBLoZ_yq-iBPWtj5g4Cp0eVgoN-FYwyNcvJ_d8MbABMTtzZVSUnla58ikslVCAIyBoRgRGA&oh=00_AQPGhkVqT-CVK5dDqvoftt2Rejs2yOkvtZE2pPxPTcCTWQ&oe=6ACD8196",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1347564494252264",
+   "fecha": "2026-08-01T11:01:45+0000",
+   "texto": "🛡️ Dirección dura, ruidos al girar o el aire que ya no enfría igual…\n\nMetal Lube 30DAF es antifricción para tu dirección asistida Y el compresor del A/C. Crea una película que reduce la fricción y la temperatura: menos desgaste, mejor rendimiento y más vida útil para tu vehículo.\n\n🔧 Formato 30 ml · uso sencillo\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#MetalLube #DireccionAsistida #AireAcondicionado #Aditivos #Coche #MantenimientoCoche #RecambiosCoche #TodoEnRecambio #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1347564494252264",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/759919958_1347564437585603_3078644082490292845_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=O1nA9uuFde8Q7kNvwH2q_DG&_nc_oc=AdoDop0gIOq_IfARjZf9rpbEu-rDJtY48loLbD8alx4X6tdHvy2fpoazeML2nLaQsUI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJ70NeesUKCgfmdES1cH5ZuKTSFSTIQLT_uPSy10XJuJjNGopRJYCTUibkR7eBb5jf7jeu4FpGJVA&oh=00_AQNvzQm3aZgN19d6i0BzPwJ7ci60n5381ZCeXFkUlzXSeQ&oe=6ACD9310",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1343958697946177",
+   "fecha": "2026-07-28T11:02:39+0000",
+   "texto": "☀️🔥 ¿Conducir en verano con las manos ardiendo? No te compliques.\n\nGuantes Acerbis Ramsey MY Vented: ligeros y ventilados para que tus manos respiren aunque el asfalto marque 46°. Sujeción y protección donde importa, frescor en cada trayecto.\n\n🧤 3 colores: negro · amarillo/negro · negro/rojo\n💶 27,97 €\n📦 Envío gratis desde 70 €\n🛒 todoenrecambio.com\n\n#Acerbis #GuantesDeMoto #GuantesVerano #Moto #Motero #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR #Verano",
+   "enlace": "https://www.facebook.com/reel/1051022424106935/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/758563206_1037372832606014_8725590938461606506_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=6u3b2vhhZe8Q7kNvwEl7OQO&_nc_oc=AdoBVp-RmlgHDiqHx_06Ym5tBud2iiDnCfu9PRcpbbf-lruGf7_JKwANOjj5_miPBmY&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQIJnli78RWLRxDcAaR9aH0HVUKYdsFyTRSvwL9ZVOtDEnlZWoOgozm3ao8EnB8pRC1x3OL1WxH0wQ&oh=00_AQMMybFB7Eg3SCdDokcaxtb2-eAkULFnvzHQd6MTif3eog&oe=6ACD9476",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1340627894945924",
+   "fecha": "2026-07-24T11:02:41+0000",
+   "texto": "🛑 POTENCIA TU FRENADO — Bomba de freno trasera Brembo PS13\n\nEl freno trasero es clave para estabilizar la moto y afinar el control en cada frenada. Con la bomba Brembo PS13 tienes calidad de primer equipo y sustitución directa.\n\n✅ Estabiliza la moto en frenadas intensas\n✅ Mejor control en todo tipo de condiciones\n✅ Ajuste perfecto — materiales premium\n🏍️ Ideal para uso urbano y deportivo\n\n🔧 Ref. 910.A903.90\n📦 Envío gratis desde 70 €\n🛒 todoenrecambio.com\n\n#Brembo #PS13 #FrenosMoto #BombaDeFreno #RecambiosMoto #Moto #Motero #TodoEnRecambio #MecanicaMoto #SeguridadEnMoto #TDR",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1340627894945924",
+   "tipo": "album",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/754970699_1340627751612605_6175426657936955969_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HS8eIKt9JjkQ7kNvwG06PiH&_nc_oc=AdoYEGNsS2U_dKe4ba5-K79TWz-EVUvmwqbuCiJRBJHUJ61HEYVML_xUhQcPLtZE4eU&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLeSHER3jCqeqjXbEZqDg3C-ftjXC-myiK2sufO015i2P2O5P_6tiqzzZSERztd2VEAqvj0rnf-8w&oh=00_AQPV8Yt8xm8RomdBHk9MoaMZxl4pUUGukEnDOmhH5R8zCg&oe=6ACD90F9",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1339044665104247",
+   "fecha": "2026-07-22T11:02:43+0000",
+   "texto": "🏍️🧠 Los moteros pensamos diferente… y ahora lo dice la ciencia.\n\nUn estudio exploratorio de AMV junto al Servicio de Psicología Aplicada de la Universidad de Murcia comparó a moteros y no moteros. ¿El resultado? Rodar también entrena la cabeza:\n\n🎨 +48,3% más creatividad\n⚡ +12,6% más rápidos procesando información\n🎯 +11,8% más agilidad mental y +12% mejor planificación\n❌ -36,5% menos errores\n❤️ +24% mejor interpretando a los demás (+15% más empatía)\n😌 -55% menos ansiedad y -45% menos estrés\n\nMoraleja: salir a rodar te sienta bien por dentro y por fuera. Y lo que nos hace pensar mejor… se cuida. 🔧\n\nTen tu moto siempre a punto en 👉 todoenrecambio.com\n\n📊 Fuente: estudio exploratorio de AMV y la Universidad de Murcia (muestra: 4 moteros y 4 no moteros).\n\n#moteros #moto #motero #rutaenmoto #motolife #TodoEnRecambio #TDR #recambiosmoto #AMV #motociclismo #dosruedas #motostagram",
+   "enlace": "https://www.facebook.com/reel/1682380799702833/",
+   "tipo": "video",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/753381622_2491671134580234_8462718999000235559_n.jpg?stp=dst-jpg_s720x720_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=htwpe4TBD3sQ7kNvwHvDipq&_nc_oc=Adp3QkKWxYFOhZA1FQUzP57Q-Pm64Kbak9skOku7syMo4m_8eBQ6PosctXopA1L3uig&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLfDNwstC8oIgXT9IQf4Vc42nrm4xDJsmwmBQ9aI1RV2_GSGiRAfsOwE3nCcPbXd-qo8VfDR3Lorg&oh=00_AQO9-eOs79_Yzdyvd0F71V0MFUSsRwuJrE0YWXUsVwatTA&oe=6ACD7C91",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1332430282432352",
+   "fecha": "2026-07-14T08:03:56+0000",
+   "texto": "🏍️ NIVEL 2: menos impacto, más protección.\n\nNo todas las protecciones son iguales. El Peto Acerbis Integral X-Fit Future Level 2 transmite menos fuerza de impacto, por lo que protege más.\n\n🔒 Cierre lateral\n🪖 Compatible con collarín\n🛡️ Protectores Memory Foam\n\n🔥 Ahora 139,97 € (antes 199,95 €) · -30%\n\n🛒 Encuéntralo en todoenrecambio.com",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1332430282432352",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/745524929_1332430249099022_3739978723853846863_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pAH-KDcXl90Q7kNvwHH__XP&_nc_oc=AdrJK6Dfj43LlJDJ3t3RdB6UUjjOtZ1q-yf-_ayPz8kJGzB7RGbU0qJPu7_51JUglwI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJkZWBI_t6OrgoX_uwuPHN7BiSv6mBBwSF1yfC6o-C9cqWrjTr3aLpt6zKvdTBx7O8MLP_929uFfw&oh=00_AQPqS2Rrw5hgGGhmLTfjDx3VHJnzE28-K6UWadzEz8N3Uw&oe=6ACDACF8",
+   "reacciones": 0,
+   "comentarios": 1,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1330149172660463",
+   "fecha": "2026-07-11T11:01:58+0000",
+   "texto": "🏍️ Tu moto también necesita respirar bien.\n\nUn filtro de aire sucio puede afectar al rendimiento, la respuesta del motor y el consumo. Con los filtros de aire DNA apuestas por alto rendimiento y reutilización, con garantía de por vida del fabricante.\n\n🔧 Filtro de aire DNA Hyosung GT 650 R FI Series (Ref. P-HS6S10-01)\n\n🔥 Oferta Outlet: ahora 59,80 € (antes 115,00 €) · -48% · ahorras 55,20 €\n\n🛒 Encuéntralo en todoenrecambio.com",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1330149172660463",
+   "tipo": "album",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/745570363_1330149049327142_1499599450071487928_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=oCJoPwQWnKEQ7kNvwHbDRM4&_nc_oc=AdqgBsknBdECIvqzMv90YX4pZRxfB6vojNjzds3PkAj_9DX5XHKRTW-_rH3BpHF3pOA&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKqiMXCHINQKEww38yGWXMCRwvj8AdElV58J6Q52L97DygwD3LMWcWMrlqTnH7ja-tV1wR0ShprNA&oh=00_AQMfGNmXT_gvUTpu_XU2Mz_J2q5shaQwGwvd_xmuOAZNqw&oe=6ACD918D",
+   "reacciones": 0,
+   "comentarios": 1,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1328587256149988",
+   "fecha": "2026-07-09T11:03:45+0000",
+   "texto": "🛠️ Dale un respiro a tu diésel.\n\nEl Limpiador de inyección diésel Premium BG 245E limpia el sistema de inyección para más limpieza, mejor respuesta y un mantenimiento preventivo real.\n\n✅ Más limpieza\n✅ Mejor respuesta\n✅ Mantenimiento preventivo\n\n🛒 Ahora 32,67 € en todoenrecambio.com — link en bio",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1328587256149988",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/743163913_1328587229483324_1597249546458660722_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=0imfOeWPiMUQ7kNvwEwxMTi&_nc_oc=AdqxNOuAI4u5P7DzfEiL0T18JOI9XxUOdZbM3ygaYawaH4aZ7CYWqdpA8Dg_WH2JC3g&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLoT0JB6PFbrLPnnLjjtCgHjOEz3iJoXDSKYK1zUIlzzs9eW84-mHKWkxaqCSQR1K0QPG0W_SbNZA&oh=00_AQPqJr6QewKlEZ8FNgHn4H1WGhzCvut998TA7k0Qdog7rg&oe=6ACD7F30",
+   "reacciones": 0,
+   "comentarios": 1,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1317272567281457",
+   "fecha": "2026-06-26T08:03:31+0000",
+   "texto": "La regla de oro para limpiar los mosquitos del casco. ¡Guarda este post!\n\nRuta terminada, casco lleno de bichos. ¿Y ahora qué? Apunta estos tres pasos para no cargaros la visera:\n\n1️⃣ Usa productos específicos: Olvídate del limpiacristales de casa. El Motul M1 Helmet Clean respira el cuidado que tu casco necesita gracias a su composición no agresiva.\n2️⃣ El producto trabaja por ti: Al pulverizarlo, sus agentes disuelven la suciedad orgánica. No hace falta que aprietes ni que uses esponjas duras.\n3️⃣ El acabado importa: Limpia siempre con un paño suave y sin pelusas para asegurar un resultado transparente y sin reflejos raros bajo el sol.\n\n👉 Consigue tu spray Motul M1 Helmet Clean (Ref. 102992) en todoenrecambio.com\n\n#LimpiezaMoto #MotulMCCare #CuidadoCasco #MotulM1 #ConsejosMoto #Todoenrecambio #MotoTips #EquipacionMoto #GarajeEnCasa #MoterosEspaña",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1317272567281457",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/731068431_1317272537281460_7678264198009994535_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=vkAEmEsFdlAQ7kNvwHowDic&_nc_oc=AdobZsc25-MkUgCQb3rPBKL09ebk1qFgJacip0zetKt-AySqZiiGn1mnc7JwyccBnS8&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQK7acrV41VWegzVunO_s4-XounnPfaY1NKnbDGoHK2YCjykuNg05xVZz3m-8_k-dD1kcWq2cPEyeg&oh=00_AQN_gi6oyLjAXNgleZNKmsnNClyODeRMoCHNP9_G6WyXoA&oe=6ACD7DF9",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1316589247349789",
+   "fecha": "2026-06-25T13:02:56+0000",
+   "texto": "Si te toca purgar o rellenar el circuito de frenos de tu moto, seguro que has visto estas siglas. ¿Cuál es la diferencia? Principalmente, el punto de ebullición.\n\nEl DOT 4 es el estándar de la mayoría de motos. Soporta perfectamente el uso diario y rutas normales.\n\nEl DOT 5.1 aguanta temperaturas mucho más altas antes de fatigarse (ideal si entras a circuito o exiges mucho los frenos bajando puertos).\n\n⚠️ Ojo: Ambos tienen base de glicol y se pueden mezclar en caso de emergencia, pero el DOT 5.1 absorbe la humedad ambiental más rápido, por lo que requiere cambiarse más a menudo. ¡Y nunca los confundas con el DOT 5 (base de silicona), que destruirá los retenes de tu moto si no está diseñada para él!\n\n👉 Encuentra líquidos de frenos de alta competición y calle en https://todoenrecambio.com/liquidos-de-freno\n\n#FrenosMoto #MecanicaCasera #Todoenrecambio #HazloTuMismo #ConsejosMecanicos #MotoTips",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1316589247349789",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/730104413_1316589237349790_5250283274606933517_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Cc1AapxKu_MQ7kNvwF3XcYz&_nc_oc=Adq7OCceDU8ukrIJWiO7I4WY3-xIQkLHHtYw9qVEsLnsYzgIgORVUfeSsRzmKJiCnd0&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLz7WSqWEkyrSaasV2b7TR8474hG6E-OsQtypVTWPjaAuxaaEoIse3HliIcwZrak9YmlcLyZGux7Q&oh=00_AQNLTYibVxvo5lxGazgPcNE71gSIjF7WY_1pkXH9EyErVg&oe=6ACD88DB",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1315931667415547",
+   "fecha": "2026-06-24T18:02:39+0000",
+   "texto": "A todos se nos encoge el estómago cuando dejamos la moto aparcada en la calle fuera de nuestra vista, aunque sea solo para tomar un café rápido o hacer un recado. La incertidumbre no mola nada.\n\nUn buen antirrobo de disco es la primera barrera imprescindible para disuadir a los amigos de lo ajeno, tanto en tus paradas diarias por la ciudad como durante tus rutas de fin de semana. Es un accesorio compacto, fácil de llevar en cualquier mochila o bajo el asiento, y que marca la diferencia.\n\n¿Por qué no deberías jugártela?\n✔️ Efecto disuasorio inmediato: Los ladrones buscan lo fácil; ver un bloqueador de disco resistente los hace pasar de largo.\n✔️ Seguridad compacta: Máxima protección que cabe en la palma de tu mano.\n✔️ Tranquilidad garantizada: Disfruta de tus planes sin estar sufriendo por si tu máquina sigue ahí al volver.\n\nEncuentra el modelo ideal para tus discos de freno en nuestro catálogo www.todoenrecambio.com/antirrobos\n\n#AntirroboMoto #SeguridadMoto #Todoenrecambio #CuidadoMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1315931667415547",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/730515909_1315931640748883_1439664751282623023_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=BMQ46Y4iFkYQ7kNvwGITgOX&_nc_oc=Ado8hKgm8FauPlWc7vKr3VMkHYEyEl-JIFZviRiFlj8cAWPq9YkLlc5stZuk2oWN4Z0&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQId1LZ53nRQw0b57WhephG8gCWNgGLcxYVEFbCWfmmj93zFUleJwpXnKsVXFEqxB5VFQ_jKeLBQgg&oh=00_AQOCeFJ2yVu4pEy56SoMKbRJ98XsNdY2vuVjexfH74Eo0A&oe=6ACD8481",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1315003717508342",
+   "fecha": "2026-06-23T15:05:23+0000",
+   "texto": "El asfalto en verano no perdona. 🌡️ ¿Sabes cómo proteger tu cuerpo (y tu moto)?\n\nRodar con buen tiempo mola, pero cuando el termómetro pasa de los 30°C, tu cuerpo entra en modo supervivencia. La deshidratación y la fatiga térmica son enemigos silenciosos: reducen tus reflejos y multiplican tus tiempos de reacción en las curvas.\n\nEn nuestro último artículo del blog te contamos cómo ir en moto en verano sin morir en el intento, combinando seguridad y confort técnico.\n\nApunta las claves que desglosamos a fondo:\n1️⃣ Equipamiento que respira: Como la chaqueta Acerbis Ramsey Vented 2.0 (con protección clase AA y paneles de malla) o los guantes ventilados. ¡Ir en camiseta es de novatos!\n2️⃣ Accesorios salvavidas: Desde el truco de los chalecos refrigerantes por evaporación hasta el uso de pantallas solares internas para evitar deslumbramientos peligrosos.\n3️⃣ Estrategia en ruta: Por qué salir entre las 6:00 y las 10:00 am te cambia la vida (y el rendimiento del motor) y cómo usar las mochilas de hidratación correctamente.\n4️⃣ Mantenimiento crítico: El calor extremo estresa la batería, dilata los neumáticos y puede degradar el refrigerante provocando un calentón.\n\nNo dejes que el calor te arruine las vacaciones ni las rutas de fin de semana. Prepárate como un auténtico profesional del motor.\n\n👉 Aquí tienes el enlace directo al artículo completo https://todoenrecambio.com/blog/como-ir-en-moto-en-verano-trucos-imprescindibles-para-combatir-el-calor/\n\n¡Pásate, léelo en 3 minutos y rueda fresco!\n\n#Todoenrecambio #BlogMotero #ConsejosMoto #MotoTips #CalorEnMoto #RutasDeVerano #EquipacionMoto #ViajarEnMoto #MantenimientoMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1315003717508342",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/730776670_1315003687508345_6114923220648626272_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CVvPT_ppek0Q7kNvwGkNIta&_nc_oc=AdpJNcsfm6CoJ_CY9xUnIzfU4vRublfEQkeBo5KOwLKlV1wfpyGZ2ryRnu_Jf5E3NU0&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQKgRmFVNaGWQKAtIezZA5DWjt42nBSTuMg7MbUn43ej4MiPBrFfLZ1YN99kzb3VX0M2T4Y7OBdIIA&oh=00_AQN7ACtJ_Y4KqtLPQK7S_42o5VCiCakSIVYAoOj_oQu9sQ&oe=6ACD8F7F",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1312242811117766",
+   "fecha": "2026-06-20T10:01:41+0000",
+   "texto": "¿Cambias la cadena de tu moto tú mismo? Entonces hay algo que deberías saber.\n\nUna transmisión bien montada no depende solo de la calidad de la cadena. La diferencia entre un trabajo profesional y una chapuza suele estar en las herramientas que utilizas. Cortar, montar o remachar una cadena con útiles inadecuados puede dañar componentes, reducir la vida útil de la transmisión e incluso comprometer tu seguridad en marcha.\n\nEn nuestro blog te mostramos las herramientas Regina diseñadas específicamente para trabajar sobre cadenas de moto con la máxima precisión. Descubrirás cómo se utilizan, para qué sirve cada una y por qué son la elección de tantos talleres y mecánicos especializados.\n\nAdemás, hemos incluido un vídeo explicativo donde podrás ver estas herramientas en acción y aprender paso a paso cómo cortar, montar y remachar una cadena de forma profesional.\n\n👉 Entra en nuestro BLOG desde el enlace de la BIO y descubre cómo trabajar la transmisión de tu moto como un auténtico profesional.\n\n#Todoenrecambio #ReginaChain #CadenaMoto #MantenimientoMoto #MecanicaMoto #HerramientasMoto #MotoTips #TallerMoto #TransmisionMoto #RecambiosMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1312242811117766",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/726420910_1312242791117768_7553960432843620898_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hwysV1HAVnIQ7kNvwFxdpya&_nc_oc=AdqUgTvPMm9AaV_qqVT8hoo5yyAZtScfUVKMcdCxm0ltS9ZcK1S93lrS5LgqtG5SvsU&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQJ9JoFBd9znAZ4GEhpzycbr6autq9U4go1fvfV7Bputb0jnwY2TCQZ7D_5btWayBGstYf9VrJkm8g&oh=00_AQOiQcvJ4HHuDG4f8S59MleknAcw0gRt8i9ig8KeVPryFA&oe=6ACD8D61",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1311338007874913",
+   "fecha": "2026-06-19T08:02:36+0000",
+   "texto": "🔧 ¿Tu cambio va duro o escuchas más ruido de la cuenta en la transmisión?\n\nDale a tu moto la protección que necesita con MOTUL Motylgear 75W90, un lubricante de alto rendimiento diseñado para transmisiones que trabajan bajo las condiciones más exigentes.\n\n✅ Ideal para cajas de cambios duras o ruidosas.\n✅ Compatible con cajas sincronizadas y no sincronizadas.\n✅ Perfecto para diferenciales, cajas transfer y transmisiones hipoides sin sistemas de deslizamiento limitado.\n✅ Excelente protección frente al desgaste, incluso bajo fuertes cargas y golpes.\n✅ Mantiene un cambio suave tanto a bajas revoluciones como a altas velocidades.\n\nYa sea en carretera, rutas largas o uso intensivo, Motylgear 75W90 ayuda a prolongar la vida útil de la transmisión y mejorar la sensación de conducción.\n\n🏍️ Menos ruido, mejor tacto y máxima protección para tu transmisión.\n\n👉 Disponible en todoenrecambio.com\n\n#Motul #Motylgear #75W90 #AceiteTransmision #MantenimientoMoto #RecambiosMoto #TodoEnRecambio #MecánicaMoto #TransmisionMoto #TallerMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1311338007874913",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/727466360_1311337991208248_7216887301412823499_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=u6vy8ZRxK2oQ7kNvwG6kgTM&_nc_oc=AdpC1HbEBXUCdmUtI0YbwLF2wRusc_uj4gKbWEamEQwLMyffxWT2IFqpacOtgkte22c&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQL7F53v02D8-qEFMbn9DmPsAJPbdZ7hq_gWViYC2pReCMvkGT8UxIJaNICN8idaA6TauY7VM-Slxg&oh=00_AQNKROS7cHicLVbVwF16VWwj9BLd7CqYF6JjIcAGIaYl_A&oe=6ACD84BC",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1309687608039953",
+   "fecha": "2026-06-17T08:30:59+0000",
+   "texto": "¿Viaje largo o escapada de fin de semana? Estos son los sistemas de equipaje que debes conocer. \n\n1️⃣ El Top Case (Baúl Trasero): El rey de la practicidad en el día a día y en viajes. Va anclado sobre una parrilla en la parte trasera.\n🟢 Lo mejor: Es rígido, impermeable, se cierra con llave (para dejar el casco dentro) y sirve de respaldo para el acompañante.\n🔴 A tener en cuenta: Si lo cargas demasiado, altera el centro de gravedad y la dirección puede flotar un poco a alta velocidad.\n\n2️⃣ Maletas Laterales (Rígidas o de Aluminio): El sistema definitivo para las motos Touring y Trail de largas distancias. Van fijadas a herrajes específicos.\n🟢 Lo mejor: Máxima capacidad de carga, gran resistencia a los impactos y mantienen el peso en una zona baja y centrada.\n🔴 A tener en cuenta: Ensanchan mucho la moto. Olvídate de serpentear fácil entre el tráfico urbano con ellas puestas.\n\n3️⃣ Alforjas Laterales (Blandas o Semirrígidas): La alternativa ligera y polivalente. Ideales para motos Custom, Cafe Racer, Naked o para hacer Off-Road.\n🟢 Lo mejor: Son ligeras, estéticas y absorben genial los golpes en caídas en tierra sin deformar los herrajes.\n🔴 A tener en cuenta: La mayoría no llevan llave y, si no son de gama alta, necesitas bolsas internas para que no se moje la ropa si llueve fuerte.\n\n4️⃣ Bolsas de Depósito (Tank Bags): Un clásico que va sobre el tanque de gasolina mediante imanes, correas o anillo rápido en el tapón.\n🟢 Lo mejor: Acceso inmediato a lo importante (documentación, cartera, móvil, gafas). Suelen traer zona transparente para mapa o GPS.\n🔴 A tener en cuenta: Si es muy grande, puede limitar el ángulo de giro del manillar o molestarte al tumbarte sobre el depósito.\n\nEncuentra los mejores herrajes, fijaciones y sistemas de equipaje específicos para tu modelo en todoenrecambio.com\n\n#EquipajeMoto #ViajarEnMoto #MaletasMoto #AlforjasMoto #RutasEnMoto #ConsejosMoto #MotoTips #AccesoriosMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1309687608039953",
+   "tipo": "album",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/724397504_1309687424706638_4309875438951346821_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-4ErtnjzTdUQ7kNvwGjrKEF&_nc_oc=Adq2aEbBj9viOOwlPkCTkmc222AwxK2AbEW3luFCaL6T0OK3RE-3TQEL9WWYrS-zvdQ&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQII0HTbWZEyM2JyHeAH_W_8V4lVagF1IUWaChs5HuvmbsBejPCbo13oBsLyoa3dD7DefletYlzj5Q&oh=00_AQOsE7faDR-sS5ugOdZe_iv84QGDQP3gnhAgSUr0fMeLug&oe=6ACD8744",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1309135711428476",
+   "fecha": "2026-06-16T16:05:17+0000",
+   "texto": "¿El electroventilador de tu moto parece un avión a punto de despegar? \n\nSi cada vez que paras en un semáforo notas el calor abrasador del motor subiendo por tus piernas y el ventilador no deja de saltar, tu moto te está pidiendo auxilio a gritos.\n\nEn verano, el aceite y el líquido refrigerante sufren una degradación brutal debido al estrés térmico. Conducir con los niveles bajos o con fluidos viejos es comprar todas las papeletas para sobrecalentar el motor y agrietar componentes críticos.\n\nAntes de hacer las maletas para tu próximo viaje o de salir de ruta el fin de semana, hazle el favor a tu máquina de revisar los puntos clave:\n1️⃣ Vacía y rellena el circuito con un refrigerante de calidad.\n2️⃣ Comprueba que el aceite mantiene su viscosidad ideal para altas temperaturas.\n3️⃣ Revisa los manguitos para evitar fugas por la presión del calor.\n\n👉 Dale un respiro a tu motor. Pide tus líquidos de mantenimiento hoy en todoenrecambio.com y recíbelos en un abrir y cerrar de ojos.\n\n#MecanicaMoto #MantenimientoMoto #RefrigeranteMoto #AceiteMoto #MotorDeMoto #TallerEnCasa #HazloTuMismo #MecanicaCasera",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1309135711428476",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/724005548_1309135671428480_2415270269924387330_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=-SzY7EfgXFkQ7kNvwHa7aIF&_nc_oc=AdpgqVaXs_xD_3mMfsZyRSSp3VM8iv2Yv2KUzhLaqAmsdJPINTEtqvUWqHfi2YEgZ-Y&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQLfnPT5_CrEiWAXBDVhSdtv-GxHInEXrcn0mJFZtfcvxebr7bZp3GG5B3DIumWDsl_0abPsCJT3hw&oh=00_AQOTnc6zUx3UoMhXhnb40E2NruCXjCIfy2G_Lw22nTj3pA&oe=6ACD7FE4",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1306344255040955",
+   "fecha": "2026-06-13T10:01:45+0000",
+   "texto": "ZONA OUTLET: La parada obligatoria antes de tu próxima ruta. \n\nTener la moto a punto y rodar bien equipado no debería vaciarte la cuenta corriente. En nuestra Zona Outlet hemos reunido todo lo que necesitas para perderte por curvas este fin de semana, pero a precios que te van a solucionar el mes:\n\n✔️ Mimos para el piloto: Chaquetas ventiladas para el verano y guantes con buenas protecciones a precios de colega.\n✔️ Mimos para la máquina: Kits de transmisión, pastillas de freno y consumibles para dejar la moto fina y lista para rodar.\n✔️ Mismo servicio de siempre: La rapidez y confianza de nuestra web, pero dándole un buen respiro a tu bolsillo.\n\nEl stock de esta sección es el que hay en el garaje; las tallas y las compatibilidades específicas vuelan. ¡El que primero llega, estrena!\n\nDisponible en todoenrecambio.com\n\n#Todoenrecambio #ZonaOutlet #EquipacionMoto #RecambiosMoto #AccesoriosMoto #ChollosMoteros",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1306344255040955",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t39.30808-6/721290182_1306344245040956_5592342012220526335_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=KXSy-yoM-vEQ7kNvwHcJ0JQ&_nc_oc=AdpPZL3aV4j0YQUF0By2Iud80LedMDoRUUZRElGUP08PfPnYa8AxzB7Lls_asxrNIxY&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQK0dGz__AxbFnELPBGKQD4l7tzd8H56umQ_7Z2nN-xgOwKnlD3nmL7SwOLmY-DY3mtWHmBJcIhpig&oh=00_AQP48JrTtP2usoKMk-0W-BMRa5FqbYcr82jgCeTVreX1BA&oe=6ACDA06E",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1305756465099734",
+   "fecha": "2026-06-12T17:02:54+0000",
+   "texto": "🏍️ ¿Buscas unos guantes de verano para mujer que combinen protección, comodidad y ventilación? ☀️\n\n✔️ Protección certificada EN 13594:2015 Nivel 1 KP, homologados para uso en motocicleta.\n✔️ Ventilación superior, gracias al tejido mesh en el dorso y los laterales de los dedos, que favorece la circulación del aire incluso en los días más calurosos.\n✔️ Diseño ergonómico precurvado, pensado para proporcionar un ajuste natural y reducir la fatiga durante la conducción.\n✔️ Protecciones de nudillos con acabado tipo carbono (ABS) y doble refuerzo en la palma para una mayor resistencia frente al desgaste y la abrasión.\n✔️ Mayor tacto y control, con palma y dedos fabricados en una sola pieza de piel sintética.\n✔️ Compatibles con pantallas táctiles, para que puedas usar tu GPS o smartphone sin quitarte los guantes.\n✔️ Cierre ajustable en la muñeca, cómodo y seguro para adaptarse perfectamente a tu mano.\n\nTanto si utilizas la moto a diario como si disfrutas de escapadas de fin de semana, estos guantes están preparados para acompañarte kilómetro tras kilómetro.\n\nConsíguelos ahora en todoenrecambio.com\n\n#TodoEnRecambio #GuantesMotoMujer #GuantesDeVerano #EquipacionMotera #MotoMujer #Motera #ProteccionMotera #ViajesEnMoto",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1305756465099734",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/724138766_1305756405099740_8755616817110837312_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=110&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CNbYlJlxy1AQ7kNvwGCFF2i&_nc_oc=AdqHZApKzyxIaqQvo0F58CTCfeXMzQ_hVcw01TWD_HrljQywUki-sEuMKEpNWpIHr8U&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQL3Ns7Wl-yyGDn8s4cAlmMKrA2zdtFAdGg__FqhKGgxX1McFpiHDNFCz4XDBEYxVorGLoy5xsd7TA&oh=00_AQPBIPfIY0i81oBS2oUxv1qLtyngeAg26nUr3X-Ur9VUWg&oe=6ACDAA94",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  },
+  {
+   "id": "734060443287447_1304777521864295",
+   "fecha": "2026-06-11T13:02:49+0000",
+   "texto": "¿Tienes ya planeada tu primera gran escapada de la temporada? Antes de atar el equipaje y salir a devorar kilómetros, tu moto necesita pasar por \"boxes\".\n\nPasillas de freno, niveles de aceite, presión de neumáticos y el estado de la batería... el invierno y la inactividad dejan huella, y el calor del verano multiplica cualquier pequeño fallo. En nuestra web te hemos preparado una guía rápida para que repases los puntos críticos y no te lleves sorpresas en mitad del viaje.\n\nMima a tu compañera de rutas como se merece.\n\nLee el post completo haciendo clic en el enlace https://todoenrecambio.com/blog/como-preparar-la-moto-para-verano/\nTodo lo que necesites cambiar, lo tienes al momento en todoenrecambio.com\n\n#Todoenrecambio #MecanicaMoto #PuestaAPunto #MotoMantenimiento #ViajesEnMoto #ConsejosMoteros #PasionMotera",
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1304777521864295",
+   "tipo": "photo",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t39.30808-6/721083002_1304777481864299_5436323267778938450_n.jpg?stp=dst-jpg_p720x720_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=axTAF2-s6VwQ7kNvwFhKOpf&_nc_oc=Adqm90-knT4vDLLLMEqlFI0wQ4fBB3cfuNRmZ8j3_Edk3YdFBIDEYqKJL2209rAXxBs&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=APyxFHYEAAAA&_nc_gid=gNELE6vEhDK_Vffno_7xMA&_nc_tpa=Q5bMBQIC0dwK6-zwAPfalDzzTPAIl8Np64k_3i96nJhDjmNmD6cLYbumIyQ20xZGowyfhKy5xY19uoRvdg&oh=00_AQPyDizJcIkYrzqesb3MvPvvjpaZwdhtky2MmaOfIt0o4g&oe=6ACDA840",
+   "reacciones": 0,
+   "comentarios": 0,
+   "compartidos": 0
+  }
+ ],
+ "reels": [
+  {
+   "id": "4611591305726444",
+   "fecha": "2026-10-08T08:03:36+0000",
+   "texto": "🦺 ¿Chaleco reflectante en la moto: llevarlo o llevarlo puesto?\n\nLa moto tiene que llevar chaleco reflectante de alta visibilidad, igual que el coche.\n\n✅ Particular: no circulas con él. Te lo pones al bajarte en la calzada o el arcén de una vía interurbana (una avería, un accidente).\n✅ Si trabajas en moto (reparto, mensajería): puesto siempre que circules, en todo tipo de vías.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Chaleco Oxford OF398 Active Bright Top:\nhttps://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/varios-proteccion/chaleco-alta-visibilidad-oxford-of398-active-bright-top-amarillo-fluorescente-of398oxf.html\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#ChalecoReflectante #NormativaMoto #Oxford #DGT #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/4611591305726444/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/839476777_4611591735726401_197265203173089131_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=mARNJDbsyQsQ7kNvwHMgAHe&_nc_oc=AdptB5DsmYkrSBhFYspCEX-4L9aeCkNxltaB7na9FgL3UzYL01Gddr7G-HyqdDkn2gI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJN8mqisgtmtXhS0UgjdaHTw72ZYcugZXzN7L7351aqB3k3vdQccdqeme-vM1wQBk2SRJ_oKe4Swg&oh=00_AQPoVm9qdma_ckjA5drzoyINVafC1GUzJkrts9gRDkW5sg&oe=6ACD89A4",
+   "segundos": 35,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 3186,
+    "post_video_view_time": 130654,
+    "blue_reels_play_count": 41,
+    "fb_reels_total_plays": 41,
+    "fb_reels_replay_count": 0,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1815855019457444",
+   "fecha": "2026-10-07T17:03:26+0000",
+   "texto": "🧤 Desde el 1 de octubre, los guantes en moto ya no son opcionales.\n\nEl Real Decreto 518/2026 obliga a llevar guantes de protección al conductor y al pasajero en vías interurbanas. Las especificaciones técnicas las fijará una orden del Ministerio del Interior; mientras no se publique, valen guantes de protección como los que se usan ahora.\n\n✅ Acerbis X-Street: certificación CE (EN 13594:2015, nivel 1 KP)\n✅ Acerbis Urban WP: certificación CE\n✅ Para conductor y pasajero\n\nℹ️ Fuente: BOE-A-2026-13889 (RD 518/2026, art. 118).\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Guantes Acerbis X-Street:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/guantes-de-moto/guantes-moto-acerbis-ce-x-street-0024019-negro-touring-road-con-certificacion-ce-0024019090061acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#GuantesObligatorios #DGT #GuantesDeMoto #Acerbis #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1815855019457444/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/836807408_1815855256124087_5065073323356269606_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=XAQs4UWYrVYQ7kNvwHizGr_&_nc_oc=AdrdNLLektqZYARzlyyFtie7Q7PPgKAygDB1_BREnf6L6hZNmjauca6hS9fVrHKFT4E&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQIS_DEK2xfkeWTplq5DoM7Qn9_wiGRCFA3MphEDPrYpK2iD262fp1NPmws5Izhvum5Dk3G0r-aH3Q&oh=00_AQPjmEtRyUz86a7Z3Ne5bgRt_peJtUWE60yOAtcj1OH-5g&oe=6ACD820E",
+   "segundos": 23,
+   "me_gusta": 1,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2332,
+    "post_video_view_time": 466404,
+    "blue_reels_play_count": 36,
+    "fb_reels_total_plays": 37,
+    "fb_reels_replay_count": 1,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1014012785067525",
+   "fecha": "2026-10-07T08:03:47+0000",
+   "texto": "🩴 Se acabaron las chanclas en la moto.\n\nCalzado cerrado que cubra todo el pie, en todo tipo de vías: ciudad, carretera y autopista. Para el conductor y para el pasajero.\n\nUnas zapatillas cerradas cumplen, pero cumplir no es lo mismo que proteger: lo que te protege el tobillo es una bota de moto con su norma, la EN 13634.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Botas de moto:\nhttps://todoenrecambio.com/botas\n🛒 Guía: botas de moto, tipos y talla:\nhttps://todoenrecambio.com/blog/botas-de-moto-tipos-protecciones-talla/\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#CalzadoCerrado #NormativaMoto #BotasDeMoto #DGT #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1014012785067525/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/838987980_1014013041734166_8923220466976239595_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=kFZbON8DAUAQ7kNvwHQ6qmE&_nc_oc=AdoaXFkzAfQ8bnjx3yrXNLCxYivdQvUUlP4OIS3CA3AA0aPRmTZonygKH2rpLnTu1to&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJTiomENjXR8aCFiyg59aUmurRmKO3n0ZASof_R3pbTiLNZ8k4hL98au_MHN6kanACe5zEHBhEIaA&oh=00_AQOTVZ112mOjTtDVtrYRTAEMHsyRpV3PcG4x6biZTe822A&oe=6ACD7EB1",
+   "segundos": 36,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 6706,
+    "post_video_view_time": 576797,
+    "blue_reels_play_count": 84,
+    "fb_reels_total_plays": 95,
+    "fb_reels_replay_count": 11,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "3760183310785987",
+   "fecha": "2026-10-06T09:03:45+0000",
+   "texto": "💸 Sin guantes o en chanclas: 200 € de multa.\n\nNo llevar guantes en vía interurbana, ir sin calzado cerrado o no llevar el chaleco cuando toca es infracción grave: 200 € (100 € con pronto pago). Y es por persona: si vais dos sin guantes, dos multas.\n\n¿Puntos? La nota de la DGT solo habla de la multa. La ley quita 4 por no usar el casco y los demás elementos de protección obligatorios. Hasta que se aclare, no te la juegues.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Equipamiento para moto:\nhttps://todoenrecambio.com/equipamiento-motorista\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#MultaMoto #NormativaMoto #DGT #GuantesObligatorios #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/3760183310785987/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/838987972_3760183734119278_4364974279404853520_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=QFXoHCSearUQ7kNvwH1tlAg&_nc_oc=AdoqQAwTEEepZljDjiabAs6U5rKeZjaJ8AFKiCNBUoA71H5W998XE_fbOUJ8AYLU_iI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJD0c36ckl4oBRW31vgh_ydiCrEcescKmbaPYMVO8nzQf3AML37jXo5jCCYmArp6gXUxXJeMi2-_g&oh=00_AQMYC-s4GeZsMecIyPHRdsaGGM5R09BvN2Dw27wsoT_low&oe=6ACD7CD5",
+   "segundos": 33,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2191,
+    "post_video_view_time": 442675,
+    "blue_reels_play_count": 202,
+    "fb_reels_total_plays": 210,
+    "fb_reels_replay_count": 8,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1051022424106935",
+   "fecha": "2026-07-28T11:02:09+0000",
+   "texto": "☀️🔥 ¿Conducir en verano con las manos ardiendo? No te compliques.\n\nGuantes Acerbis Ramsey MY Vented: ligeros y ventilados para que tus manos respiren aunque el asfalto marque 46°. Sujeción y protección donde importa, frescor en cada trayecto.\n\n🧤 3 colores: negro · amarillo/negro · negro/rojo\n💶 27,97 €\n📦 Envío gratis desde 70 €\n🛒 todoenrecambio.com\n\n#Acerbis #GuantesDeMoto #GuantesVerano #Moto #Motero #EquipacionMoto #RecambiosMoto #TodoEnRecambio #TDR #Verano",
+   "enlace": "https://www.facebook.com/reel/1051022424106935/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/758563206_1037372832606014_8725590938461606506_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=200999&_nc_ohc=6u3b2vhhZe8Q7kNvwEl7OQO&_nc_oc=AdoBVp-RmlgHDiqHx_06Ym5tBud2iiDnCfu9PRcpbbf-lruGf7_JKwANOjj5_miPBmY&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLtagolNgcpOXoaI-1SCxz1T4BI0f3h5Hg3JnMZ3qbmt32mm2GvyVHNIwk32TZzTkAu3tVgCtM9jA&oh=00_AQOUED3Iwq_GuTi92dnIBbk7OcMnjE_37drD28BqqZG-fA&oe=6ACD9476",
+   "segundos": 19,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2831,
+    "post_video_view_time": 36804,
+    "blue_reels_play_count": 13,
+    "fb_reels_total_plays": 13,
+    "fb_reels_replay_count": 0,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1682380799702833",
+   "fecha": "2026-07-22T11:02:17+0000",
+   "texto": "🏍️🧠 Los moteros pensamos diferente… y ahora lo dice la ciencia.\n\nUn estudio exploratorio de AMV junto al Servicio de Psicología Aplicada de la Universidad de Murcia comparó a moteros y no moteros. ¿El resultado? Rodar también entrena la cabeza:\n\n🎨 +48,3% más creatividad\n⚡ +12,6% más rápidos procesando información\n🎯 +11,8% más agilidad mental y +12% mejor planificación\n❌ -36,5% menos errores\n❤️ +24% mejor interpretando a los demás (+15% más empatía)\n😌 -55% menos ansiedad y -45% menos estrés\n\nMoraleja: salir a rodar te sienta bien por dentro y por fuera. Y lo que nos hace pensar mejor… se cuida. 🔧\n\nTen tu moto siempre a punto en 👉 todoenrecambio.com\n\n📊 Fuente: estudio exploratorio de AMV y la Universidad de Murcia (muestra: 4 moteros y 4 no moteros).\n\n#moteros #moto #motero #rutaenmoto #motolife #TodoEnRecambio #TDR #recambiosmoto #AMV #motociclismo #dosruedas #motostagram",
+   "enlace": "https://www.facebook.com/reel/1682380799702833/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/753381622_2491671134580234_8462718999000235559_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=200999&_nc_ohc=htwpe4TBD3sQ7kNvwHvDipq&_nc_oc=Adp3QkKWxYFOhZA1FQUzP57Q-Pm64Kbak9skOku7syMo4m_8eBQ6PosctXopA1L3uig&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLGlRheqqc1mzt8jR3XWbj-PzBitDsbhvYn_xM04YKRc-3TxhHP4SStSw73PWAYEimWvZGPOLOUgw&oh=00_AQNzoFc_e5EeKjCoJt6ROKaBqT0jSgOH5i7tf_1cBbtvkw&oe=6ACD7C91",
+   "segundos": 48,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 1695,
+    "post_video_view_time": 157662,
+    "blue_reels_play_count": 93,
+    "fb_reels_total_plays": 95,
+    "fb_reels_replay_count": 2,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "982061407959184",
+   "fecha": "2026-06-05T08:03:28+0000",
+   "texto": "Modo ruta: ACTIVADO. 🟢\n\nViernes por la tarde, petate atado al asiento y por delante todo un fin de semana para curvear. Si eres de los que no perdonan una escapada en cuanto sale el buen tiempo, la Acerbis Ramsey Vented Long es la compañera que te falta en el armario.\n\nEs una chaqueta pensada por y para moteros que devoran kilómetros. Te olvidas del calor gracias a su ventilación brutal, pero sin renunciar a la seguridad que te da su tejido de alta resistencia Clase AA. Ajustes perfectos en los brazos para que no flanee a alta velocidad, cuello suave para aguantar horas de ruta y preparada para meterle forro si te pilla el fresco volviendo a casa.\n\nÉchale un ojo antes de que vuele tu talla en 👉 todoenrecambio.com\n\n#ChaquetaDeMoto #EquipacionMotera #RutaEnMoto #ViajarEnMoto #ChaquetaVerano #RutasFindeSemana",
+   "enlace": "https://www.facebook.com/reel/982061407959184/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/714323596_982061701292488_7791794313916798679_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=v1PUriR8uU4Q7kNvwGVytcj&_nc_oc=AdqXoaMQvqVrbQGvV0zXctZuvPQC6dgSBR2vzcEuGBjbncjbBRKXgAwN5zqis0IOck4&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLxPSaZyN4K6WbhWbhY9-6rXjHnSq4pEsIzkcgON4o3_8ajSUIErm7zZbIoL5yxEMVfXeZ_gkxh7A&oh=00_AQPwS2DZ3UNNKcplbiekPPnFyINBnnMCm-F1NJBMRHAFDg&oe=6ACD9C26",
+   "segundos": 17,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2349,
+    "post_video_view_time": 434702,
+    "blue_reels_play_count": 185,
+    "fb_reels_total_plays": 195,
+    "fb_reels_replay_count": 10,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "981353520947879",
+   "fecha": "2026-05-15T08:02:26+0000",
+   "texto": "Los moteros no seguimos el camino, lo creamos.\n\nHay algo mágico en salir ahí fuera, sentir el viento y saber que cada curva es una decisión propia. No se trata de llegar al destino, sino de disfrutar cada kilómetro del trayecto.\n\nEn @todoenrecambio te acompañamos para que tu único límite sea el horizonte. Mantén tu máquina lista para cualquier aventura y sigue creando tu propia ruta. 🏁\n\n👉 Todo lo que tu moto necesita en www.todoenrecambio.com \n\n#Todoenrecambio #LibertadMotera #MoterosEspaña #CreaTuCamino #RecambiosMoto #RutaEnMoto #PasionMotera",
+   "enlace": "https://www.facebook.com/reel/981353520947879/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/697990059_981353934281171_1128067614928800315_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=g6ShhXcIHnUQ7kNvwEjDO-w&_nc_oc=AdrZGWdCnIdF4NXe769enDd8UlD_A6Jd9Jsws-kz5EvXUYvI76XPZeiC4FWn4IWwkwQ&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLQMuMR_K1TrwwEw5EQ_fHMtOPr0ArBTOSZtZFG4bW8_b7XyL0KJlR7ITd34cP1yo86tI-lI_RrpA&oh=00_AQM5gU6R97OjpxvenlEtsjIguPI3m1IAEQChuydWugjCXg&oe=6ACD8689",
+   "segundos": 16,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2895,
+    "post_video_view_time": 31847,
+    "blue_reels_play_count": 11,
+    "fb_reels_total_plays": 12,
+    "fb_reels_replay_count": 1,
+    "post_video_followers": 1
+   }
+  },
+  {
+   "id": "3434023953414431",
+   "fecha": "2026-05-05T10:03:07+0000",
+   "texto": "¿Buscas el lubricante perfecto? Deja de dar vueltas. En el mundo de las dos ruedas, el aceite no es solo un líquido: es el seguro de vida de tu motor. \n\nEn nuestra web seleccionamos solo lo mejor de las marcas líderes del mercado para garantizarte:\n\n✅ Máxima protección contra el desgaste en altas temperaturas.\n✅ Cambios de marcha más suaves y precisos.\n✅ Limpieza interna para que tu motor rinda como el primer día.\n\nYa sea para tu scooter de diario, tu off-road o tu deportiva de fin de semana, tenemos la densidad y la tecnología exacta que pide tu manual.\n\n🔗 Encuentra el tuyo en: www.todoenrecambio.com\n\n#TodoEnRecambio #MecanicaMoto #AceiteMoto #MantenimientoMoto #TipsMoteros #GasAFondo #RecambiosMoto #RutaEnMoto",
+   "enlace": "https://www.facebook.com/reel/3434023953414431/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/688198140_3434024343414392_78727687123283007_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=Tpwdw5cDwj8Q7kNvwFTPbo3&_nc_oc=AdqbSm-TAQheg6WKx41OfMb78ysTAmgtIxisxfWzQg70fHRrF3KRewOvEZksNdIGGQM&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLPe2ENODdGy2JAc0A-3dRNtL8jtLan1NL2PZVdKDCtrLsrzT3NIYY6jCfkPw6x0UhWQvjJCuwasQ&oh=00_AQNZSz1urYbCRTogyC9IXOLKr8MpA8JD7JmUq8cQAl1CZA&oe=6ACDA50F",
+   "segundos": 23,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 3398,
+    "post_video_view_time": 37379,
+    "blue_reels_play_count": 11,
+    "fb_reels_total_plays": 12,
+    "fb_reels_replay_count": 1,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "948219851459175",
+   "fecha": "2026-04-21T20:30:34+0000",
+   "texto": "Dicen que la moto tiene que ir recta…\nla mía no opinaba lo mismo 😅\nLas caídas en parado son mortales, y si eres bajito, comunes 🤣\nAsí que busque en @todoenrecambio y encontré un manillar casi idéntico al de serie de la CRF 👌🏼\nTe enseño cómo cambiarlo porque es bastante sencillo 🤗\n\n#Todoenrecambio #MecanicaMoto #MoterosEspaña #TallerEnCasa #PasiónPorLasMotos",
+   "enlace": "https://www.facebook.com/reel/948219851459175/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/677101705_948220314792462_6151843646370505784_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=vgLtKaQ9ow8Q7kNvwFpulMM&_nc_oc=AdpOatuzEp3uRvLhAOjIyNCtyYpCniJPMZeTpWXit6scsPFZwAV6sGa4hR3cLhxqQRg&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJE9yXx6_5hVGwWsYtFMwFlHgcBHQLNg3NrHbGLLIv15t1nPnx0PUILXZSQRBlOA_NEgZqk7EgQ7g&oh=00_AQNyR90cNjleKhxtYMbIxpTJ2vU102DvRf9jP_8gy4mFKw&oe=6ACD9EE1",
+   "segundos": 68,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 3539,
+    "post_video_view_time": 77867,
+    "blue_reels_play_count": 22,
+    "fb_reels_total_plays": 22,
+    "fb_reels_replay_count": 0,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "945428811687382",
+   "fecha": "2026-04-16T16:03:42+0000",
+   "texto": "¡La chaqueta de entretiempo que lo tiene TODO!\n\n¿Buscando la Acerbis Ramsey Vented 2.0? Aquí te damos 3 razones para que sea tu próxima compra en @todoenrecambio:\n\n1️⃣ Adiós al sudor: Su flujo de aire es espectacular gracias a su panel de malla técnica.\n2️⃣ Cero molestias: Es extremadamente ligera y cómoda, ideal para el día a día.\n3️⃣ Protección top: Refuerzos y protecciones donde más lo necesitas.\n\nDisponible en varios colores para que elijas la que mejor combine con tu estilo.\n\n💥 ¡AHORA CON UN 30% DE DESCUENTO! 💥\n\nNo dejes pasar esta oportunidad de renovar tu equipación al mejor precio. Ideal para la ciudad y carretera.\n\nEncuéntrala en 👉 www.todoenrecambio.com \n\n#Acerbis #EquipacionMoto #ChaquetaMoto #TodoEnRecambio #Motoristas #RutaEnMoto",
+   "enlace": "https://www.facebook.com/reel/945428811687382/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/672377241_945430441687219_8513293984735126199_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=zrpxb9ogExgQ7kNvwFiPOo6&_nc_oc=Adrlt7N07bvvkTHwCd_2Bu6TIGBTwyayr9H_7YntgiWHDkRKPtOIX-FlQMvWsQbNyqs&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJRF1ZePjedCm2o3Ref2lcGnrzNh9HZ8wOytHlNBcwAp6H-IdzqYK6GQZ6aoSl0r032W8VpuEO2FQ&oh=00_AQMjSpk2rPl2VwunzrkxCTPZHsM4IUfeAjdDZq8z5y8kTg&oe=6ACD9681",
+   "segundos": 10,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2977,
+    "post_video_view_time": 83368,
+    "blue_reels_play_count": 28,
+    "fb_reels_total_plays": 34,
+    "fb_reels_replay_count": 6,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1280369667569963",
+   "fecha": "2026-04-14T09:40:43+0000",
+   "texto": "Hoy toca algo básico pero clave: cambio de batería 🔋\n\nSara nos enseña paso a paso cómo hacerlo tú mismo/a sin complicarte.\n\nLa CRF ya arrancaba muy perezosa, así que pedí a mí amigos de @todoenrecambio está batería Baika y problemas solucionado! 🤗\n¿Te animas a hacerlo o eres de taller?\n\n#TodoEnRecambio #MantenimientoMoto #CambioDeBatería #MecanicaMoto",
+   "enlace": "https://www.facebook.com/reel/1280369667569963/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/671991821_840432548369528_7055882019921105572_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=aG92Mgt9-M4Q7kNvwHxf_i0&_nc_oc=Adpd0nwZXz3RDKtLZPiyH0_ra7-D8RblnuUa6iCb_cSL81ulHK3gvnh0zobIG_jdBBI&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJRjpIxDexnQLJCBliyXMjVRrjmf9Yz0AKSX12vK2waaEyiNoz9Ccqxkd0MXesyHov9P9rQ5voKfQ&oh=00_AQMjV1gKM80ZPia5WNq3OAoTIAmEX5-GeHGsN_j4uX8lLg&oe=6ACD7C3B",
+   "segundos": 82,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 3980,
+    "post_video_view_time": 99506,
+    "blue_reels_play_count": 25,
+    "fb_reels_total_plays": 27,
+    "fb_reels_replay_count": 2,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1290667939582570",
+   "fecha": "2026-03-09T17:05:00+0000",
+   "texto": "Os presentamos la Acerbis Flux Air.\n\nUna armadura corporal pensada para quienes ruedan en enduro, off-road o adventure y buscan protección real sin renunciar a la comodidad. Su tejido de malla altamente transpirable mantiene el cuerpo ventilado incluso en las rutas más intensas.\n\nIncorpora protectores D3O® certificados, un material inteligente que es flexible durante la conducción y se endurece al recibir un impacto, ofreciendo una protección superior justo cuando más lo necesitas.\n\nLigera, ergonómica y con protectores desmontables para facilitar el lavado. Protección, ventilación y libertad de movimiento en una sola prenda.\n\n👉 Descúbrela en todoenrecambio.com\n\n#ProtecciónMotera #Acerbis #FluxAir #EnduroLife #OffRoad #EquipaciónMoto #MotoSegura #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1290667939582570/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/649474359_1290668459582518_4774306437457711050_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=9lbT39vrdxAQ7kNvwEfN-9K&_nc_oc=AdoUobKsy2G0QdSoBT_qxgOOclQLX1mdxdPKVHz0QdrJO9hgA03VPW4ToPUveiyR5Q8&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLCyjjKLzTrRQpX0ab9OCf1MPN78s5wIFFLTAlCLAbPLQTO-dXNB-Lc6OlYJ3vkHFDtVeQpjIwIQA&oh=00_AQON7OSHRr717aU1hR8ofRrZfRM54t5mC2T35N5_mb_Bag&oe=6ACD8D2B",
+   "segundos": 13,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 1889,
+    "post_video_view_time": 66131,
+    "blue_reels_play_count": 35,
+    "fb_reels_total_plays": 37,
+    "fb_reels_replay_count": 2,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1375376724276600",
+   "fecha": "2026-02-19T16:03:34+0000",
+   "texto": "Los cascos jet son la elección perfecta para quienes usan la moto a diario y buscan comodidad, buena ventilación y un diseño práctico para moverse por ciudad.\n\nFáciles de poner, con una gran sensación de libertad y excelente visibilidad, encajan a la perfección en una conducción urbana tranquila y sin complicaciones.\n\nDescubre todos los modelos disponibles en 👉 todoenrecambio.com/jet\n\n#CascosJet #MotoCiudad #ScooterLife #TodoEnRecambio #EquipaciónMotera #MoteroUrbano",
+   "enlace": "https://www.facebook.com/reel/1375376724276600/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/638404880_1375377040943235_9219906910517502548_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=3tCiTgOxbYIQ7kNvwFsNOic&_nc_oc=AdqnmptL6ILQzJLL34EKllGSbmdDmUav3B_CL8i3rgEXpAJdmqGJ51wF_7cWgdeLKu0&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQISiX513ROUlBeEYFiZ1cCTwnmpcRfKLDGJZ-EtNYnZk4TYXD8qnO_VTSoDaG4hOj7xIrq7EA-4bA&oh=00_AQO1vnawAF-KmZx2OOCn4-vGOWEMJCisILc5pXccjCgHFw&oe=6ACD8845",
+   "segundos": 14,
+   "me_gusta": 1,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2340,
+    "post_video_view_time": 117030,
+    "blue_reels_play_count": 50,
+    "fb_reels_total_plays": 55,
+    "fb_reels_replay_count": 5,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "3075235082665743",
+   "fecha": "2026-02-11T14:02:30+0000",
+   "texto": "¿Te ha pillado la lluvia en plena ruta?\nCon el chubasquero Oxford ARMR Dryguard puedes seguir rodando sin que el agua sea un problema.\n\nEs ligero, compacto y totalmente impermeable, de esos que llevas siempre en la mochila y agradeces tener cuando el cielo se complica. Te lo pones en segundos, no molesta al conducir y cumple justo lo que promete: mantenerte seco para que la ruta continúe.\n\nY ahora, además, lo tienes disponible con precio especial en nuestra zona OUTLET.\n\nEncuéntralo aquí 👉 todoenrecambio.com\n\n#EquipaciónMoto #ChubasqueroMoto #OxfordDryguard #TodoEnRecambio #LluviaEnRuta #OutletMotero",
+   "enlace": "https://www.facebook.com/reel/3075235082665743/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/632752088_3075235689332349_4883463331542366404_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=7LkeThuc0HwQ7kNvwFIMLsz&_nc_oc=Adr8-jPptJ-5nVUmL7AfKyj1lKEnVzxZzNoKux9dkwnHug_c8NuhZaMFXsfN_fLnAjA&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLOgW63l85PiXWOH4WgcCF813KZzI8Ue2-ERFwg2FQTr6lKHMGsBApI2vTcAxJsJLa_3FYfxjOcIQ&oh=00_AQM1dfXbcFXO5AS7e2zmaB65gcWBDg9mfzTojE174kivBA&oe=6ACD7D15",
+   "segundos": 21,
+   "me_gusta": 1,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2332,
+    "post_video_view_time": 60655,
+    "blue_reels_play_count": 26,
+    "fb_reels_total_plays": 31,
+    "fb_reels_replay_count": 5,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1223748439960395",
+   "fecha": "2026-02-06T11:01:49+0000",
+   "texto": "¿Eres de los que pierde siempre el destornillador? 😅\n¡Esta bolsa es para ti!\n\n✅ 34 espacios para que cada herramienta tenga su sitio (no incluye herramientas).\n✅ Se enrolla, se guarda y se lleva a todas partes.\n✅ Aguanta el trote, el garaje y las rutas.\n\n📦 Ahora con un 35% de descuento: de 30,25 € a 19,66 € 👉 www.todoenrecambio.com\nUna ganga para no volver a decir “¿Dónde narices está la llave de 10?”\n\n#MoteroOrganizado #CosasDeMoteros #BolsaHerramientas #TodoEnRecambio #AccesoriosMoto",
+   "enlace": "https://www.facebook.com/reel/1223748439960395/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/626143538_1223748839960355_817973147960835456_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=XAvXQiK_QrEQ7kNvwEtIZTL&_nc_oc=AdpkZfMFYZRSg-PhtHZqQZ-Oi35_jx6ZlgpjQ6KV-vqjJc7_FyBnNw6GB1v3qNLfhMQ&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQKcuLAn0X9QerbYYFTVJEVXf8ARi53BdVIsCvRZiz9g6H5ynMkmKbDfBbf2xiPuieb6fGbP3iNHKA&oh=00_AQOQb_HmJsKo-PFT6-28hZrxw9XKWN9XsY502cT8EgEpYQ&oe=6ACD9C68",
+   "segundos": 17,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2614,
+    "post_video_view_time": 67966,
+    "blue_reels_play_count": 26,
+    "fb_reels_total_plays": 29,
+    "fb_reels_replay_count": 3,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1252201230296485",
+   "fecha": "2026-01-21T16:03:54+0000",
+   "texto": "🌧️ Lluvia, barro, charcos… tus zapatillas ya han sufrido bastante.\n¡Protégelas con las fundas impermeables de Acerbis 100% silicona!\n\n✅ Ajuste universal.\n✅ Se ponen en segundos.\n✅ Compactas, caben en cualquier mochila.\n✅ Resistentes a la lluvia y al barro.\n\nPerfectas para tus rutas en moto o tus paseos urbanos cuando el clima se pone feo.\n\n👉 Ahora con 30% de descuento → solo 10,47 €\nConsíguelas ya en todoenrecambio.com\n\n#MotoBajoLaLluvia #AccesoriosMotero #FundasImpermeables #TodoEnRecambio #FundasZapatillas",
+   "enlace": "https://www.facebook.com/reel/1252201230296485/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/620272698_1252201480296460_4667812015852215376_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=bxVF4uXswqQQ7kNvwGOmBo4&_nc_oc=Adqq1yfpVEiUlp_Hw1N7vFt-OCUbvwNgCZILEVsBQlaKhZszNTARNVOb9WX0OQ9TpNk&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQL9ONi-CC2Qpg8xUVr0qb8vWOviLphfvW5vqu0D1NeoveuqQhQJxd8sV1Pib4ULp_OexQ-UMQXeSg&oh=00_AQNDx1iPOkLmj4i0EnyBKLi7CpNpnqrxLkyPqfa7Ym5owQ&oe=6ACD8C33",
+   "segundos": 5,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 1726,
+    "post_video_view_time": 39704,
+    "blue_reels_play_count": 23,
+    "fb_reels_total_plays": 29,
+    "fb_reels_replay_count": 6,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1416494660208144",
+   "fecha": "2026-01-08T20:30:36+0000",
+   "texto": "🛑 REBAJAS 🛑\n\n🔥 Protección total, confort absoluto… y ahora con descuentazo.\n\nEl peto Acerbis Integral X-Air lo tiene todo:\n✅ Protección certificada Nivel 2 en pecho, espalda, hombros y codos\n✅ Malla elástica y ventilada para que no te cuezas ni en la ruta más bestia\n✅ Compatible con collarín y 100% lavable\n\nIdeal para enduro, MX y off-road, incluso en jornadas largas y exigentes.\n\n💥 Ahora rebajado:\nDe 169,94 € a solo 118,96 €\n👉 Lo tienes en todoenrecambio.com/proteccion-integral\n\n#ProtecciónMotera #EquipamientoMoto #RiderProtection #TodoEnRecambio",
+   "enlace": "https://www.facebook.com/reel/1416494660208144/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/612056056_1416495003541443_7831940540127646951_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=9p30EbXJqtkQ7kNvwGk2qWj&_nc_oc=Adqj5O_sKbf5RfLCDsqDwnaudmwbdtaFZ5x0HzYhL0-ZS9mDqfCoNoaf-UXjy4CZhgw&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQLXfU7bRFq8TYo1Ddf1izPpCW50ui2vHr3YyTb_SjKuVlSq_dfaEzpYdQhzmVw923rUXsJSPxsb_g&oh=00_AQNscWbc2bytMcyrreblRLP-zasRFN4wdvtU_Q_rlctMWw&oe=6ACDB15E",
+   "segundos": 11,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 1840,
+    "post_video_view_time": 75471,
+    "blue_reels_play_count": 41,
+    "fb_reels_total_plays": 45,
+    "fb_reels_replay_count": 4,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1207714514568540",
+   "fecha": "2025-12-02T19:03:06+0000",
+   "texto": "🔋 Potencia, fiabilidad y durabilidad.\nLas baterías Yuasa están diseñadas para ofrecer máxima fiabilidad, larga vida útil y un rendimiento impecable en todo tipo de motos.\n\n📌 Tecnología avanzada.\n📌 Arranque seguro en cualquier condición.\n📌 Rendimiento estable y duradero.\n\nY ahora, con 35% de descuento, es el mejor momento para renovar la tuya.\nPorque cuando sabes lo que llevas… se nota.\n\nYa disponible en www.todoenrecambio.com/38-brand/yuasa\n\n#Yuasa #BateríasYuasa #PotenciaEnTuMoto #MantenimientoMoto",
+   "enlace": "https://www.facebook.com/reel/1207714514568540/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/592900745_1207714851235173_5836592452473291353_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=vAHfIObuxZ4Q7kNvwFDRhN3&_nc_oc=AdraIM--04Kfs6Y1NhSfsWRSmJ9KTDxER8ODDV82SFwrfy3PlR6Gg7VzPLk9uXvO9Aw&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJtXu15cn8pxUcUuqyZX3TI4ctWUFpSwnYcRRdVDM9rykVn9_y7EBEf3Dqclm9ZffHUOc27L-sqoQ&oh=00_AQMSgjr5snYyKcNWcqjxb6rXEzMm_PJDJtihMw3cNJ2eAg&oe=6ACDA64B",
+   "segundos": 18,
+   "me_gusta": 1,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2203,
+    "post_video_view_time": 271000,
+    "blue_reels_play_count": 123,
+    "fb_reels_total_plays": 130,
+    "fb_reels_replay_count": 7,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "1180885577479591",
+   "fecha": "2025-11-21T15:02:33+0000",
+   "texto": "Si vas en moto todos los días, sabes lo que significa tener las manos heladas antes de llegar al primer semáforo.\nCon los Oxford Commuter Muffs, eso se acabó.\nEstán hechos para el uso diario: fáciles de montar, cómodos incluso con guantes y resistentes a todo lo que te eches encima —lluvia, viento o frío.\n\nNo importa si es noviembre o enero, porque si vas en moto todo el año, necesitas algo más que guantes.\n\nDisponibles ya en 👉 todoenrecambio.com\n\n#OxfordCommuterMuffs #ManoplasMoto #EquipamientoMotero #InviernoEnMoto",
+   "enlace": "https://www.facebook.com/reel/1180885577479591/",
+   "imagen": "https://scontent.fmad25-1.fna.fbcdn.net/v/t15.5256-10/587021107_1180886060812876_911245527565579378_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=CzzjO21hA4cQ7kNvwFBoEHK&_nc_oc=AdqDY5CPnZggpWDsxqJ2z5xriVTpx5yEzuTVhB0NNcsUuqwZWox73Mqkp09dI-QWOec&_nc_zt=23&_nc_ht=scontent.fmad25-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQKR4eYI3-vFmxzhcOppCEwHdRExBFP6e-saGL6eptAmHkGkFvqLHwGrYJdoCixkYIDCDuLsbpNMIw&oh=00_AQMUNInb8PXYaLLH314-7yc90jYmZhTjSFYnnYTlt3K2Pg&oe=6ACD82C4",
+   "segundos": 29,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 1888,
+    "post_video_view_time": 158608,
+    "blue_reels_play_count": 84,
+    "fb_reels_total_plays": 95,
+    "fb_reels_replay_count": 11,
+    "post_video_followers": 0
+   }
+  },
+  {
+   "id": "3209269312556280",
+   "fecha": "2025-11-18T16:33:38+0000",
+   "texto": "En EICMA 2025 hemos podido ver de cerca lo nuevo de Galfer, y no decepciona.\n\nEl nuevo disco Floatech® Road aterriza en la carretera con tecnología de MotoGP™, elevando el rendimiento y el control a otro nivel.\nY atención al nuevo acabado Kashima del Floatech® Racing: rigidez, ligereza y estética premium para los más exigentes.\n\nAdemás, Galfer muestra en Milán toda su gama de discos y pastillas: carretera, campo, turismo o circuito… tienen la solución perfecta para tu estilo.\n\nNovedades galfer disponibles en TDR\n\n¿Con cuál te quedas tú? 👉 www.todoenrecambio.com/87-brand/galfer\n\n#EICMA2025 #Galfer #FrenosGalfer #TDRenEICMA #NovedadesMoto #DiscosGalfer #PastillasGalfer #FrenadaSegura",
+   "enlace": "https://www.facebook.com/reel/3209269312556280/",
+   "imagen": "https://scontent.fmad26-1.fna.fbcdn.net/v/t15.5256-10/585537080_3209270142556197_3983707482492956709_n.jpg?stp=dst-jpg_p160x160_tt6&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=810293&_nc_ohc=GNMo0fatcVcQ7kNvwG5kO6G&_nc_oc=AdrQErdU7xFtJyT9NuSv7YNiAJC0JRUARpLD6ZnO0iHfQGCF-gR1dQW9PJf1Queu5Dc&_nc_zt=23&_nc_ht=scontent.fmad26-1.fna&edm=ADk9D8YEAAAA&_nc_gid=S2p0IBGRFQjg9FiTL4x5hw&_nc_tpa=Q5bMBQJyaNPyhW_L3TwmnKYab4FRPeILnTMjTD7SDjDPiJPT0wG7v6NynIG7-rELa5UN2xCKcjuKu7VsFw&oh=00_AQOecIvUgX4PF4H-KZpfVs130Reybhzl-GiHAJ9w4CPfgg&oe=6ACD99D5",
+   "segundos": 51,
+   "me_gusta": 0,
+   "comentarios": 0,
+   "estadisticas": {
+    "post_video_avg_time_watched": 2033,
+    "post_video_view_time": 109829,
+    "blue_reels_play_count": 54,
+    "fb_reels_total_plays": 61,
+    "fb_reels_replay_count": 7,
+    "post_video_followers": 0
+   }
+  }
+ ],
+ "reel_kpi": {
+  "blue_reels_play_count": "Reproducciones",
+  "fb_reels_total_plays": "Reproducciones totales",
+  "post_impressions_unique": "Alcance",
+  "post_video_avg_time_watched": "Tiempo medio visto (ms)",
+  "post_video_view_time": "Tiempo total visto (ms)",
+  "post_video_followers": "Seguidores ganados",
+  "post_video_social_actions": "Interacciones"
+ },
+ "comentarios": [
+  {
+   "id": "1332430282432352_1025650779828651",
+   "fecha": "2026-07-14T08:04:07+0000",
+   "autor": "Todoenrecambio.com",
+   "texto": "#acerbis #peto #proteccionintegral #level2 #equipamientomoto #seguridadvial #moto #motorista #recambiosmoto #todoenrecambio #TDR #proteccionmoto #motovida #circuito",
+   "me_gusta": 0,
+   "es_tdr": true,
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1332430282432352?comment_id=1025650779828651",
+   "en": "publicación",
+   "en_enlace": "https://www.facebook.com/1407466038262109/posts/1332430282432352",
+   "en_texto": "🏍️ NIVEL 2: menos impacto, más protección.",
+   "respuestas": [],
+   "sin_responder": false
+  },
+  {
+   "id": "1330149172660463_27998395719785370",
+   "fecha": "2026-07-11T11:02:03+0000",
+   "autor": "Todoenrecambio.com",
+   "texto": "#dnafilters #filtrodeaire #hyosung #gt650r #outlet #recambiosmoto #mantenimientomoto #moto #todoenrecambio #TDR #ofertaoutlet #altorendimiento #reutilizable",
+   "me_gusta": 0,
+   "es_tdr": true,
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1330149172660463?comment_id=27998395719785370",
+   "en": "publicación",
+   "en_enlace": "https://www.facebook.com/1407466038262109/posts/1330149172660463",
+   "en_texto": "🏍️ Tu moto también necesita respirar bien.",
+   "respuestas": [],
+   "sin_responder": false
+  },
+  {
+   "id": "1328587256149988_1338049531189911",
+   "fecha": "2026-07-09T11:03:52+0000",
+   "autor": "Todoenrecambio.com",
+   "texto": "#diesel #limpiadordeinyeccion #bgproducts #mantenimientocoche #cochediesel #recambioscoche #todoenrecambio #TDR #ahorrocombustible #mantenimientopreventivo",
+   "me_gusta": 0,
+   "es_tdr": true,
+   "enlace": "https://www.facebook.com/1407466038262109/posts/1328587256149988?comment_id=1338049531189911",
+   "en": "publicación",
+   "en_enlace": "https://www.facebook.com/1407466038262109/posts/1328587256149988",
+   "en_texto": "🛠️ Dale un respiro a tu diésel.",
+   "respuestas": [],
+   "sin_responder": false
+  }
+ ],
+ "resumen": {
+  "publicaciones_120d": 42,
+  "reels": 21,
+  "comentarios": 3,
+  "respuestas": 0,
+  "sin_responder": 0,
+  "reacciones_120d": 1,
+  "compartidos_120d": 0
+ },
+ "errores": [],
+ "nota": "Datos de la API de Meta (Graph v23) con el usuario del sistema claude-panel. Los nombres de quien comenta se enseñan porque así lo quiso Rubén (08/10). Solo lectura."
+}

@@ -1,0 +1,4677 @@
+{
+ "actualizado": "2026-10-08 18:38",
+ "hoy": "2026-10-08",
+ "desde": "2026-10-01",
+ "hasta": "2026-11-17",
+ "metricool_guardado": "2026-10-08 18:35",
+ "avisos": [],
+ "estados": {
+  "publicado": "Ya ha salido",
+  "programado": "Programado: sale solo a su hora",
+  "aprobado": "Aprobado en el calendario, falta programarlo",
+  "previsto": "La cola automática de YouTube lo sube sola",
+  "condicional": "Solo si se graba su HeyGen",
+  "por hacer": "Aún hay que hacerlo"
+ },
+ "items": [
+  {
+   "id": "yt-JsU5dTuwkUs",
+   "dia": "2026-10-01",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Gala y Trufa prueban la Bagster Puppy, la bolsa para llevar al perro en moto",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/JsU5dTuwkUs/hqdefault.jpg",
+   "enlace": "https://youtu.be/JsU5dTuwkUs",
+   "segundos": 24,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-sMQhEzTerDo",
+   "dia": "2026-10-01",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El anticongelante hace cinco trabajos, no solo refrigerar",
+   "texto": "",
+   "img": "cal/v-b62a7ee433.jpg",
+   "enlace": "https://youtu.be/sMQhEzTerDo",
+   "segundos": 29,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-vWbSiFhy_bQ",
+   "dia": "2026-10-01",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Las bolsas de gas que la bomba no puede mover",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/vWbSiFhy_bQ/hqdefault.jpg",
+   "enlace": "https://youtu.be/vWbSiFhy_bQ",
+   "segundos": 17,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-MWA5exnUkaw",
+   "dia": "2026-10-01",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El orden para no equivocarte con el filtro de aire",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/MWA5exnUkaw/hqdefault.jpg",
+   "enlace": "https://youtu.be/MWA5exnUkaw",
+   "segundos": 15,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-qB1BIpPoX3w",
+   "dia": "2026-10-01",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "La pieza cara del embrague que casi nadie sabe que existe",
+   "texto": "",
+   "img": "cal/v-fdc0219b56.jpg",
+   "enlace": "https://youtu.be/qB1BIpPoX3w",
+   "segundos": 13,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-JTyg3JRWS5c",
+   "dia": "2026-10-02",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Llevar al perro en moto: lo que dice el Reglamento General de Circulación",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/JTyg3JRWS5c/hqdefault.jpg",
+   "enlace": "https://youtu.be/JTyg3JRWS5c",
+   "segundos": 29,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-OdiUHr5ViW0",
+   "dia": "2026-10-02",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Tu embrague está apretado siempre menos cuando pisas",
+   "texto": "",
+   "img": "cal/v-c19de4e2f7.jpg",
+   "enlace": "https://youtu.be/OdiUHr5ViW0",
+   "segundos": 14,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-Gseqihh4toc",
+   "dia": "2026-10-02",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)",
+   "texto": "La pregunta que más me hacéis es «¿cada cuántos kilómetros se cambia la correa de distribución?». Y resulta que esa pregunta está mal planteada, porque la correa no se muere por kilómetros: se muere por tiempo. La goma envejece con el coche parado en el garaje igual que rodando.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/correa-de-distribucion-cuando-cambiarla-y-que-pasa-si-se-rompe/\n🛒 Kits de distribución, correas, tensores y rodillos para tu coche: https://todoenrecambio.com/juego-de-correa-dentada-44606\n\nPor eso el fabricante de tu coche no te da un número, te da dos: unos kilómetros y un tiempo. Y manda el que llegue primero. Cualquiera que te suelte una cifra cerrada que valga para todos los coches no sabe de qué habla, porque cada motor tiene la suya y está en el libro de mantenimiento.\n\nEn este vídeo, sin una sola palabra técnica sin traducir: qué sincroniza la correa y por qué los pistones y las válvulas van por turnos, qué pasa exactamente dentro del motor cuando se rompe en marcha, de qué está hecha de verdad (no es una goma), por qué se cambia el kit entero y no solo la correa, la bomba de agua que casi nadie sabe que entra en ese cambio, cómo se ve una correa gastada si tienes acceso a ella, lo que se la come antes de tiempo, y por qué esta pieza casi no avisa antes de romperse.\n\nSi has llegado buscando «cada cuánto se cambia la correa de distribución», «síntomas correa de distribución» o «qué pasa si se rompe la correa de distribución», empieza por el capítulo del mito de los kilómetros.\n\nQUÉ VAS A SABER AL TERMINAR\n· Por qué el cuentakilómetros no dice nada sobre el estado de tu correa\n· Qué le pasa al motor por dentro en las décimas de segundo en que se rompe\n· Por qué la correa lleva hilos dentro y la goma solo los protege\n· Qué entra en el kit además de la correa, y por qué la mano de obra se paga una vez\n· Cuándo la bomba de agua va con la correa y cuándo no\n· Las cuatro cosas que miras tú: grietas, dientes redondeados, el canto y el polvo negro\n· Lo que la mata sin que hagas nada mal: una fuga de aceite, el refrigerante, un rodillo\n· Por qué la cadena tampoco es eterna, y en qué se diferencia de la correa\n\n⚠️ El intervalo válido para tu coche es el que indica el fabricante en el libro de mantenimiento. Aquí no vas a oír una cifra universal, porque no existe.\n\n📖 Más en el blog:\n· Kit de distribución completo: qué incluye y por qué se cambia entero: https://todoenrecambio.com/blog/kit-distribucion-completo/\n· Correa auxiliar: en",
+   "img": "cal/yt-Gseqihh4toc.jpg",
+   "enlace": "https://youtu.be/Gseqihh4toc",
+   "segundos": 705,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-f9qFYVMo1RM",
+   "dia": "2026-10-02",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El apriete del filtro de aceite: ni flojo ni a lo bestia",
+   "texto": "",
+   "img": "cal/v-edfb9efa91.jpg",
+   "enlace": "https://youtu.be/f9qFYVMo1RM",
+   "segundos": 13,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-kgATpZVqnIg",
+   "dia": "2026-10-02",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El diagnóstico de frenos se hace por pasos",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/kgATpZVqnIg/hqdefault.jpg",
+   "enlace": "https://youtu.be/kgATpZVqnIg",
+   "segundos": 23,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-bxkbnvn7MbM",
+   "dia": "2026-10-02",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Tres circuitos que no se pueden tocar, una sola lámina",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/bxkbnvn7MbM/hqdefault.jpg",
+   "enlace": "https://youtu.be/bxkbnvn7MbM",
+   "segundos": 20,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-lu6k62SE99Q",
+   "dia": "2026-10-02",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Cómo saber de verdad si tu batería está bien: se mide, no se mira",
+   "texto": "",
+   "img": "cal/v-9633dc1996.jpg",
+   "enlace": "https://youtu.be/lu6k62SE99Q",
+   "segundos": 17,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-ZVUfOKe_csg",
+   "dia": "2026-10-02",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Cuando los aditivos se gastan, el anticongelante sigue pareciendo nuevo",
+   "texto": "",
+   "img": "cal/v-d5cc947b51.jpg",
+   "enlace": "https://youtu.be/ZVUfOKe_csg",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-O3uDy0hBMMw",
+   "dia": "2026-10-03",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Lo que manda en el anticongelante no es el color: es la especificación",
+   "texto": "",
+   "img": "cal/v-a7aa7f2d18.jpg",
+   "enlace": "https://youtu.be/O3uDy0hBMMw",
+   "segundos": 26,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-hZzX5WX-ELs",
+   "dia": "2026-10-03",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Bolsa para llevar a tu perro en moto: máximo 8 kilos, ventana y correa interior",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/hZzX5WX-ELs/hqdefault.jpg",
+   "enlace": "https://youtu.be/hZzX5WX-ELs",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-5zSbQQUnMpw",
+   "dia": "2026-10-03",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "A la correa de distribución la mata otra cosa",
+   "texto": "",
+   "img": "cal/v-3eed16b822.jpg",
+   "enlace": "https://youtu.be/5zSbQQUnMpw",
+   "segundos": 25,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-JdaH_1ft0wY",
+   "dia": "2026-10-03",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Dientes redondeados y canto deshilachado: las dos señales",
+   "texto": "",
+   "img": "cal/v-41e1abe414.jpg",
+   "enlace": "https://youtu.be/JdaH_1ft0wY",
+   "segundos": 28,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-w0DKX9EvbJQ",
+   "dia": "2026-10-03",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Quién está detrás de este canal",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/w0DKX9EvbJQ/hqdefault.jpg",
+   "enlace": "https://youtu.be/w0DKX9EvbJQ",
+   "segundos": 18,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-Gtf4CTaX7eo",
+   "dia": "2026-10-03",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Las grietas de la correa: dónde se miran",
+   "texto": "",
+   "img": "cal/v-df778c0213.jpg",
+   "enlace": "https://youtu.be/Gtf4CTaX7eo",
+   "segundos": 21,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-lOyVfWUy45Y",
+   "dia": "2026-10-04",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Si el pedal del embrague agarra muy arriba, mira esto",
+   "texto": "",
+   "img": "cal/v-a4a13fc35a.jpg",
+   "enlace": "https://youtu.be/lOyVfWUy45Y",
+   "segundos": 15,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-sfXgc9NVOe4",
+   "dia": "2026-10-04",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Ventilación, dos bolsillos y correa al hombro: la bolsa para llevar al perro en moto",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/sfXgc9NVOe4/hqdefault.jpg",
+   "enlace": "https://youtu.be/sfXgc9NVOe4",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-FWLizHiS2lU",
+   "dia": "2026-10-04",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "La correa de distribución no se cambia por kilómetros",
+   "texto": "",
+   "img": "cal/v-73ec9394f7.jpg",
+   "enlace": "https://youtu.be/FWLizHiS2lU",
+   "segundos": 30,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-sJFz67gC8RU",
+   "dia": "2026-10-04",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El chirrido del frontal del motor: qué está avisando",
+   "texto": "",
+   "img": "cal/v-a51a63d562.jpg",
+   "enlace": "https://youtu.be/sJFz67gC8RU",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-RvaExStMzm4",
+   "dia": "2026-10-04",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Elige las pastillas por la aplicación de tu coche",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/RvaExStMzm4/hqdefault.jpg",
+   "enlace": "https://youtu.be/RvaExStMzm4",
+   "segundos": 25,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-xvw55YXkpeM",
+   "dia": "2026-10-04",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Las tóricas del filtro de cartucho: se cambian siempre",
+   "texto": "",
+   "img": "cal/v-c4799838d8.jpg",
+   "enlace": "https://youtu.be/xvw55YXkpeM",
+   "segundos": 12,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-lZPSZPzHQW8",
+   "dia": "2026-10-04",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Qué es la correa de distribución y qué hace",
+   "texto": "",
+   "img": "cal/v-1f161cb77f.jpg",
+   "enlace": "https://youtu.be/lZPSZPzHQW8",
+   "segundos": 20,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-5OOkOWxHM8Q",
+   "dia": "2026-10-05",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El testigo de la presión de aceite: cuándo hay que parar",
+   "texto": "",
+   "img": "cal/v-47f98dedc0.jpg",
+   "enlace": "https://youtu.be/5OOkOWxHM8Q",
+   "segundos": 15,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-QMBC0v8Ef_s",
+   "dia": "2026-10-05",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Cómo se monta la bolsa para llevar al perro en moto sobre el depósito",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/QMBC0v8Ef_s/hqdefault.jpg",
+   "enlace": "https://youtu.be/QMBC0v8Ef_s",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-3eEXCxb9fjw",
+   "dia": "2026-10-05",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El pedal de freno esponjoso: para y revisa",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/3eEXCxb9fjw/hqdefault.jpg",
+   "enlace": "https://youtu.be/3eEXCxb9fjw",
+   "segundos": 23,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-rvtpmpwWVXo",
+   "dia": "2026-10-05",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Las preguntas que hay que hacer antes de cambiar la batería",
+   "texto": "",
+   "img": "cal/v-6ef37ed877.jpg",
+   "enlace": "https://youtu.be/rvtpmpwWVXo",
+   "segundos": 17,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-h_TgaUz-ANE",
+   "dia": "2026-10-05",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Nueva normativa moto 2026: guantes, calzado, chaleco, arcén y casco (lo que dice el BOE)",
+   "texto": "Desde el 1 de octubre de 2026 ir en moto ha cambiado. Te explico punto por punto el Real Decreto 518/2026 (BOE del 26 de junio), sin rumores: los guantes de protección en vías interurbanas, el calzado cerrado en todo tipo de vías, el chaleco reflectante que la moto tiene que llevar, la circulación por el arcén en los atascos y el casco homologado en el ciclomotor desde el 1 de octubre de 2027.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/guantes-moto-homologados-en-13594/\n🛒 Guantes de moto: https://todoenrecambio.com/guantes-de-moto\n\nTambién qué guantes valen mientras no salga la orden de Interior (los certificados EN 13594), cómo leer la etiqueta del guante y la del casco, cuánto es la multa y si la moto tiene que llevar la baliza V-16.\n\n📖 Más en el blog:\n· Botas de moto, tipos y talla: https://todoenrecambio.com/blog/botas-de-moto-tipos-protecciones-talla/\n· ¿Debo cambiar mi casco si no es 22.06?: https://todoenrecambio.com/blog/debo-cambiar-mi-casco-de-moto-si-no-tiene-la-homologacion-22-06/\n\n🛒 También te puede servir:\n· Botas de moto: https://todoenrecambio.com/botas\n· Cascos: https://todoenrecambio.com/cascos\n· Chaleco de alta visibilidad Oxford OF398 Active Bright Top: https://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/varios-proteccion/chaleco-alta-visibilidad-oxford-of398-active-bright-top-amarillo-fluorescente-of398oxf.html\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 Qué cambia para la moto desde el 1 de octubre\n0:41 De dónde sale todo: el Real Decreto 518/2026\n1:18 Guantes obligatorios: dónde y para quién\n2:18 Qué guantes valen: la etiqueta EN 13594\n3:31 Calzado cerrado: adiós a las chanclas\n4:09 Chaleco reflectante: llevarlo y ponérselo\n5:20 Motos por el arcén en los atascos\n6:31 Casco homologado en el ciclomotor (2027)\n7:34 Multas y puntos\n8:15 ¿La moto tiene que llevar baliza V-16?\n8:31 Resumen antes de arrancar\n\nFUENTES OFICIALES\n· Real Decreto 518/2026, de 24 de junio (BOE-A-2026-13889): https://www.boe.es/eli/es/rd/2026/06/24/518\n  Texto completo en el BOE: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-13889\n  Lo que cito: art. 118.1 (casco, guantes y calzado), art. 118.4 (chaleco), art. 36.3 (arcén), disposiciones transitorias 1.ª y 2.ª (los guantes que valen mientras no salga la orden de Interior) y disposición final 2.ª (el chaleco en la moto).\n· DGT, nota de prensa del 30/09/2026 sobre la reforma: https://www.dgt.es/comunicacion/notas-de-prensa/20260930-refo",
+   "img": "cal/yt-h_TgaUz-ANE.jpg",
+   "enlace": "https://youtu.be/h_TgaUz-ANE",
+   "segundos": 549,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-F-Ed9DDSYMk",
+   "dia": "2026-10-05",
+   "hora": "19:03",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Gafas off-road Acerbis Vulcan: barro en la ruta, no en los ojos",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/F-Ed9DDSYMk/hqdefault.jpg",
+   "enlace": "https://youtu.be/F-Ed9DDSYMk",
+   "segundos": 49,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-93WKEAh3D1I",
+   "dia": "2026-10-05",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Kilómetros o tiempo: manda el que llegue primero",
+   "texto": "",
+   "img": "cal/v-5379ffba77.jpg",
+   "enlace": "https://youtu.be/93WKEAh3D1I",
+   "segundos": 20,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-jTQD_-83efU",
+   "dia": "2026-10-05",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Los pistones abajo y las válvulas arriba: van por turnos",
+   "texto": "",
+   "img": "cal/v-4854b4121b.jpg",
+   "enlace": "https://youtu.be/jTQD_-83efU",
+   "segundos": 29,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-gHczVXCnojs",
+   "dia": "2026-10-05",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El motor en marcha llena la batería y el motor parado la vacía",
+   "texto": "",
+   "img": "cal/v-a910e0428a.jpg",
+   "enlace": "https://youtu.be/gHczVXCnojs",
+   "segundos": 17,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-2hPiObjqHZ4",
+   "dia": "2026-10-06",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Cómo meter a tu perro en la bolsa de la moto y engancharlo con la correa interior",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/2hPiObjqHZ4/hqdefault.jpg",
+   "enlace": "https://youtu.be/2hPiObjqHZ4",
+   "segundos": 19,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-yv4RQxiwHzU",
+   "dia": "2026-10-06",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Por qué hay tipos distintos de anticongelante y en qué se diferencian",
+   "texto": "",
+   "img": "cal/v-e8fdb27001.jpg",
+   "enlace": "https://youtu.be/yv4RQxiwHzU",
+   "segundos": 30,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-u2MYlqP3ELs",
+   "dia": "2026-10-06",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Un filtro nuevo mal montado es peor que uno sucio bien montado",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/u2MYlqP3ELs/hqdefault.jpg",
+   "enlace": "https://youtu.be/u2MYlqP3ELs",
+   "segundos": 14,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-hNpwcMEf62Y",
+   "dia": "2026-10-06",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Nueva normativa moto 2026: los 5 cambios desde el 1 de octubre",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/hNpwcMEf62Y/hqdefault.jpg",
+   "enlace": "https://youtu.be/hNpwcMEf62Y",
+   "segundos": 32,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-pHI83iVONCY",
+   "dia": "2026-10-06",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "No hay ningún testigo que avise de la correa",
+   "texto": "",
+   "img": "cal/v-24372d437b.jpg",
+   "enlace": "https://youtu.be/pHI83iVONCY",
+   "segundos": 23,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-DoHe8jeJ7Ss",
+   "dia": "2026-10-06",
+   "hora": "21:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Esto NO es un guante de moto: jardinería, esquí o lana no valen",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/DoHe8jeJ7Ss/hqdefault.jpg",
+   "enlace": "https://youtu.be/DoHe8jeJ7Ss",
+   "segundos": 18,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-r-JCnZhyRKQ",
+   "dia": "2026-10-06",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "La correa de distribución no es una goma",
+   "texto": "",
+   "img": "cal/v-b1593088b4.jpg",
+   "enlace": "https://youtu.be/r-JCnZhyRKQ",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-2jXa9tWNH0E",
+   "dia": "2026-10-07",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Perros en moto: así lo viven Gala y Trufa, con las orejas al viento",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/2jXa9tWNH0E/hqdefault.jpg",
+   "enlace": "https://youtu.be/2jXa9tWNH0E",
+   "segundos": 16,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-8v1HNpLmX1I",
+   "dia": "2026-10-07",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Del cambio de embrague, lo que se paga es abrir",
+   "texto": "",
+   "img": "cal/v-6b52333cfd.jpg",
+   "enlace": "https://youtu.be/8v1HNpLmX1I",
+   "segundos": 13,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-82Nv_4vAuOU",
+   "dia": "2026-10-07",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Una correa con aspecto perfecto puede estar acabada",
+   "texto": "",
+   "img": "cal/v-fe6561d99a.jpg",
+   "enlace": "https://youtu.be/82Nv_4vAuOU",
+   "segundos": 28,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-TSK7fO0yDPs",
+   "dia": "2026-10-07",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El aceite no se gasta: se ensucia y pierde propiedades",
+   "texto": "",
+   "img": "cal/v-2d0294ac05.jpg",
+   "enlace": "https://youtu.be/TSK7fO0yDPs",
+   "segundos": 19,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-I9cVczaUb7k",
+   "dia": "2026-10-07",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Si te quedas tirado con la moto en carretera: qué hacer en 4 pasos",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/I9cVczaUb7k/hqdefault.jpg",
+   "enlace": "https://youtu.be/I9cVczaUb7k",
+   "segundos": 25,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-hDL4T7VWpgo",
+   "dia": "2026-10-07",
+   "hora": "19:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Cómo comprar el recambio correcto para tu coche (y no equivocarte)",
+   "texto": "Dos coches iguales por fuera pueden llevar pastillas de freno distintas. Por eso el recambio no se elige por el modelo: se elige por tu coche. En este vídeo te cuento cómo acertar con la pieza a la primera, compres donde compres, y ahorrarte la devolución, la espera y el coche parado.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/que-son-los-recambios-oem/\n🛒 Recambio de coche por matrícula o modelo: https://todoenrecambio.com/recambio-coche\n\nPor qué la marca, el modelo y el año no bastan; qué identifica de verdad a tu coche (la matrícula te acerca, el número de bastidor acierta) y dónde está ese número; cómo leer y buscar la referencia de la pieza vieja; qué quieren decir original, de primer equipo y equivalente; por qué la foto engaña y mandan las medidas, los anclajes y los conectores; el ejemplo de las pastillas con y sin aviso de desgaste; el lado izquierdo y el derecho; por qué el kit de distribución se compra completo y los frenos se cambian por eje; qué comparar al abrir la caja y por qué guardar la caja, el embalaje y la factura.\n\nY al final, paso a paso, cómo se compra en todoenrecambio.com: eliges tu coche (marca, serie, modelo y versión) y solo te salen los recambios compatibles; en la ficha miras la referencia, la posición de montaje y si lleva aviso de desgaste, y compruebas tu versión en «Vehículos compatibles»; después, carrito, envío y pago. Para pagar hay que entrar con tu cuenta o registrarse.\n\n📖 Más en el blog:\n· Qué trae un kit de distribución y por qué se cambia entero: https://todoenrecambio.com/blog/kit-distribucion-completo/\n\n🛒 También te puede servir:\n· Pastillas de freno: https://todoenrecambio.com/pastilla-de-freno-coche\n· Discos de freno: https://todoenrecambio.com/disco-de-freno\n· Contactos de aviso de desgaste: https://todoenrecambio.com/indicador-de-desgaste\n· Faros: https://todoenrecambio.com/faro-pieza-insertable-44189\n· Pilotos traseros: https://todoenrecambio.com/luces-traseras\n· Kits de distribución: https://todoenrecambio.com/juego-de-correas-dentadas\n· Kits de embrague: https://todoenrecambio.com/juego-de-embragues\n· Envíos, devoluciones y cambios: https://todoenrecambio.com/content/envios-devoluciones-y-cambios\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 Cómo comprar el recambio correcto\n0:39 Dos coches iguales, piezas distintas\n1:26 La matrícula no basta: el bastidor\n2:30 La referencia grabada en la pieza\n3:04 La misma pieza en cajas distintas\n4:05 La pastilla qu",
+   "img": "cal/yt-hDL4T7VWpgo.jpg",
+   "enlace": "https://youtu.be/hDL4T7VWpgo",
+   "segundos": 573,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-FkgZGcQEMJI",
+   "dia": "2026-10-07",
+   "hora": "19:04",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Guantes obligatorios en moto desde el 1 de octubre: lo que dice la norma",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/FkgZGcQEMJI/hqdefault.jpg",
+   "enlace": "https://youtu.be/FkgZGcQEMJI",
+   "segundos": 23,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-Cfw4rRZA-sA",
+   "dia": "2026-10-07",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "La cadena de distribución tampoco es eterna",
+   "texto": "",
+   "img": "cal/v-878515ac3e.jpg",
+   "enlace": "https://youtu.be/Cfw4rRZA-sA",
+   "segundos": 21,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-w_hFRCXf7GE",
+   "dia": "2026-10-07",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Vaciar la batería es rápido y llenarla es lento: por eso mueren con los trayectos cortos",
+   "texto": "",
+   "img": "cal/v-957ba90ae3.jpg",
+   "enlace": "https://youtu.be/w_hFRCXf7GE",
+   "segundos": 23,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt--KZ7-xZ6mV0",
+   "dia": "2026-10-07",
+   "hora": "21:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Casco de moto en carretera: ¿integral, modular o jet? (normativa 2026)",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/-KZ7-xZ6mV0/hqdefault.jpg",
+   "enlace": "https://youtu.be/-KZ7-xZ6mV0",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-NN-fvUgSIHA",
+   "dia": "2026-10-08",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "El lodo del anticongelante viejo tapa el radiador por dentro",
+   "texto": "",
+   "img": "cal/v-bd0fecdbad.jpg",
+   "enlace": "https://youtu.be/NN-fvUgSIHA",
+   "segundos": 16,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-SPeQLs5t-J8",
+   "dia": "2026-10-08",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Qué pedir en el taller el día que cambies el embrague",
+   "texto": "",
+   "img": "cal/v-688c9fee1f.jpg",
+   "enlace": "https://youtu.be/SPeQLs5t-J8",
+   "segundos": 13,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-UnTc7S7AVAI",
+   "dia": "2026-10-08",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "La correa de distribución no se cambia sola",
+   "texto": "",
+   "img": "cal/v-1b7ae96c36.jpg",
+   "enlace": "https://youtu.be/UnTc7S7AVAI",
+   "segundos": 20,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-DiLE76Nv5CY",
+   "dia": "2026-10-08",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Motos por el arcén: por qué tantas condiciones (y cuándo te multan)",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/DiLE76Nv5CY/hqdefault.jpg",
+   "enlace": "https://youtu.be/DiLE76Nv5CY",
+   "segundos": 26,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-CwUXlxBtvgk",
+   "dia": "2026-10-08",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Qué le cae dentro al aceite de tu motor",
+   "texto": "",
+   "img": "cal/v-496f6e252e.jpg",
+   "enlace": "https://youtu.be/CwUXlxBtvgk",
+   "segundos": 17,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-GMtVYlX-G2w",
+   "dia": "2026-10-08",
+   "hora": "21:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "¿Por qué ahora son obligatorios los guantes de moto? ¿Y en verano?",
+   "texto": "",
+   "img": null,
+   "enlace": "https://youtu.be/GMtVYlX-G2w",
+   "segundos": 26,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-0Oju-1cbpYg",
+   "dia": "2026-10-08",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "La correa envejece con el coche parado en el garaje",
+   "texto": "",
+   "img": "cal/v-6b9ef2b08d.jpg",
+   "enlace": "https://youtu.be/0Oju-1cbpYg",
+   "segundos": 26,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389214776",
+   "dia": "2026-10-09",
+   "hora": "10:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Motos por el arcén en los atascos: cuándo sí",
+   "texto": "🛣️ Motos por el arcén en los atascos: cuándo sí.\n\n✅ Solo en tramos habilitados y señalizados. Sin señal, el arcén sigue como antes.\n✅ Con los carriles detenidos por congestión (lento no vale: parado).\n✅ A 30 km/h como máximo, en fila de uno y extremando la precaución.\n\n⚠️ En Cataluña, por ahora, nada de arcén: el Servei Català de Trànsit ha anunciado que no lo habilitará.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Arcen #NormativaMoto #Motos #DGT #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-10823534814411463435.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-5824158858693841375.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "mc-364764541",
+   "dia": "2026-10-09",
+   "hora": "13:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "foto",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Aceites Motul 4T: 7100 y 5100 | TodoEnRecambio",
+   "texto": "🛢️ El aceite es la sangre del motor. Y la clave no es elegir «el mejor».\n\nEs elegir el que cumple la especificación que pide TU motor. Tres opciones Motul 4T según lo que necesites:\n\n✅ 7100 10W40 — 100% sintético, sport & adventure\n✅ 5100 10W40 — technosynthese, mantenimiento habitual\n✅ 7100 10W30 — cuando el fabricante pide 10W30\n\n👉 Mira el manual de tu moto y comprueba la viscosidad y la norma que exige antes de comprar.\n\n🔧 7100 10W40 (ref. 104091) · 14,97 €\n🔧 5100 10W40 (ref. 104066) · 12,17 €\n🔧 7100 10W30 (ref. 104089) · 14,97 €\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#Motul #Aceite4T #7100 #5100 #MantenimientoMoto #CambioDeAceite #Motero #RecambiosMoto #TodoEnRecambio #TDR",
+   "img": "https://static.metricool.com/planner/202608/6422269-file-11516558941388902572.jpeg",
+   "video": null,
+   "ia": false,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-XOdnZciI-OA",
+   "dia": "2026-10-09",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Si tu coche apaga el motor en los semáforos, no le pongas una batería normal",
+   "texto": "",
+   "img": "cal/v-669c1d0d0e.jpg",
+   "enlace": "https://youtu.be/XOdnZciI-OA",
+   "segundos": 15,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-Et1RG144xYs",
+   "dia": "2026-10-09",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El agua del grifo le mete cal al circuito de refrigeración",
+   "texto": "",
+   "img": "cal/v-51731c5504.jpg",
+   "enlace": "https://youtu.be/Et1RG144xYs",
+   "segundos": 10,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-kcNAco6dLMY",
+   "dia": "2026-10-09",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Cataluña no habilita el arcén para motos: lo que cambia y lo que no",
+   "texto": "",
+   "img": null,
+   "enlace": "https://youtu.be/kcNAco6dLMY",
+   "segundos": 21,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389214866",
+   "dia": "2026-10-09",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Protector de depósito Oxford: que la chaqueta no te raye la moto",
+   "texto": "⚠️ Tu chaqueta está rayando el depósito… y no te estás dando cuenta.\n\nCremalleras, hebillas y el roce de cada día al subir y bajar de la moto.\n\n✅ Oxford Gripper Tank Spine: silicona de 2,5 mm con adhesivo 3M\n✅ 150 × 210 mm, se puede recortar para adaptarlo a tu depósito\n✅ Aguanta aceite, productos químicos y cambios de temperatura\n✅ Trae mini protectores extra para las formas más anchas\n\n💡 Preséntalo antes de quitar el adhesivo y marca bien el centro.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Protector Oxford Gripper Tank Spine:\nhttps://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/varios-proteccion/protector-de-deposito-en-silicona-oxford-gripper-tank-spine-150-210-mm-ox655oxf.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#ProtectorDeposito #TankPad #Oxford #AccesoriosMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-13891728889956340475.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-17494899953526145829.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-GCUosCr25bU",
+   "dia": "2026-10-09",
+   "hora": "21:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Lo que tienes que llevar en moto desde el 1 de octubre (checklist)",
+   "texto": "",
+   "img": null,
+   "enlace": "https://youtu.be/GCUosCr25bU",
+   "segundos": 27,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389215003",
+   "dia": "2026-10-10",
+   "hora": "10:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "¿Qué guantes de moto valen? La etiqueta EN 13594",
+   "texto": "🏷️ ¿Qué guantes de moto valen con la nueva norma?\n\nMientras Interior no publique su orden, valen los guantes de protección como los que se usan ahora: los certificados EN 13594.\n\nMira la etiqueta de dentro:\n✅ Marcado CE y el dibujo del motorista\n✅ EN 13594\n✅ Nivel 1 o 2 (el 2 protege más)\n✅ KP: nudillos con protección y ensayo de impacto\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Guantes Acerbis X-Street (CE EN 13594:2015, nivel 1 KP):\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/guantes-de-moto/guantes-moto-acerbis-ce-x-street-0024019-negro-touring-road-con-certificacion-ce-0024019090061acb.html\n🛒 Guía de guantes EN 13594:\nhttps://todoenrecambio.com/blog/guantes-moto-homologados-en-13594/\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#GuantesDeMoto #EN13594 #NormativaMoto #Acerbis #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-7546227982338353839.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13136497276673990510.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-pKtFjJ_g58Q",
+   "dia": "2026-10-10",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Exige que te cambien este retén con el embrague",
+   "texto": "",
+   "img": "cal/v-a4ea097a6f.jpg",
+   "enlace": "https://youtu.be/pKtFjJ_g58Q",
+   "segundos": 13,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-CK0qcbou-yM",
+   "dia": "2026-10-10",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla",
+   "texto": "Cuando sube la aguja de la temperatura, lo que hagas en ese momento decide si pagas una pieza o el motor entero. Y casi nunca es el motor el que falla: es una pieza mucho más barata, que suele avisar antes de romperse.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/para-que-sirve-el-liquido-refrigerante-del-coche-y-cuando-cambiarlo/\n🛒 Refrigeración del coche: https://todoenrecambio.com/refrigeracion-43288\n\nEn este vídeo: cómo se refrigera un motor y por qué el líquido recorre un circuito cerrado; qué hacer en cuanto sube la aguja o se enciende el testigo de la temperatura (parar en un sitio seguro, poner la calefacción al máximo y, sobre todo, no abrir el tapón del vaso de expansión con el motor caliente); y las cinco piezas que suelen tener la culpa: el termostato que se queda cerrado, el ventilador que no arranca en el atasco, la bomba de agua que pierde líquido, el radiador tapado por fuera o por dentro, y los manguitos y sus abrazaderas.\n\nTambién cómo distinguir un charco de refrigerante del agua del aire acondicionado, por qué un motor que se calienta de verdad acaba en la junta de culata, y qué pedir en el taller: la prueba de presión, que comprueben el ventilador, el termostato y los manguitos y, si toca la bomba de agua, que miren si es buen momento para cambiar también la correa.\n\n📖 Más en el blog:\n· Termostato del coche: fallos típicos y cómo detectarlos: https://todoenrecambio.com/blog/termostato-coche-fallos/\n· Bomba de agua del coche: síntomas de avería y cuándo cambiarla: https://todoenrecambio.com/blog/bomba-agua-coche-sintomas-averia/\n· Radiador del coche: síntomas y cuándo se sustituye: https://todoenrecambio.com/blog/radiador-del-coche-sintomas/\n\n🛒 También te puede servir:\n· Bombas de agua: https://todoenrecambio.com/bomba-de-agua-43653\n· Termostatos: https://todoenrecambio.com/termostato-43657\n· Radiadores: https://todoenrecambio.com/radiador-44016\n· Manguitos y tubos del refrigerante: https://todoenrecambio.com/tuberia-tubos-flexibles-bridas\n· Ventiladores del radiador: https://todoenrecambio.com/ventilador-44836\n· Líquido refrigerante: https://todoenrecambio.com/anticongelante-45631\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 El coche se calienta: casi nunca es el motor\n0:38 Cómo se refrigera un motor\n1:23 La aguja sube: qué hacer y qué no tocar\n2:31 El termostato\n3:30 El ventilador y la pista del atasco\n4:24 La bomba de agua, y por qué va con la correa\n5:06 El radiador, tapado por ",
+   "img": "cal/yt-CK0qcbou-yM.jpg",
+   "enlace": "https://youtu.be/CK0qcbou-yM",
+   "segundos": 529,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389215079",
+   "dia": "2026-10-10",
+   "hora": "18:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "¿Guantes de moto en ciudad? Dónde son obligatorios",
+   "texto": "🧤 ¿Guantes en moto también en ciudad?\n\nDesde el 1 de octubre los guantes de protección son obligatorios en vías interurbanas: carreteras, autovías y autopistas. En ciudad la norma no te los exige, pero en cuanto coges la circunvalación ya estás en vía interurbana. Lo práctico: llevarlos siempre puestos.\n\n✅ La obligación es para el conductor y para el pasajero. Si vais dos, los dos con guantes.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Guantes de moto:\nhttps://todoenrecambio.com/guantes-de-moto\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#GuantesObligatorios #NormativaMoto #DGT #GuantesDeMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-18027657860177699111.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-9898289044220797652.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-Y-_UAuGWXU0",
+   "dia": "2026-10-10",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El papel de un filtro de aceite no es papel",
+   "texto": "",
+   "img": "cal/v-67cb89c647.jpg",
+   "enlace": "https://youtu.be/Y-_UAuGWXU0",
+   "segundos": 22,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-HxSJxNlwobQ",
+   "dia": "2026-10-10",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Qué pasa si la correa de distribución se rompe en marcha",
+   "texto": "",
+   "img": "cal/v-5da9a4c544.jpg",
+   "enlace": "https://youtu.be/HxSJxNlwobQ",
+   "segundos": 32,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-WqWb3ZIs_I4",
+   "dia": "2026-10-10",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Si haces trayectos cortos, la próxima mañana fría te lo va a cobrar",
+   "texto": "",
+   "img": "cal/v-9fa0e74179.jpg",
+   "enlace": "https://youtu.be/WqWb3ZIs_I4",
+   "segundos": 22,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389215150",
+   "dia": "2026-10-11",
+   "hora": "10:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "¿La moto tiene que llevar baliza V-16?",
+   "texto": "🚨 ¿La moto tiene que llevar baliza V-16?\n\nNo. La V-16 es obligatoria en turismos, furgonetas y autobuses; las motos no tienen que llevarla.\n\nEn la moto, lo obligatorio es el chaleco reflectante. Debajo del asiento, en el baúl, en la mochila o en la chaqueta: lo importante es que vaya contigo.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Chaleco Oxford OF398 Active Bright Top:\nhttps://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/varios-proteccion/chaleco-alta-visibilidad-oxford-of398-active-bright-top-amarillo-fluorescente-of398oxf.html\n📖 Guía: baliza V-16 homologada (para el coche):\nhttps://todoenrecambio.com/blog/baliza-v16-homologada-dgt-3-0/\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#BalizaV16 #ChalecoReflectante #NormativaMoto #DGT #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-14539224889699441585.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-18181611594801483166.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-tdnROlBNgjM",
+   "dia": "2026-10-11",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Rellenar con agua «solo un poco» acaba en agua sucia con color",
+   "texto": "",
+   "img": "cal/v-1ecc99c403.jpg",
+   "enlace": "https://youtu.be/tdnROlBNgjM",
+   "segundos": 14,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-b8AkgDuQK6c",
+   "dia": "2026-10-11",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Las salidas en cuesta y lo que le cuestan al embrague",
+   "texto": "",
+   "img": "cal/v-c88742dd6e.jpg",
+   "enlace": "https://youtu.be/b8AkgDuQK6c",
+   "segundos": 13,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389215210",
+   "dia": "2026-10-11",
+   "hora": "18:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Ciclomotor: casco homologado desde octubre de 2027",
+   "texto": "⛑️ Ciclomotor: casco homologado desde el 1 de octubre de 2027.\n\nHasta ahora bastaba un casco certificado. Desde octubre de 2027 tendrá que ser homologado: tienes un año para cambiarlo.\n\n¿Cómo lo sabes? En la etiqueta blanca de la correa: una E dentro de un círculo y un código que empieza por 05 o por 06.\n\nℹ️ Fuente: Real Decreto 518/2026 (BOE-A-2026-13889).\n▶️ Vídeo completo en nuestro canal de YouTube: TodoEnRecambio\n\n🛒 Cascos:\nhttps://todoenrecambio.com/cascos\n📖 ¿Debo cambiar mi casco si no es 22.06?:\nhttps://todoenrecambio.com/blog/debo-cambiar-mi-casco-de-moto-si-no-tiene-la-homologacion-22-06/\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#CascoHomologado #Ciclomotor #NormativaMoto #DGT #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-3104314420996495759.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-3923527676377463088.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-bsFzJ5XDVdk",
+   "dia": "2026-10-11",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El plisado del filtro: por qué tiene esa forma",
+   "texto": "",
+   "img": "cal/v-8181de12a5.jpg",
+   "enlace": "https://youtu.be/bsFzJ5XDVdk",
+   "segundos": 20,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-M9UaYkMa0O0",
+   "dia": "2026-10-11",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Romper la correa es abrir el motor entero",
+   "texto": "",
+   "img": "cal/v-813d2cb4ac.jpg",
+   "enlace": "https://youtu.be/M9UaYkMa0O0",
+   "segundos": 37,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "plan-R05",
+   "dia": "2026-10-12",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Mismo coche, pastillas de freno distintas: por qué pasa",
+   "texto": "Dos coches iguales por fuera pueden llevar pastillas de freno distintas 🚗🚗\nPor eso el recambio no se elige por el modelo: decir la marca, el modelo y el año no basta.\nLa matrícula es un buen principio, pero a veces te devuelve varias opciones. La matrícula te acerca; el bastidor acierta.\nRecambios para tu coche 👉 todoenrecambio.com\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #pastillasdefreno #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-1a51bec093.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": 37,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "mc-364764663",
+   "dia": "2026-10-12",
+   "hora": "13:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok"
+   ],
+   "formato": "foto",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Bolsa impermeable SHAD TR08 de 8 litros para defensas | TodoEnRecambio",
+   "texto": "🏍️ Cuando acaba el asfalto, el equipaje también tiene que aguantar.\n\nLa SHAD TR08 es una bolsa impermeable de 8 litros pensada para montar en defensas o crash bars. Ahí donde no te cabe una maleta, va ella.\n\n✅ Impermeable\n✅ 8 litros de capacidad\n✅ Diseñada para defensas / crash bars\n\n🔧 Ref. X0TR08SHA · 50,15 € (antes 59,00 €, −15%)\n📦 Envío gratis desde 70 € · Envíos 24/48h\n🛒 todoenrecambio.com\n\n#SHAD #TR08 #MotoAdventure #Trail #EquipajeMoto #OffRoad #BolsasMoto #Motero #RutaEnMoto #RecambiosMoto #TodoEnRecambio #TDR",
+   "img": "https://static.metricool.com/planner/202608/6422269-file-7073580492292685418.jpeg",
+   "video": null,
+   "ia": false,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-AMl2KRAOl9o",
+   "dia": "2026-10-12",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El circuito de refrigeración va presurizado, y el tapón es una válvula",
+   "texto": "",
+   "img": "cal/v-4b03341b43.jpg",
+   "enlace": "https://youtu.be/AMl2KRAOl9o",
+   "segundos": 24,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-Ww87rx_uiNU",
+   "dia": "2026-10-12",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El embrague se cambia todo de la misma marca, y no es capricho",
+   "texto": "",
+   "img": "cal/v-698ae92578.jpg",
+   "enlace": "https://youtu.be/Ww87rx_uiNU",
+   "segundos": 13,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "mc-389215312",
+   "dia": "2026-10-12",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Cómo poner la funda de la moto: el error de ponerla nada más aparcar",
+   "texto": "🏍️ ¿Pones la funda nada más aparcar? Error.\n\n1️⃣ Espera a que la moto esté fría: el fabricante avisa de que la funda no debe tocar el escape caliente ni el motor\n2️⃣ Colócala de delante hacia atrás\n3️⃣ Ajústala bien y cierra la correa de abajo\n4️⃣ Usa los orificios para el candado: moto y funda aseguradas a la vez\n\n✅ Oxford Aquatex: impermeable, para exterior e interior y resistente a los rayos del sol\n📏 Elige en la ficha la talla de tu moto.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Funda Oxford Aquatex:\nhttps://todoenrecambio.com/recambio-moto/accesorios/proteccion-motor/fundas-de-asiento/funda-para-moto-aquatex-oxford-talla-m-cv202-cv202oxf.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#FundaMoto #Oxford #Aquatex #CuidadoMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-447332987170885482.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-14064230399763222868.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "yt-oFkdGeqYK10",
+   "dia": "2026-10-12",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Las dos válvulas del filtro que casi nadie conoce",
+   "texto": "",
+   "img": "cal/v-e8296e101c.jpg",
+   "enlace": "https://youtu.be/oFkdGeqYK10",
+   "segundos": 23,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "yt-oSf4TxjsJWU",
+   "dia": "2026-10-12",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Por qué el kit de distribución se cambia todo junto",
+   "texto": "",
+   "img": "cal/v-2a5de9bb03.jpg",
+   "enlace": "https://youtu.be/oSf4TxjsJWU",
+   "segundos": 32,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "plan-R06",
+   "dia": "2026-10-13",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "¿La pastilla de freno nueva no entra? Por qué pasa",
+   "texto": "¿La pastilla de freno nueva no entra? 🔧\nUn mismo modelo puede montar frenos de dos tamaños o de dos fabricantes, y las pastillas de uno no entran en el otro.\nOjo también con el aviso de desgaste: si tu coche lo lleva, las pastillas tienen que ser de las que lo admiten. Y nunca, nunca, se fuerza una pastilla para que entre.\nPastillas de freno 👉 todoenrecambio.com/pastilla-de-freno-coche\n🤖 Vídeo creado con inteligencia artificial\n#pastillasdefreno #frenos #mantenimientocoche #recambioscoche #todoenrecambio",
+   "img": "cal/p-aad1e49e12.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": 44,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-c7e28f3213",
+   "dia": "2026-10-13",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo saber qué pieza lleva tu coche: mismo modelo, piezas distintas",
+   "texto": "El primer error es pensar que con el modelo basta: dices la marca, el modelo y el año, y parece suficiente. Pero no lo es 🚗\nUn mismo modelo se fabrica con motores, acabados y frenos distintos. Y a veces el fabricante cambia una pieza a mitad de producción: dos coches del mismo año pueden llevar la versión vieja y la nueva.\nEl recambio no se elige por el modelo. Se elige por tu coche.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #comprarrecambios #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-c7e28f3213.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 09/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "yt-xAb07YNipeA",
+   "dia": "2026-10-13",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "El coche se va hacia un lado: alineación, neumáticos o dirección",
+   "texto": "Si en una recta el coche tira hacia un lado, no siempre es la alineación. Y alinearlo sin mirar lo demás es pagar dos veces: casi siempre se empieza por el final, por alinear, y muchas veces el problema está antes.\n\nEn este vídeo, las causas de la más barata a la más cara y en qué orden mirarlas: por qué es normal que el coche tienda un poco hacia la derecha y lo que no es normal; la presión de las ruedas, que la buena está en la etiqueta del marco de la puerta o de la tapa del depósito y se mira en frío; un neumático dañado o dos distintos en el mismo eje, con la prueba de cambiar de lado las ruedas de delante; el volante torcido yendo recto, que suele venir de un golpe; y el equilibrado, que hace vibrar el volante pero no hace que el coche se vaya a un lado.\n\nY lo que casi nadie mira antes de alinear: las rótulas y los terminales de dirección. Si una rótula tiene juego y alineas el coche, la alineación no se sostiene. También cómo se hace la alineación, cómo leer el desgaste de la banda de rodadura (por un borde, por los dos o por el centro, y el borde de dentro, que no se ve a simple vista), cuándo es la dirección asistida, qué pasa si solo tira al frenar y qué pedir en el taller, en este orden: presiones y neumáticos, holguras y, solo entonces, la alineación, con su informe.\n\nCAPÍTULOS\n0:00 El coche se va hacia un lado: no siempre es la alineación\n0:42 Cómo gira un coche y por qué tira un poco a la derecha\n1:25 La presión de las ruedas y el neumático dañado\n2:23 El volante torcido yendo recto\n2:56 El volante vibra: el equilibrado\n3:33 Las rótulas: lo que casi nadie mira antes de alinear\n4:25 La alineación: qué es y cuándo hace falta\n4:59 Cómo leer el desgaste del neumático\n5:42 La dirección asistida: volante duro y zumbido\n6:17 Lo que puedes comprobar tú, y si solo tira al frenar\n7:14 Qué pedir en el taller y en qué orden\n\nEN EL BLOG\n▶ Rótulas, bieletas y brazos: los síntomas que delatan la dirección: https://todoenrecambio.com/blog/rotulas-bieletas-sintomas/\n▶ Cómo medir el desgaste de los neumáticos: https://todoenrecambio.com/blog/como-medir-desgaste-neumaticos/\n\nEN TODOENRECAMBIO.COM\n· Rótulas y terminales de dirección: https://todoenrecambio.com/rotulas-de-direccion\n· Barras de acoplamiento: https://todoenrecambio.com/barra-de-acoplamiento-rotula\n· Rótulas de suspensión: https://todoenrecambio.com/rotula-de-suspension-carga\n· Brazos de suspensión: https://todoenrecambio.com/brazo-oscilante-long-transv-inclinado\n· Amortiguadores: https://todoenreca",
+   "img": "cal/yt-xAb07YNipeA.jpg",
+   "enlace": "https://youtu.be/xAb07YNipeA",
+   "segundos": 500,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+  },
+  {
+   "id": "cola-1d31b7001d",
+   "dia": "2026-10-13",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "En muchos motores la bomba de agua va con la correa de distribución",
+   "texto": "",
+   "img": "cal/v-1d31b7001d.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 09/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-6508715038",
+   "dia": "2026-10-13",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se calienta: qué hacer cuando sube la aguja",
+   "texto": "Cuando sube la aguja de la temperatura, lo que hagas en ese momento decide si pagas una pieza o el motor entero 🌡️\nSi la aguja sube o se enciende el testigo, no sigas como si nada: busca dónde parar en un sitio seguro y apaga el motor.\nCada minuto que sigues conduciendo así es un minuto que el motor sufre.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #temperaturamotor #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-6508715038.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 09/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-15",
+   "dia": "2026-10-14",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Charco debajo del coche: ¿refrigerante o aire acondicionado?",
+   "texto": "La señal que más gente ve sin saber qué es: un charco debajo de la parte de delante del coche 💧\nSi tiene color (rosa, verde, naranja o azul) y huele dulce, es refrigerante.\nSi es transparente, no huele a nada y cae más atrás, hacia la zona del copiloto, es el agua del aire acondicionado. Esa es normal.\nAnticongelantes para coche 👉 todoenrecambio.com/lubricantes-coche-adicional\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #anticongelante #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-2a6dd454cd.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-18104c1590",
+   "dia": "2026-10-14",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El embrague son dos platos que se aprietan: ya está",
+   "texto": "",
+   "img": "cal/v-18104c1590.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 09/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-068384acf2",
+   "dia": "2026-10-14",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿El coche tira un poco a la derecha? Puede ser la carretera",
+   "texto": "Las carreteras no son planas: están un poco inclinadas hacia el arcén para que corra el agua. Por eso es normal que el coche tienda un poco hacia la derecha 🛣️\nLo que no es normal es tener que corregir todo el rato.\nTirar un poco es la carretera. Tirar mucho es el coche.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#cochetira #direccion #alineacion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-068384acf2.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 10/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389215381",
+   "dia": "2026-10-14",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Traje de lluvia para moto: Acerbis Rain Set Line y traje de agua Logo",
+   "texto": "🌧️ La ruta no se para por cuatro gotas. Pero tú sí, si no llevas esto.\n\nEn otoño el tiempo cambia en media hora: un traje de lluvia debería ir siempre en la moto.\n\n✅ Acerbis Rain Set Line: chaqueta y pantalón, costuras termoselladas y columna de agua de 3.000 mm. Se pliega para llevarlo bajo el asiento, en la mochila o en la maleta\n✅ Traje de agua Acerbis Logo: cremallera termosellada con solapa, capucha, bolsillo impermeable y reflectantes\n\n💡 Póntelo alguna vez en casa, con calma: el día que llueva de verdad lo harás mucho más rápido.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Acerbis Rain Set Line:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/trajes-lluvia/mono-lluvia/acerbis-rain-set-line-conjunto-impermeable-compacto-para-aventura-0026144090062acb.html\n🛒 Traje de agua Acerbis Logo:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/trajes-lluvia/mono-lluvia/traje-de-agua-acerbis-acerbis-0016428-090-061-0016428090061acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#TrajeDeLluvia #Acerbis #EquipacionMoto #Otoño #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1093774664215788172.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-1916444006709985800.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-a0019c1cc0",
+   "dia": "2026-10-14",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La válvula antirretorno del filtro de aceite: qué hace",
+   "texto": "",
+   "img": "cal/v-a0019c1cc0.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 10/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-1a7318c8e4",
+   "dia": "2026-10-14",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La bomba de agua entra en el cambio de la correa",
+   "texto": "",
+   "img": "cal/v-1a7318c8e4.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 10/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R03",
+   "dia": "2026-10-15",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Puños calefactables: ¿directos a la batería o con relé?",
+   "texto": "¿Los puños calefactables van directos a la batería o con un relé? 🔌\nDepende del kit. Te contamos lo que dice el manual de los Oxford Premium V8: dónde va el rojo, dónde el negro, el fusible y qué pasa si los cuelgas de la bocina o de las luces.\nPuños calefactables 👉 todoenrecambio.com/punos-calefactables\n🤖 Vídeo creado con inteligencia artificial\n#puñoscalefactables #motoeninvierno #oxford #recambiosmoto #todoenrecambio",
+   "img": "cal/p-8e515b94f1.jpg",
+   "largo": null,
+   "tema": "moto",
+   "segundos": 41,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-678e564b5b",
+   "dia": "2026-10-15",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El amortiguador no sujeta el peso de tu coche: eso lo hace el muelle",
+   "texto": "",
+   "img": "cal/v-678e564b5b.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 10/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b602353b37",
+   "dia": "2026-10-15",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Buscar recambios por matrícula o por número de bastidor",
+   "texto": "¿Qué identifica a tu coche, exactamente al tuyo? 🚗\nMuchas tiendas te piden la matrícula y es un buen principio, pero a veces te devuelve varias opciones: ahí es donde uno se equivoca, eligiendo la que parece.\nLa matrícula te acerca. El bastidor acierta.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #numerodebastidor #matricula #comprarrecambios #todoenrecambio",
+   "img": "cal/p-b602353b37.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 11/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-0a4a01bda0",
+   "dia": "2026-10-15",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El aluminio de la culata se pica sin los aditivos del anticongelante",
+   "texto": "",
+   "img": "cal/v-0a4a01bda0.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 11/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f15d66afe2",
+   "dia": "2026-10-15",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Truco si se calienta el coche: pon la calefacción al máximo",
+   "texto": "Mientras buscas dónde parar, pon la calefacción al máximo, con el ventilador a tope 🔥\nLa calefacción usa el mismo líquido caliente del motor, así que te ayuda a sacar calor de ahí.\nVas a pasar calor, pero el motor lo agradece.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #calefaccion #trucoscoche #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-f15d66afe2.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 11/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R08",
+   "dia": "2026-10-16",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El coche tira hacia un lado: no siempre es la alineación",
+   "texto": "¿Tu coche tira hacia un lado en una recta? No siempre es la alineación 🚗\nSi una rótula o un terminal de dirección tiene juego y alineas el coche, la alineación no se sostiene: la rueda se sigue moviendo por donde no debe y en poco tiempo estás igual.\nPrimero las holguras. Después la alineación.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n\n#alineacion #direccioncoche #rotulas #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-a7f2817172.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": 43,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-ee689a40cf",
+   "dia": "2026-10-16",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lo que hace de verdad el pedal del embrague",
+   "texto": "",
+   "img": "cal/v-ee689a40cf.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 11/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-02dd58a13a",
+   "dia": "2026-10-16",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche tira hacia un lado: mira la presión de las ruedas",
+   "texto": "Si una rueda delantera lleva menos aire que la otra, se aplasta más, agarra más y el coche se va hacia ese lado 🛞\nLa presión buena no te la inventes: está en una etiqueta de tu coche, en el marco de la puerta del conductor o en la tapa del depósito. Y se mira siempre con las ruedas frías.\nSi vas a ir cargado, mira la etiqueta otra vez: muchas marcan una presión distinta.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#presionneumaticos #cochetira #neumaticos #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-02dd58a13a.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 12/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389215447",
+   "dia": "2026-10-16",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Filtros MAHLE, Bosch, Hengst y más: elige el que va con tu motor",
+   "texto": "🔍 ¿Tu coche lleva filtro MAHLE, Bosch o Hengst? En TodoEnRecambio eliges tú.\n\nEl filtro es de esas piezas pequeñas que cuidan a las grandes:\n✅ Aceite: protege el motor\n✅ Combustible: cuida la inyección\n✅ Habitáculo: el aire que respiras dentro del coche\n\n6 marcas: MAHLE, Bosch, Hengst Filter, Magneti Marelli, Blue Print y Meyle. De aceite, de aire, de combustible y de habitáculo.\n\n💡 Lo importante no es la marca que más suena: es la referencia que va con tu motor. Mete la matrícula, o marca, modelo y motor, y la web te enseña solo los compatibles.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Filtros para coche:\nhttps://todoenrecambio.com/filtros-43286\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Filtros #FiltroDeAceite #MAHLE #Mantenimiento #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-12749279539375712712.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13256714639924925292.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-accba4cef9",
+   "dia": "2026-10-16",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por qué el filtro de aceite lleva esa válvula puesta",
+   "texto": "",
+   "img": "cal/v-accba4cef9.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 12/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-feb28bd213",
+   "dia": "2026-10-16",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La junta de la bomba que se come la correa",
+   "texto": "",
+   "img": "cal/v-feb28bd213.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 12/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-30-08",
+   "dia": "2026-10-17",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Recambio original, de primer equipo o equivalente: qué es cada uno",
+   "texto": "Original es la pieza de la marca de tu coche. De primer equipo, la que hace el fabricante que se la suministra a la marca, pero en su propia caja. Y equivalente, la de otra marca que cumple lo mismo 🔧\nY un aviso con lo que es de seguridad, como los frenos o la dirección: si una pieza cuesta muchísimo menos que todas las demás, pregunta de qué marca es y quién la fabrica.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambiooriginal #recambiosequivalentes #recambioscoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-614c4354aa.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-cac46e812a",
+   "dia": "2026-10-17",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los amortiguadores no van de comodidad: van de que el neumático toque el suelo",
+   "texto": "",
+   "img": "cal/v-cac46e812a.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 12/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-31",
+   "dia": "2026-10-17",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "31 · Qué aceite lleva tu coche",
+   "texto": "",
+   "img": "cal/mini-31.jpg",
+   "largo": "31",
+   "nota": "Aprobado · se sube a YouTube el día antes por la mañana (cuota)"
+  },
+  {
+   "id": "cola-de6551432b",
+   "dia": "2026-10-17",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Ficha técnica del coche: tenla en el móvil antes de comprar",
+   "texto": "En la ficha técnica vienen la versión y el motor de tu coche. Tenla a mano cuando compres, aunque sea una foto en el móvil 📱\nY si tienes dudas, pregunta antes de comprar: en una tienda seria te comprueban la pieza con el bastidor.\nEs mejor preguntar una vez que devolver dos.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#fichatecnica #numerodebastidor #recambioscoche #comprarrecambios #todoenrecambio",
+   "img": "cal/p-de6551432b.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 13/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-1d6c4896d2",
+   "dia": "2026-10-17",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Una aguja alta no siempre es el anticongelante: qué más puede ser",
+   "texto": "",
+   "img": "cal/v-1d6c4896d2.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 13/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c5ab3af268",
+   "dia": "2026-10-17",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo mirar el nivel del refrigerante: mínimo y máximo",
+   "texto": "Con el motor ya frío, mira el nivel en el vaso de expansión: tiene dos marcas, el mínimo y el máximo 🔍\nSi está por debajo del mínimo, falta líquido, y ese líquido se ha ido por algún sitio.\nSi hay que rellenar, con el refrigerante que pide tu coche.\nAnticongelantes para coche 👉 todoenrecambio.com/lubricantes-coche-adicional\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #anticongelante #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-c5ab3af268.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 13/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-18",
+   "dia": "2026-10-18",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Síntomas de junta de culata: humo blanco, burbujas y mayonesa",
+   "texto": "Las señales caras de la junta de culata: humo blanco por el escape que huele dulce, burbujas en el vaso de expansión o una pasta como mayonesa en el tapón del aceite ⚠️\nPor eso se para en cuanto sube la aguja. Un termostato es barato. Una culata, no.\nTermostatos 👉 todoenrecambio.com/termostato-43657\n🤖 Vídeo creado con inteligencia artificial\n#juntadeculata #cochesecalienta #averiacoche #mecanica #todoenrecambio",
+   "img": "cal/p-0767d2ec1f.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-6c3a2eda9a",
+   "dia": "2026-10-18",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El momento del roce: ahí se gasta tu embrague",
+   "texto": "",
+   "img": "cal/v-6c3a2eda9a.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 13/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-1ffda4dba1",
+   "dia": "2026-10-18",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Para qué sirve el aceite del motor (y qué pasa sin él)",
+   "texto": "Dentro del motor hay piezas de metal que se mueven rozando unas con otras, muy deprisa y sin parar. El aceite forma una película entre ellas para que no se toquen 🛢️\nY no hace solo eso: se lleva calor, arrastra la suciedad hasta el filtro y protege el metal por dentro.\nSin él, o con uno que no es, el metal roza contra el metal. Y ese desgaste no avisa hasta que es una avería grande.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #motor #mantenimientocoche #mecanica #todoenrecambio",
+   "img": "cal/p-1ffda4dba1.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 14/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-ce880cd717",
+   "dia": "2026-10-18",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo mirar el nivel de aceite del coche (y cada cuánto)",
+   "texto": "Antes de comprar aceite, lo más básico: mirar cuánto llevas 🔎\nCon el coche en llano y el motor parado un rato, para que el aceite baje. Sacas la varilla, la limpias, la metes hasta el fondo y la vuelves a sacar.\n¿Cada cuánto? De vez en cuando, y siempre antes de un viaje largo. Se tarda nada, y te enteras tú antes que el motor.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#nivelaceite #aceitemotor #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-ce880cd717.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 14/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-50822fd4c3",
+   "dia": "2026-10-18",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿El coche tira desde que cambiaste una rueda? Mira el neumático",
+   "texto": "No es solo el aire: un neumático dañado, o dos neumáticos distintos en el mismo eje, también hacen que el coche tire 🛞\nPor eso, si has cambiado solo una rueda y desde entonces tira, ya tienes una pista.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #cochetira #ruedas #consejosdetaller #todoenrecambio",
+   "img": "cal/p-50822fd4c3.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 14/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R01",
+   "dia": "2026-10-19",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Filtro de habitáculo: ¿la flecha va hacia arriba o hacia abajo?",
+   "texto": "¿La flecha del filtro de habitáculo va hacia arriba o hacia abajo? 🤔\nNi una cosa ni la otra: depende de lo que ponga al lado. AIR FLOW y UP no significan lo mismo. Te lo explicamos en 30 segundos.\nFiltros de habitáculo 👉 todoenrecambio.com/filtro-de-aire-del-habitaculo\n🤖 Vídeo creado con inteligencia artificial\n#filtrohabitaculo #mantenimientocoche #airecondicionado #recambioscoche #todoenrecambio",
+   "img": "cal/p-7c2e0eae28.jpg",
+   "largo": null,
+   "tema": "coche",
+   "segundos": 33,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-4aaadaa6f0",
+   "dia": "2026-10-19",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La junta del filtro se cambia siempre, sin excepción",
+   "texto": "",
+   "img": "cal/v-4aaadaa6f0.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 14/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-217fabd47a",
+   "dia": "2026-10-19",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Varilla del aceite: entre el mínimo y el máximo (ni de más)",
+   "texto": "En la punta de la varilla hay dos marcas: el mínimo y el máximo. El aceite tiene que quedar entre las dos 🛢️\nSi está cerca del mínimo, se rellena poco a poco y volviendo a mirar.\nY ojo, que pasarse tampoco es bueno: un motor con aceite de más puede hacer espuma y dañar piezas que no esperas. Ni por debajo ni por encima.\nVarillas del nivel de aceite 👉 todoenrecambio.com/varilla-del-nivel-de-aceite-43801\n🤖 Vídeo creado con inteligencia artificial\n#varilladeaceite #nivelaceite #aceitemotor #consejosdetaller #todoenrecambio",
+   "img": "cal/p-217fabd47a.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 15/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389215589",
+   "dia": "2026-10-19",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Intercomunicador RESO Pilot Pro: rutas en grupo de hasta 30 motoristas",
+   "texto": "🏍️🏍️ Rutas en grupo, sin tener que hacer señas con la mano.\n\n✅ Tecnología DuoSync: mesh por hardware y por software\n✅ Grupos de hasta 30 motoristas\n✅ Control por voz y cancelación de ruido con IA\n✅ Protección IP67 frente al agua y el polvo\n✅ Módulo con base magnética: lo pones y lo quitas en un momento\n✅ Registro de ruta, localización del grupo y alerta SOS\n\nℹ️ La parte que va por internet depende de tener cobertura y datos; en zonas sin señal, conexión directa entre cascos.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 RESO Pilot Pro:\nhttps://todoenrecambio.com/recambio-moto/accesorios/telemetria/intercomunicadores/intercomunicador-moto-reso-001pro-pilot-pro-duosync-mesh-ip67-001prores.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Intercomunicador #RESO #RutasEnMoto #AccesoriosMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-3551832472072058226.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-2201283226356150879.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-3dbbe5b44c",
+   "dia": "2026-10-19",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "No en todos los coches la bomba va con la correa",
+   "texto": "",
+   "img": "cal/v-3dbbe5b44c.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 15/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-ec54c0a9ab",
+   "dia": "2026-10-19",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "No cambies solo el neumático: el nuevo se va a gastar igual",
+   "texto": "",
+   "img": "cal/v-ec54c0a9ab.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 15/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-07",
+   "dia": "2026-10-20",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El volante vibra a una velocidad concreta: el equilibrado",
+   "texto": "Una rueda nunca pesa igual por todos lados: para compensarlo se le ponen unos pesos pequeños en la llanta. Eso es el equilibrado. Y si se cae un peso, la rueda vibra 🛞\nSe nota en el volante, sobre todo a una velocidad concreta. No hace que el coche se vaya a un lado, pero se confunde con todo lo demás.\nLa solución es sencilla: equilibrar las ruedas en el taller.\nSuspensión y guiado de ruedas 👉 todoenrecambio.com/suspension-de-ejes-guia-de-ruedas-ruedas\n🤖 Vídeo creado con inteligencia artificial\n#equilibrado #volantevibra #ruedas #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-a4ee71a70d.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-cf06e99865",
+   "dia": "2026-10-20",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo encontrar la referencia de una pieza de coche",
+   "texto": "Casi todas las piezas llevan una referencia: grabada en el metal, impresa en una etiqueta o marcada en el plástico. Es como el carné de identidad de esa pieza 🔍\nSi la lees bien y la buscas, encuentras esa pieza y todas las que son equivalentes.\nFotografíala antes de desmontar nada: con la suciedad, a veces cuesta leerla.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #piezasdecoche #referencia #consejosdetaller #todoenrecambio",
+   "img": "cal/p-cf06e99865.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 15/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c05b0e451c",
+   "dia": "2026-10-20",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Anticongelante concentrado o listo al uso: en qué se diferencian",
+   "texto": "",
+   "img": "cal/v-c05b0e451c.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 16/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-35c5f79225",
+   "dia": "2026-10-20",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué es el termostato del coche y para qué sirve",
+   "texto": "El termostato es una válvula, una pequeña puerta entre el motor y el radiador, que decide cuándo pasa el líquido al radiador y cuándo no 🌡️\nAl arrancar está cerrado y el motor se calienta antes. Cuando llega a su temperatura de trabajo, se abre y el líquido empieza a pasar por el radiador.\nTermostatos 👉 todoenrecambio.com/termostato-43657\n🤖 Vídeo creado con inteligencia artificial\n#termostato #refrigeracion #mecanica #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-35c5f79225.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 16/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-78dbadf53a",
+   "dia": "2026-10-20",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El disco de embrague se gasta como la suela de un zapato",
+   "texto": "",
+   "img": "cal/v-78dbadf53a.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 16/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-31-01",
+   "dia": "2026-10-21",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Qué aceite lleva mi coche: no pide uno bueno, pide el suyo",
+   "texto": "Tu motor no pide un aceite bueno: pide uno concreto. Y está escrito en un sitio que casi nadie mira 📖\nNo hay un aceite mejor; hay el aceite de tu motor. Ni más espeso ni más fino: el motor está diseñado para uno, y con otro trabaja peor.\nEl grado no se elige. Se lee en el manual.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #aceitecoche #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-6df904c140.jpg",
+   "largo": "31",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-50e9c5360e",
+   "dia": "2026-10-21",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Volante torcido yendo recto: qué significa y de dónde viene",
+   "texto": "Vas recto, el coche va recto, pero el volante está un poco girado: casi siempre significa que las ruedas ya no apuntan como deberían 🛞\nSuele venir de un golpe (un bordillo, un bache fuerte) o de haber cambiado una pieza de la dirección o de la suspensión sin alinear después.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#volantetorcido #alineacion #direccion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-50e9c5360e.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 16/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-04",
+   "dia": "2026-10-21",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "04 · Embrague de moto",
+   "texto": "",
+   "img": "cal/mini-04.jpg",
+   "largo": "04",
+   "nota": "Aprobado (falta render y tu OK al vídeo) · se sube a YouTube el día antes por la mañana (cuota)"
+  },
+  {
+   "id": "cola-c1d923894a",
+   "dia": "2026-10-21",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El filtro de aceite enroscable: cómo se monta bien",
+   "texto": "",
+   "img": "cal/v-c1d923894a.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 17/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389215910",
+   "dia": "2026-10-21",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Respaldo de maleta SHAD D0RI60: tu pasajero te lo va a agradecer",
+   "texto": "🙌 Tu pasajero te lo va a agradecer en cada ruta.\n\nUn respaldo de maleta es un acolchado que se monta en la parte delantera del baúl para que quien va detrás apoye la espalda. Pero no se compra a lo loco:\n\n1️⃣ Mira la marca y el modelo exacto de tu baúl. En SHAD, por ejemplo, hay un respaldo para los top case SH37, SH40, SH45 y SH49, y otros para otros modelos\n2️⃣ Mira en la ficha cómo se fija y qué incluye: según el modelo puede hacer falta taladrar siguiendo la plantilla\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Respaldo SHAD D0RI60:\nhttps://todoenrecambio.com/recambio-moto/accesorios/Asientos/respaldos/respaldo-maleta-sh37-sh40-sh45-sh49-shad-d0ri60-d0ri60sha.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#SHAD #TopCase #Pasajero #MotoTouring #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-6963261863406882909.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-17012676456606298120.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-334899141c",
+   "dia": "2026-10-21",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Coche sin varilla de aceite: dónde se mira el nivel",
+   "texto": "Hay coches que ya no llevan varilla. En esos, el nivel se mira en el cuadro, en el menú del coche. Cómo se hace en el tuyo lo dice el manual 📖\n¿Y con qué se rellena? Lo ideal, con el mismo aceite que lleva. Si no lo tienes, con uno del mismo grado y la misma norma.\nY en cuanto puedas, cambio completo.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#nivelaceite #aceitemotor #rellenaraceite #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-334899141c.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 17/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-2a8d56770b",
+   "dia": "2026-10-21",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El refrigerante que cae sobre la correa de distribución",
+   "texto": "",
+   "img": "cal/v-2a8d56770b.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 17/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R07",
+   "dia": "2026-10-22",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Cómo comprar un recambio en todoenrecambio.com, paso a paso",
+   "texto": "¿Nunca has comprado un recambio por internet? Te enseñamos cómo se hace, paso a paso 🛒\nEliges tu vehículo (marca, serie, modelo y versión) y solo te salen los recambios que valen para tu coche, con «Compatible con tu vehículo» en cada uno.\nEn la ficha, mira primero la referencia, la posición de montaje y los detalles técnicos. Después, al carrito, la dirección, el envío y el pago con tarjeta, Bizum o PayPal.\n👉 todoenrecambio.com\n🤖 Vídeo creado con inteligencia artificial\n\n#recambioscoche #comprarrecambios #pastillasdefreno #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-5a2a6a5f51.jpg",
+   "largo": "30",
+   "tema": "web",
+   "segundos": 65,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-90c704520c",
+   "dia": "2026-10-22",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La prueba del bache no sirve para decir que están bien",
+   "texto": "",
+   "img": "cal/v-90c704520c.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 17/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b5614f0494",
+   "dia": "2026-10-22",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Referencia de una pieza: ojo con la O y el cero",
+   "texto": "Casi todas las piezas llevan una referencia: grabada en el metal, impresa en una etiqueta o marcada en el plástico. Es como el carné de identidad de esa pieza 🔍\nOjo con confundir letras y números parecidos, como una O y un cero.\nSi no se lee entera, no te la inventes: mejor ir por el bastidor.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #piezasdecoche #numerodebastidor #consejosdetaller #todoenrecambio",
+   "img": "cal/p-b5614f0494.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-731f853a4c",
+   "dia": "2026-10-22",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Con anticongelante concentrado, el agua tiene que ser desmineralizada",
+   "texto": "",
+   "img": "cal/v-731f853a4c.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-22c92a9e8e",
+   "dia": "2026-10-22",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Termostato atascado: síntomas y cómo lo comprueban en el taller",
+   "texto": "El problema es cuando el termostato se queda cerrado: el líquido no llega nunca al radiador y el motor se calienta enseguida, aunque todo lo demás esté perfecto 🌡️\nEn el taller lo comprueban así: con el motor caliente, el manguito que va al radiador también tendría que estar caliente. Si sigue frío, el termostato no se ha abierto.\nTermostatos 👉 todoenrecambio.com/termostato-43657\n🤖 Vídeo creado con inteligencia artificial\n#termostato #cochesecalienta #averiacoche #mecanica #todoenrecambio",
+   "img": "cal/p-22c92a9e8e.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-08",
+   "dia": "2026-10-23",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El coche se calienta en el atasco: mira el ventilador",
+   "texto": "Si el coche se calienta en el atasco y se enfría en cuanto vuelves a circular, mira el ventilador 🌀\nEn marcha el aire hace su trabajo; parado, nadie lo hace.\nPuede fallar el motor del ventilador, el sensor que lo enciende, un fusible o la conexión: que lo mire alguien con un comprobador antes de cambiar piezas a ciegas.\nVentiladores del radiador 👉 todoenrecambio.com/ventilador-44836\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #ventilador #radiador #consejosdetaller #todoenrecambio",
+   "img": "cal/p-b5073d38de.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-d04469c8ea",
+   "dia": "2026-10-23",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cuando asoman los remaches del embrague ya es tarde",
+   "texto": "",
+   "img": "cal/v-d04469c8ea.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-47957578f9",
+   "dia": "2026-10-23",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Golpe con un bordillo y el volante ya no está recto",
+   "texto": "Un golpe fuerte puede torcer una pieza sin que se vea nada por fuera 💥\nSi después de un bordillo el volante ya no está recto, el problema no es el volante: es algo de abajo.\nBarras de acoplamiento y piezas 👉 todoenrecambio.com/barras-de-acoplamiento-piezas\n🤖 Vídeo creado con inteligencia artificial\n#bordillo #volantetorcido #direccion #averiacoche #todoenrecambio",
+   "img": "cal/p-47957578f9.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216068",
+   "dia": "2026-10-23",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "El garaje de TodoEnRecambio: guarda tu coche y ve solo lo compatible",
+   "texto": "🚗🏍️ Deja de buscar tu coche cada vez que entras a por un recambio.\n\nEn todoenrecambio.com tienes tu propio garaje:\n✅ Eliges tu coche por matrícula, o por marca, modelo y motor\n✅ Se guarda solo, sin registrarte\n✅ ¿También tienes moto? Pulsa añadir, elígela y guárdala\n✅ Coches, comerciales y motos, cada uno en su pestaña\n\nCada vez que busques otro recambio: abres tu garaje, pulsas usar y la web te enseña solo lo compatible con ese vehículo.\n\nℹ️ El garaje se guarda en tu navegador: desde otro dispositivo tendrás que elegir el vehículo otra vez.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Pruébalo en la web:\nhttps://todoenrecambio.com/\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#TodoEnRecambio #RecambiosCoche #RecambiosMoto #Garaje #CompraOnline",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-16087750335811090456.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-16383818251808846156.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-3012a73a8e",
+   "dia": "2026-10-23",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El filtro de aceite de cartucho: qué cambia respecto al otro",
+   "texto": "",
+   "img": "cal/v-3012a73a8e.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-63f25adc9d",
+   "dia": "2026-10-23",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Humo azul por el escape: el motor quema aceite",
+   "texto": "Si el aceite se quema, no hay manchas: el nivel baja y a veces sale humo azulado por el escape, sobre todo al arrancar o al acelerar 💨\nUn poco de consumo es normal, lo que diga el fabricante. Mucho, no.\nSi cada vez tienes que rellenar más, no lo dejes pasar: el motor te está avisando de algo, y cuanto antes se mire, más barato sale.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#humoazul #consumodeaceite #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-63f25adc9d.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-11",
+   "dia": "2026-10-24",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Cómo leer el desgaste de los neumáticos: borde, bordes o centro",
+   "texto": "Mira la banda de rodadura de tus ruedas delanteras: tiene que estar gastada por igual 🛞\nSi está gastada solo por un borde, casi siempre es la alineación. Por los dos bordes, la rueda lleva poco aire. Solo por el centro, lleva demasiado.\nEl neumático te está contando lo que le pasa.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #desgasteneumaticos #alineacion #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-b63e9d4550.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-14364f4776",
+   "dia": "2026-10-24",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Una polea desalineada se come el borde de la correa",
+   "texto": "",
+   "img": "cal/v-14364f4776.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-0d6904508a",
+   "dia": "2026-10-24",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por favor, no compres un amortiguador solo",
+   "texto": "",
+   "img": "cal/v-0d6904508a.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-ef56a33b98",
+   "dia": "2026-10-24",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Recambios equivalentes: la misma pieza en varias marcas",
+   "texto": "La misma pieza la pueden fabricar varias marcas, cada una en su caja y con su propia referencia. No es que una sea la buena y la otra no: pueden ser equivalentes 📦\nLo que las hace equivalentes no es que se parezcan en la foto: es que coinciden en las medidas, los anclajes y los conectores.\nEso se comprueba por referencia, no a ojo.\nPastillas de freno 👉 todoenrecambio.com/pastilla-de-freno-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambiosequivalentes #pastillasdefreno #recambioscoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-ef56a33b98.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-5ea6f07231",
+   "dia": "2026-10-24",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo rellenar el anticongelante si no sabes cuál lleva tu coche",
+   "texto": "",
+   "img": "cal/v-5ea6f07231.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R04",
+   "dia": "2026-10-25",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "¿Tus puños calefactables se apagan solos? El modo ahorro",
+   "texto": "¿Tus puños calefactables se apagan solos? 🥶\nPuede que no estén rotos: puede que estén cuidando tu batería. Los Oxford Premium V8 tienen un modo de ahorro de batería y su manual explica cuándo salta y cómo quitarlo.\nPuños calefactables 👉 todoenrecambio.com/punos-calefactables\n🤖 Vídeo creado con inteligencia artificial\n#puñoscalefactables #bateriamoto #motoeninvierno #oxford #todoenrecambio",
+   "img": "cal/p-26085f5948.jpg",
+   "largo": null,
+   "tema": "moto",
+   "segundos": 41,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-11f70df0bf",
+   "dia": "2026-10-25",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La calefacción no calienta y el coche gasta más: el termostato",
+   "texto": "Si el termostato se queda abierto, pasa lo contrario 🥶: el motor tarda muchísimo en calentarse, la calefacción no calienta y el coche gasta más.\nTermostatos 👉 todoenrecambio.com/termostato-43657\n🤖 Vídeo creado con inteligencia artificial\n#calefaccion #termostato #averiacoche #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-11f70df0bf.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-33",
+   "dia": "2026-10-25",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "condicional",
+   "titulo": "33 · EGR y filtro de partículas",
+   "texto": "",
+   "img": "cal/mini-33.jpg",
+   "largo": "33",
+   "nota": "Solo si grabas su HeyGen"
+  },
+  {
+   "id": "cola-08f058f2dc",
+   "dia": "2026-10-25",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Metal contra metal: así acaba un embrague agotado",
+   "texto": "",
+   "img": "cal/v-08f058f2dc.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-9d067e7f25",
+   "dia": "2026-10-25",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué es alinear un coche y cómo se hace",
+   "texto": "Alinear es poner las ruedas en su sitio: que apunten recto y que las dos lo hagan igual. Con el uso y los golpes, eso se va perdiendo poco a poco 🛠️\nSe hace en una máquina: se ponen unos lectores en las ruedas, la máquina mide cómo apunta cada una y el mecánico la ajusta hasta dejarla en lo que dice el fabricante de tu coche.\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #direccion #ruedas #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-9d067e7f25.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-eb916bbd1e",
+   "dia": "2026-10-25",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El filtro de aceite no se elige por precio",
+   "texto": "",
+   "img": "cal/v-eb916bbd1e.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-31-06",
+   "dia": "2026-10-26",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Mi coche pierde aceite: ¿se sale o se quema?",
+   "texto": "¿Cada vez que miras falta un poco más de aceite? Solo se va por dos sitios: o se sale, o se quema 🛢️\nSi se sale, lo ves: gotas en el suelo donde aparcas o el motor manchado por fuera, sobre todo por abajo. Suele ser una junta o el tapón por donde se vacía.\n¿No sabes si esa mancha es aceite? Pon un cartón debajo del motor una noche: por la mañana, el color y el sitio de la gota te dicen mucho.\nTapones, arandelas y juntas del cárter 👉 todoenrecambio.com/carter-de-aceite-piezas-adicionales-43797\n🤖 Vídeo creado con inteligencia artificial\n#perdidadeaceite #aceitemotor #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-1eebd5876c.jpg",
+   "largo": "31",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-a678936405",
+   "dia": "2026-10-26",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Testigo rojo del aceite encendido: para el coche",
+   "texto": "Si se enciende el testigo del aceite, el rojo, para el coche en cuanto puedas y apágalo. Ese no espera 🛑\nY no lo confundas con el aviso de mantenimiento: el rojo es de presión, y es urgente. El otro solo te recuerda que se acerca el cambio.\nInterruptores y sensores de presión de aceite 👉 todoenrecambio.com/interruptor-sensor-valvula-de-la-presion-de-aceite\n🤖 Vídeo creado con inteligencia artificial\n#testigoaceite #presiondeaceite #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-a678936405.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b3209ae871",
+   "dia": "2026-10-26",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La correa se cambia por calendario, no cuando falla",
+   "texto": "",
+   "img": "cal/v-b3209ae871.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216319",
+   "dia": "2026-10-26",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Chaqueta Acerbis Up Town: impermeable y con protecciones para la ciudad",
+   "texto": "🍂 Octubre pide chaqueta. Pero no cualquier chaqueta.\n\nPor la mañana fresco, a mediodía calor y a la vuelta te pilla la lluvia. Para el día a día en moto en otoño:\n\n✅ Impermeable y acolchada, con membrana impermeable y transpirable\n✅ Certificada como prenda de protección clase A\n✅ Protectores de hombros y codos de nivel 2\n✅ Logotipos reflectantes en la manga, delante y detrás\n✅ 2 bolsillos por fuera y 2 por dentro; puños y bajos regulables\n\nℹ️ Viene preparada para protector de espalda, pero ese se vende aparte.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Chaqueta Acerbis Up Town:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/chaquetas-de-moto/chaqueta-acerbis-ce-up-town-color-negro-0025797-090-0025797090062acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#ChaquetaMoto #Acerbis #MotoUrbana #Otoño #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1563862235603116704.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-3147020083501849804.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-2974e3e1ae",
+   "dia": "2026-10-26",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El fallo que trae el ruido de vuelta después de cambiar el amortiguador",
+   "texto": "",
+   "img": "cal/v-2974e3e1ae.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-de783b2667",
+   "dia": "2026-10-26",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Fotos de recambios: por qué no debes fiarte de la foto",
+   "texto": "Ojo con las fotos: muchas tiendas usan una foto genérica para piezas parecidas 📸\nFíate de la referencia y de las medidas, no de la foto.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#comprarrecambios #recambioscoche #comprasonline #consejosdetaller #todoenrecambio",
+   "img": "cal/p-de783b2667.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-30-12",
+   "dia": "2026-10-27",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Pieza izquierda o derecha del coche: cómo se cuenta el lado",
+   "texto": "Muchas piezas van por parejas y cada una es para un lado: amortiguadores, pinzas de freno, faros, retrovisores. Parecen iguales, pero son una la imagen de la otra 🚗\nEl lado se cuenta siempre desde el asiento del conductor, mirando hacia delante: izquierda es tu izquierda sentado al volante.\nY delantero y trasero tampoco son lo mismo.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #faros #amortiguadores #consejosdetaller #todoenrecambio",
+   "img": "cal/p-04c13854cb.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-f077c4bd32",
+   "dia": "2026-10-27",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Anticongelante: los cuatro pasos para no equivocarte",
+   "texto": "",
+   "img": "cal/v-f077c4bd32.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-1a2ed52253",
+   "dia": "2026-10-27",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por qué el ventilador del coche sigue funcionando al parar",
+   "texto": "Cuando vas por carretera, el aire que entra por delante ya enfría el radiador. Pero parado, en un atasco o en un semáforo, no entra aire: ahí trabaja el ventilador 🌀\nNo va siempre encendido: un sensor mide la temperatura del líquido y, cuando sube, lo enciende. Por eso a veces, al parar el coche, lo oyes funcionar un rato.\nVentiladores del radiador 👉 todoenrecambio.com/ventilador-44836\n🤖 Vídeo creado con inteligencia artificial\n#ventilador #radiador #refrigeracion #mecanica #todoenrecambio",
+   "img": "cal/p-1a2ed52253.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-2a545242ad",
+   "dia": "2026-10-27",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El olor a quemado del embrague: qué está pasando",
+   "texto": "",
+   "img": "cal/v-2a545242ad.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-9651756510",
+   "dia": "2026-10-27",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cuándo hay que alinear el coche: las tres señales",
+   "texto": "Hay tres señales de que el coche necesita alinearse: que tire hacia un lado, que el volante esté torcido yendo recto y, la que más dinero cuesta, que las ruedas se gasten mal 🛞\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #cochetira #neumaticos #consejosdetaller #todoenrecambio",
+   "img": "cal/p-9651756510.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-19",
+   "dia": "2026-10-28",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Coche que se calienta: qué pedir en el taller (prueba de presión)",
+   "texto": "Cuando lleves el coche al taller, hay una prueba que lo dice casi todo: la prueba de presión 🔧\nSe conecta una bomba de mano al vaso de expansión, se mete presión en el circuito y se mira si la aguja del reloj aguanta. Si baja, hay una fuga, aunque no se vea ningún charco.\nPide también que comprueben que el ventilador arranca, que el termostato abre y cómo están los manguitos.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #taller #refrigeracion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-4dd5626de7.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-6e62a848ba",
+   "dia": "2026-10-28",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Una válvula mal calibrada arruina el filtro nuevo",
+   "texto": "",
+   "img": "cal/v-6e62a848ba.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c41a71d9d8",
+   "dia": "2026-10-28",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Arranque en frío: qué grado de aceite elegir según el clima",
+   "texto": "Mucho del desgaste de un motor ocurre justo después de arrancar, cuando el aceite todavía no ha llegado a todas partes ❄️\n¿Y cuál es el bueno? El que ponga el manual de tu coche: no es mejor más espeso ni más fino. El motor está diseñado para uno, y con otro trabaja peor.\nEn algunos manuales no sale un solo grado, sino varios, según el clima donde vivas. Si es tu caso, elige el que corresponde a tu zona.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #arranqueenfrio #gradoaceite #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-c41a71d9d8.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216392",
+   "dia": "2026-10-28",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "¿Qué escobillas lleva tu coche? Búscalas por matrícula",
+   "texto": "🌧️ ¿Sabes qué escobillas lleva tu coche? Tranquilo, casi nadie se lo sabe de memoria.\n\nLa medida correcta depende de tu vehículo: longitud, lado y adaptador. Por eso en todoenrecambio.com no tienes que adivinar:\n\n1️⃣ Mete tu matrícula\n2️⃣ O elige marca, modelo y motor\n✅ Te salen solo las compatibles con tu coche\n\nY tu coche se queda guardado en tu garaje, sin registrarte: la próxima vez que entres desde el mismo navegador, lo tienes a mano.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Escobillas limpiaparabrisas:\nhttps://todoenrecambio.com/limpiaparabrisas-escobillas\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Escobillas #Limpiaparabrisas #RecambiosCoche #Otoño #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-10264241138763620546.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-10203891173559481721.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-1126fdacb6",
+   "dia": "2026-10-28",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Correa o cadena: en qué se diferencian de verdad",
+   "texto": "",
+   "img": "cal/v-1126fdacb6.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-13befb1880",
+   "dia": "2026-10-28",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Con los amortiguadores gastados le estás quitando agarre al ABS",
+   "texto": "",
+   "img": "cal/v-13befb1880.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-08",
+   "dia": "2026-10-29",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Golpes secos al pasar baches: las rótulas y su guardapolvo",
+   "texto": "Cada rótula lleva una funda de goma, el guardapolvo, que protege la bola de dentro. Cuando esa funda se rompe, entra agua y suciedad, la bola se gasta y aparece juego 🔩\nY el juego se nota: golpes secos al pasar baches, una dirección que parece floja y un coche que no va del todo fino en recta.\nRótulas de suspensión 👉 todoenrecambio.com/rotula-de-suspension-carga\n🤖 Vídeo creado con inteligencia artificial\n#rotulas #suspension #direccion #averiacoche #todoenrecambio",
+   "img": "cal/p-4e516471c5.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-3b5f4960a7",
+   "dia": "2026-10-29",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Discos, filtros, escobillas y sensores: cómo no equivocarte",
+   "texto": "No pasa solo con las pastillas: pasa con los discos, los filtros, las escobillas y los sensores. Cuantas más versiones tiene un modelo, más fácil es equivocarse 🔧\nEl mejor consejo: si puedes, ten la pieza vieja delante cuando compres. O por lo menos, fotos de todos sus lados y de su etiqueta.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #discosdefreno #escobillas #consejosdetaller #todoenrecambio",
+   "img": "cal/p-3b5f4960a7.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-35",
+   "dia": "2026-10-29",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "condicional",
+   "titulo": "35 · Moto en invierno sin pasar frío",
+   "texto": "",
+   "img": "cal/mini-35.jpg",
+   "largo": "35",
+   "nota": "Solo si grabas su HeyGen"
+  },
+  {
+   "id": "cola-d18a53791a",
+   "dia": "2026-10-29",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Elegir el anticongelante por el color es acertar o fallar por casualidad",
+   "texto": "",
+   "img": "cal/v-d18a53791a.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-dee34baa1b",
+   "dia": "2026-10-29",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Cambiar la bomba de agua con la correa de distribución?",
+   "texto": "Un detalle que te ahorra dinero 💶: en muchos motores, la bomba de agua la mueve la correa de distribución.\nAsí que, cuando toca cambiar la correa, se cambia la bomba a la vez. Desmontar dos veces es pagar dos veces.\nLa bomba y la correa, juntas, siempre que se pueda.\nBombas de agua 👉 todoenrecambio.com/bomba-de-agua-43653\n🤖 Vídeo creado con inteligencia artificial\n#bombadeagua #correadedistribucion #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-dee34baa1b.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b1118f3a50",
+   "dia": "2026-10-29",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El embrague no vuelve atrás: lo que se gasta no se recupera",
+   "texto": "",
+   "img": "cal/v-b1118f3a50.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-R02",
+   "dia": "2026-10-30",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El coche huele a humedad con el filtro de habitáculo nuevo",
+   "texto": "¿Has cambiado el filtro del habitáculo y el coche sigue oliendo a humedad? 👃\nPuede que el problema no sea el filtro: el evaporador del aire acondicionado se moja y ahí pueden crecer moho y bacterias. Te contamos qué hace (y qué no) un filtro de carbón activo.\nFiltros de habitáculo 👉 todoenrecambio.com/filtro-de-aire-del-habitaculo\n🤖 Vídeo creado con inteligencia artificial\n#filtrohabitaculo #airecondicionado #olorcoche #mantenimientocoche #todoenrecambio\n\nNotas:\n- Se alternan moto y coche: el canal vive de la búsqueda de moto, y los dos de puños van primero porque ya entra el frío.\n- Sin precios en el texto (caducan). El enlace en IG/TikTok/Shorts no es clicable, pero se lee y se busca.\n- Para Metricool, cada MP4 se sube antes a Higgsfield (media_upload) y se usa su URL pública de CloudFront, como con los reels de octubre.",
+   "img": "cal/p-38dfd3b5cd.jpg",
+   "largo": null,
+   "tema": "coche",
+   "segundos": 41,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-1da06ee75f",
+   "dia": "2026-10-30",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El desgaste del borde interior del neumático: cómo mirarlo",
+   "texto": "Ojo con el borde de dentro del neumático, porque no se ve a simple vista: hay neumáticos que por fuera parecen perfectos y por dentro están gastados hasta el hilo 👀\nGira el volante del todo y míralo por detrás de la rueda.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #desgasteneumaticos #ruedas #consejosdetaller #todoenrecambio",
+   "img": "cal/p-1da06ee75f.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-cfae15a321",
+   "dia": "2026-10-30",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los pliegues del filtro y cuánta suciedad aguantan",
+   "texto": "",
+   "img": "cal/v-cfae15a321.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216511",
+   "dia": "2026-10-30",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Rodilleras Acerbis Impact EVO 3.0 e Impact PRO para enduro y motocross",
+   "texto": "🦵 En el off-road, las rodillas van siempre en primera línea.\n\nAcerbis tiene dos rodilleras Impact, según cómo ruedes:\n\n✅ Impact EVO 3.0: protege rodilla, tibia y fémur, con doble articulación y ventilación\n✅ Impact PRO: carcasa rígida perforada con canales de ventilación\n✅ Las dos con certificación EN 1621-1\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Impact EVO 3.0:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/protecciones/hombreras-y-rodilleras/rodilleras-acerbis-impact-evo-3-0-articulado-y-ventilado-0021608-0021608090acb.html\n🛒 Impact PRO:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/protecciones/hombreras-y-rodilleras/rodillera-acerbis-impact-pro-color-negro-0027097-090-0027097090acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Rodilleras #Acerbis #Enduro #Motocross #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-12605664494231854661.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-14349948829377775329.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-5af241a7c9",
+   "dia": "2026-10-30",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Aceite para coches con filtro de partículas: por qué es especial",
+   "texto": "La norma del aceite dice para qué motores sirve. Por ejemplo, muchos coches con filtro de partículas necesitan un aceite especial, que deja menos restos al quemarse, para no atascar ese filtro 🛢️\nLa regla es sencilla: mira en el manual el grado y la norma que pide tu coche, y compra un aceite que ponga las dos cosas en la garrafa.\nSi coincide, la marca ya es cosa tuya.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#filtrodeparticulas #aceitemotor #diesel #consejosdetaller #todoenrecambio",
+   "img": "cal/p-5af241a7c9.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b4692efab2",
+   "dia": "2026-10-30",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Cada cuántos kilómetros se cambia la correa? Mala pregunta",
+   "texto": "",
+   "img": "cal/v-b4692efab2.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-31-09",
+   "dia": "2026-10-31",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Qué significan los números del aceite de motor (el grado)",
+   "texto": "Lo primero que dice la garrafa: el grado. Son dos números con una uve doble en medio, y dicen lo espeso que es el aceite en frío y en caliente 🛢️\nEl primero, el que va con la uve doble, habla del frío: de cuando arrancas el coche por la mañana. Cuanto más bajo, mejor corre el aceite en frío y antes llega a todas las piezas.\nEl segundo habla del motor caliente: lo espeso que se mantiene cuando está funcionando de verdad.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #gradoaceite #viscosidad #consejosdetaller #todoenrecambio",
+   "img": "cal/p-931ec62f34.jpg",
+   "largo": "31",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-45eef7577b",
+   "dia": "2026-10-31",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Aceite en el amortiguador: la señal que no admite discusión",
+   "texto": "",
+   "img": "cal/v-45eef7577b.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-7425441bec",
+   "dia": "2026-10-31",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lleva la pieza vieja al comprar el recambio: qué mirar",
+   "texto": "El mejor consejo: si puedes, ten la pieza vieja delante cuando compres. O por lo menos, fotos de todos sus lados y de su etiqueta 📸\nMira los agujeros de los anclajes, la forma, el tamaño y, si lleva cable, el conector.\nSi hay una sola diferencia, para y pregunta.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #piezasdecoche #mecanica #consejosdetaller #todoenrecambio",
+   "img": "cal/p-7425441bec.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-51eaecb0ba",
+   "dia": "2026-10-31",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Tu anticongelante es «el azul»? Eso no significa nada",
+   "texto": "",
+   "img": "cal/v-51eaecb0ba.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-9ba306d3bc",
+   "dia": "2026-10-31",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Radiador tapado por fuera: hojas, insectos y suciedad",
+   "texto": "El radiador es ese panel de delante, lleno de tubos finos y de aletas: el líquido caliente pasa por los tubos y el aire, al atravesar las aletas, se lleva el calor 🌬️\nCon el tiempo se tapa por fuera: hojas, insectos, suciedad de la carretera. Y cada hueco tapado es aire que no pasa.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigeracion #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-9ba306d3bc.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-30-14",
+   "dia": "2026-11-01",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Kit de distribución completo y frenos por eje: por qué",
+   "texto": "Cuando una pieza viene en kit, cómprala en kit. El kit de distribución lleva la correa, los rodillos, el tensor y, a veces, la bomba de agua: se gastan juntas 🔧\nMezclar una correa nueva con un rodillo viejo es ahorrar poco y arriesgar mucho. El kit está pensado para trabajar junto, y se monta junto.\nY lo mismo con los frenos: las pastillas y los discos se cambian por eje, los dos lados a la vez.\nKits de distribución 👉 todoenrecambio.com/juego-de-correas-dentadas\n🤖 Vídeo creado con inteligencia artificial\n#kitdedistribucion #correadedistribucion #discosdefreno #consejosdetaller #todoenrecambio",
+   "img": "cal/p-e33c328c08.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-8887eafbf0",
+   "dia": "2026-11-01",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El plato que aprieta el embrague, y por qué también se cambia",
+   "texto": "",
+   "img": "cal/v-8887eafbf0.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-d68442356e",
+   "dia": "2026-11-01",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Neumáticos nuevos? Alinea a la vez",
+   "texto": "Si vas a poner neumáticos nuevos, alinea a la vez 🛞\nUn coche desalineado se come unos neumáticos nuevos igual que se comió los viejos.\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #alineacion #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-d68442356e.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-5fef289caa",
+   "dia": "2026-11-01",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Nitrilo o plástico: la carcasa del filtro importa",
+   "texto": "",
+   "img": "cal/v-5fef289caa.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-fd0099d0d5",
+   "dia": "2026-11-01",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué aceite lleva mi coche si no tengo el manual",
+   "texto": "¿Y si no tienes el manual? Lo que pide tu coche también lo saben en el taller o en la tienda, con el número de bastidor. Y en algunos coches viene en una pegatina debajo del capó 🚗\nSi tu coche pide la homologación de su marca, tiene que aparecer en la garrafa con su nombre. Si no aparece, ese aceite no está aprobado para tu motor.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #queaceitelleva #homologacion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-fd0099d0d5.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-10",
+   "dia": "2026-11-02",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Bomba de agua del coche: cómo falla y cómo se nota",
+   "texto": "La bomba de agua es el corazón del circuito: dentro tiene una rueda con aspas que gira con el motor y empuja el líquido 💧\nFalla de dos maneras: o se desgasta la rueda de dentro y deja de empujar bien, o empieza a perder líquido por su cierre.\nMuchas veces lo notas por una gota o una mancha justo debajo de la bomba.\nBombas de agua 👉 todoenrecambio.com/bomba-de-agua-43653\n🤖 Vídeo creado con inteligencia artificial\n#bombadeagua #cochesecalienta #averiacoche #mecanica #todoenrecambio",
+   "img": "cal/p-f3b9964f1c.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-3e9f38c64f",
+   "dia": "2026-11-02",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La correa de distribución: si te llevas una sola cosa",
+   "texto": "",
+   "img": "cal/v-3e9f38c64f.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-34",
+   "dia": "2026-11-02",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "condicional",
+   "titulo": "34 · Batería de la moto en invierno",
+   "texto": "",
+   "img": "cal/mini-34.jpg",
+   "largo": "34",
+   "nota": "Solo si grabas su HeyGen"
+  },
+  {
+   "id": "cola-0e0a35ff98",
+   "dia": "2026-11-02",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Tus neumáticos te escriben si los amortiguadores están gastados",
+   "texto": "",
+   "img": "cal/v-0e0a35ff98.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216573",
+   "dia": "2026-11-02",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "SHAD TR08: bolsa impermeable de 8 litros para la defensa de tu moto",
+   "texto": "🏍️ Cuando se acaba el asfalto, el equipaje tiene que aguantar.\n\nLa SHAD TR08 es una bolsa impermeable de 8 litros que va anclada a la defensa con correas, con un sistema universal compatible con la gran mayoría de defensas.\n\n✅ Impermeable (IPX4)\n✅ 8 litros de capacidad\n✅ Carga máxima recomendada: 2,6 kg\n\n👉 Comprueba que encaja con tu moto antes de comprar.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 SHAD TR08:\nhttps://todoenrecambio.com/recambio-moto/accesorios/maletas-y-bolsas-transporte/alforjas/bolsa-multiuso-shad-tr08-impermeable-8-litros-x0tr08-x0tr08sha.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#SHAD #MotoAdventure #Trail #EquipajeMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1394201863415565662.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-9875957323446787117.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-afa3207694",
+   "dia": "2026-11-02",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Sensor ABS delantero y trasero: pueden ser distintos",
+   "texto": "Con los sensores de las ruedas pasa igual: el de la rueda de delante y el de la de detrás pueden ser distintos, aunque parezcan el mismo cable 🔌\nY el lado se cuenta siempre desde el asiento del conductor, mirando hacia delante: izquierda es tu izquierda sentado al volante. Delantero y trasero tampoco son lo mismo.\nSensores ABS y piezas de freno 👉 todoenrecambio.com/accesorios-piezas-44031\n🤖 Vídeo creado con inteligencia artificial\n#sensorabs #frenos #recambioscoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-afa3207694.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f7c41df3bc",
+   "dia": "2026-11-02",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se calienta subiendo un puerto: el radiador tapado",
+   "texto": "El radiador también se puede tapar por dentro, sobre todo si alguna vez se le ha echado agua o se han mezclado refrigerantes distintos: se forman depósitos que van estrechando los tubos 🔧\nLa pista: el coche aguanta bien en ciudad, pero se calienta subiendo un puerto o con calor y el coche cargado. Un radiador medio tapado no da abasto.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigerante #mecanica #todoenrecambio",
+   "img": "cal/p-f7c41df3bc.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-04",
+   "dia": "2026-11-03",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El coche tira hacia un lado: la prueba para saber si es el neumático",
+   "texto": "Hay una prueba muy sencilla para saber si es el neumático: se cambian de lado las dos ruedas de delante 🔄\nSi el coche pasa a tirar hacia el otro lado, el culpable era el neumático, no la dirección.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #cochetira #direccion #trucoscoche #todoenrecambio",
+   "img": "cal/p-a74eb5c49f.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-b872994821",
+   "dia": "2026-11-03",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los surcos que dejan los remaches en la pieza grande",
+   "texto": "",
+   "img": "cal/v-b872994821.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f963173a37",
+   "dia": "2026-11-03",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Volante duro o zumbido al girar: la dirección asistida",
+   "texto": "Cuando falla la dirección asistida, lo normal no es que el coche se vaya a un lado: lo normal es que el volante se ponga duro o que suene un zumbido al girar 🔧\nEn las de líquido, mira también si baja el nivel, porque puede haber una fuga. En las eléctricas no hay líquido que mirar: si fallan, el volante se pone duro y normalmente se enciende un testigo en el cuadro.\nAceite de dirección asistida 👉 todoenrecambio.com/aceites-43534\n🤖 Vídeo creado con inteligencia artificial\n#direccionasistida #volanteduro #averiacoche #mecanica #todoenrecambio",
+   "img": "cal/p-f963173a37.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-0d95da648c",
+   "dia": "2026-11-03",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lo que no se ve por fuera de un filtro de aceite",
+   "texto": "",
+   "img": "cal/v-0d95da648c.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-257f637205",
+   "dia": "2026-11-03",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Aditivos para el aceite del motor? ¿Y se puede mezclar?",
+   "texto": "Una duda que sale mucho: los aditivos. Si el aceite cumple la norma de tu coche, ya lleva lo que tiene que llevar. No hace falta añadirle nada 🛢️\nY si puedes, no mezcles: rellena con el mismo tipo que lleva, para que siga cumpliendo lo que pide tu manual.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aditivos #aceitemotor #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-257f637205.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-31-11",
+   "dia": "2026-11-04",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "La norma del aceite: la letra pequeña que casi nadie mira",
+   "texto": "Lo que casi nadie mira en una garrafa de aceite: la norma 🔎\nDos aceites con el mismo grado pueden no ser iguales. Por eso, además del grado, la garrafa lleva unas normas y unas homologaciones de fabricantes de coches.\nDelante suele ir el grado, bien grande. Detrás, en letra pequeña, la norma y las homologaciones. Esa letra pequeña es la que importa.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #normaaceite #homologacion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-e10cddf096.jpg",
+   "largo": "31",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-e7501cb71d",
+   "dia": "2026-11-04",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lo que notas conduciendo cuando los amortiguadores están gastados",
+   "texto": "",
+   "img": "cal/v-e7501cb71d.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-10a6df67d1",
+   "dia": "2026-11-04",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Antes de montar un recambio: compáralo con la pieza vieja",
+   "texto": "Cuando te llegue la pieza, antes de montar nada: ábrela, ponla al lado de la vieja y compárala con calma. Agujeros, forma, conector 🔍\nSi algo no cuadra, no la montes.\nY mira también lo que trae la caja: hay piezas que vienen con sus tornillos, sus juntas o su grasa, y otras que no.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #mecanica #bricolajecoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-10a6df67d1.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "mc-389216646",
+   "dia": "2026-11-04",
+   "hora": "19:00",
+   "redes": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "metricool",
+   "estado": "programado",
+   "titulo": "Candado de disco con alarma Oxford Screamer 7: sirena de 100 dB",
+   "texto": "🔒 Aparcas la moto en la calle y cruzas los dedos.\n\nUn candado de disco bloquea la rueda. El Oxford Screamer 7, además, lleva alarma: si alguien toca la moto, salta.\n\n✅ Sirena de 100 dB\n✅ Sensores de movimiento y de golpe\n✅ Compacto: 78 × 56 mm\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Oxford Screamer 7:\nhttps://todoenrecambio.com/recambio-moto/accesorios/antirrobos/de-disco/candado-de-disco-con-alarma-oxford-screamer-7-negro-negro-lk289-lk289oxf.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Antirrobo #CandadoDeDisco #Oxford #SeguridadEnMoto #TodoEnRecambio",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-16605336220298861211.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13238656057297079731.mp4",
+   "ia": true,
+   "nota": "Programado en Metricool"
+  },
+  {
+   "id": "cola-fb53c65c7b",
+   "dia": "2026-11-04",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Fuga de refrigerante: rellenar no es arreglar",
+   "texto": "Si es refrigerante, busca de dónde sale: un manguito, una abrazadera, la bomba o el propio radiador 🔍\nY no te acostumbres a rellenar, porque cada vez que rellenas, la fuga sigue ahí.\nRellenar no es arreglar.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #fugarefrigerante #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-fb53c65c7b.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-878c8603b7",
+   "dia": "2026-11-04",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El camino que va desde tu pie hasta el embrague",
+   "texto": "",
+   "img": "cal/v-878c8603b7.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-30-03",
+   "dia": "2026-11-05",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Dónde está el número de bastidor de tu coche",
+   "texto": "Lo que de verdad identifica tu coche es el número de bastidor: un código largo, de letras y números, que es único para cada vehículo 🚗\nCon él se sabe la versión exacta, el motor y el equipamiento con el que salió de fábrica.\n¿Dónde está? En el permiso de circulación, en la ficha técnica y, en muchos coches, en una placa al pie del parabrisas.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#numerodebastidor #fichatecnica #recambioscoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-4aa1fe40a2.jpg",
+   "largo": "30",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-bccf05b9a5",
+   "dia": "2026-11-05",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se va a un lado al frenar: la pinza de freno agarrada",
+   "texto": "Fíjate en cuándo tira: si solo se va al frenar, la causa suele estar en los frenos, no en la dirección. Una pinza que se queda agarrada tira del coche hacia su lado 🛑\nOtra pista: al parar, esa rueda suele oler a quemado y su llanta está mucho más caliente que las otras. Es un fallo que hay que mirar pronto.\nSi tira de golpe, mucho o al frenar, no lo dejes para otro día.\nPinzas de freno 👉 todoenrecambio.com/pinza-del-freno\n🤖 Vídeo creado con inteligencia artificial\n#frenos #pinzadefreno #cochetira #seguridadvial #todoenrecambio",
+   "img": "cal/p-bccf05b9a5.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-67b5729b91",
+   "dia": "2026-11-05",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los dos segundos en que tu motor gira sin presión de aceite",
+   "texto": "",
+   "img": "cal/v-67b5729b91.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-82289eaf19",
+   "dia": "2026-11-05",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cada cuánto se cambia el aceite del coche (de verdad)",
+   "texto": "¿Cuándo se cambia el aceite? Por kilómetros o por tiempo, lo que llegue antes. Los dos datos vienen en el plan de mantenimiento de tu coche, y aunque hagas muy pocos kilómetros, el aceite también caduca 📅\nY un detalle que casi nadie lee: muchos fabricantes piden cambiarlo antes si el uso es duro. Trayectos cortos, mucha ciudad, atascos, remolque o caminos con polvo. Justo el uso que hacen muchos coches.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#cambiodeaceite #aceitemotor #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-82289eaf19.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f958ec3dd4",
+   "dia": "2026-11-05",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La máquina que mide de verdad si tus amortiguadores están acabados",
+   "texto": "",
+   "img": "cal/v-f958ec3dd4.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-14",
+   "dia": "2026-11-06",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Cómo saber si un manguito del radiador está mal",
+   "texto": "Los manguitos son los tubos de goma gruesos que unen el motor con el radiador. Y la goma, con el calor y el tiempo, envejece.\nEsto lo puedes mirar tú, siempre con el motor frío ❄️: aprieta un manguito con la mano. Tiene que estar firme.\nSi está blando, hinchado, o duro y con grietas, está pidiendo el cambio.\nManguitos del refrigerante 👉 todoenrecambio.com/manguitos-y-tubos-para-el-agua-refrigerante\n🤖 Vídeo creado con inteligencia artificial\n#manguitos #radiador #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-59bc425b0b.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-b4029e2acb",
+   "dia": "2026-11-06",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo devolver un recambio: guarda la caja y la factura",
+   "texto": "El último paso, el que casi nadie hace: guarda la caja y el embalaje, enteros, hasta que la pieza esté montada y funcionando 📦\nSi hay que devolverla, casi todas las tiendas te la piden tal como llegó. Cada tienda tiene un plazo para los cambios: léelo antes de comprar.\nY guarda también la factura. Si te has equivocado, avisa cuanto antes y no la montes.\nRecambios para tu coche 👉 todoenrecambio.com\n🤖 Vídeo creado con inteligencia artificial\n#devoluciones #comprarrecambios #recambioscoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-b4029e2acb.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-largo-36",
+   "dia": "2026-11-06",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "plan",
+   "estado": "condicional",
+   "titulo": "36 · Cadenas de nieve",
+   "texto": "",
+   "img": "cal/mini-36.jpg",
+   "largo": "36",
+   "nota": "Solo si grabas su HeyGen"
+  },
+  {
+   "id": "cola-d19132ff63",
+   "dia": "2026-11-06",
+   "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Motor caliente: la culata se deforma y la junta deja de sellar",
+   "texto": "Si un motor se calienta de verdad y se sigue conduciendo, el metal se dilata y la culata, la parte de arriba del motor, se puede deformar 🔥\nEntre la culata y el resto del motor hay una junta, la junta de culata, que separa el aceite, el líquido y la combustión. Si la culata se deforma, esa junta deja de sellar.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#juntadeculata #cochesecalienta #motor #mecanica #todoenrecambio",
+   "img": "cal/p-d19132ff63.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-038cc0a92f",
+   "dia": "2026-11-06",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo suena un embrague que se está yendo",
+   "texto": "",
+   "img": "cal/v-038cc0a92f.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c826180491",
+   "dia": "2026-11-06",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Alineación: pide el informe de la máquina",
+   "texto": "Cuando te alineen el coche, pide el informe de la máquina 📄: es una hoja que dice cómo estaban las ruedas y cómo han quedado.\nSi alguna medida sigue fuera, ahí lo vas a ver.\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #taller #direccion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-c826180491.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-15",
+   "dia": "2026-11-07",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "El coche tira hacia un lado: las dos cosas que puedes mirar tú",
+   "texto": "Antes de ir al taller, hay dos cosas que puedes comprobar tú 👇\nLa primera, la presión: con un manómetro, las ruedas en frío y los valores de la etiqueta. Es la causa más barata de todas.\nLa segunda, una prueba en marcha: en una recta tranquila, sin tráfico y a poca velocidad, sujeta el volante suave, sin apretar, y fíjate si el coche se va hacia un lado y si el volante está recto.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#cochetira #presionneumaticos #direccion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-92fbe5a958.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-90a0c8bc02",
+   "dia": "2026-11-07",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El ruido en frío que delata un filtro sin antirretorno",
+   "texto": "",
+   "img": "cal/v-90a0c8bc02.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-0ac2c0dad1",
+   "dia": "2026-11-07",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El aviso de mantenimiento del coche: ¿cuándo cambiar el aceite?",
+   "texto": "Hay coches que calculan ellos solos cuándo toca el cambio de aceite, según cómo los usas. Hazle caso a ese aviso, pero sin pasarte nunca del tiempo que marca el plan 🔧\nAlargarlo sale caro: un aceite pasado ya no protege igual, y el desgaste que produce no se ve hasta que es tarde.\nEl aceite no se cambia cuando está negro. Se cambia cuando toca.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#cambiodeaceite #mantenimientocoche #aceitemotor #consejosdetaller #todoenrecambio",
+   "img": "cal/p-0ac2c0dad1.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-99d11bd4e2",
+   "dia": "2026-11-07",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué pasa dentro de un amortiguador cuando pisas un bache",
+   "texto": "",
+   "img": "cal/v-99d11bd4e2.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-23ff5aa26e",
+   "dia": "2026-11-07",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se calienta: las señales que avisan antes",
+   "texto": "Un coche que se calienta suele avisar antes: la aguja, el charco, un manguito blando 🚨\nSi lo escuchas a tiempo, es una reparación. Si no, es un motor.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #mantenimientocoche #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-23ff5aa26e.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-31-14",
+   "dia": "2026-11-08",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Aceite sintético, semisintético o mineral: cuál es cuál",
+   "texto": "La palabra que sale en todas las garrafas: sintético. Hay tres familias 🛢️\nEl mineral sale del petróleo casi tal cual. El sintético se fabrica para que aguante mucho más. Y el semisintético es una mezcla de los dos.\nEl sintético aguanta mejor el calor y los arranques en frío, y se degrada más despacio. Por eso muchos motores modernos solo funcionan bien con él.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitesintetico #aceitemotor #aceitemineral #consejosdetaller #todoenrecambio",
+   "img": "cal/p-aac8f558d3.jpg",
+   "largo": "31",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-46ca73bbd3",
+   "dia": "2026-11-08",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El volante de doble masa: por qué dispara el presupuesto",
+   "texto": "",
+   "img": "cal/v-46ca73bbd3.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-ec2cdbbb02",
+   "dia": "2026-11-08",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Si cambias piezas de dirección o suspensión, alinea después",
+   "texto": "Una regla que te ahorra neumáticos 🛞: si cambias cualquier pieza de la dirección o de la suspensión, alinea después. Siempre.\nPiezas de suspensión 👉 todoenrecambio.com/suspension-de-ejes-guia-de-ruedas-ruedas\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #suspension #direccion #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-ec2cdbbb02.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-751ab27e96",
+   "dia": "2026-11-08",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El goteo del filtro de aceite: de dónde viene",
+   "texto": "",
+   "img": "cal/v-751ab27e96.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b07660e433",
+   "dia": "2026-11-08",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cambio de aceite: qué pedir en el taller",
+   "texto": "Cuando vayas a cambiar el aceite, pide esto 🔧\nEl aceite con el grado y la norma de tu manual. Un filtro nuevo, siempre. Y la arandela del tapón del cárter, que es barata y evita que gotee.\nY el filtro, igual que el aceite: el que corresponde a tu motor. Cómo elegirlo lo tienes en el vídeo del filtro de aceite.\nFiltros de aceite para coche 👉 todoenrecambio.com/filtros-de-aceite-43427\n🤖 Vídeo creado con inteligencia artificial\n#cambiodeaceite #filtrodeaceite #taller #consejosdetaller #todoenrecambio",
+   "img": "cal/p-b07660e433.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-28-03",
+   "dia": "2026-11-09",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "No abras el tapón del refrigerante con el motor caliente",
+   "texto": "No abras el tapón del vaso de expansión con el motor caliente. Ni el del radiador ⚠️\nDentro hay líquido muy caliente y a presión, y sale disparado.\nEspera a que el motor se enfríe del todo.\nDepósitos y tapones del refrigerante 👉 todoenrecambio.com/deposito-de-compensacion\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #vasodeexpansion #refrigerante #consejosdetaller #todoenrecambio",
+   "img": "cal/p-96d74db16b.jpg",
+   "largo": "28",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-e8f454a790",
+   "dia": "2026-11-09",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Un muelle roto puede llegar a rozar el neumático",
+   "texto": "",
+   "img": "cal/v-e8f454a790.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-642bb82379",
+   "dia": "2026-11-09",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Si vibra al soltar el embrague, esto es lo que pasa",
+   "texto": "",
+   "img": "cal/v-642bb82379.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-54b99120ed",
+   "dia": "2026-11-09",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se va hacia un lado: en qué orden mirar las causas",
+   "texto": "Un coche que se va hacia un lado casi nunca es un misterio 🛞: presión, neumáticos, holguras, alineación.\nEn ese orden, de la más barata a la más cara.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#cochetira #alineacion #direccion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-54b99120ed.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-ee4fee6b82",
+   "dia": "2026-11-09",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El aceite se cambia con el motor templado, no frío ni caliente",
+   "texto": "",
+   "img": "cal/v-ee4fee6b82.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-29-17",
+   "dia": "2026-11-10",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "aprobado",
+   "titulo": "Qué pedir en el taller si el coche tira hacia un lado",
+   "texto": "En el taller, pide las cosas en este orden 🔧: primero, que comprueben las presiones y el estado de los neumáticos; después, que revisen si hay juego en las rótulas y los terminales; y solo entonces, la alineación.\nY si te dicen que una rótula tiene juego, pide que te lo enseñen: con el coche levantado se ve en un momento, moviendo la rueda con las manos.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#taller #alineacion #rotulas #consejosdetaller #todoenrecambio",
+   "img": "cal/p-1df2ef343b.jpg",
+   "largo": "29",
+   "tema": "coche",
+   "segundos": null,
+   "nota": "Aprobado en el calendario del 08/10; falta programarlo en Metricool"
+  },
+  {
+   "id": "cola-f1dba59fa4",
+   "dia": "2026-11-10",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Después del cambio de aceite: el aviso a cero y la varilla",
+   "texto": "Al terminar el cambio de aceite, que pongan a cero el aviso de mantenimiento del cuadro y que te den la factura con el aceite que han puesto. Es tu historial, y cuenta para la garantía 🧾\n¿Y cuánto aceite lleva? Lo dice el manual, pero la última palabra la tiene la varilla: se arranca un momento, se para, se espera y se vuelve a mirar el nivel.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#cambiodeaceite #nivelaceite #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-f1dba59fa4.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-41acc56403",
+   "dia": "2026-11-10",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Un muelle comprimido sale como un proyectil: esto no es de garaje",
+   "texto": "",
+   "img": "cal/v-41acc56403.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c4fabdd319",
+   "dia": "2026-11-10",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Las cinco señales del embrague gastado, por orden",
+   "texto": "",
+   "img": "cal/v-c4fabdd319.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-0691492b13",
+   "dia": "2026-11-10",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El montaje del filtro de aceite, paso a paso",
+   "texto": "",
+   "img": "cal/v-0691492b13.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-04-S1",
+   "dia": "2026-11-11",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 1 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
+   "id": "cola-011149b057",
+   "dia": "2026-11-11",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cambiar el aceite tú mismo: el aceite viejo, al punto limpio",
+   "texto": "Si cambias tú el aceite, lo mismo que en el taller: el aceite de tu manual, filtro nuevo y el aceite viejo, al punto limpio. Nunca por el desagüe ♻️\nAsí que ya lo sabes: no preguntes cuál es el mejor aceite. Pregunta cuál es el de tu coche. Está en el manual.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#cambiodeaceite #hazlotumismo #puntolimpio #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-011149b057.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f019d2b172",
+   "dia": "2026-11-11",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los tres pasos para saber si tus amortiguadores están acabados",
+   "texto": "",
+   "img": "cal/v-f019d2b172.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-3939d1c4ba",
+   "dia": "2026-11-11",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El olor del embrague quemado: cuándo preocuparse",
+   "texto": "",
+   "img": "cal/v-3939d1c4ba.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-209caf0694",
+   "dia": "2026-11-11",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El filtro de aceite: si te llevas una sola cosa",
+   "texto": "",
+   "img": "cal/v-209caf0694.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-04-S2",
+   "dia": "2026-11-12",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 2 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
+   "id": "cola-17d13d7d6e",
+   "dia": "2026-11-12",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los dos ruidos del embrague: al pisar y al soltar",
+   "texto": "",
+   "img": "cal/v-17d13d7d6e.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-8360349eff",
+   "dia": "2026-11-12",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo entra el filtro de aceite en el circuito del motor",
+   "texto": "",
+   "img": "cal/v-8360349eff.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b553a8c09d",
+   "dia": "2026-11-12",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El peso del pedal del embrague también te avisa",
+   "texto": "",
+   "img": "cal/v-b553a8c09d.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-69ffe28357",
+   "dia": "2026-11-12",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El lodo del aceite viejo: en qué se convierte",
+   "texto": "",
+   "img": "cal/v-69ffe28357.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-04-S3",
+   "dia": "2026-11-13",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 3 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
+   "id": "cola-48411f88e9",
+   "dia": "2026-11-13",
+   "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Un anillo de goma que pierde aceite arruina el embrague",
+   "texto": "",
+   "img": "cal/v-48411f88e9.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-fac0c4e53f",
+   "dia": "2026-11-13",
+   "hora": "16:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por qué el embrague se cambia todo junto y no solo el disco",
+   "texto": "",
+   "img": "cal/v-fac0c4e53f.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-16202a80d8",
+   "dia": "2026-11-13",
+   "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El volante del motor y por qué a veces hay que rectificarlo",
+   "texto": "",
+   "img": "cal/v-16202a80d8.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-3ffcc7dff3",
+   "dia": "2026-11-13",
+   "hora": "22:30",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cuánto dura un embrague de verdad, y por qué nadie te da una cifra",
+   "texto": "",
+   "img": "cal/v-3ffcc7dff3.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "plan-04-S4",
+   "dia": "2026-11-14",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 4 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
+   "id": "plan-04-S5",
+   "dia": "2026-11-15",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 5 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  }
+ ],
+ "nota": "Calendario aprobado por Rubén el 08/10. Lo rehacen las rutinas de las 9:00 y las 17:00 (calendario_datos.py)."
+}

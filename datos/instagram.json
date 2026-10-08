@@ -1,0 +1,24 @@
+{
+ "actualizado": "2026-10-08 18:33",
+ "estado": "pendiente",
+ "comprobacion": "Instagram: el token NO funciona → Invalid OAuth access token - Cannot parse access token (código 190)",
+ "pendiente_desde": "2026-10-08",
+ "comprobaciones": 1,
+ "cuenta": "@todoenrecambio (2.321 seguidores el 06/10)",
+ "por_que": "El Instagram @todoenrecambio pertenece en Meta a otro portfolio, «DeepMoto», que nadie sabe quién administra. Mientras un administrador de DeepMoto no apruebe la solicitud (o no se use la app de Iván), la clave de Instagram no funciona y no se pueden leer sus comentarios ni sus estadísticas por la API.",
+ "falta": [
+  "Averiguar quién administra el portfolio «DeepMoto» (preguntar a Patricia e Iván; hay un borrador de correo del 08/10).",
+  "Que ese administrador apruebe la solicitud del portfolio todoenrecambio para @todoenrecambio (2 minutos).",
+  "Asignar @todoenrecambio al usuario del sistema claude-panel con control total.",
+  "O, sin DeepMoto: que Iván añada instagram_business_manage_comments a su app (inicio de sesión con Instagram) y genere un token de 60 días.",
+  "Pegar el token en CLAVES\\Cambiar claves de Meta.bat y avisar a Claude."
+ ],
+ "cuando_este": [
+  "Publicaciones y reels con su foto, me gusta, comentarios, guardados y alcance",
+  "Comentarios con su texto, el nombre de quien comenta y las respuestas (como en Facebook)",
+  "Cuáles están sin responder, para contestarlos (siempre con tu «sí» a cada respuesta)",
+  "Estadísticas diarias de la cuenta"
+ ],
+ "mientras": "Las cifras de Instagram (seguidores, visualizaciones, me gusta y el número de comentarios por publicación) siguen llegando por Metricool: están en la pestaña Instagram y en Comentarios.",
+ "documento": "RRSS TDR AUTOMATIZADO/META-INSTAGRAM-FACEBOOK-ESTADO.md"
+}

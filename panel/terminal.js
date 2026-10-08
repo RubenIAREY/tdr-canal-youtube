@@ -276,7 +276,7 @@ function arrancar() {
   document.addEventListener("fullscreenchange", alCambiarPantalla);
   document.addEventListener("webkitfullscreenchange", alCambiarPantalla);
   const h = location.hash.slice(1);
-  ir(["global", ...REDES, "impacto", "videos", "comentarios", "futuro", "mapa"].includes(h) ? h : "global");
+  ir(["global", ...REDES, "calendario", "impacto", "videos", "comentarios", "tablon-facebook", "tablon-instagram", "futuro", "mapa"].includes(h) ? h : "global");
 }
 function marcar(sel, b, filtro = "") {
   const g = typeof sel === "string" ? $(sel) : sel;
@@ -446,11 +446,16 @@ function ir(v, conAnimacion = true) {
   $("#v-impacto").classList.toggle("oculta", v !== "impacto");
   $("#v-videos").classList.toggle("oculta", v !== "videos");
   $("#v-comentarios").classList.toggle("oculta", v !== "comentarios");
+  $("#v-calendario").classList.toggle("oculta", v !== "calendario");
+  $("#v-tablon-facebook").classList.toggle("oculta", v !== "tablon-facebook");
+  $("#v-tablon-instagram").classList.toggle("oculta", v !== "tablon-instagram");
   $("#v-futuro").classList.toggle("oculta", v !== "futuro");
   $("#v-mapa").classList.toggle("oculta", v !== "mapa");
   if (v !== "mapa" && mapa) mapa.pausar();
   if (v === "impacto") impacto(conAnimacion); else if (v === "videos") tablaVideos(); else if (v === "mapa") abrirMapa();
-  else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios(); else pintarRed(v, conAnimacion);
+  else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios();
+  else if (v === "calendario") abrirCalendario(); else if (v === "tablon-facebook") abrirTablon("facebook");
+  else if (v === "tablon-instagram") abrirTablon("instagram"); else pintarRed(v, conAnimacion);
   if (conAnimacion) window.scrollTo({ top: 0 });
 }
 function repintar() {
@@ -1350,6 +1355,42 @@ function abrirComentarios() {
     }
     intentosCom++;
     cargandoCom = null;
+  })();
+}
+
+/* ─────────── calendario y tablones de Facebook e Instagram (módulos comun/calendario.js y comun/tablon.js, 08/10) ─────────── */
+let calendario = null, cargandoCal = null, intentosCal = 0;
+const tablones = {}, cargandoTb = {}, intentosTb = {};
+function abrirCalendario() {
+  if (calendario || cargandoCal) return;
+  const cont = $("#calendario");
+  cargandoCal = (async () => {
+    try {
+      const { montarCalendario } = await import("../comun/calendario.js" + (intentosCal ? "?r=" + intentosCal : ""));
+      cont.innerHTML = "";
+      calendario = await montarCalendario(cont, { datos: "../datos/calendario.json", clave: "tdr-terminal-papel-2-calendario" });
+    } catch (e) {
+      calendario = null;
+      cont.innerHTML = `<p class="futuro-aviso">El calendario se está preparando.</p>`;
+    }
+    intentosCal++;
+    cargandoCal = null;
+  })();
+}
+function abrirTablon(red) {
+  if (tablones[red] || cargandoTb[red]) return;
+  const cont = $("#tablon-" + red);
+  cargandoTb[red] = (async () => {
+    try {
+      const { montarTablon } = await import("../comun/tablon.js" + (intentosTb[red] ? "?r=" + intentosTb[red] : ""));
+      cont.innerHTML = "";
+      tablones[red] = await montarTablon(cont, { red, datos: `../datos/${red}.json` });
+    } catch (e) {
+      tablones[red] = null;
+      cont.innerHTML = `<p class="futuro-aviso">El tablón se está preparando.</p>`;
+    }
+    intentosTb[red] = (intentosTb[red] || 0) + 1;
+    cargandoTb[red] = null;
   })();
 }
 
