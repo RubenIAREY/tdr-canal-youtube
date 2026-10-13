@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Iconos web TDR · elegir</title>
+<meta name="description" content="Propuestas de iconos para la barra de garantías de todoenrecambio.com: dibujados a mano en SVG o generados con Higgsfield.">
+<link rel="icon" href="../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{--rojo:#D71119;--tinta:#1f1f1f;--suave:#6f6f6f;--fondo:#f4f5f7;--blanco:#fff;--borde:#e1e1e1;--negro:#1a1a1a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--fondo);color:var(--tinta);font-family:'Open Sans','Segoe UI',sans-serif;line-height:1.45}
+  header{background:var(--negro);color:#fff;padding:20px 16px}
+  .ancho{max-width:1240px;margin:0 auto;padding:0 16px}
+  header .ancho{display:flex;align-items:center;gap:16px}
+  header img{height:52px;width:52px}
+  header h1{margin:0;font-size:clamp(20px,3vw,28px);font-weight:800}
+  header p{margin:2px 0 0;color:#bdbdbd;font-size:14px}
+  h2{color:var(--rojo);font-size:21px;margin:38px 0 6px}
+  .nota{color:var(--suave);margin:0 0 16px;font-size:15px}
+  .pasos{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 0;padding:0;list-style:none;counter-reset:p}
+  .pasos li{flex:1 1 220px;background:var(--blanco);border:1px solid var(--borde);border-radius:8px;padding:12px 14px 12px 46px;position:relative;font-size:14px}
+  .pasos li::before{counter-increment:p;content:counter(p);position:absolute;left:12px;top:11px;width:24px;height:24px;border-radius:50%;background:var(--rojo);color:#fff;font-weight:800;text-align:center;line-height:24px;font-size:13px}
+
+  /* barra de la web en vivo */
+  .barra{display:flex;flex-wrap:wrap;background:var(--fondo);border:1px solid var(--borde);border-radius:6px;padding:16px 10px;background:#f4f5f7;box-shadow:0 1px 0 #fff inset}
+  .vivo{background:var(--blanco);border:1px solid var(--borde);border-radius:8px;padding:16px}
+  .it{flex:1 1 220px;display:flex;align-items:center;justify-content:center;gap:14px;padding:8px 10px;border-left:1px solid #dcdcdc}
+  .it:first-child{border-left:0}
+  .it img{width:72px;height:72px;flex:none}
+  .it b{display:block;font-size:15px}
+  .it span{font-size:14px;color:#7a7a7a}
+  .actual img{width:100%;display:block;border-radius:6px;border:1px solid var(--borde)}
+  .etq{font-size:12px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--suave);margin:0 0 8px}
+  .etq.r{color:var(--rojo)}
+
+  /* opciones */
+  .opciones{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 6px}
+  .leyenda{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 10px}
+  .leyenda div{background:var(--negro);color:#fff;border-radius:6px;padding:10px 12px;font-weight:700;font-size:14px}
+  .leyenda small{display:block;color:#bdbdbd;font-weight:400}
+  .fila{background:var(--blanco);border:1px solid var(--borde);border-radius:8px;padding:14px;margin:0 0 14px}
+  .fila h3{margin:0 0 10px;font-size:17px}
+  .fila h3 span{color:var(--suave);font-weight:400;font-size:14px}
+  .op{position:relative;border:2px solid var(--borde);border-radius:8px;padding:12px 10px 10px;text-align:center;cursor:pointer;background:#fff;transition:border-color .15s,box-shadow .15s}
+  .op:hover{border-color:#bdbdbd}
+  .op input{position:absolute;opacity:0;pointer-events:none}
+  .op img{width:100%;max-width:170px;aspect-ratio:1;display:block;margin:0 auto}
+  .op .nom{display:block;font-weight:700;font-size:14px;margin-top:6px}
+  .op .baj{display:flex;justify-content:center;gap:8px;margin-top:6px;font-size:13px}
+  .op .baj a{color:var(--rojo);font-weight:600;text-decoration:none}
+  .op .baj a:hover{text-decoration:underline}
+  .op.sel{border-color:var(--rojo);box-shadow:0 0 0 3px rgba(215,17,25,.15)}
+  .op.sel::after{content:"✓ elegido";position:absolute;top:8px;right:8px;background:var(--rojo);color:#fff;font-size:11px;font-weight:700;padding:2px 7px;border-radius:10px}
+  .op:focus-within{outline:2px solid var(--rojo);outline-offset:2px}
+
+  /* elección */
+  .eleccion{position:sticky;bottom:0;background:var(--negro);color:#fff;padding:12px 0;margin-top:30px;z-index:5}
+  .eleccion .ancho{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+  .eleccion p{margin:0;font-size:14px;flex:1 1 360px}
+  .eleccion p b{color:#fff}
+  .bt{background:var(--rojo);color:#fff;border:0;border-radius:6px;padding:10px 16px;font:700 14px 'Open Sans',sans-serif;cursor:pointer;text-decoration:none;display:inline-block}
+  .bt.sec{background:#fff;color:var(--negro)}
+  .bt:hover{filter:brightness(1.1)}
+  .hojas{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .hojas figure,.ref figure{margin:0;background:#fff;border:1px solid var(--borde);border-radius:8px;padding:10px;text-align:center}
+  .hojas img{width:100%;display:block}
+  figcaption{font-weight:700;font-size:14px;margin-top:6px}
+  .ref{display:grid;grid-template-columns:auto 1fr;gap:14px;align-items:start}
+  .ref img{max-width:100%}
+  .tabla{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--borde);font-size:14px}
+  .tabla th,.tabla td{padding:10px 12px;border-top:1px solid #eee;text-align:left;vertical-align:top}
+  .tabla th{background:#fafafa}
+  footer{color:var(--suave);font-size:13px;padding:30px 0 90px}
+
+  @media (max-width:760px){
+    .opciones,.leyenda{grid-template-columns:1fr}
+    .leyenda{display:none}
+    .op img{max-width:130px}
+    .it{border-left:0;border-top:1px solid #dcdcdc;justify-content:flex-start}
+    .it:first-child{border-top:0}
+    .hojas,.ref{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<header><div class="ancho"><img src="../logo-tdr.png" alt="TDR"><div>
+  <h1>Iconos de la barra de garantías · todoenrecambio.com</h1>
+  <p>Propuestas del 13/10/2026 · elige un icono de cada fila</p></div></div></header>
+
+<main class="ancho">
+  <ol class="pasos">
+    <li>Debajo de cada concepto hay <b>3 opciones</b>. Pulsa la que más te guste: puedes mezclar opciones.</li>
+    <li>La <b>barra de arriba</b> se actualiza al momento para que la veas como quedaría en la web.</li>
+    <li>Cuando lo tengas, pulsa <b>«Copiar mi elección»</b> (abajo) y pégalo en la respuesta del correo.</li>
+  </ol>
+
+  <h2>Así quedaría la barra en la web</h2>
+  <p class="nota">Arriba la barra de hoy; debajo, la nueva con lo que tengas elegido.</p>
+  <div class="vivo">
+    <p class="etq">Hoy en la web</p>
+    <div class="actual"><img src="img/actual-web.png" alt="Barra actual de la web con iconos rojos sencillos"></div>
+    <p class="etq r" style="margin-top:16px">Nueva · con tu elección</p>
+    <div class="barra" id="barra"></div>
+  </div>
+
+  <h2>Elige un icono por concepto</h2>
+  <p class="nota">Mismo estilo que la referencia (línea gris + acento), con el rojo de marca #D71119. Cada opción se puede descargar en PNG transparente; la opción 1 también en SVG.</p>
+  <div class="leyenda">
+    <div>Opción 1 · Sin Higgsfield<small>Dibujado a mano en SVG · trazo más grueso</small></div>
+    <div>Opción 2 · Higgsfield A<small>GPT Image 2.5 · trazo fino, más detalle</small></div>
+    <div>Opción 3 · Higgsfield B<small>GPT Image 2.5 · como la A, algo más grueso</small></div>
+  </div>
+  <div id="filas"></div>
+
+  <h2>Qué diferencia hay entre las opciones</h2>
+  <table class="tabla">
+    <tr><th></th><th>Opción 1 · Sin Higgsfield</th><th>Opciones 2 y 3 · Con Higgsfield</th></tr>
+    <tr><td><b>Cómo se ha hecho</b></td><td>Dibujado a mano en código (SVG)</td><td>Generado con IA (GPT Image 2.5) a partir de la referencia, recortado y con fondo transparente</td></tr>
+    <tr><td><b>Formato</b></td><td>SVG vectorial (+ PNG 512 px)</td><td>PNG 512 px transparente</td></tr>
+    <tr><td><b>Nitidez</b></td><td>Perfecta a cualquier tamaño</td><td>Muy buena hasta ~250 px; la web los usa a ~70 px</td></tr>
+    <tr><td><b>Estilo</b></td><td>Trazo más grueso, dibujo más simple: se lee muy bien en pequeño</td><td>Trazo fino y más detalle: lo más parecido a la referencia</td></tr>
+    <tr><td><b>Coste</b></td><td>0 créditos</td><td>2,75 créditos las dos variantes</td></tr>
+  </table>
+  <p class="nota" style="margin-top:10px">Si gusta el dibujo de Higgsfield, se puede redibujar en SVG con ese mismo estilo para tener lo mejor de las dos.</p>
+
+  <h2>Lo que salió de Higgsfield tal cual</h2>
+  <div class="hojas">
+    <figure><img src="img/higgsfield-hoja-A.png" alt="Hoja de 4 iconos, variante A"><figcaption>Variante A</figcaption></figure>
+    <figure><img src="img/higgsfield-hoja-B.png" alt="Hoja de 4 iconos, variante B"><figcaption>Variante B</figcaption></figure>
+  </div>
+
+  <h2>Punto de partida</h2>
+  <div class="ref">
+    <figure><img src="img/referencia.png" alt="Iconos de referencia en gris y naranja" style="height:380px"><figcaption>Referencia</figcaption></figure>
+    <figure><img src="img/actual-web.png" alt="Barra actual de la web"><figcaption>Barra actual</figcaption></figure>
+  </div>
+  <p style="margin-top:22px"><a class="bt sec" style="border:1px solid var(--borde)" href="iconos-tdr-todos.zip" download>⬇ Descargar todos los iconos (ZIP)</a></p>
+
+  <footer>TodoEnRecambio · propuesta interna, no indexada.</footer>
+</main>
+
+<div class="eleccion"><div class="ancho">
+  <p id="resumen"></p>
+  <button class="bt" id="copiar" type="button">Copiar mi elección</button>
+  <button class="bt sec" id="enlace" type="button">Copiar enlace</button>
+</div></div>
+
+<script>
+const CONCEPTOS = [
+  {id:"envios", titulo:"Envíos 24/48h", sub:"Productos en stock", arch:"02-envios-24-48h"},
+  {id:"calidad", titulo:"Calidad y servicio", sub:"Profesionales a tu servicio", arch:"03-calidad-servicio"},
+  {id:"atencion", titulo:"Atención al cliente", sub:"Asesoramiento de lunes a viernes", arch:"04-atencion-cliente"},
+  {id:"gratis", titulo:"Envío gratuito", sub:"A partir de 70€", arch:"01-envio-gratuito"},
+];
+const OPCIONES = [
+  {id:"1", nom:"Opción 1 · Sin Higgsfield", img:a=>`sin-higgsfield/${a}.svg`, baj:a=>[["SVG",`sin-higgsfield/${a}.svg`],["PNG",`sin-higgsfield/${a}.png`]]},
+  {id:"2", nom:"Opción 2 · Higgsfield A", img:a=>`higgsfield-a/${a}.png`, baj:a=>[["PNG",`higgsfield-a/${a}.png`]]},
+  {id:"3", nom:"Opción 3 · Higgsfield B", img:a=>`higgsfield-b/${a}.png`, baj:a=>[["PNG",`higgsfield-b/${a}.png`]]},
+];
+const eleccion = {};
+// elección desde el enlace: #envios=2&calidad=1...
+new URLSearchParams(location.hash.slice(1)).forEach((v,k)=>{ if(CONCEPTOS.some(c=>c.id===k) && OPCIONES.some(o=>o.id===v)) eleccion[k]=v; });
+
+const filas = document.getElementById("filas");
+CONCEPTOS.forEach(c=>{
+  const f = document.createElement("section"); f.className="fila";
+  f.innerHTML = `<h3>${c.titulo} <span>· ${c.sub}</span></h3><div class="opciones"></div>`;
+  const cont = f.querySelector(".opciones");
+  OPCIONES.forEach(o=>{
+    const l = document.createElement("label"); l.className="op"; l.dataset.c=c.id; l.dataset.o=o.id;
+    l.innerHTML = `<input type="radio" name="${c.id}" value="${o.id}" aria-label="${c.titulo}: ${o.nom}">
+      <img src="${o.img(c.arch)}" alt="${c.titulo}, ${o.nom}" loading="lazy">
+      <span class="nom">${o.nom}</span>
+      <span class="baj">${o.baj(c.arch).map(([t,u])=>`<a href="${u}" download onclick="event.stopPropagation()">⬇ ${t}</a>`).join("")}</span>`;
+    l.querySelector("input").addEventListener("change",()=>{ eleccion[c.id]=o.id; pintar(); });
+    cont.appendChild(l);
+  });
+  filas.appendChild(f);
+});
+
+function pintar(){
+  document.querySelectorAll(".op").forEach(l=>{
+    const sel = eleccion[l.dataset.c]===l.dataset.o;
+    l.classList.toggle("sel", sel); l.querySelector("input").checked = sel;
+  });
+  // barra en vivo: si no hay elección en un concepto, enseña la opción 2 (A) en gris claro
+  document.getElementById("barra").innerHTML = CONCEPTOS.map(c=>{
+    const o = OPCIONES.find(x=>x.id===(eleccion[c.id]||"2"));
+    const tenue = eleccion[c.id] ? "" : ' style="opacity:.35"';
+    return `<div class="it"><img src="${o.img(c.arch)}" alt=""${tenue}><div><b>${c.titulo}</b><span>${c.sub}</span></div></div>`;
+  }).join("");
+  const hechos = CONCEPTOS.filter(c=>eleccion[c.id]).length;
+  document.getElementById("resumen").innerHTML = hechos
+    ? `<b>Tu elección (${hechos}/4):</b> ` + CONCEPTOS.map(c=>`${c.titulo} → ${eleccion[c.id] ? "opción "+eleccion[c.id] : "<i>sin elegir</i>"}`).join(" · ")
+    : "Pulsa una opción en cada concepto. Mientras no elijas, la barra enseña la opción 2 en gris claro.";
+  const h = CONCEPTOS.filter(c=>eleccion[c.id]).map(c=>`${c.id}=${eleccion[c.id]}`).join("&");
+  history.replaceState(null,"",h ? "#"+h : location.pathname);
+}
+
+function copiar(texto, boton, ok){
+  const fin = ()=>{ const t=boton.textContent; boton.textContent=ok; setTimeout(()=>boton.textContent=t,1800); };
+  if(navigator.clipboard) navigator.clipboard.writeText(texto).then(fin, ()=>prompt("Copia esto:", texto));
+  else prompt("Copia esto:", texto);
+}
+document.getElementById("copiar").onclick = e=>{
+  const nombre = id=>OPCIONES.find(o=>o.id===id).nom;
+  const txt = "Iconos web TDR · mi elección:\n" + CONCEPTOS.map(c=>`- ${c.titulo}: ${eleccion[c.id] ? nombre(eleccion[c.id]) : "sin elegir"}`).join("\n") + "\nEnlace: " + location.href;
+  copiar(txt, e.currentTarget, "✓ Copiado");
+};
+document.getElementById("enlace").onclick = e=>copiar(location.href, e.currentTarget, "✓ Enlace copiado");
+pintar();
+</script>
+</body>
+</html>
