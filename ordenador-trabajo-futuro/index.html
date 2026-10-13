@@ -318,14 +318,14 @@ details.sup[open] summary::after { content: "▴"; }
     <h2>Resumen</h2>
     <div class="portada">
       <div>
-        <p class="ticker">Decisión de compra · horizonte 5 años</p>
+        <p class="ticker">Decisión de compra · horizonte 5 años · presupuesto máximo 3.800 €</p>
         <h1>Qué portátil comprar para <em>multiplicar por 4</em> el contenido de TDR y abrir Reynasa</h1>
         <p>Hoy el portátil se queda <b>sin memoria</b> y se cuelga cuando renderiza un vídeo largo, varios shorts y tiene abiertas sesiones de Claude a la vez. El plan es pasar de un largo cada pocos días a <b>uno al día</b>, hacer <b>contenido distinto para cada red</b> (YouTube, Instagram, TikTok y Facebook), seguir con los blogs, crear apps y dashboards, y <b>replicar todo para Reynasa</b>.</p>
-        <p>La recomendación no se hace con el volumen de hoy, sino con el de <b>2031</b> (TDR multiplicado por 4 y Reynasa funcionando) y con un <b>margen del 30 %</b> para lo que aún no sabemos que vendrá. La página compara las opciones y deja <b>simular</b> cualquier volumen.</p>
+        <p>La recomendación se hace con un <b>presupuesto máximo de 3.800 €</b> y con el trabajo de <b>2031</b>, no el de hoy (TDR multiplicado por 4 y Reynasa funcionando), más un <b>margen del 30 %</b> para lo que aún no sabemos que vendrá. La página compara las opciones y deja <b>simular</b> cualquier volumen.</p>
         <div class="reco">
-          <b>Recomendación a 5 años: PCSpecialist Recoil IV 16 en configuración 5 años (5.117 €).</b><br>
-          Core Ultra 9 290HX Plus, <b>RTX 5090 de 24 GB</b>, <b>96 GB</b> de RAM y <b>2 TB</b> (5.284 € con Windows 11 Pro). Con margen, cubre el procesador y la gráfica hasta 2031 incluso con Reynasa al 100 %, siempre que los vídeos se codifiquen con la gráfica (ese cambio lo hago yo). La gráfica es lo único que no se puede ampliar después, y 24 GB dejan sitio para la IA en local, que es lo más probable que llegue.<br>
-          <span style="color:var(--tinta-suave)">Lo único que no cubre es el pico extremo de las dos empresas con todo a la vez (unos 127 GB con margen). Eso se reparte trabajando de noche o con un segundo equipo de render cuando arranque Reynasa. El único portátil que lo cubre todo él solo es el ASUS SCAR 18 con 128 GB, por unos 7.680 € y 3,6 kg.</span>
+          <b>Recomendación: PCSpecialist Recoil IV 16 con Core Ultra 7 270HX Plus + ampliar tu Acer a 32 GB. Total: 3.597 € (3.748 € con Windows 11 Pro).</b><br>
+          El portátil nuevo (RTX 5080, 64 GB, 1 TB, 2,8 kg y 3 años de garantía con recogida) es para ti, te lo llevas a casa y a reuniones. Tu Acer, con 16 GB más (323 €) y el driver de la gráfica actualizado, <b>se queda fijo en la oficina</b> como segundo equipo: renders de noche, el trabajo de Reynasa y los agentes 24/7. Entre los dos suman unas <b>3,3 veces</b> la capacidad de hoy y <b>pasan las tres pruebas de 2031 con margen</b>, ampliando la RAM más adelante.<br>
+          <span style="color:var(--tinta-suave)">Con un solo portátil, lo mejor que cabe es el PCSpecialist con el 290HX Plus (3.765 € sin Windows): es el más rápido, pero no deja dinero para el Acer y, con Reynasa al 100 %, se queda corto de memoria y de gráfica. Para que todo funcione así: informática tiene que quitar el apagado de las 23:30 y yo paso el motor a codificar con la gráfica.</span>
         </div>
       </div>
       <div class="claves" id="claves" aria-live="polite"></div>
@@ -356,8 +356,9 @@ details.sup[open] summary::after { content: "▴"; }
 
   <!-- 03 OPCIONES -->
   <section class="caja" id="opciones">
-    <h2>Las opciones <small style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)">todas nuevas, con 64 GB o más y la RAM sin soldar</small></h2>
-    <p class="bajada">Ordenadas de mejor a peor para el trabajo futuro con margen. "× tu Acer" mide solo la velocidad del procesador (Cinebench R23 multinúcleo de Notebookcheck), que es lo que decide cuánto tarda cada render. La memoria decide cuántas cosas caben a la vez, y la gráfica, cuántos renders en paralelo y qué IA local se puede usar. Cada tarjeta tiene sus enlaces de compra (PCSpecialist, PcComponentes, MediaMarkt o la tienda oficial).</p>
+    <h2>Las opciones <small style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)">todas nuevas, 3.800 € como máximo, 64 GB o más y la RAM sin soldar</small></h2>
+    <p class="bajada">Ordenadas de mejor a peor para el trabajo futuro con margen. Las que dicen <b>"+ tu Acer"</b> suman 323 € para ampliar tu portátil actual a 32 GB y dejarlo fijo como segundo equipo; sus cifras son las de los dos juntos (el trabajo se reparte, por ejemplo una empresa en cada uno). "× tu Acer" mide la velocidad del procesador (Cinebench R23 multinúcleo de Notebookcheck), que es lo que decide cuánto tarda cada render. Cada tarjeta tiene sus enlaces de compra.</p>
+    <p class="nota" style="margin:-8px 0 16px">Fuera de presupuesto: PCSpecialist con RTX 5090 y 96 GB (5.117 €), ASUS SCAR 18 con 128 GB (7.198 €), XMG NEO 16 (3.814 €), Lenovo Legion Pro 7 y HP OMEN MAX 16 (3.899 €, con solo 32 GB). Descartado: PCSpecialist Recoil 16 AMD (3.834 €, más caro y más lento que el Intel).</p>
     <div class="opciones" id="lista-opciones"></div>
   </section>
 
@@ -513,139 +514,131 @@ details.sup[open] summary::after { content: "▴"; }
   "use strict";
 
   /* ───────── datos de los ordenadores ───────── */
+  var PCS_URL = "https://www.pcspecialist.es/notebooks/recoil-IV-16/";
+  var RAM_ACER_URL = "https://www.pccomponentes.com/kingston-valueram-so-dimm-ddr5-5600-mhz-16gb-cl46";
+  var CHASIS_URL = "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html";
+  var T_RAM_ACER = ["PcComponentes · RAM para tu Acer (323 €)", RAM_ACER_URL, "Kingston KVR56S46BS8-16 (16 GB DDR5-5600) para la ranura libre"];
+  var VECTOR_TIENDAS = [
+    ["PcComponentes (3.327 €)", "https://www.pccomponentes.com/portatil-msi-vector-a16-hx-a8wig-054xes-16-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5080-sin-s-o-rgb", "entrega al día siguiente"],
+    ["Tienda oficial MSI (3.299 €)", "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles", ""],
+    ["MediaMarkt (buscar)", "https://www.mediamarkt.es/es/search.html?query=msi%20vector%20a16%20hx%208940hx", "aparece un Vector A16 HX con 64 GB y RTX 5080; confirmar referencia"]
+  ];
+  var HELIOS_TIENDAS = [
+    ["Tienda oficial Acer (3.299,99 €)", "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro", "la versión de 64 GB"],
+    ["MediaMarkt · versión de 32 GB", "https://www.mediamarkt.es/es/product/_portatil-gaming-acer-predator-helios-18-ai-18-wqxga-intelr-coretm-ultra-9-275hx-32gb-ram-1-tb-ssd-geforce-rtxtm-5080-sin-sistema-operativo-1607311.html", "sin Windows; 2 ranuras libres para añadir RAM"],
+    ["PcComponentes · versión de 32 GB", "https://www.pccomponentes.com/portatil-acer-predator-helios-18-ai-ph18-73-18-intel-core-ultra-9-275hx-32gb-1tb-ssd-rtx-5080-windows-11-pro", "con Windows 11 Pro; confirmar teclado y stock"]
+  ];
+  var CROSSHAIR_TIENDAS = [
+    ["PcComponentes (2.129 €)", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz", "entrega al día siguiente"],
+    ["MediaMarkt", "", "no lo vende (solo otros Crosshair)"]
+  ];
   var EQUIPOS = [
     {
-      id: "pcsfut", rank: 1, nombre: "PCSpecialist Recoil IV 16 · configuración 5 años", corto: "PCS 5 años", color: "#d71119",
-      sub: "Intel Core Ultra 9 290HX Plus · RTX 5090 · 96 GB · 2 TB",
-      precio: 5117, precioNota: "sin Windows · 5.284 € con Windows 11 Pro (configurador, 13/10/2026)",
-      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-IV-16/",
-      tiendas: [["PCSpecialist (configurador)", "https://www.pcspecialist.es/notebooks/recoil-IV-16/", "solo se vende allí: es un portátil montado por encargo"]],
-      config: "Elegir: Core Ultra 9 290HX Plus · 96 GB Kingston (2 × 48 GB) · RTX 5090 · SSD Samsung 990 EVO Plus 2 TB · fuente de 420 W · teclado español · garantía Oro 3 años",
-      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
-      ram: 96, ramTxt: "96 GB (2 × 48 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "96 GB: lo máximo que ofrece PCSpecialist",
-      gpu: "RTX 5090 · 24 GB · 175 W · 3 codificadores", vram: 24,
-      ssd: "2 TB (Samsung 990 EVO Plus) · 2.ª ranura M.2 libre", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
-      garantia: "3 años con recogida y entrega", so: "A elegir (sin Windows o con Windows 11 Pro)",
-      pros: ["Pasa procesador y gráfica hasta 2031 con margen (codificando con la gráfica)", "Gráfica de 24 GB: margen para IA en local, lo más probable que llegue", "96 GB y 2 TB desde el primer día, dentro de la garantía", "Sigue siendo portátil: 16″ y 2,8 kg"],
-      contras: ["1.352 € más que la configuración base", "Con las dos empresas a tope a la vez, 96 GB no llegan con margen", "Se monta por encargo: 1–1,5 semanas · ruidoso a tope"],
+      id: "pcs270acer", rank: 1, combo: true, nombre: "PCSpecialist Recoil IV 16 (Core Ultra 7 270HX Plus) + tu Acer ampliado a 32 GB", corto: "PCS 270HX + Acer", color: "#d71119",
+      sub: "Portátil nuevo: 270HX Plus · RTX 5080 · 64 GB · 1 TB — y tu Acer, con 32 GB, como segundo equipo fijo en la oficina",
+      precio: 3597, precioNota: "3.274 € el portátil sin Windows + 323 € de la RAM del Acer · con Windows 11 Pro: 3.748 € (configurador, 13/10/2026)",
+      tiendas: [["PCSpecialist · portátil (3.274 €)", PCS_URL, "configurador; solo se vende allí"], T_RAM_ACER],
+      config: "Portátil, elegir: Core Ultra 7 270HX Plus · 64 GB Corsair (2 × 32 GB) · RTX 5080 · SSD SanDisk 1 TB · teclado español · garantía Oro 3 años. Acer: añadir el módulo de 16 GB en la ranura libre y actualizar el driver de NVIDIA.",
+      cpu: "Portátil: Intel Core Ultra 7 270HX Plus · 20 núcleos (2026) · Acer: i7-13620H", r23: 34000, r23Est: true,
+      ram: 64, ramTxt: "64 GB en el portátil + 32 GB en el Acer, sin soldar", ramMax: 96, ramMaxTxt: "portátil hasta 96 GB · Acer hasta 64 GB",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores (+ RTX 3050 en el Acer)", vram: 16,
+      ssd: "1 TB · 2 ranuras M.2", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg (el Acer se queda en la oficina)",
+      garantia: "3 años con recogida y entrega (portátil)", so: "A elegir (sin Windows o con Windows 11 Pro)",
+      pros: ["Pasa las tres pruebas de 2031 con margen (ampliando la RAM más adelante)", "Unas 3,3 veces la capacidad de hoy entre los dos equipos", "El Acer queda fijo para renders de noche, Reynasa y Hermes 24/7", "Cabe en el presupuesto incluso con Windows 11 Pro"],
+      contras: ["La potencia del 270HX Plus es estimada: aún no hay pruebas publicadas", "Dos equipos que mantener; el Acer tendrá 7–8 años en 2031", "La gráfica de 16 GB no se puede mejorar después"],
       fuentes: [
-        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-IV-16/"],
-        ["Análisis del chasis con RTX 5090 (XMG NEO 16, Notebookcheck 90 %)", "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html"],
-        ["XMG NEO 16 con el 290HX Plus", "https://www.notebookcheck.com/XMG-NEO-16-erhaelt-Core-Ultra-9-290HX-Plus-und-erstmals-ein-OLED-Display.1377008.0.html"],
-        ["Procesador 290HX Plus", "https://www.notebookcheck.net/Intel-Core-Ultra-9-290HX-Plus-Processor-Benchmarks-and-Specs.1252402.0.html"]
+        ["Configurador PCSpecialist", PCS_URL],
+        ["Procesador 270HX Plus (Notebookcheck)", "https://www.notebookcheck.net/Intel-Core-Ultra-7-270HX-Plus-Processor-Benchmarks-and-Specs.1252489.0.html"],
+        ["Análisis del chasis (XMG NEO 16, Notebookcheck 90 %)", CHASIS_URL],
+        ["Módulo de RAM para el Acer", RAM_ACER_URL]
       ]
     },
     {
-      id: "scar", rank: 2, nombre: "ASUS ROG Strix SCAR 18 (2026) ampliado a 128 GB", corto: "ASUS SCAR 18", color: "#3d3a35",
-      sub: "Intel Core Ultra 9 290HX Plus · RTX 5090 · 64 → 128 GB · 2 TB",
-      precio: 7198, precioNota: "5.499 € el portátil (64 GB, 2 TB, Windows 11 Home) + 1.699 € del kit 2 × 64 GB (Crucial CT2K64G56C46S5, ahora sin stock)",
-      tienda: "PcComponentes", url: "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home",
-      tiendas: [
-        ["PcComponentes · portátil (5.499 €)", "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home", "64 GB, 2 TB, Windows 11 Home"],
-        ["PcComponentes · kit 2 × 64 GB (1.699 €)", "https://www.pccomponentes.com/memoria-ram-crucial-ct2k64g56c46s5-128gb-2x64gb-ddr5-5600mhz-cl46-so-dimm-ecc", "para llegar a 128 GB; ahora sin stock"],
-        ["MediaMarkt · versión anterior (275HX)", "https://www.mediamarkt.es/es/product/_portatil-gaming-asus-rog-strix-scar-18-g835lx-sa094w-18-wqxga-intelr-coretm-ultra-9-275hx-64-gb-ram-2-tb-ssd-geforce-rtxtm-5090-windows-11-1595249.html", "64 GB, 2 TB, RTX 5090, procesador 275HX"]
-      ],
-      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 42661,
-      ram: 128, ramTxt: "64 GB de serie → 128 GB cambiando los 2 módulos", ramMax: 128, ramMaxTxt: "128 GB (probado por Notebookcheck)",
-      gpu: "RTX 5090 · 24 GB · 175 W · 3 codificadores", vram: 24,
-      ssd: "2 TB · 2 ranuras M.2", pantalla: "18″ 240 Hz", peso: "3,7 kg + cargador de 450 W",
-      garantia: "ASUS (confirmar años)", so: "Windows 11 Home",
-      pros: ["El único portátil que pasa las tres pruebas con margen él solo", "El procesador más rápido medido en un portátil", "Cargador de 450 W: aguanta todo a tope"],
-      contras: ["Unos 2.080 € más que el número 1", "18″ y 3,7 kg: poco práctico para llevarlo cada día", "La RAM de 128 GB se compra aparte (ahora sin stock)"],
-      fuentes: [
-        ["PcComponentes (64 GB, 2 TB)", "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home"],
-        ["Análisis con 128 GB (Notebookcheck)", "https://www.notebookcheck.com/Gaming-Monster-mit-4K-Mini-LED-RTX-5090-und-128-GB-RAM-Asus-ROG-Strix-SCAR-18-G835LXG-im-Test.1341621.0.html"]
-      ]
-    },
-    {
-      id: "pcs", rank: 3, nombre: "PCSpecialist Recoil IV 16 · configuración base", corto: "PCS base", color: "#e8833a",
-      sub: "Intel Core Ultra 9 290HX Plus · RTX 5080 · 64 GB · 1 TB",
-      precio: 3765, precioNota: "sin Windows (configurador, 13/10/2026)",
-      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-IV-16/",
-      tiendas: [["PCSpecialist (configurador)", "https://www.pcspecialist.es/notebooks/recoil-IV-16/", "solo se vende allí"]],
-      config: "Elegir: Core Ultra 9 290HX Plus · 64 GB Corsair (2 × 32 GB) · RTX 5080 · SSD SanDisk 1 TB · teclado español · garantía Oro 3 años",
-      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB (cambiando los 2 módulos)",
-      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
-      ssd: "1 TB · 2 ranuras M.2 (PCIe 5.0 + 4.0)", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
-      garantia: "3 años con recogida y entrega", so: "A elegir (sin Windows o con Windows)",
-      pros: ["El mismo procesador que el número 1", "Chasis con 89–90 % en Notebookcheck (XMG NEO 16)", "Dos ranuras para discos", "3 años de garantía con recogida a domicilio"],
-      contras: ["Gráfica de 16 GB: no se puede mejorar después", "Con margen, la gráfica y la RAM se quedan cortas para el escenario con Reynasa", "Se monta por encargo: 1–1,5 semanas"],
-      fuentes: [
-        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-IV-16/"],
-        ["Análisis del chasis (XMG NEO 16, Notebookcheck)", "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html"],
-        ["XMG NEO 16 con el 290HX Plus", "https://www.notebookcheck.com/XMG-NEO-16-erhaelt-Core-Ultra-9-290HX-Plus-und-erstmals-ein-OLED-Display.1377008.0.html"],
-        ["Procesador 290HX Plus", "https://www.notebookcheck.net/Intel-Core-Ultra-9-290HX-Plus-Processor-Benchmarks-and-Specs.1252402.0.html"]
-      ]
-    },
-    {
-      id: "vector", rank: 5, nombre: "MSI Vector A16 HX A8WIG-054XES", corto: "MSI Vector A16", color: "#2a5db0",
-      sub: "AMD Ryzen 9 8940HX · RTX 5080 · 64 GB",
-      precio: 3299, precioNota: "en la tienda oficial de MSI (3.327 € en PcComponentes)",
-      tienda: "es-store.msi.com", url: "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles",
-      tiendas: [
-        ["PcComponentes (3.327 €)", "https://www.pccomponentes.com/portatil-msi-vector-a16-hx-a8wig-054xes-16-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5080-sin-s-o-rgb", "entrega al día siguiente"],
-        ["Tienda oficial MSI (3.299 €)", "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles", ""],
-        ["MediaMarkt (buscar)", "https://www.mediamarkt.es/es/search.html?query=msi%20vector%20a16%20hx%208940hx", "aparece un Vector A16 HX con 64 GB y RTX 5080; confirmar referencia"]
-      ],
-      cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5200), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
-      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      id: "vectoracer", rank: 2, combo: true, nombre: "MSI Vector A16 HX A8WIG-054XES + tu Acer ampliado a 32 GB", corto: "Vector + Acer", color: "#2a5db0",
+      sub: "Portátil nuevo: Ryzen 9 8940HX · RTX 5080 · 64 GB — y tu Acer, con 32 GB, como segundo equipo fijo",
+      precio: 3622, precioNota: "3.299 € el portátil (tienda MSI, sin Windows) + 323 € de la RAM del Acer",
+      tiendas: VECTOR_TIENDAS.concat([T_RAM_ACER]),
+      cpu: "Portátil: AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4) · Acer: i7-13620H", r23: 30804,
+      ram: 64, ramTxt: "64 GB en el portátil + 32 GB en el Acer, sin soldar", ramMax: 96, ramMaxTxt: "portátil hasta 96 GB · Acer hasta 64 GB",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores (+ RTX 3050 en el Acer)", vram: 16,
       ssd: "1 TB · 1 ranura M.2 de tamaño normal", pantalla: "16″ 2560 × 1600 · 240 Hz", peso: "2,7 kg",
       garantia: "3 años de MSI", so: "Sin Windows",
-      pros: ["64 GB y RTX 5080 por 3.299 €", "Disponible en 1–2 días", "Ethernet 2,5 GbE y USB4"],
-      contras: ["Procesador de la generación anterior", "RAM máxima de 96 GB y un solo disco", "No hay análisis propio de esta versión"],
+      pros: ["Pasa las tres pruebas de 2031 con margen (ampliando la RAM)", "Disponible en 1–2 días", "Ethernet 2,5 GbE y USB4"],
+      contras: ["Procesador de la generación anterior", "Solo un disco de tamaño normal", "Dos equipos; el Acer tendrá 7–8 años en 2031"],
       fuentes: [
         ["Tienda oficial MSI", "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles"],
-        ["PcComponentes", "https://www.pccomponentes.com/portatil-msi-vector-a16-hx-a8wig-054xes-16-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5080-sin-s-o-rgb"],
         ["Ficha técnica oficial (PDF)", "https://storage-asset.msi.com/specSheet/es/nb/Vector%20A16%20HX%20A8WIG-054XES.pdf"],
         ["Procesador Ryzen 9 8940HX", "https://www.notebookcheck.net/AMD-Ryzen-9-8940HX-Processor-Benchmarks-and-Specs.998310.0.html"]
       ]
     },
     {
-      id: "helios", rank: 4, nombre: "Acer Predator Helios 18 AI PH18-73-92JH", corto: "Acer Helios 18", color: "#2e7d57",
-      sub: "Intel Core Ultra 9 275HX · RTX 5080 · 64 GB",
-      precio: 3299.99, precioNota: "en la tienda oficial de Acer",
-      tienda: "store.acer.com", url: "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro",
-      tiendas: [
-        ["Tienda oficial Acer (3.299,99 €)", "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro", "la versión de 64 GB"],
-        ["MediaMarkt · versión de 32 GB", "https://www.mediamarkt.es/es/product/_portatil-gaming-acer-predator-helios-18-ai-18-wqxga-intelr-coretm-ultra-9-275hx-32gb-ram-1-tb-ssd-geforce-rtxtm-5080-sin-sistema-operativo-1607311.html", "sin Windows; tiene 2 ranuras libres para añadir RAM"],
-        ["PcComponentes · versión de 32 GB", "https://www.pccomponentes.com/portatil-acer-predator-helios-18-ai-ph18-73-18-intel-core-ultra-9-275hx-32gb-1tb-ssd-rtx-5080-windows-11-pro", "con Windows 11 Pro; confirmar teclado y stock"]
-      ],
-      cpu: "Intel Core Ultra 9 275HX · 24 núcleos", r23: 33600,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB), 4 ranuras: 2 libres", ramMax: 192, ramMaxTxt: "hasta 192 GB, sin quitar lo que trae",
-      gpu: "RTX 5080 · 16 GB · 165–175 W · 2 codificadores", vram: 16,
+      id: "heliosacer", rank: 3, combo: true, nombre: "Acer Predator Helios 18 AI PH18-73-92JH + tu Acer ampliado a 32 GB", corto: "Helios 18 + Acer", color: "#2e7d57",
+      sub: "Portátil nuevo: Core Ultra 9 275HX · RTX 5080 · 64 GB — y tu Acer, con 32 GB, como segundo equipo fijo",
+      precio: 3623, precioNota: "3.299,99 € el portátil (tienda Acer) + 323 € de la RAM del Acer",
+      tiendas: HELIOS_TIENDAS.concat([T_RAM_ACER]),
+      cpu: "Portátil: Intel Core Ultra 9 275HX · 24 núcleos · Acer: i7-13620H", r23: 33600,
+      ram: 64, ramTxt: "64 GB en el portátil (4 ranuras, 2 libres) + 32 GB en el Acer", ramMax: 192, ramMaxTxt: "portátil hasta 192 GB sin quitar nada · Acer hasta 64 GB",
+      gpu: "RTX 5080 · 16 GB · 165–175 W · 2 codificadores (+ RTX 3050 en el Acer)", vram: 16,
       ssd: "1 TB · 3 ranuras M.2", pantalla: "18″", peso: "3,5 kg",
       garantia: "1 año de Acer", so: "Por confirmar (y el teclado)",
-      pros: ["El más ampliable: 4 ranuras de RAM y 3 de disco", "Más silencioso en modo rendimiento (≈ 50 dB)", "Mismo precio que el Vector con más procesador"],
+      pros: ["Pasa las tres pruebas y es el más ampliable", "Tres ranuras para discos", "Más silencioso en modo rendimiento (≈ 50 dB)"],
       contras: ["18″ y 3,5 kg más el cargador", "Solo 1 año de garantía", "Su disco se calienta en cargas largas"],
       fuentes: [
         ["Tienda oficial Acer", "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro"],
-        ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/Acer-Predator-Helios-18-AI-review-Finally-a-quieter-gaming-laptop-but-at-what-cost.1054468.0.html"],
-        ["Procesador 275HX", "https://www.notebookcheck.net/Intel-Core-Ultra-9-275HX-Processor-Benchmarks-and-Specs.943094.0.html"]
+        ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/Acer-Predator-Helios-18-AI-review-Finally-a-quieter-gaming-laptop-but-at-what-cost.1054468.0.html"]
       ]
     },
     {
-      id: "crosshair", rank: 6, nombre: "MSI Crosshair A16 HX D8WGKG-200XES", corto: "MSI Crosshair", color: "#a8620f",
-      sub: "AMD Ryzen 9 8940HX · RTX 5070 · 64 GB",
-      precio: 2129, precioNota: "en PcComponentes",
-      tienda: "pccomponentes.com", url: "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz",
-      tiendas: [
-        ["PcComponentes (2.129 €)", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz", "entrega al día siguiente"],
-        ["MediaMarkt", "", "no lo vende (solo otros Crosshair)"]
-      ],
-      cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
-      gpu: "RTX 5070 · 8 GB · ≈115 W · 1 codificador", vram: 8,
+      id: "pcs290", rank: 4, nombre: "PCSpecialist Recoil IV 16 (Core Ultra 9 290HX Plus), solo", corto: "PCS 290HX solo", color: "#e8833a",
+      sub: "Intel Core Ultra 9 290HX Plus · RTX 5080 · 64 GB · 1 TB",
+      precio: 3765, precioNota: "sin Windows · con Windows 11 Pro serían 3.931 € y se pasa del presupuesto (configurador, 13/10/2026)",
+      tiendas: [["PCSpecialist (3.765 €)", PCS_URL, "configurador; solo se vende allí"]],
+      config: "Elegir: Core Ultra 9 290HX Plus · 64 GB Corsair (2 × 32 GB) · RTX 5080 · SSD SanDisk 1 TB · teclado español · sin sistema operativo · garantía Oro 3 años",
+      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB (cambiando los 2 módulos)",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 2 ranuras M.2 (PCIe 5.0 + 4.0)", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
+      garantia: "3 años con recogida y entrega", so: "Sin Windows (licencia de informática)",
+      pros: ["El portátil más rápido que cabe en el presupuesto", "Un solo equipo, con 3 años de garantía a domicilio"],
+      contras: ["No deja dinero para ampliar el Acer", "Sin Windows: la licencia la tiene que poner informática", "Con Reynasa al 100 %, la RAM y la gráfica se quedan cortas con margen"],
+      fuentes: [
+        ["Configurador PCSpecialist", PCS_URL],
+        ["Análisis del chasis (XMG NEO 16, Notebookcheck 90 %)", CHASIS_URL],
+        ["Procesador 290HX Plus", "https://www.notebookcheck.net/Intel-Core-Ultra-9-290HX-Plus-Processor-Benchmarks-and-Specs.1252402.0.html"]
+      ]
+    },
+    {
+      id: "crosshairacer", rank: 5, combo: true, nombre: "MSI Crosshair A16 HX D8WGKG-200XES + tu Acer ampliado a 32 GB", corto: "Crosshair + Acer", color: "#a8620f",
+      sub: "Portátil nuevo: Ryzen 9 8940HX · RTX 5070 · 64 GB — y tu Acer, con 32 GB, como segundo equipo fijo",
+      precio: 2452, precioNota: "2.129 € el portátil (PcComponentes, sin Windows) + 323 € de la RAM del Acer · sobran 1.348 €",
+      tiendas: CROSSHAIR_TIENDAS.concat([T_RAM_ACER]),
+      cpu: "Portátil: AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4) · Acer: i7-13620H", r23: 30804,
+      ram: 64, ramTxt: "64 GB en el portátil + 32 GB en el Acer, sin soldar", ramMax: 96, ramMaxTxt: "portátil hasta 96 GB · Acer hasta 64 GB",
+      gpu: "RTX 5070 · 8 GB · ≈115 W · 1 codificador (+ RTX 3050 en el Acer)", vram: 8,
       ssd: "1 TB · hueco para otro disco", pantalla: "16″ QHD+ · 240 Hz", peso: "2,5 kg",
       garantia: "3 años de MSI", so: "Sin Windows",
-      pros: ["Lo más barato con 64 GB", "Mismo procesador que el Vector A16", "Disponible al día siguiente"],
-      contras: ["Gráfica de 8 GB: justa para muchos renders a la vez o IA local", "Su cargador de 240 W se queda corto con todo a tope"],
+      pros: ["Lo más barato: sobran 1.348 € del presupuesto", "Unas 3 veces la capacidad de hoy entre los dos equipos"],
+      contras: ["Gráfica de 8 GB: no pasa la prueba de gráfica de 2031", "Su cargador de 240 W se queda corto con todo a tope"],
       fuentes: [
         ["PcComponentes", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz"],
         ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/MSI-Crosshair-A16-HX-E8WGK-review-Ryzen-9-Zen-4-outperforming-Ryzen-9-AI-Zen-5.1332012.0.html"],
         ["El cargador de 240 W", "https://www.notebookcheck.com/240-Watt-Netzteil-reicht-fuer-das-MSI-Crosshair-A16-HX-gerade-so-aus.1335255.0.html"]
       ]
+    },
+    {
+      id: "pcs270", rank: 6, nombre: "PCSpecialist Recoil IV 16 (Core Ultra 7 270HX Plus), solo", corto: "PCS 270HX solo", color: "#8a5a9e",
+      sub: "Intel Core Ultra 7 270HX Plus · RTX 5080 · 64 GB · 1 TB — el portátil del número 1, sin el segundo equipo",
+      precio: 3274, precioNota: "sin Windows · 3.425 € con Windows 11 Pro (configurador, 13/10/2026)",
+      tiendas: [["PCSpecialist (3.274 €)", PCS_URL, "configurador; solo se vende allí"]],
+      config: "Elegir: Core Ultra 7 270HX Plus · 64 GB Corsair (2 × 32 GB) · RTX 5080 · SSD SanDisk 1 TB · teclado español · garantía Oro 3 años",
+      cpu: "Intel Core Ultra 7 270HX Plus · 20 núcleos (2026)", r23: 34000, r23Est: true,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB (cambiando los 2 módulos)",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 2 ranuras M.2", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
+      garantia: "3 años con recogida y entrega", so: "A elegir",
+      pros: ["Para comparar: muestra lo que aporta sumar el Acer", "Deja 526 € de margen sin Windows"],
+      contras: ["Solo, no pasa las pruebas de 2031 con Reynasa", "Potencia del procesador estimada"],
+      fuentes: [["Configurador PCSpecialist", PCS_URL], ["Procesador 270HX Plus (Notebookcheck)", "https://www.notebookcheck.net/Intel-Core-Ultra-7-270HX-Plus-Processor-Benchmarks-and-Specs.1252489.0.html"]]
     }
   ];
   var REFERENCIAS = [
@@ -727,9 +720,13 @@ details.sup[open] summary::after { content: "▴"; }
   function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
   function $(id) { return document.getElementById(id); }
   function r23(e) { return e.r23 || S.r23Acer; }
-  function vel(e) { return r23(e) / S.r23Acer; }
+  /* combinaciones: el portátil nuevo + el Acer actual ampliado a 32 GB (se suman potencia, RAM y gráfica) */
+  function vel(e) { return (r23(e) + (e.combo ? S.r23Acer : 0)) / S.r23Acer; }
+  function ramTot(e) { return e.ram + (e.combo ? 32 : 0); }
+  function ramMaxTot(e) { return e.ramMax + (e.combo ? 64 : 0); }
+  function vramDe(e) { return e.vram + (e.combo ? 6 : 0); }
   function empresas() { return (W.tdr ? 1 : 0) + (W.rey ? W.reyPct / 100 : 0); }
-  function ramDe(e) { return W.ramMax ? e.ramMax : e.ram; }
+  function ramDe(e) { return W.ramMax ? ramMaxTot(e) : ramTot(e); }
   function dispo(noches) { return (noches ? 24 * 7 : S.horasDia * S.dias) * 60 * S.efic / 100; }
   function encFactor() { return W.nvenc ? 1 - S.nvenc / 100 : 1; }
 
@@ -792,8 +789,8 @@ details.sup[open] summary::after { content: "▴"; }
       var cpu = cargaAnio(e, 5);
       var r = {
         e: e, ramNeed: ram * (1 + m), vramNeed: vram * (1 + m), cpu: cpu, cpuM: cpu * (1 + m),
-        ramOk: ram * (1 + m) <= e.ramMax, ramSerie: ram * (1 + m) <= e.ram,
-        cpuOk: cpu * (1 + m) <= 100, vramOk: vram * (1 + m) <= e.vram
+        ramOk: ram * (1 + m) <= ramMaxTot(e), ramSerie: ram * (1 + m) <= ramTot(e),
+        cpuOk: cpu * (1 + m) <= 100, vramOk: vram * (1 + m) <= vramDe(e)
       };
       r.pasa = (r.ramOk ? 1 : 0) + (r.cpuOk ? 1 : 0) + (r.vramOk ? 1 : 0);
       return r;
@@ -816,7 +813,7 @@ details.sup[open] summary::after { content: "▴"; }
   function pintarOpciones() {
     $("lista-opciones").innerHTML = EQUIPOS.map(function (e) {
       return '<article class="opcion" data-rank="' + e.rank + '">' +
-        (e.id === "pcsfut" ? '<span class="sello">Recomendado</span>' : e.id === "scar" ? '<span class="sello gris">Todo en uno</span>' : e.id === "crosshair" ? '<span class="sello gris">Más barato</span>' : "") +
+        (e.id === "pcs270acer" ? '<span class="sello">Recomendado</span>' : e.id === "pcs290" ? '<span class="sello gris">Mejor solo</span>' : e.id === "crosshairacer" ? '<span class="sello gris">Más barato</span>' : "") +
         '<div class="top"><span class="puesto">#' + e.rank + '</span><span class="color" style="background:' + e.color + '"></span></div>' +
         "<h4>" + esc(e.nombre) + "</h4>" +
         '<p class="sub">' + esc(e.sub) + "</p>" +
@@ -827,7 +824,7 @@ details.sup[open] summary::after { content: "▴"; }
         }).join("") + "</div>" +
         (e.config ? '<p class="config">' + esc(e.config) + "</p>" : "") +
         '<dl class="specs">' +
-        "<dt>Procesador</dt><dd>" + esc(e.cpu) + ' · <span class="x">' + dec(vel(e), 2) + "× tu Acer</span></dd>" +
+        "<dt>Procesador</dt><dd>" + esc(e.cpu) + ' · <span class="x">' + (e.r23Est ? "≈ " : "") + dec(vel(e), 2) + "× tu Acer" + (e.combo ? " entre los dos" : "") + "</span></dd>" +
         "<dt>RAM</dt><dd>" + esc(e.ramTxt) + " · " + esc(e.ramMaxTxt) + "</dd>" +
         "<dt>Gráfica</dt><dd>" + esc(e.gpu) + "</dd>" +
         "<dt>Disco</dt><dd>" + esc(e.ssd) + "</dd>" +
@@ -851,7 +848,7 @@ details.sup[open] summary::after { content: "▴"; }
       }],
       ["Procesador", function (e) { return esc(e.cpu); }],
       ["Velocidad (× tu Acer)", function (e) { return dec(vel(e), 2) + "×"; }, "n"],
-      ["Cinebench R23 multinúcleo", function (e) { return miles(r23(e)) + (e.r23 ? "" : "*"); }, "n"],
+      ["Cinebench R23 multinúcleo", function (e) { return (e.r23Est ? "≈ " : "") + miles(r23(e)) + (e.r23 ? "" : "*") + (e.combo ? " + Acer" : ""); }, "n"],
       ["RAM", function (e) { return esc(e.ramTxt); }],
       ["RAM máxima", function (e) { return esc(e.ramMaxTxt); }],
       ["Gráfica", function (e) { return esc(e.gpu); }],
@@ -921,13 +918,13 @@ details.sup[open] summary::after { content: "▴"; }
 
     var vr = vramPico();
     $("q-vram").innerHTML = "Los renders en paralelo piden unos <b>" + dec(vr) + " GB</b> de memoria de gráfica.";
-    barrasCapacidad($("g-vram"), TODOS.map(function (e) { return { e: e, cap: e.vram, need: vr }; }), "GB", null,
+    barrasCapacidad($("g-vram"), TODOS.map(function (e) { return { e: e, cap: vramDe(e), need: vr }; }), "GB", null,
       { ok: "holgada", justo: "justa", limite: "al límite", mal: "saturada" });
 
     var hayPico = (W.pLargos + W.pShorts) > 0 && f > 0;
     $("q-tiempo").innerHTML = hayPico ? "Lo que tarda cada ordenador en terminar los <b>" + dec(W.pLargos * f) + " largos</b> y <b>" + dec(W.pShorts * f) + " shorts</b> lanzados a la vez (si caben en memoria)." : "No hay renders en el pico.";
     var tiempos = TODOS.map(function (e) {
-      var cabe = need <= ramDe(e), lenta = vr > e.vram;
+      var cabe = need <= ramDe(e), lenta = vr > vramDe(e);
       return { e: e, v: hayPico ? minPico(e) * (lenta ? 1.25 : 1) : 0, cabe: cabe, lenta: lenta };
     });
     barrasValor($("g-tiempo"), tiempos, function (d) { return !d.cabe ? horas(d.v) + " si cupiera" : d.lenta ? "gráfica saturada: algo más lento" : horas(d.v); }, 0,
@@ -943,7 +940,7 @@ details.sup[open] summary::after { content: "▴"; }
     /* veredicto */
     var h = '<thead><tr><th>Ordenador</th><th class="n">Precio</th><th class="n">RAM en el pico</th><th class="n">Gráfica en el pico</th><th class="n">Pico terminado en</th><th class="n">Semana</th><th>Veredicto</th></tr></thead><tbody>';
     TODOS.forEach(function (e, i) {
-      var pr = need / ramDe(e) * 100, pv = vr / e.vram * 100, ps = semana[i].v;
+      var pr = need / ramDe(e) * 100, pv = vr / vramDe(e) * 100, ps = semana[i].v;
       var er = estadoMem(pr), ev = estadoMem(pv), es = estadoCpu(ps);
       var ver;
       if (f === 0) ver = '<span class="chip justo">Activa una empresa</span>';
@@ -1024,7 +1021,7 @@ details.sup[open] summary::after { content: "▴"; }
     var orden = R.filas.slice().sort(function (a, b) { return a.e.rank - b.e.rank; });
     orden.forEach(function (r) {
       var e = r.e;
-      var ramTxt = dec(r.ramNeed, 0) + " GB de " + e.ramMax + " GB" + (r.ramOk && !r.ramSerie ? " (ampliando)" : "");
+      var ramTxt = dec(r.ramNeed, 0) + " GB de " + ramMaxTot(e) + " GB" + (r.ramOk && !r.ramSerie ? " (ampliando)" : "");
       var res = r.pasa === 3 ? '<span class="chip ok">Soporta todo con margen</span>' :
         r.pasa === 2 ? '<span class="chip justo">Pasa 2 de 3</span>' :
         r.pasa === 1 ? '<span class="chip limite">Pasa 1 de 3</span>' : '<span class="chip mal">No pasa ninguna</span>';
@@ -1032,27 +1029,27 @@ details.sup[open] summary::after { content: "▴"; }
         '<td class="n">' + eur(e.precio) + "</td>" +
         "<td>" + si(r.ramOk) + ' <span class="cifra" style="font-size:12px">' + ramTxt + "</span></td>" +
         "<td>" + si(r.cpuOk) + ' <span class="cifra" style="font-size:12px">' + Math.round(r.cpuM) + " % con margen</span></td>" +
-        "<td>" + si(r.vramOk) + ' <span class="cifra" style="font-size:12px">' + dec(r.vramNeed, 0) + " de " + e.vram + " GB</span></td>" +
+        "<td>" + si(r.vramOk) + ' <span class="cifra" style="font-size:12px">' + dec(r.vramNeed, 0) + " de " + vramDe(e) + " GB</span></td>" +
         "<td>" + res + "</td></tr>";
     });
     $("tabla-prueba").innerHTML = h + "</tbody>";
 
     var todos = R.filas.filter(function (r) { return r.pasa === 3; }).sort(function (a, b) { return a.e.precio - b.e.precio; });
     var mejor = R.filas.slice().sort(function (a, b) { return b.pasa - a.pasa || a.e.precio - b.e.precio; })[0];
-    var fut = R.filas.filter(function (r) { return r.e.id === "pcsfut"; })[0];
+    var fut = R.filas.filter(function (r) { return r.e.id === "pcs270acer"; })[0];
     function fallos(r) {
       var f = [];
-      if (!r.ramOk) f.push("memoria (" + dec(r.ramNeed, 0) + " GB con margen y llega a " + r.e.ramMax + ")");
+      if (!r.ramOk) f.push("memoria (" + dec(r.ramNeed, 0) + " GB con margen y llega a " + ramMaxTot(r.e) + ")");
       if (!r.cpuOk) f.push("procesador (" + Math.round(r.cpuM) + " % en 2031 con margen)");
-      if (!r.vramOk) f.push("gráfica (" + dec(r.vramNeed, 0) + " GB con margen y tiene " + r.e.vram + ")");
+      if (!r.vramOk) f.push("gráfica (" + dec(r.vramNeed, 0) + " GB con margen y tiene " + vramDe(r.e) + ")");
       return f.join(", ");
     }
     var b1 = todos.length
       ? "El más barato que pasa las tres pruebas es <b>" + esc(todos[0].e.nombre) + "</b> por <b>" + eur(todos[0].e.precio) + "</b>." + (todos.length > 1 ? " También las pasa: " + todos.slice(1).map(function (r) { return esc(r.e.corto) + " (" + eur(r.e.precio) + ")"; }).join(", ") + "." : "")
       : "Con este margen <b>ninguno pasa las tres pruebas</b>. El que más se acerca es <b>" + esc(mejor.e.nombre) + "</b>: no pasa " + fallos(mejor) + ".";
     var b2 = fut.pasa === 3
-      ? "La configuración recomendada (PCS 5 años, " + eur(fut.e.precio) + ") pasa las tres pruebas con este margen."
-      : "La configuración recomendada (PCS 5 años, " + eur(fut.e.precio) + ") pasa " + fut.pasa + " de 3; le falla: " + fallos(fut) + "." +
+      ? "La recomendada (PCS 270HX + tu Acer, " + eur(fut.e.precio) + ") pasa las tres pruebas con este margen" + (fut.ramSerie ? "." : ", ampliando la RAM más adelante.")
+      : "La recomendada (PCS 270HX + tu Acer, " + eur(fut.e.precio) + ") pasa " + fut.pasa + " de 3; le falla: " + fallos(fut) + "." +
         (!fut.ramOk ? " Ese pico solo ocurre si las dos empresas lanzan todo a la vez: se reparte trabajando de noche o con un segundo equipo de render cuando arranque Reynasa." : "") +
         (!fut.cpuOk ? " Para el procesador: codificar con la gráfica y que informática deje trabajar de noche." : "");
     $("reco-auto").innerHTML =
@@ -1116,7 +1113,9 @@ details.sup[open] summary::after { content: "▴"; }
     EQUIPOS.forEach(function (e) { e.fuentes.forEach(function (f) { todas.push(["#" + e.rank + " " + e.corto + ": " + f[0], f[1]]); }); });
     todas = todas.concat(extra);
     $("fuentes-lista").innerHTML = todas.map(function (f) { return "<li>" + (f[1] ? '<a href="' + f[1] + '" target="_blank" rel="noopener">' + esc(f[0]) + "</a>" : esc(f[0])) + "</li>"; }).join("") +
-      "<li>PCSpecialist: precios del configurador el 13/10/2026 (teclado español, garantía Oro 3 años, sin Windows; Windows 11 Pro suma 167 €). El máximo de RAM que ofrece es 96 GB (2 × 48 GB). Resto de precios: 08/10/2026.</li>" +
+      "<li>PCSpecialist: precios del configurador el 13/10/2026 (teclado español, garantía Oro 3 años, sin Windows; Windows 11 Pro suma 151–166 €). El máximo de RAM que ofrece es 96 GB (2 × 48 GB). Resto de precios: 08/10/2026.</li>" +
+      "<li>Core Ultra 7 270HX Plus: aún no hay pruebas publicadas; se estima en unos 34.000 puntos (Notebookcheck lo sitúa algo por encima del 265HX, entre el 255HX con 31.781 y el 275HX con 35.766).</li>" +
+      "<li>«+ tu Acer»: se suman la potencia, la RAM y la gráfica de los dos equipos, suponiendo que el trabajo se reparte entre ellos. El Acer necesita el módulo de 16 GB (323 €) y el driver de NVIDIA actualizado.</li>" +
       "<li>Descartado: PCSpecialist Recoil 16 AMD (Ryzen 9 9955HX3D), más caro y algo más lento que la versión Intel.</li>";
   }
 
