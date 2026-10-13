@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-13 10:12",
+ "actualizado": "2026-10-13 17:16",
  "hoy": "2026-10-13",
  "desde": "2026-10-01",
  "hasta": "2026-11-22",
- "metricool_guardado": "2026-10-13 10:12 (montado a mano el 13/10 con lo programado ese día)",
+ "metricool_guardado": "2026-10-13 17:15",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -1366,21 +1366,21 @@
    ],
    "formato": "largo",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "El coche se va hacia un lado: alineación, neumáticos o dirección",
    "texto": "Si en una recta el coche tira hacia un lado, no siempre es la alineación. Y alinearlo sin mirar lo demás es pagar dos veces: casi siempre se empieza por el final, por alinear, y muchas veces el problema está antes.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/rotulas-bieletas-sintomas/\n🛒 Rótulas y terminales de dirección: https://todoenrecambio.com/rotulas-de-direccion\n\nEn este vídeo, las causas de la más barata a la más cara y en qué orden mirarlas: por qué es normal que el coche tienda un poco hacia la derecha y lo que no es normal; la presión de las ruedas, que la buena está en la etiqueta del marco de la puerta o de la tapa del depósito y se mira en frío; un neumático dañado o dos distintos en el mismo eje, con la prueba de cambiar de lado las ruedas de delante; el volante torcido yendo recto, que suele venir de un golpe; y el equilibrado, que hace vibrar el volante pero no hace que el coche se vaya a un lado.\n\nY lo que casi nadie mira antes de alinear: las rótulas y los terminales de dirección. Si una rótula tiene juego y alineas el coche, la alineación no se sostiene. También cómo se hace la alineación, cómo leer el desgaste de la banda de rodadura (por un borde, por los dos o por el centro, y el borde de dentro, que no se ve a simple vista), cuándo es la dirección asistida, qué pasa si solo tira al frenar y qué pedir en el taller, en este orden: presiones y neumáticos, holguras y, solo entonces, la alineación, con su informe.\n\n📖 Más en el blog:\n· Cómo medir el desgaste de los neumáticos: https://todoenrecambio.com/blog/como-medir-desgaste-neumaticos/\n\n🛒 También te puede servir:\n· Barras de acoplamiento: https://todoenrecambio.com/barra-de-acoplamiento-rotula\n· Rótulas de suspensión: https://todoenrecambio.com/rotula-de-suspension-carga\n· Brazos de suspensión: https://todoenrecambio.com/brazo-oscilante-long-transv-inclinado\n· Amortiguadores: https://todoenrecambio.com/amortiguadores-43509\n· Bombas y mecanismos de dirección: https://todoenrecambio.com/mecanismo-bomba-de-direccion\n· Pinzas de freno: https://todoenrecambio.com/pinza-del-freno\n· Infladores y medidores de presión: https://todoenrecambio.com/infladores-medidores-de-neumaticos\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 El coche se va hacia un lado: no siempre es la alineación\n0:42 Cómo gira un coche y por qué tira un poco a la derecha\n1:25 La presión de las ruedas y el neumático dañado\n2:23 El volante torcido yendo recto\n2:56 El volan",
    "img": "cal/yt-xAb07YNipeA.jpg",
    "enlace": "https://youtu.be/xAb07YNipeA",
    "segundos": 500,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
-   "id": "mc-13oct-R06",
+   "id": "mc-394691302",
    "dia": "2026-10-13",
    "hora": "19:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1389,18 +1389,18 @@
    "estado": "programado",
    "titulo": "¿La pastilla de freno nueva no entra? Por qué pasa",
    "texto": "¿La pastilla de freno nueva no entra? 🔧\nUn mismo modelo puede montar frenos de dos tamaños o de dos fabricantes, y las pastillas de uno no entran en el otro.\nOjo también con el aviso de desgaste: si tu coche lo lleva, las pastillas tienen que ser de las que lo admiten. Y nunca, nunca, se fuerza una pastilla para que entre.\nPastillas de freno 👉 todoenrecambio.com/pastilla-de-freno-coche\n🤖 Vídeo creado con inteligencia artificial\n#pastillasdefreno #frenos #mantenimientocoche #recambioscoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/034d1f8e-a8aa-4dcf-bf56-3f243bab245f.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f1a579f2-cdf2-4787-83d1-531316b09aa2.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-13529057003749805587.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-10005307482138857732.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
   {
-   "id": "mc-13oct-28-15",
+   "id": "mc-394695627",
    "dia": "2026-10-14",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1409,8 +1409,8 @@
    "estado": "programado",
    "titulo": "Charco debajo del coche: ¿refrigerante o aire acondicionado?",
    "texto": "La señal que más gente ve sin saber qué es: un charco debajo de la parte de delante del coche 💧\nSi tiene color (rosa, verde, naranja o azul) y huele dulce, es refrigerante.\nSi es transparente, no huele a nada y cae más atrás, hacia la zona del copiloto, es el agua del aire acondicionado. Esa es normal.\nAnticongelantes para coche 👉 todoenrecambio.com/lubricantes-coche-adicional\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #anticongelante #averiacoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/3c6c4d32-2827-4042-97a4-5bc596d64192.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/9a98c7ae-891c-4d10-aeb7-63bcc483f31d.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-16565138038191071798.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-14791830004082650101.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1503,12 +1503,12 @@
    "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
-   "id": "mc-13oct-R03",
+   "id": "mc-394691479",
    "dia": "2026-10-15",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1517,8 +1517,8 @@
    "estado": "programado",
    "titulo": "Puños calefactables: ¿directos a la batería o con relé?",
    "texto": "¿Los puños calefactables van directos a la batería o con un relé? 🔌\nDepende del kit. Te contamos lo que dice el manual de los Oxford Premium V8: dónde va el rojo, dónde el negro, el fusible y qué pasa si los cuelgas de la bocina o de las luces.\nPuños calefactables 👉 todoenrecambio.com/punos-calefactables\n🤖 Vídeo creado con inteligencia artificial\n#puñoscalefactables #motoeninvierno #oxford #recambiosmoto #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/969cad34-75b4-4983-a87a-ac6993e48f82.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/355b1756-9e2e-49c4-a3e1-5327d06eb694.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-11286543974580559192.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-2616416428467740883.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1591,12 +1591,12 @@
    "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
-   "id": "mc-13oct-R08",
+   "id": "mc-394691560",
    "dia": "2026-10-16",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1605,8 +1605,8 @@
    "estado": "programado",
    "titulo": "El coche tira hacia un lado: no siempre es la alineación",
    "texto": "¿Tu coche tira hacia un lado en una recta? No siempre es la alineación 🚗\nSi una rótula o un terminal de dirección tiene juego y alineas el coche, la alineación no se sostiene: la rueda se sigue moviendo por donde no debe y en poco tiempo estás igual.\nPrimero las holguras. Después la alineación.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n\n#alineacion #direccioncoche #rotulas #mantenimientocoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/ba8c000d-924d-48ab-8192-fe30b0b717fe.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/3fca761f-242d-4b1b-b2ca-9befb6f3c98b.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-2323179293138446002.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-5774223664002119960.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1699,12 +1699,12 @@
    "nota": "Cola automática: se sube sola el 14/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-30-08",
+   "id": "mc-394695694",
    "dia": "2026-10-17",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1713,8 +1713,8 @@
    "estado": "programado",
    "titulo": "Recambio original, de primer equipo o equivalente: qué es cada uno",
    "texto": "Original es la pieza de la marca de tu coche. De primer equipo, la que hace el fabricante que se la suministra a la marca, pero en su propia caja. Y equivalente, la de otra marca que cumple lo mismo 🔧\nY un aviso con lo que es de seguridad, como los frenos o la dirección: si una pieza cuesta muchísimo menos que todas las demás, pregunta de qué marca es y quién la fabrica.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambiooriginal #recambiosequivalentes #recambioscoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/cde13fd2-bd37-41a7-80a4-a1d8decb7115.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/dc9358d7-9a31-4c5d-ba97-8a4207cbea03.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-9217505739685908883.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-555645904464997597.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1803,12 +1803,12 @@
    "nota": "Cola automática: se sube sola el 15/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-18",
+   "id": "mc-394695791",
    "dia": "2026-10-18",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1817,8 +1817,8 @@
    "estado": "programado",
    "titulo": "Síntomas de junta de culata: humo blanco, burbujas y mayonesa",
    "texto": "Las señales caras de la junta de culata: humo blanco por el escape que huele dulce, burbujas en el vaso de expansión o una pasta como mayonesa en el tapón del aceite ⚠️\nPor eso se para en cuanto sube la aguja. Un termostato es barato. Una culata, no.\nTermostatos 👉 todoenrecambio.com/termostato-43657\n🤖 Vídeo creado con inteligencia artificial\n#juntadeculata #cochesecalienta #averiacoche #mecanica #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/111d82d5-481d-48ee-afe7-ecf97be19bca.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/3d509436-e14a-41bb-b3a0-2b53708abf1e.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-18220091148836757934.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-14640328430076188728.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1891,12 +1891,12 @@
    "nota": "Cola automática: se sube sola el 16/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-R01",
+   "id": "mc-394691592",
    "dia": "2026-10-19",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -1905,8 +1905,8 @@
    "estado": "programado",
    "titulo": "Filtro de habitáculo: ¿la flecha va hacia arriba o hacia abajo?",
    "texto": "¿La flecha del filtro de habitáculo va hacia arriba o hacia abajo? 🤔\nNi una cosa ni la otra: depende de lo que ponga al lado. AIR FLOW y UP no significan lo mismo. Te lo explicamos en 30 segundos.\nFiltros de habitáculo 👉 todoenrecambio.com/filtro-de-aire-del-habitaculo\n🤖 Vídeo creado con inteligencia artificial\n#filtrohabitaculo #mantenimientocoche #airecondicionado #recambioscoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/21bf80b8-e4ff-41ea-80f7-0f2743975ab6.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f239fed0-62c2-486f-a916-d5ea41643c54.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-13129505756789692681.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-6005339910092228138.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -1999,12 +1999,12 @@
    "nota": "Cola automática: se sube sola el 17/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-07",
+   "id": "mc-394695894",
    "dia": "2026-10-20",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2013,8 +2013,8 @@
    "estado": "programado",
    "titulo": "El volante vibra a una velocidad concreta: el equilibrado",
    "texto": "Una rueda nunca pesa igual por todos lados: para compensarlo se le ponen unos pesos pequeños en la llanta. Eso es el equilibrado. Y si se cae un peso, la rueda vibra 🛞\nSe nota en el volante, sobre todo a una velocidad concreta. No hace que el coche se vaya a un lado, pero se confunde con todo lo demás.\nLa solución es sencilla: equilibrar las ruedas en el taller.\nSuspensión y guiado de ruedas 👉 todoenrecambio.com/suspension-de-ejes-guia-de-ruedas-ruedas\n🤖 Vídeo creado con inteligencia artificial\n#equilibrado #volantevibra #ruedas #mantenimientocoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/8d641747-950d-4c6e-b9ab-55176f2f32c9.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/d19bfda8-f455-4b2d-b2f0-041f405e04d2.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-4155747514397974302.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-17835150381072670912.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2087,12 +2087,12 @@
    "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-31-01",
+   "id": "mc-394696011",
    "dia": "2026-10-21",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2101,8 +2101,8 @@
    "estado": "programado",
    "titulo": "Qué aceite lleva mi coche: no pide uno bueno, pide el suyo",
    "texto": "Tu motor no pide un aceite bueno: pide uno concreto. Y está escrito en un sitio que casi nadie mira 📖\nNo hay un aceite mejor; hay el aceite de tu motor. Ni más espeso ni más fino: el motor está diseñado para uno, y con otro trabaja peor.\nEl grado no se elige. Se lee en el manual.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #aceitecoche #mantenimientocoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/6aa8d1e3-1135-407b-bc46-a3576118c00c.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f1eb5619-55d5-415a-a0fa-dd78cb0525bc.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-5419641544281520003.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-11421123651658181783.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2211,12 +2211,12 @@
    "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-R07",
+   "id": "mc-394691668",
    "dia": "2026-10-22",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2225,8 +2225,8 @@
    "estado": "programado",
    "titulo": "Cómo comprar un recambio en todoenrecambio.com, paso a paso",
    "texto": "¿Nunca has comprado un recambio por internet? Te enseñamos cómo se hace, paso a paso 🛒\nEliges tu vehículo (marca, serie, modelo y versión) y solo te salen los recambios que valen para tu coche, con «Compatible con tu vehículo» en cada uno.\nEn la ficha, mira primero la referencia, la posición de montaje y los detalles técnicos. Después, al carrito, la dirección, el envío y el pago con tarjeta, Bizum o PayPal.\n👉 todoenrecambio.com\n🤖 Vídeo creado con inteligencia artificial\n\n#recambioscoche #comprarrecambios #pastillasdefreno #mantenimientocoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/688a9352-6079-4c8a-8b4f-5965ec832024.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/eeef1a08-6d72-4321-9c88-4789528136ed.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-18129713237131338890.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-15594812616461539747.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2299,12 +2299,12 @@
    "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-08",
+   "id": "mc-394696104",
    "dia": "2026-10-23",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2313,8 +2313,8 @@
    "estado": "programado",
    "titulo": "El coche se calienta en el atasco: mira el ventilador",
    "texto": "Si el coche se calienta en el atasco y se enfría en cuanto vuelves a circular, mira el ventilador 🌀\nEn marcha el aire hace su trabajo; parado, nadie lo hace.\nPuede fallar el motor del ventilador, el sensor que lo enciende, un fusible o la conexión: que lo mire alguien con un comprobador antes de cambiar piezas a ciegas.\nVentiladores del radiador 👉 todoenrecambio.com/ventilador-44836\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #ventilador #radiador #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/7c2b5f33-7743-4fb5-91ae-86a852535f5f.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/e8eed2c4-c53c-409b-b5ab-f05c7e38d846.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-7811260086441035329.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-8443849772636608321.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2407,12 +2407,12 @@
    "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-11",
+   "id": "mc-394696276",
    "dia": "2026-10-24",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2421,8 +2421,8 @@
    "estado": "programado",
    "titulo": "Cómo leer el desgaste de los neumáticos: borde, bordes o centro",
    "texto": "Mira la banda de rodadura de tus ruedas delanteras: tiene que estar gastada por igual 🛞\nSi está gastada solo por un borde, casi siempre es la alineación. Por los dos bordes, la rueda lleva poco aire. Solo por el centro, lleva demasiado.\nEl neumático te está contando lo que le pasa.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #desgasteneumaticos #alineacion #mantenimientocoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/7bb833a2-696d-4647-8c23-2f52ae794149.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/ef8ddd83-cc47-4429-8bd4-74e94b143495.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-5088887390181315668.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-18248925817358902150.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2495,12 +2495,12 @@
    "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-R04",
+   "id": "mc-394691739",
    "dia": "2026-10-25",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2509,8 +2509,8 @@
    "estado": "programado",
    "titulo": "¿Tus puños calefactables se apagan solos? El modo ahorro",
    "texto": "¿Tus puños calefactables se apagan solos? 🥶\nPuede que no estén rotos: puede que estén cuidando tu batería. Los Oxford Premium V8 tienen un modo de ahorro de batería y su manual explica cuándo salta y cómo quitarlo.\nPuños calefactables 👉 todoenrecambio.com/punos-calefactables\n🤖 Vídeo creado con inteligencia artificial\n#puñoscalefactables #bateriamoto #motoeninvierno #oxford #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/8af4aa77-5677-4c67-86e3-421b05074758.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/78ae5f74-3a7e-4e84-8858-68c6b03ec719.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-2578529822205535465.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13782864528333743438.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2599,12 +2599,12 @@
    "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-31-06",
+   "id": "mc-394696415",
    "dia": "2026-10-26",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2613,8 +2613,8 @@
    "estado": "programado",
    "titulo": "Mi coche pierde aceite: ¿se sale o se quema?",
    "texto": "¿Cada vez que miras falta un poco más de aceite? Solo se va por dos sitios: o se sale, o se quema 🛢️\nSi se sale, lo ves: gotas en el suelo donde aparcas o el motor manchado por fuera, sobre todo por abajo. Suele ser una junta o el tapón por donde se vacía.\n¿No sabes si esa mancha es aceite? Pon un cartón debajo del motor una noche: por la mañana, el color y el sitio de la gota te dicen mucho.\nTapones, arandelas y juntas del cárter 👉 todoenrecambio.com/carter-de-aceite-piezas-adicionales-43797\n🤖 Vídeo creado con inteligencia artificial\n#perdidadeaceite #aceitemotor #averiacoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/361a2d35-a919-41dc-85ba-7a3cf37a2b0e.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/73fa1bd6-4177-4319-a01f-d29cf8f9af88.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-13039980832317430483.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-5909932093958227075.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2707,12 +2707,12 @@
    "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-30-12",
+   "id": "mc-394696500",
    "dia": "2026-10-27",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2721,8 +2721,8 @@
    "estado": "programado",
    "titulo": "Pieza izquierda o derecha del coche: cómo se cuenta el lado",
    "texto": "Muchas piezas van por parejas y cada una es para un lado: amortiguadores, pinzas de freno, faros, retrovisores. Parecen iguales, pero son una la imagen de la otra 🚗\nEl lado se cuenta siempre desde el asiento del conductor, mirando hacia delante: izquierda es tu izquierda sentado al volante.\nY delantero y trasero tampoco son lo mismo.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #faros #amortiguadores #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/b516ac11-6741-40ec-9164-c82bb5f72557.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/e45b734f-86e1-4f13-817d-515a38b52b6b.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-9155784744303757991.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-7400723093044845622.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2795,12 +2795,12 @@
    "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-19",
+   "id": "mc-394696556",
    "dia": "2026-10-28",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2809,8 +2809,8 @@
    "estado": "programado",
    "titulo": "Coche que se calienta: qué pedir en el taller (prueba de presión)",
    "texto": "Cuando lleves el coche al taller, hay una prueba que lo dice casi todo: la prueba de presión 🔧\nSe conecta una bomba de mano al vaso de expansión, se mete presión en el circuito y se mira si la aguja del reloj aguanta. Si baja, hay una fuga, aunque no se vea ningún charco.\nPide también que comprueben que el ventilador arranca, que el termostato abre y cómo están los manguitos.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #taller #refrigeracion #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/a1346c72-845e-4a4a-8fd0-bc807ada404f.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/cabf9158-4ce2-45a4-8d36-63bb2b66b660.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1142703449138379450.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-15018999730930178357.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -2903,12 +2903,12 @@
    "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-08",
+   "id": "mc-394696610",
    "dia": "2026-10-29",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -2917,8 +2917,8 @@
    "estado": "programado",
    "titulo": "Golpes secos al pasar baches: las rótulas y su guardapolvo",
    "texto": "Cada rótula lleva una funda de goma, el guardapolvo, que protege la bola de dentro. Cuando esa funda se rompe, entra agua y suciedad, la bola se gasta y aparece juego 🔩\nY el juego se nota: golpes secos al pasar baches, una dirección que parece floja y un coche que no va del todo fino en recta.\nRótulas de suspensión 👉 todoenrecambio.com/rotula-de-suspension-carga\n🤖 Vídeo creado con inteligencia artificial\n#rotulas #suspension #direccion #averiacoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f403ca05-8143-4008-af54-6eb67e629d07.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/0beec1f7-02bc-47fd-beca-2d52a1c2dc95.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-5386238661032122515.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-7172364942389117393.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3007,12 +3007,12 @@
    "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-R02",
+   "id": "mc-394691814",
    "dia": "2026-10-30",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3021,8 +3021,8 @@
    "estado": "programado",
    "titulo": "El coche huele a humedad con el filtro de habitáculo nuevo",
    "texto": "¿Has cambiado el filtro del habitáculo y el coche sigue oliendo a humedad? 👃\nPuede que el problema no sea el filtro: el evaporador del aire acondicionado se moja y ahí pueden crecer moho y bacterias. Te contamos qué hace (y qué no) un filtro de carbón activo.\nFiltros de habitáculo 👉 todoenrecambio.com/filtro-de-aire-del-habitaculo\n🤖 Vídeo creado con inteligencia artificial\n#filtrohabitaculo #airecondicionado #olorcoche #mantenimientocoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f6be8fb7-b45f-4e97-8e6a-532f92635cb6.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/15efeaf4-d4e2-43d2-90a9-cf4d796d3757.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-2890423761629222673.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-16929430479513387002.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3115,12 +3115,12 @@
    "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-31-09",
+   "id": "mc-394696690",
    "dia": "2026-10-31",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3129,8 +3129,8 @@
    "estado": "programado",
    "titulo": "Qué significan los números del aceite de motor (el grado)",
    "texto": "Lo primero que dice la garrafa: el grado. Son dos números con una uve doble en medio, y dicen lo espeso que es el aceite en frío y en caliente 🛢️\nEl primero, el que va con la uve doble, habla del frío: de cuando arrancas el coche por la mañana. Cuanto más bajo, mejor corre el aceite en frío y antes llega a todas las piezas.\nEl segundo habla del motor caliente: lo espeso que se mantiene cuando está funcionando de verdad.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #gradoaceite #viscosidad #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/93c2660a-fa79-42b1-a42d-fab0ac88377b.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/f42311bd-bac7-4d97-9ba7-9c1de58298dc.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1671567002610616469.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13909299888319474846.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3203,12 +3203,12 @@
    "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-30-14",
+   "id": "mc-394696741",
    "dia": "2026-11-01",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3217,8 +3217,8 @@
    "estado": "programado",
    "titulo": "Kit de distribución completo y frenos por eje: por qué",
    "texto": "Cuando una pieza viene en kit, cómprala en kit. El kit de distribución lleva la correa, los rodillos, el tensor y, a veces, la bomba de agua: se gastan juntas 🔧\nMezclar una correa nueva con un rodillo viejo es ahorrar poco y arriesgar mucho. El kit está pensado para trabajar junto, y se monta junto.\nY lo mismo con los frenos: las pastillas y los discos se cambian por eje, los dos lados a la vez.\nKits de distribución 👉 todoenrecambio.com/juego-de-correas-dentadas\n🤖 Vídeo creado con inteligencia artificial\n#kitdedistribucion #correadedistribucion #discosdefreno #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/e5219580-9f8f-4fe7-9f26-24a8b3a28b84.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/2e54f880-b06f-4b8e-ba8e-5c18cd6db8ca.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-2205411610307788970.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-9034743421585533871.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3291,12 +3291,12 @@
    "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-10",
+   "id": "mc-394696809",
    "dia": "2026-11-02",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3305,8 +3305,8 @@
    "estado": "programado",
    "titulo": "Bomba de agua del coche: cómo falla y cómo se nota",
    "texto": "La bomba de agua es el corazón del circuito: dentro tiene una rueda con aspas que gira con el motor y empuja el líquido 💧\nFalla de dos maneras: o se desgasta la rueda de dentro y deja de empujar bien, o empieza a perder líquido por su cierre.\nMuchas veces lo notas por una gota o una mancha justo debajo de la bomba.\nBombas de agua 👉 todoenrecambio.com/bomba-de-agua-43653\n🤖 Vídeo creado con inteligencia artificial\n#bombadeagua #cochesecalienta #averiacoche #mecanica #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/94662d76-7d71-4afb-bf34-6677d15567dd.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/4310f146-99db-45ba-b796-12f065fe3e9b.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-18305629098867646684.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13373040247495811412.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3415,12 +3415,12 @@
    "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-04",
+   "id": "mc-394696955",
    "dia": "2026-11-03",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3429,8 +3429,8 @@
    "estado": "programado",
    "titulo": "El coche tira hacia un lado: la prueba para saber si es el neumático",
    "texto": "Hay una prueba muy sencilla para saber si es el neumático: se cambian de lado las dos ruedas de delante 🔄\nSi el coche pasa a tirar hacia el otro lado, el culpable era el neumático, no la dirección.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#neumaticos #cochetira #direccion #trucoscoche #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/8d5648c3-ca27-4cb8-aa2e-11500f92308d.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/874359b0-ed7e-4e4f-9bf0-9e881d031c0c.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-1665815544376799781.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13884567651844293134.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3503,12 +3503,12 @@
    "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-31-11",
+   "id": "mc-394697048",
    "dia": "2026-11-04",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3517,8 +3517,8 @@
    "estado": "programado",
    "titulo": "La norma del aceite: la letra pequeña que casi nadie mira",
    "texto": "Lo que casi nadie mira en una garrafa de aceite: la norma 🔎\nDos aceites con el mismo grado pueden no ser iguales. Por eso, además del grado, la garrafa lleva unas normas y unas homologaciones de fabricantes de coches.\nDelante suele ir el grado, bien grande. Detrás, en letra pequeña, la norma y las homologaciones. Esa letra pequeña es la que importa.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #normaaceite #homologacion #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/abb78d19-52b0-427b-8ef5-24c273187685.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/9a7a1fe8-ef99-4a3a-9baf-0a2b85ff1acf.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-234997755561038109.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13594198944510256343.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3611,12 +3611,12 @@
    "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-30-03",
+   "id": "mc-394697115",
    "dia": "2026-11-05",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3625,8 +3625,8 @@
    "estado": "programado",
    "titulo": "Dónde está el número de bastidor de tu coche",
    "texto": "Lo que de verdad identifica tu coche es el número de bastidor: un código largo, de letras y números, que es único para cada vehículo 🚗\nCon él se sabe la versión exacta, el motor y el equipamiento con el que salió de fábrica.\n¿Dónde está? En el permiso de circulación, en la ficha técnica y, en muchos coches, en una placa al pie del parabrisas.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#numerodebastidor #fichatecnica #recambioscoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/93fd8248-9af4-47f6-a677-9cbd32e068f2.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/fab0298c-f525-4526-bde4-30569c84c674.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-15463706640187439734.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-12026017189398302070.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3699,12 +3699,12 @@
    "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-14",
+   "id": "mc-394697195",
    "dia": "2026-11-06",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3713,8 +3713,8 @@
    "estado": "programado",
    "titulo": "Cómo saber si un manguito del radiador está mal",
    "texto": "Los manguitos son los tubos de goma gruesos que unen el motor con el radiador. Y la goma, con el calor y el tiempo, envejece.\nEsto lo puedes mirar tú, siempre con el motor frío ❄️: aprieta un manguito con la mano. Tiene que estar firme.\nSi está blando, hinchado, o duro y con grietas, está pidiendo el cambio.\nManguitos del refrigerante 👉 todoenrecambio.com/manguitos-y-tubos-para-el-agua-refrigerante\n🤖 Vídeo creado con inteligencia artificial\n#manguitos #radiador #mantenimientocoche #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/9458f9f2-4ef8-4d21-87a0-989a3002c309.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/44e8d503-b1ec-46fd-b6ce-cb1e9a7dc286.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-11085992122332511507.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-13225013693548108012.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3803,12 +3803,12 @@
    "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-15",
+   "id": "mc-394697264",
    "dia": "2026-11-07",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3817,8 +3817,8 @@
    "estado": "programado",
    "titulo": "El coche tira hacia un lado: las dos cosas que puedes mirar tú",
    "texto": "Antes de ir al taller, hay dos cosas que puedes comprobar tú 👇\nLa primera, la presión: con un manómetro, las ruedas en frío y los valores de la etiqueta. Es la causa más barata de todas.\nLa segunda, una prueba en marcha: en una recta tranquila, sin tráfico y a poca velocidad, sujeta el volante suave, sin apretar, y fíjate si el coche se va hacia un lado y si el volante está recto.\nInfladores y medidores de presión 👉 todoenrecambio.com/infladores-medidores-de-neumaticos\n🤖 Vídeo creado con inteligencia artificial\n#cochetira #presionneumaticos #direccion #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/06251c4f-9c28-46e8-a4d4-a282cded2ce2.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/1d4b1ebd-e1e9-403f-b780-99563310fb7c.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-473258133196293329.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-4517442035861683486.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3891,12 +3891,12 @@
    "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-31-14",
+   "id": "mc-394697339",
    "dia": "2026-11-08",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3905,8 +3905,8 @@
    "estado": "programado",
    "titulo": "Aceite sintético, semisintético o mineral: cuál es cuál",
    "texto": "La palabra que sale en todas las garrafas: sintético. Hay tres familias 🛢️\nEl mineral sale del petróleo casi tal cual. El sintético se fabrica para que aguante mucho más. Y el semisintético es una mezcla de los dos.\nEl sintético aguanta mejor el calor y los arranques en frío, y se degrada más despacio. Por eso muchos motores modernos solo funcionan bien con él.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitesintetico #aceitemotor #aceitemineral #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/b92178a0-c794-4bd6-961c-d7799a433454.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/6c4847f3-e247-4f49-9cf1-9827ea1f1401.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-7075993250493616600.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-345709148030722538.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -3979,12 +3979,12 @@
    "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-28-03",
+   "id": "mc-394697408",
    "dia": "2026-11-09",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -3993,8 +3993,8 @@
    "estado": "programado",
    "titulo": "No abras el tapón del refrigerante con el motor caliente",
    "texto": "No abras el tapón del vaso de expansión con el motor caliente. Ni el del radiador ⚠️\nDentro hay líquido muy caliente y a presión, y sale disparado.\nEspera a que el motor se enfríe del todo.\nDepósitos y tapones del refrigerante 👉 todoenrecambio.com/deposito-de-compensacion\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #vasodeexpansion #refrigerante #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/b647207b-369b-4a53-9fb6-d36574f81814.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/eb6ed2cc-0d0d-4a47-8004-0e61a741b0a3.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-16999396947557754283.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-5999553405007606112.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -4067,12 +4067,12 @@
    "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "mc-13oct-29-17",
+   "id": "mc-394697488",
    "dia": "2026-11-10",
    "hora": "10:00",
    "redes": [
-    "instagram",
     "facebook",
+    "instagram",
     "tiktok",
     "youtube"
    ],
@@ -4081,8 +4081,8 @@
    "estado": "programado",
    "titulo": "Qué pedir en el taller si el coche tira hacia un lado",
    "texto": "En el taller, pide las cosas en este orden 🔧: primero, que comprueben las presiones y el estado de los neumáticos; después, que revisen si hay juego en las rótulas y los terminales; y solo entonces, la alineación.\nY si te dicen que una rótula tiene juego, pide que te lo enseñen: con el coche levantado se ve en un momento, moviendo la rueda con las manos.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#taller #alineacion #rotulas #consejosdetaller #todoenrecambio",
-   "img": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/89762390-1c4f-460e-a2bf-c37d41350485.jpg",
-   "video": "https://d2ol7oe51mr4n9.cloudfront.net/user_3Dw64PHFcZqLxLbZnZaBWhYhlwC/e211291b-45cd-49c2-87cc-9a00c31fa296.mp4",
+   "img": "https://static.metricool.com/planner/202610/6422269-file-15199148869303627754.jpeg",
+   "video": "https://static.metricool.com/planner/202610/6422269-file-1416798847147912257.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
   },
@@ -4510,5 +4510,5 @@
    "nota": "Short del 04 por hacer: se monta después del render del largo"
   }
  ],
- "nota": "Calendario aprobado por Rubén el 08/10. Lo rehacen las rutinas de las 9:00 y las 17:00 (calendario_datos.py)."
+ "nota": "Calendario aprobado por Rubén el 08/10. Lo rehacen las rutinas de las 9:00, las 12:30 y las 17:00 (calendario_datos.py)."
 }
