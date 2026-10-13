@@ -1,0 +1,1046 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Ordenador para el trabajo futuro · TDR y Reynasa</title>
+<meta name="description" content="Comparativa y simulador de portátiles para producir vídeos, shorts, blogs y apps con IA para TDR y Reynasa, hoy y a 5 años.">
+<link rel="icon" href="../logo-tdr.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root {
+  --fondo: #ece4d9; --capa1: #fbf8f1; --capa2: #f3ecdf; --capa3: #e8dfcf;
+  --tinta: #1b1a18; --tinta-suave: #57534c; --tinta-tenue: #635e57;
+  --linea: #e0d6c5; --linea-fuerte: #cbbfaa;
+  --ok: #2e7d57; --justo: #a8620f; --mal: #b80d16; --azul: #2a5db0;
+  --marca: #d71119; --marca-suave: #d7111916; --marca-tinta: #b80d16;
+  --sombra-1: 0 1px 1px #3b2f1c12, 0 2px 4px #3b2f1c0f, 0 14px 30px -18px #3b2f1c55;
+  --f-titulo: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  --f-texto: "IBM Plex Sans", system-ui, sans-serif;
+  --f-cifra: "IBM Plex Mono", ui-monospace, monospace;
+  --curva: cubic-bezier(0.23, 1, 0.32, 1);
+  color-scheme: light;
+}
+* { box-sizing: border-box; }
+html { background: var(--fondo); -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-top: 108px; }
+body {
+  margin: 0; color: var(--tinta); font: 400 15px/1.55 var(--f-texto); font-variant-numeric: tabular-nums;
+  background: var(--fondo) url("../comun/tex/papel_crema.jpg"); background-size: 900px auto; counter-reset: hoja;
+}
+a { color: inherit; }
+button, input, select { font: inherit; color: inherit; }
+img { display: block; }
+:focus-visible { outline: 2px solid var(--marca); outline-offset: 2px; }
+.cifra { font-family: var(--f-cifra); font-variant-numeric: tabular-nums; }
+.saltar { position: absolute; left: -999px; top: 8px; z-index: 100; background: var(--marca); color: #fff; padding: 8px 12px; border-radius: 6px; }
+.saltar:focus { left: 12px; }
+
+/* barra superior e índice */
+.barra {
+  position: sticky; top: 0; z-index: 30; display: flex; align-items: center; gap: 16px;
+  padding: 8px 24px; min-height: 52px; border-bottom: 1px solid var(--linea);
+  background: color-mix(in oklab, var(--capa1) 92%, transparent); backdrop-filter: blur(10px);
+}
+.barra::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 2px; background: var(--marca); }
+.marca { display: flex; align-items: center; gap: 12px; text-decoration: none; min-width: 0; }
+.marca img { width: 28px; height: 28px; flex: none; }
+.marca-txt { display: flex; flex-direction: column; line-height: 1.15; min-width: 0; }
+.marca-txt b { font: 600 15px/1.15 var(--f-titulo); }
+.marca-txt span { font: 500 10.5px/1.3 var(--f-cifra); color: var(--tinta-tenue); letter-spacing: .08em; text-transform: uppercase; }
+.barra .act { margin-left: auto; font-size: 12.5px; color: var(--tinta-suave); text-align: right; }
+.barra .act b { font-family: var(--f-cifra); font-weight: 500; color: var(--tinta); }
+.imprimir {
+  border: 1px solid var(--linea-fuerte); background: var(--capa2); border-radius: 999px; padding: 6px 14px; cursor: pointer;
+  font-size: 12.5px; color: var(--tinta-suave); white-space: nowrap; min-height: 34px;
+}
+.imprimir:hover { color: var(--tinta); }
+.indice {
+  position: sticky; top: 52px; z-index: 29; display: flex; gap: 2px; padding: 0 24px; overflow-x: auto; scrollbar-width: none;
+  border-bottom: 1px solid var(--linea); background: var(--fondo);
+}
+.indice::-webkit-scrollbar { display: none; }
+.indice a {
+  position: relative; white-space: nowrap; text-decoration: none; color: var(--tinta-suave); padding: 12px; min-height: 44px;
+  display: inline-flex; align-items: center; gap: 8px; font: 500 13.5px/1 var(--f-texto);
+}
+.indice a .n { font: 600 10.5px/1 var(--f-cifra); color: var(--tinta-tenue); }
+.indice a:hover { color: var(--tinta); }
+.indice a::after { content: ""; position: absolute; left: 12px; right: 12px; bottom: -1px; height: 2px; background: var(--marca); transform: scaleX(0); transition: transform 240ms var(--curva); }
+.indice a:hover::after { transform: scaleX(1); }
+
+/* disposición */
+main { max-width: 1240px; margin: 0 auto; padding: 24px 24px 64px; display: flex; flex-direction: column; gap: 22px; }
+.caja {
+  background: var(--capa1) url("../comun/tex/papel_tarjeta.jpg"); background-size: 900px auto;
+  border: 1px solid var(--linea); border-radius: 14px; box-shadow: var(--sombra-1); padding: 22px 24px;
+}
+.caja > h2 {
+  margin: 0 0 4px; font: 600 13px/1.3 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-suave);
+}
+.caja > h2::before {
+  counter-increment: hoja; content: counter(hoja, decimal-leading-zero); display: inline-block; background: var(--marca); color: #fff;
+  padding: 3px 6px; margin-right: 8px; border-radius: 2px; font: 700 11px/1 var(--f-cifra); letter-spacing: .04em; vertical-align: 1px;
+}
+.caja > .bajada { margin: 0 0 18px; color: var(--tinta-suave); max-width: 80ch; }
+h3 { margin: 0 0 8px; font: 600 12px/1.3 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-suave); }
+.nota { color: var(--tinta-tenue); font-size: 12.5px; line-height: 1.5; margin: 10px 0 0; }
+.nota b { color: var(--tinta-suave); }
+
+/* portada */
+.portada { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 28px; align-items: start; }
+.portada h1 { margin: 6px 0 10px; font: 700 clamp(28px, 4vw, 40px)/1.05 var(--f-titulo); letter-spacing: -0.02em; text-wrap: balance; }
+.portada h1 em { font-style: normal; color: var(--marca-tinta); }
+.portada .ticker { font: 600 12px/1 var(--f-cifra); letter-spacing: .08em; color: var(--tinta-tenue); text-transform: uppercase; }
+.portada p { margin: 0 0 12px; max-width: 62ch; }
+.claves { display: grid; gap: 12px; }
+.clave { position: relative; background: var(--capa2); border: 1px solid var(--linea); border-radius: 10px 10px 0 0; padding: 14px 16px; margin-bottom: 10px; }
+.clave::after {
+  content: ""; position: absolute; left: -1px; right: -1px; bottom: -10px; height: 10px;
+  background: radial-gradient(circle at 7px 10px, transparent 6px, var(--capa2) 6.5px) repeat-x; background-size: 14px 10px;
+}
+.clave .e { font: 600 11px/1.3 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-suave); }
+.clave .v { font: 600 26px/1.15 var(--f-cifra); margin: 4px 0 2px; }
+.clave .v small { font: 500 13px var(--f-texto); color: var(--tinta-suave); }
+.clave .s { font-size: 13px; color: var(--tinta-suave); }
+.reco { margin-top: 16px; border-left: 3px solid var(--marca); padding: 4px 0 4px 14px; }
+.reco b { font-family: var(--f-titulo); font-size: 17px; }
+
+/* tarjetas de opciones (tickets) */
+.opciones { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 18px 16px; }
+.opcion {
+  position: relative; background: var(--capa1); border: 1px solid var(--linea); border-radius: 12px 12px 0 0; margin-bottom: 10px;
+  padding: 18px 18px 14px; display: flex; flex-direction: column; gap: 10px; box-shadow: var(--sombra-1);
+}
+.opcion::after {
+  content: ""; position: absolute; left: -1px; right: -1px; bottom: -10px; height: 10px;
+  background: radial-gradient(circle at 7px 10px, transparent 6px, var(--capa1) 6.5px) repeat-x; background-size: 14px 10px;
+}
+.opcion .top { display: flex; align-items: center; gap: 10px; }
+.puesto { font: 700 12px/1 var(--f-cifra); background: var(--tinta); color: var(--capa1); padding: 5px 7px; border-radius: 3px; }
+.opcion[data-rank="1"] .puesto { background: var(--marca); }
+.color { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.opcion h4 { margin: 0; font: 700 20px/1.15 var(--f-titulo); letter-spacing: -0.01em; padding-right: 120px; }
+.opcion .sub { margin: -6px 0 0; color: var(--tinta-suave); font-size: 13px; }
+.precio { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; border-top: 1px dashed var(--linea-fuerte); padding-top: 10px; }
+.precio .v { font: 600 28px/1 var(--f-cifra); }
+.precio small { color: var(--tinta-tenue); font-size: 12px; }
+.ir {
+  display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; text-decoration: none; font-size: 13px; font-weight: 500;
+  border: 1px solid var(--marca); color: var(--marca-tinta); padding: 6px 12px; border-radius: 999px; min-height: 34px;
+}
+.ir:hover { background: var(--marca-suave); }
+.specs { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13px; border-top: 1px dashed var(--linea-fuerte); padding-top: 10px; }
+.specs dt { color: var(--tinta-tenue); font: 500 11px/1.9 var(--f-cifra); text-transform: uppercase; letter-spacing: .05em; }
+.specs dd { margin: 0; }
+.specs dd .x { font-family: var(--f-cifra); font-weight: 600; color: var(--marca-tinta); }
+.pc { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; font-size: 13px; }
+.pc ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.pc li { padding-left: 16px; position: relative; }
+.pc .mas li::before { content: "+"; position: absolute; left: 0; color: var(--ok); font-weight: 700; }
+.pc .menos li::before { content: "−"; position: absolute; left: 0; color: var(--mal); font-weight: 700; }
+.fuentes { font-size: 12px; color: var(--tinta-tenue); border-top: 1px dashed var(--linea-fuerte); padding-top: 8px; }
+.fuentes a { color: var(--tinta-suave); }
+.sello {
+  position: absolute; right: 14px; top: 14px; transform: rotate(-7deg); pointer-events: none;
+  border: 3px solid var(--marca); color: var(--marca); padding: 3px 10px 2px; border-radius: 6px;
+  font: 400 19px/1.1 "Anton", var(--f-titulo); text-transform: uppercase; letter-spacing: .02em; opacity: .92; mix-blend-mode: multiply;
+  -webkit-mask: url("../comun/tex/tampon.png") center / 200px; mask: url("../comun/tex/tampon.png") center / 200px;
+}
+.sello.gris { border-color: #6d6a64; color: #6d6a64; font-size: 16px; }
+
+/* tablas */
+.tabla-env { overflow-x: auto; border: 1px solid var(--linea); border-radius: 10px; background: var(--capa1); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--linea); vertical-align: top; }
+th { font: 600 11px/1.3 var(--f-cifra); letter-spacing: .05em; text-transform: uppercase; color: var(--tinta-tenue); background: var(--capa2); white-space: nowrap; }
+td.n, th.n { text-align: right; font-family: var(--f-cifra); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+tr.ref td { color: var(--tinta-suave); background: #00000006; }
+.eq { display: inline-flex; align-items: center; gap: 8px; font-weight: 500; white-space: nowrap; }
+.chip { display: inline-flex; align-items: center; gap: 5px; font: 600 11px/1 var(--f-cifra); letter-spacing: .03em; padding: 4px 7px; border-radius: 4px; white-space: nowrap; }
+.chip.ok { color: var(--ok); background: #2e7d571c; }
+.chip.justo { color: var(--justo); background: #a8620f1f; }
+.chip.limite { color: #8a3f0a; background: #c9670f2e; }
+.chip.mal { color: var(--mal); background: #b80d161c; }
+
+/* simulador */
+.sim { display: grid; grid-template-columns: 330px minmax(0, 1fr); gap: 22px; align-items: start; }
+.mandos { position: sticky; top: 112px; display: flex; flex-direction: column; gap: 16px; background: var(--capa2); border: 1px solid var(--linea); border-radius: 12px; padding: 16px; }
+.mandos fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 10px; }
+.mandos legend { font: 600 11px/1.3 var(--f-cifra); letter-spacing: .07em; text-transform: uppercase; color: var(--tinta-tenue); margin-bottom: 6px; padding: 0; }
+.presets { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.presets button {
+  border: 1px solid var(--linea-fuerte); background: var(--capa1); border-radius: 8px; padding: 8px; cursor: pointer; text-align: left;
+  font-size: 12.5px; line-height: 1.25; min-height: 44px; color: var(--tinta-suave);
+}
+.presets button b { display: block; color: var(--tinta); font-size: 13px; }
+.presets button[aria-pressed="true"] { border-color: var(--marca); box-shadow: inset 0 0 0 1px var(--marca); background: var(--capa1); color: var(--tinta); }
+.presets button:hover { border-color: var(--tinta-tenue); }
+.deslizador { display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; align-items: center; font-size: 13px; }
+.deslizador output { font: 600 13px var(--f-cifra); min-width: 3ch; text-align: right; }
+.deslizador input { grid-column: 1 / -1; width: 100%; accent-color: var(--marca); margin: 2px 0 0; height: 24px; }
+.interruptor { display: flex; gap: 10px; align-items: flex-start; font-size: 13px; cursor: pointer; line-height: 1.35; }
+.interruptor input { accent-color: var(--marca); width: 18px; height: 18px; margin: 1px 0 0; flex: none; }
+.interruptor small { display: block; color: var(--tinta-tenue); font-size: 12px; }
+.resultados { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.bloque { background: var(--capa1); border: 1px solid var(--linea); border-radius: 12px; padding: 16px 18px; }
+.bloque .q { margin: -2px 0 12px; font-size: 13px; color: var(--tinta-suave); }
+.bloque .q b { color: var(--tinta); font-family: var(--f-cifra); }
+.leyenda { display: flex; flex-wrap: wrap; gap: 6px 14px; font: 500 11.5px/1.4 var(--f-cifra); color: var(--tinta-tenue); margin-bottom: 10px; }
+.leyenda i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; vertical-align: -1px; margin-right: 5px; }
+
+/* barras horizontales */
+.barras { display: grid; gap: 2px; }
+.fila { display: grid; grid-template-columns: 158px minmax(0, 1fr) 150px; gap: 12px; align-items: center; padding: 7px 0; border-bottom: 1px dashed var(--linea); }
+.fila:last-child { border-bottom: 0; }
+.fila .et { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; min-width: 0; }
+.fila .et span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.fila.ref .et { color: var(--tinta-suave); font-weight: 400; }
+.fila .val { text-align: right; font: 500 12.5px/1.3 var(--f-cifra); }
+.fila .val small { display: block; color: var(--tinta-tenue); font: 400 11.5px var(--f-texto); }
+.pista { position: relative; height: 24px; }
+.mesa { position: absolute; left: 0; top: 0; bottom: 0; border: 1.5px solid var(--linea-fuerte); border-radius: 4px; background: repeating-linear-gradient(135deg, #00000005 0 6px, transparent 6px 12px); transition: width .7s var(--curva); }
+.carga { position: absolute; left: 0; top: 4px; bottom: 4px; border-radius: 3px; transition: width .7s var(--curva), background-color .3s; }
+.exceso { position: absolute; top: 2px; bottom: 2px; border-radius: 3px; background: repeating-linear-gradient(135deg, var(--mal) 0 4px, #b80d1655 4px 8px); transition: left .7s var(--curva), width .7s var(--curva); }
+.tope { position: absolute; top: -4px; bottom: -4px; width: 2px; background: var(--tinta); opacity: .55; }
+.tope.rojo { background: var(--mal); opacity: .8; }
+.pila { position: absolute; left: 0; top: 4px; bottom: 4px; display: flex; border-radius: 3px; overflow: hidden; transition: width .7s var(--curva); }
+.pila span { height: 100%; }
+.marcas { display: flex; justify-content: space-between; font: 500 10.5px var(--f-cifra); color: var(--tinta-tenue); margin: 4px 0 0 170px; padding-right: 162px; }
+
+/* proyección a 5 años */
+.proy-mandos { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 18px; background: var(--capa2); border: 1px solid var(--linea); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
+.proy-mandos label.sel { display: grid; gap: 4px; font-size: 13px; }
+.proy-mandos select { border: 1px solid var(--linea-fuerte); background: var(--capa1); border-radius: 6px; padding: 7px 8px; min-height: 38px; }
+.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
+.mini { background: var(--capa1); border: 1px solid var(--linea); border-radius: 12px; padding: 12px 14px 8px; }
+.mini h4 { margin: 0 0 2px; display: flex; align-items: center; gap: 8px; font: 600 15px/1.2 var(--f-titulo); }
+.mini .ver { font-size: 12.5px; margin: 0 0 6px; }
+.mini svg { width: 100%; height: auto; display: block; overflow: visible; }
+.mini svg text { font-family: var(--f-cifra); fill: var(--tinta-tenue); }
+.mini svg .barra-anio { transform-box: fill-box; transform-origin: bottom; }
+.animar .barra-anio { animation: crece .7s var(--curva) both; }
+@keyframes crece { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+
+/* contexto */
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.lista { margin: 0; padding-left: 18px; display: grid; gap: 6px; font-size: 14px; }
+.lista b { font-family: var(--f-cifra); font-weight: 600; }
+.cifras { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-top: 6px; }
+.cifras div { background: var(--capa2); border: 1px solid var(--linea); border-radius: 8px; padding: 10px 12px; }
+.cifras b { display: block; font: 600 22px/1.1 var(--f-cifra); }
+.cifras span { font-size: 12px; color: var(--tinta-suave); }
+
+/* supuestos */
+details.sup { border: 1px solid var(--linea); border-radius: 12px; background: var(--capa2); }
+details.sup summary { cursor: pointer; padding: 14px 16px; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+details.sup summary::-webkit-details-marker { display: none; }
+details.sup summary::after { content: "▾"; color: var(--tinta-tenue); }
+details.sup[open] summary::after { content: "▴"; }
+.sup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px 18px; padding: 0 16px 16px; }
+.sup-item { display: grid; grid-template-columns: 1fr 96px; gap: 2px 10px; align-items: center; font-size: 13px; border-bottom: 1px dashed var(--linea-fuerte); padding: 6px 0; }
+.sup-item input { width: 96px; border: 1px solid var(--linea-fuerte); border-radius: 6px; padding: 6px 8px; background: var(--capa1); font-family: var(--f-cifra); text-align: right; min-height: 34px; }
+.sup-item small { grid-column: 1 / -1; color: var(--tinta-tenue); font-size: 11.5px; }
+.sup-item .u { color: var(--tinta-tenue); font-size: 11.5px; }
+.sup-acc { padding: 0 16px 16px; }
+.sup-acc button { border: 1px solid var(--linea-fuerte); background: var(--capa1); border-radius: 8px; padding: 8px 14px; cursor: pointer; min-height: 40px; }
+.fuentes-lista { columns: 2 320px; column-gap: 28px; font-size: 13px; margin: 0; padding-left: 18px; }
+.fuentes-lista li { margin-bottom: 6px; break-inside: avoid; }
+.pie { max-width: 1240px; margin: 0 auto; padding: 8px 24px 80px; color: var(--tinta-tenue); font-size: 12px; }
+
+@media (max-width: 1000px) {
+  .portada, .sim, .grid2 { grid-template-columns: 1fr; }
+  .mandos { position: static; }
+}
+@media (max-width: 640px) {
+  .barra { padding: 8px 16px; gap: 10px; }
+  .barra .act { display: none; }
+  .indice { padding: 0 8px; position: static; }
+  html { scroll-padding-top: 110px; }
+  .marca-txt b { font-size: 14px; }
+  main { padding: 16px 16px 48px; gap: 16px; }
+  .caja { padding: 18px 16px; }
+  .opciones { grid-template-columns: 1fr; }
+  .opcion h4 { padding-right: 0; margin-top: 30px; }
+  .pc { grid-template-columns: 1fr; }
+  .fila { grid-template-columns: 1fr auto; gap: 4px 10px; }
+  .fila .pista { grid-column: 1 / -1; grid-row: 2; }
+  .marcas { display: none; }
+  .presets { grid-template-columns: 1fr; }
+  .pie { padding: 8px 16px 64px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .animar .barra-anio { animation: none; }
+  .mesa, .carga, .exceso, .pila { transition: none; }
+  html { scroll-behavior: auto; }
+}
+@media print {
+  .barra, .indice, .imprimir, .mandos, .proy-mandos, details.sup { display: none !important; }
+  body { background: #fff; }
+  .caja, .opcion, .bloque, .mini { box-shadow: none; break-inside: avoid; }
+  .sim { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<a class="saltar" href="#principal">Saltar al contenido</a>
+
+<header class="barra">
+  <a class="marca" href="../panel/"><img src="../logo-tdr.png" alt="TDR" width="28" height="28"><span class="marca-txt"><b>Ordenador para el trabajo futuro</b><span>Redes sociales · TDR y Reynasa</span></span></a>
+  <p class="act">Precios consultados el <b>08/10/2026</b> · página interna</p>
+  <button type="button" class="imprimir" onclick="window.print()">Imprimir / PDF</button>
+</header>
+
+<nav class="indice" aria-label="Secciones">
+  <a href="#resumen"><span class="n">01</span>Resumen</a>
+  <a href="#opciones"><span class="n">02</span>Las 5 opciones</a>
+  <a href="#comparativa"><span class="n">03</span>Comparativa</a>
+  <a href="#simulador"><span class="n">04</span>Simulador</a>
+  <a href="#futuro"><span class="n">05</span>A 5 años</a>
+  <a href="#contexto"><span class="n">06</span>Qué hace hoy el ordenador</a>
+  <a href="#supuestos"><span class="n">07</span>Supuestos y fuentes</a>
+</nav>
+
+<main id="principal">
+
+  <!-- 01 RESUMEN -->
+  <section class="caja" id="resumen">
+    <h2>Resumen</h2>
+    <div class="portada">
+      <div>
+        <p class="ticker">Decisión de compra · horizonte 5 años</p>
+        <h1>Qué portátil comprar para <em>multiplicar por 4</em> el contenido de TDR y abrir Reynasa</h1>
+        <p>Hoy el portátil se queda <b>sin memoria</b> y se cuelga cuando renderiza un vídeo largo, varios shorts y tiene abiertas sesiones de Claude a la vez. El plan es pasar de un largo cada pocos días a <b>uno al día</b>, hacer <b>contenido distinto para cada red</b> (YouTube, Instagram, TikTok y Facebook), seguir con los blogs, crear apps y dashboards, y <b>replicar todo para Reynasa</b>.</p>
+        <p>Esta página compara las 5 mejores opciones que encontré y deja <b>simular</b> cualquier volumen de trabajo para ver qué ordenador puede con él hoy y dentro de 5 años.</p>
+        <div class="reco">
+          <b>Recomendación: PCSpecialist Recoil IV 16 (3.752 €).</b><br>
+          Es el procesador más rápido de la lista (<span class="cifra">2,6×</span> el actual), trae 64 GB que se pueden ampliar, dos ranuras para discos y 3 años de garantía con recogida. Si hay que ajustar presupuesto, el <b>MSI Crosshair A16</b> (2.129 €) cumple lo mínimo: 64 GB y el doble de velocidad.
+        </div>
+      </div>
+      <div class="claves" id="claves" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <!-- 02 OPCIONES -->
+  <section class="caja" id="opciones">
+    <h2>Las 5 opciones <small style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)">todas nuevas, con 64 GB y la RAM sin soldar</small></h2>
+    <p class="bajada">Ordenadas de mejor a peor para este trabajo. "× tu Acer" mide solo la velocidad del procesador (Cinebench R23 multinúcleo, media de Notebookcheck), que es lo que decide cuánto tarda cada render. La memoria decide cuántas cosas caben a la vez: las cinco tienen 4 veces la actual.</p>
+    <div class="opciones" id="lista-opciones"></div>
+  </section>
+
+  <!-- 03 COMPARATIVA -->
+  <section class="caja" id="comparativa">
+    <h2>Comparativa lado a lado</h2>
+    <p class="bajada">Las mismas características en una tabla. En gris, tu portátil actual y la opción de solo ampliarle la RAM, como referencia.</p>
+    <div class="tabla-env"><table id="tabla-comp"></table></div>
+    <p class="nota">Precios del 08/10/2026 con IVA. Cambian a diario: comprobad el precio y el stock en el enlace de cada tienda antes de comprar. Los equipos "sin Windows" necesitan la licencia de Windows 11 Pro de informática.</p>
+  </section>
+
+  <!-- 04 SIMULADOR -->
+  <section class="caja" id="simulador">
+    <h2>Simulador: ¿qué ordenador puede con qué volumen?</h2>
+    <p class="bajada">Elige un escenario o mueve los mandos. Se calculan tres cosas para cada ordenador: si <b>cabe en memoria</b> todo lo que quieres tener a la vez, si <b>la gráfica</b> aguanta los renders en paralelo y si <b>le da tiempo</b> a sacar el volumen de la semana.</p>
+    <div class="sim">
+      <form class="mandos" id="mandos" onsubmit="return false">
+        <fieldset>
+          <legend>Escenarios</legend>
+          <div class="presets" id="presets"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Empresas</legend>
+          <label class="interruptor"><input type="checkbox" id="w-tdr" checked><span>TodoEnRecambio (TDR)</span></label>
+          <label class="interruptor"><input type="checkbox" id="w-rey"><span>Reynasa<small>mismo tipo de trabajo que TDR</small></span></label>
+          <div class="deslizador"><label for="w-reyPct">Volumen de Reynasa frente a TDR</label><output id="o-reyPct"></output><input type="range" id="w-reyPct" min="25" max="150" step="25"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Volumen por semana y empresa</legend>
+          <div class="deslizador"><label for="w-largosSem">Vídeos largos de YouTube</label><output id="o-largosSem"></output><input type="range" id="w-largosSem" min="0" max="14" step="1"></div>
+          <div class="deslizador"><label for="w-shortsSem">Shorts y reels distintos (todas las redes)</label><output id="o-shortsSem"></output><input type="range" id="w-shortsSem" min="0" max="140" step="5"></div>
+          <div class="deslizador"><label for="w-blogsSem">Blogs</label><output id="o-blogsSem"></output><input type="range" id="w-blogsSem" min="0" max="30" step="1"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Todo a la vez (el momento de más carga), por empresa</legend>
+          <div class="deslizador"><label for="w-pLargos">Largos renderizándose a la vez</label><output id="o-pLargos"></output><input type="range" id="w-pLargos" min="0" max="8" step="1"></div>
+          <div class="deslizador"><label for="w-pShorts">Shorts renderizándose a la vez</label><output id="o-pShorts"></output><input type="range" id="w-pShorts" min="0" max="10" step="1"></div>
+          <div class="deslizador"><label for="w-pSesiones">Sesiones de Claude abiertas</label><output id="o-pSesiones"></output><input type="range" id="w-pSesiones" min="0" max="16" step="1"></div>
+          <div class="deslizador"><label for="w-pApps">Apps o dashboards en desarrollo</label><output id="o-pApps"></output><input type="range" id="w-pApps" min="0" max="5" step="1"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Forma de trabajar</legend>
+          <label class="interruptor"><input type="checkbox" id="w-nvenc"><span>Codificar los vídeos con la gráfica<small>cambio en el motor de render; ahora se hace con el procesador</small></span></label>
+          <label class="interruptor"><input type="checkbox" id="w-noches"><span>Dejarlo trabajando de noche y en fin de semana<small>hoy informática lo apaga a las 23:30</small></span></label>
+          <label class="interruptor"><input type="checkbox" id="w-ramMax"><span>Con la RAM ampliada al máximo<small>lo que admite cada portátil</small></span></label>
+        </fieldset>
+      </form>
+
+      <div class="resultados">
+        <div class="bloque">
+          <h3>Memoria (RAM) en el momento de más carga</h3>
+          <p class="q" id="q-ram"></p>
+          <div class="leyenda" id="ley-ram"></div>
+          <div class="barras" id="g-ram"></div>
+          <p class="nota">El recuadro es la memoria del ordenador; la barra, lo que necesita el trabajo. Si se sale (rayado rojo), Windows tira del disco, todo va a tirones y se acaba colgando, que es lo que pasa hoy.</p>
+        </div>
+        <div class="bloque">
+          <h3>Memoria de la gráfica en el momento de más carga</h3>
+          <p class="q" id="q-vram"></p>
+          <div class="barras" id="g-vram"></div>
+          <p class="nota">Cada render abre varios Chrome invisibles que dibujan los fotogramas con la gráfica. Si se pasa, Windows usa memoria normal para la gráfica y todo va más lento. Con la gráfica saturada y el driver antiguo, el Acer dio dos pantallazos azules los días 7 y 8 de octubre.</p>
+        </div>
+        <div class="bloque">
+          <h3>Tiempo hasta terminar todo lo del pico</h3>
+          <p class="q" id="q-tiempo"></p>
+          <div class="barras" id="g-tiempo"></div>
+        </div>
+        <div class="bloque">
+          <h3>Carga de la semana</h3>
+          <p class="q" id="q-semana"></p>
+          <div class="barras" id="g-semana"></div>
+          <p class="nota">100 % = el ordenador estaría trabajando a tope todo el tiempo disponible. Por encima de 85 % ya no queda margen para imprevistos, correcciones ni trabajo nuevo.</p>
+        </div>
+        <div class="bloque">
+          <h3>Veredicto para este escenario</h3>
+          <div class="tabla-env"><table id="tabla-veredicto"></table></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 FUTURO -->
+  <section class="caja" id="futuro">
+    <h2>A 5 años: ¿cuándo se queda corto cada ordenador?</h2>
+    <p class="bajada">Carga de la semana de cada ordenador, año a año, si el volumen crece como indiques. También usa los interruptores del simulador (codificar con la gráfica y trabajar de noche). La raya roja es el 100 %: por encima, no le da tiempo.</p>
+    <div class="proy-mandos">
+      <div class="deslizador"><label for="p-objetivo">Volumen de TDR en 2029 frente a hoy</label><output id="o-objetivo"></output><input type="range" id="p-objetivo" min="1" max="6" step="0.5"></div>
+      <label class="sel">Reynasa empieza en
+        <select id="p-reyDesde"><option value="0">Nunca</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option></select>
+      </label>
+      <div class="deslizador"><label for="p-reyPct">Volumen de Reynasa frente a TDR</label><output id="o-p-reyPct"></output><input type="range" id="p-reyPct" min="25" max="150" step="25"></div>
+      <div class="deslizador"><label for="p-soft">Programas más exigentes cada año</label><output id="o-soft"></output><input type="range" id="p-soft" min="0" max="20" step="1"></div>
+    </div>
+    <div class="leyenda"><span><i style="background:var(--ok)"></i>holgado (menos de 60 %)</span><span><i style="background:var(--justo)"></i>justo (60–85 %)</span><span><i style="background:#c9670f"></i>al límite (85–100 %)</span><span><i style="background:var(--mal)"></i>no le da tiempo (más de 100 %)</span></div>
+    <div class="multiples" id="multiples"></div>
+    <div class="tabla-env" style="margin-top:16px"><table id="tabla-futuro"></table></div>
+    <p class="nota" id="nota-futuro"></p>
+  </section>
+
+  <!-- 06 CONTEXTO -->
+  <section class="caja" id="contexto">
+    <h2>Qué hace hoy el ordenador</h2>
+    <p class="bajada">De dónde salen los números: el flujo real de vídeos y blogs, con tiempos medidos en los registros de los renders y publicaciones sacadas de los datos del panel de redes.</p>
+    <div class="grid2">
+      <div>
+        <h3>Vídeos (RRSS TDR automatizado)</h3>
+        <ul class="lista">
+          <li>La IA genera en la nube: avatar con HeyGen, clips con Kling e imágenes con Higgsfield, voz con ElevenLabs, y Claude dirige todo.</li>
+          <li>El ordenador <b>monta y renderiza</b>: cada largo abre <b>4</b> Chrome invisibles (cada short, 2) que dibujan los fotogramas, Python los mezcla con el avatar y los clips, y ffmpeg los codifica con el procesador.</li>
+          <li>Un largo de 8–9 min tarda <b>25–57 min</b> en renderizarse en el Acer (largos 28 al 31). Un short de 30 s, <b>2–4 min</b>.</li>
+          <li>Cada pieza se renderiza varias veces: pruebas, correcciones y una versión por red (YouTube e Instagram).</li>
+        </ul>
+        <h3 style="margin-top:16px">Blogs (Blog automatizado)</h3>
+        <ul class="lista">
+          <li>Investigación y redacción con Claude, imágenes con Higgsfield, logo y compresión con Python, subida a WordPress en borrador y seguimiento en Excel y correo.</li>
+          <li>Casi todo ocurre en la nube; en el ordenador pesa sobre todo <b>cada sesión de Claude abierta</b>, que arranca todos sus conectores.</li>
+          <li>Ritmo: <b>33–36 blogs al mes</b> en julio y agosto.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Publicado en los últimos 30 días <small id="pub-fecha" style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)"></small></h3>
+        <div class="cifras" id="cifras-pub"></div>
+        <p class="nota">Hoy se publica casi el mismo short en las cuatro redes. El plan es hacer contenido propio para cada una según lo que funcione en cada red (ver el <a href="../panel/">panel de redes</a>), y eso multiplica los renders.</p>
+        <h3 style="margin-top:16px">El portátil actual</h3>
+        <ul class="lista">
+          <li>Acer Nitro ANV15-51 (diciembre de 2023): i7-13620H, <b>16 GB</b> en un solo módulo, RTX 3050 de 6 GB, SSD de 512 GB.</li>
+          <li>Casi en reposo usa el 95 % de la memoria; en los renders llegó a <b>0,3 GB libres</b>.</li>
+          <li>7 y 8 de octubre: dos pantallazos azules por el driver de la gráfica al lanzar varios renders a la vez.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 SUPUESTOS Y FUENTES -->
+  <section class="caja" id="supuestos">
+    <h2>Supuestos y fuentes</h2>
+    <p class="bajada">Los cálculos son estimaciones a partir de tiempos medidos en el Acer y de la potencia publicada de cada procesador. Todos los supuestos se pueden cambiar aquí y el simulador se recalcula al momento.</p>
+    <details class="sup">
+      <summary>Cambiar los supuestos del cálculo</summary>
+      <div class="sup-grid" id="sup-grid"></div>
+      <div class="sup-acc"><button type="button" id="sup-reset">Volver a los valores iniciales</button></div>
+    </details>
+    <h3 style="margin-top:18px">Cómo se calcula</h3>
+    <ul class="lista">
+      <li><b>Velocidad</b>: tiempo medido en el Acer ÷ (potencia del procesador nuevo ÷ potencia del Acer). Se usa Cinebench R23 multinúcleo, media de Notebookcheck.</li>
+      <li><b>Memoria en el pico</b>: sistema + (largos × RAM por largo + shorts × RAM por short + sesiones × RAM por sesión + apps × RAM por app) × empresas.</li>
+      <li><b>Semana</b>: minutos de ordenador que piden los vídeos, shorts y blogs (por las veces que se renderizan) + lo que gastan las sesiones abiertas, frente a las horas disponibles.</li>
+      <li><b>No incluye</b> los límites de uso del plan de Claude (eso depende del plan, no del ordenador) ni el tiempo de generación en la nube.</li>
+    </ul>
+    <h3 style="margin-top:18px">Fuentes</h3>
+    <ul class="fuentes-lista" id="fuentes-lista"></ul>
+  </section>
+</main>
+
+<footer class="pie">
+  Página interna de trabajo · Rubén López · TodoEnRecambio / Reynasa. Precios y stock consultados el 08/10/2026; cambian a diario. Las cifras del simulador son estimaciones, no mediciones en los equipos nuevos.
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  /* ───────── datos de los ordenadores ───────── */
+  var EQUIPOS = [
+    {
+      id: "pcs", rank: 1, nombre: "PCSpecialist Recoil IV 16", corto: "PCS Recoil IV", color: "#d71119",
+      sub: "Intel Core Ultra 9 290HX Plus · RTX 5080 · 64 GB",
+      precio: 3752, precioNota: "configurado con 290HX Plus, RTX 5080, 64 GB y 1 TB, sin Windows",
+      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-IV-16/",
+      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 128, ramMaxTxt: "hasta 128 GB (por confirmar)*",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 2 ranuras M.2 (PCIe 5.0 + 4.0)", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
+      garantia: "3 años con recogida y entrega", so: "A elegir (sin Windows o con Windows)",
+      pros: ["El procesador más rápido de la lista", "Chasis con 89–90 % en Notebookcheck (XMG NEO 16)", "Dos ranuras para discos", "3 años de garantía con recogida a domicilio"],
+      contras: ["Unos 450 € más que el MSI Vector A16", "Se monta por encargo: 1–1,5 semanas", "Ruidoso a tope (≈ 55 dB)"],
+      fuentes: [
+        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-IV-16/"],
+        ["Análisis del chasis (XMG NEO 16, Notebookcheck)", "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html"],
+        ["XMG NEO 16 con el 290HX Plus", "https://www.notebookcheck.com/XMG-NEO-16-erhaelt-Core-Ultra-9-290HX-Plus-und-erstmals-ein-OLED-Display.1377008.0.html"],
+        ["Procesador 290HX Plus", "https://www.notebookcheck.net/Intel-Core-Ultra-9-290HX-Plus-Processor-Benchmarks-and-Specs.1252402.0.html"]
+      ]
+    },
+    {
+      id: "vector", rank: 2, nombre: "MSI Vector A16 HX A8WIG-054XES", corto: "MSI Vector A16", color: "#2a5db0",
+      sub: "AMD Ryzen 9 8940HX · RTX 5080 · 64 GB",
+      precio: 3299, precioNota: "en la tienda oficial de MSI (3.327 € en PcComponentes)",
+      tienda: "es-store.msi.com", url: "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles",
+      cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5200), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 1 ranura M.2 de tamaño normal", pantalla: "16″ 2560 × 1600 · 240 Hz", peso: "2,7 kg",
+      garantia: "3 años de MSI", so: "Sin Windows",
+      pros: ["64 GB y RTX 5080 por 3.299 €", "Disponible en 1–2 días", "Ethernet 2,5 GbE y USB4"],
+      contras: ["Procesador de la generación anterior", "RAM máxima de 96 GB y un solo disco", "No hay análisis propio de esta versión"],
+      fuentes: [
+        ["Tienda oficial MSI", "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles"],
+        ["PcComponentes", "https://www.pccomponentes.com/portatil-msi-vector-a16-hx-a8wig-054xes-16-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5080-sin-s-o-rgb"],
+        ["Ficha técnica oficial (PDF)", "https://storage-asset.msi.com/specSheet/es/nb/Vector%20A16%20HX%20A8WIG-054XES.pdf"],
+        ["Procesador Ryzen 9 8940HX", "https://www.notebookcheck.net/AMD-Ryzen-9-8940HX-Processor-Benchmarks-and-Specs.998310.0.html"]
+      ]
+    },
+    {
+      id: "helios", rank: 3, nombre: "Acer Predator Helios 18 AI PH18-73-92JH", corto: "Acer Helios 18", color: "#2e7d57",
+      sub: "Intel Core Ultra 9 275HX · RTX 5080 · 64 GB",
+      precio: 3299.99, precioNota: "en la tienda oficial de Acer",
+      tienda: "store.acer.com", url: "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro",
+      cpu: "Intel Core Ultra 9 275HX · 24 núcleos", r23: 33600,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB), 4 ranuras: 2 libres", ramMax: 192, ramMaxTxt: "hasta 192 GB, sin quitar lo que trae",
+      gpu: "RTX 5080 · 16 GB · 165–175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 3 ranuras M.2", pantalla: "18″", peso: "3,5 kg",
+      garantia: "1 año de Acer", so: "Por confirmar (y el teclado)",
+      pros: ["El más ampliable: 4 ranuras de RAM y 3 de disco", "Más silencioso en modo rendimiento (≈ 50 dB)", "Mismo precio que el Vector con más procesador"],
+      contras: ["18″ y 3,5 kg más el cargador", "Solo 1 año de garantía", "Su disco se calienta en cargas largas"],
+      fuentes: [
+        ["Tienda oficial Acer", "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro"],
+        ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/Acer-Predator-Helios-18-AI-review-Finally-a-quieter-gaming-laptop-but-at-what-cost.1054468.0.html"],
+        ["Procesador 275HX", "https://www.notebookcheck.net/Intel-Core-Ultra-9-275HX-Processor-Benchmarks-and-Specs.943094.0.html"]
+      ]
+    },
+    {
+      id: "crosshair", rank: 4, nombre: "MSI Crosshair A16 HX D8WGKG-200XES", corto: "MSI Crosshair", color: "#a8620f",
+      sub: "AMD Ryzen 9 8940HX · RTX 5070 · 64 GB",
+      precio: 2129, precioNota: "en PcComponentes",
+      tienda: "pccomponentes.com", url: "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz",
+      cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
+      gpu: "RTX 5070 · 8 GB · ≈115 W · 1 codificador", vram: 8,
+      ssd: "1 TB · hueco para otro disco", pantalla: "16″ QHD+ · 240 Hz", peso: "2,5 kg",
+      garantia: "3 años de MSI", so: "Sin Windows",
+      pros: ["Lo más barato con 64 GB", "Mismo procesador que el Vector A16", "Disponible al día siguiente"],
+      contras: ["Gráfica de 8 GB: justa para muchos renders a la vez o IA local", "Su cargador de 240 W se queda corto con todo a tope"],
+      fuentes: [
+        ["PcComponentes", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz"],
+        ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/MSI-Crosshair-A16-HX-E8WGK-review-Ryzen-9-Zen-4-outperforming-Ryzen-9-AI-Zen-5.1332012.0.html"],
+        ["El cargador de 240 W", "https://www.notebookcheck.com/240-Watt-Netzteil-reicht-fuer-das-MSI-Crosshair-A16-HX-gerade-so-aus.1335255.0.html"]
+      ]
+    },
+    {
+      id: "pcsamd", rank: 5, nombre: "PCSpecialist Recoil 16 AMD", corto: "PCS Recoil AMD", color: "#6b4c9a",
+      sub: "AMD Ryzen 9 9955HX3D · RTX 5080 · 64 GB",
+      precio: 3834, precioNota: "configurado con 9955HX3D, RTX 5080, 64 GB y 1 TB, sin Windows",
+      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-16-AMD/",
+      cpu: "AMD Ryzen 9 9955HX3D · 16 núcleos / 32 hilos (Zen 5)", r23: 38042,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
+      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
+      ssd: "1 TB · 2 ranuras M.2", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
+      garantia: "3 años con recogida y entrega", so: "A elegir",
+      pros: ["Procesador de última generación de AMD", "Mismo chasis y garantía que el número 1"],
+      contras: ["Más caro y algo más lento que la versión Intel", "Sin USB4/Thunderbolt según el análisis del chasis"],
+      fuentes: [
+        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-16-AMD/"],
+        ["Análisis del chasis (XMG NEO 16 A25, Notebookcheck)", "https://www.notebookcheck.net/AMD-Ryzen-9-9955HX3D-and-RTX-5090-Laptop-for-maximum-gaming-performance-XMG-Neo-16-A25-review.1028019.0.html"],
+        ["Procesador 9955HX3D", "https://www.notebookcheck.net/AMD-Ryzen-9-9955HX3D-Processor-Benchmarks-and-Specs.941514.0.html"]
+      ]
+    }
+  ];
+  var REFERENCIAS = [
+    { id: "acer", ref: true, nombre: "Tu Acer Nitro ANV15-51 (hoy)", corto: "Acer hoy", color: "#8f897e", r23: null, ram: 16, ramMax: 64, vram: 6,
+      cpu: "Intel i7-13620H · 10 núcleos / 16 hilos", ramTxt: "16 GB en un solo módulo", ramMaxTxt: "hasta 64 GB", gpu: "RTX 3050 · 6 GB · 1 codificador",
+      ssd: "512 GB (56 GB libres)", pantalla: "15,6″", peso: "≈ 2,1 kg", garantia: "—", so: "Windows 11 Pro" },
+    { id: "acer32", ref: true, nombre: "Acer actual + 16 GB más", corto: "Acer + RAM", color: "#bdb5a6", r23: null, ram: 32, ramMax: 64, vram: 6, precio: 323,
+      precioNota: "solo el módulo Kingston KVR56S46BS8-16",
+      cpu: "Intel i7-13620H · 10 núcleos / 16 hilos", ramTxt: "32 GB (2 × 16 GB)", ramMaxTxt: "hasta 64 GB", gpu: "RTX 3050 · 6 GB · 1 codificador",
+      ssd: "512 GB (56 GB libres)", pantalla: "15,6″", peso: "≈ 2,1 kg", garantia: "—", so: "Windows 11 Pro",
+      url: "https://www.pccomponentes.com/kingston-valueram-so-dimm-ddr5-5600-mhz-16gb-cl46" }
+  ];
+  var TODOS = REFERENCIAS.concat(EQUIPOS);
+
+  /* ───────── supuestos (editables) ───────── */
+  var SUP = [
+    { k: "minLargo", v: 35, t: "Render de un largo en el Acer", u: "min", o: "medido: 25–57 min (largos 28 al 31)" },
+    { k: "repLargo", v: 2.5, t: "Veces que se renderiza cada largo", u: "veces", o: "estimado: pruebas y correcciones (el 32 se renderizó 5 veces)" },
+    { k: "extraLargo", v: 10, t: "Preparación y control de calidad por largo", u: "min", o: "estimado" },
+    { k: "minShort", v: 2.75, t: "Render de un short en el Acer", u: "min", o: "medido: 2–4 min (shorts del 31)" },
+    { k: "repShort", v: 1.5, t: "Veces que se renderiza cada short", u: "veces", o: "estimado" },
+    { k: "extraShort", v: 1, t: "Preparación y control por short", u: "min", o: "estimado" },
+    { k: "minBlog", v: 3, t: "Trabajo del ordenador por blog", u: "min", o: "estimado: el resto ocurre en la nube" },
+    { k: "cpuSesion", v: 1, t: "Procesador por sesión de Claude abierta", u: "% Acer", o: "estimado" },
+    { k: "cpuApp", v: 4, t: "Procesador por app o dashboard en desarrollo", u: "% Acer", o: "estimado" },
+    { k: "ramBase", v: 7, t: "RAM de Windows, antivirus y navegador", u: "GB", o: "estimado a partir del Acer" },
+    { k: "ramLargo", v: 4.5, t: "RAM por largo renderizándose", u: "GB", o: "estimado: 4 Chrome + Python + ffmpeg" },
+    { k: "ramShort", v: 2, t: "RAM por short renderizándose", u: "GB", o: "estimado: 2 Chrome + Python + ffmpeg" },
+    { k: "ramSesion", v: 1, t: "RAM por sesión de Claude (con conectores)", u: "GB", o: "medido: 17 procesos de Claude ≈ 2,8 GB" },
+    { k: "ramApp", v: 2.5, t: "RAM por app o dashboard en desarrollo", u: "GB", o: "estimado" },
+    { k: "vramBase", v: 1, t: "Memoria de gráfica del escritorio", u: "GB", o: "estimado" },
+    { k: "vramLargo", v: 1, t: "Memoria de gráfica por largo", u: "GB", o: "estimado: 4 Chrome" },
+    { k: "vramShort", v: 0.5, t: "Memoria de gráfica por short", u: "GB", o: "estimado: 2 Chrome" },
+    { k: "nvenc", v: 30, t: "Procesador que se ahorra codificando con la gráfica", u: "%", o: "estimado" },
+    { k: "horasDia", v: 9, t: "Horas de jornada al día", u: "h", o: "" },
+    { k: "dias", v: 5, t: "Días de trabajo a la semana", u: "días", o: "" },
+    { k: "efic", v: 85, t: "Aprovechamiento real del tiempo", u: "%", o: "estimado" },
+    { k: "r23Acer", v: 15000, t: "Potencia del i7-13620H (Cinebench R23)", u: "puntos", o: "estimado: no medido en tu equipo" }
+  ];
+  var S = {};
+  function supDefecto() { SUP.forEach(function (s) { S[s.k] = s.v; }); }
+  supDefecto();
+
+  /* volumen de hoy (medido en el panel y los registros) */
+  var HOY = { largos: 2, shorts: 20, blogs: 5, sesiones: 4, apps: 0 };
+
+  /* ───────── escenarios ───────── */
+  var PRESETS = [
+    { id: "hoy", t: "Hoy", d: "2 largos, 20 shorts y 5 blogs a la semana",
+      w: { tdr: true, rey: false, reyPct: 100, largosSem: 2, shortsSem: 20, blogsSem: 5, pLargos: 1, pShorts: 2, pSesiones: 4, pApps: 0 } },
+    { id: "x2", t: "El doble", d: "4 largos, 40 shorts, 8 blogs",
+      w: { tdr: true, rey: false, reyPct: 100, largosSem: 4, shortsSem: 40, blogsSem: 8, pLargos: 2, pShorts: 3, pSesiones: 6, pApps: 1 } },
+    { id: "objetivo", t: "Objetivo TDR", d: "1 largo al día y shorts propios por red",
+      w: { tdr: true, rey: false, reyPct: 100, largosSem: 7, shortsSem: 80, blogsSem: 10, pLargos: 5, pShorts: 5, pSesiones: 8, pApps: 2 } },
+    { id: "objetivo-reynasa", t: "Objetivo + Reynasa", d: "lo mismo, también para Reynasa",
+      w: { tdr: true, rey: true, reyPct: 100, largosSem: 7, shortsSem: 80, blogsSem: 10, pLargos: 5, pShorts: 5, pSesiones: 8, pApps: 2 } },
+    { id: "maximo", t: "Máximo", d: "todo a la vez, las dos empresas",
+      w: { tdr: true, rey: true, reyPct: 100, largosSem: 7, shortsSem: 112, blogsSem: 15, pLargos: 6, pShorts: 8, pSesiones: 12, pApps: 3 } }
+  ];
+  var W = {};
+  var P = { objetivo: 4, reyDesde: 2027, reyPct: 100, soft: 8 };
+  var presetActivo = "objetivo";
+
+  /* ───────── utilidades ───────── */
+  function miles(n) { return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "."); }
+  function dec(n, d) {
+    var s = n.toFixed(d === undefined ? 1 : d).replace(".", ",");
+    var p = s.split(","); p[0] = p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+    s = p.join(",");
+    return s.replace(/,0+$/, "");
+  }
+  function eur(n) { return n % 1 ? dec(n, 2) + " €" : miles(n) + " €"; }
+  function horas(min) {
+    if (min < 60) return Math.round(min) + " min";
+    var h = Math.floor(min / 60), m = Math.round(min % 60);
+    if (m === 60) { h++; m = 0; }
+    return h + " h" + (m ? " " + m + " min" : "");
+  }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function $(id) { return document.getElementById(id); }
+  function r23(e) { return e.r23 || S.r23Acer; }
+  function vel(e) { return r23(e) / S.r23Acer; }
+  function empresas() { return (W.tdr ? 1 : 0) + (W.rey ? W.reyPct / 100 : 0); }
+  function ramDe(e) { return W.ramMax ? e.ramMax : e.ram; }
+  function dispo(noches) { return (noches ? 24 * 7 : S.horasDia * S.dias) * 60 * S.efic / 100; }
+  function encFactor() { return W.nvenc ? 1 - S.nvenc / 100 : 1; }
+
+  function estadoMem(p) { return p > 100 ? "mal" : p > 90 ? "limite" : p > 70 ? "justo" : "ok"; }
+  function estadoCpu(p) { return p > 100 ? "mal" : p > 85 ? "limite" : p > 60 ? "justo" : "ok"; }
+  var TXT = { ok: "holgado", justo: "justo", limite: "al límite", mal: "no cabe" };
+  var TXTCPU = { ok: "holgado", justo: "justo", limite: "al límite", mal: "no le da tiempo" };
+  var COLOR = { ok: "var(--ok)", justo: "var(--justo)", limite: "#c9670f", mal: "var(--mal)" };
+
+  /* ───────── modelo ───────── */
+  function ramPico(w) {
+    w = w || W;
+    var f = (w.tdr ? 1 : 0) + (w.rey ? w.reyPct / 100 : 0);
+    return [
+      { k: "sistema", t: "Windows y programas", v: S.ramBase, c: "#8f897e" },
+      { k: "largos", t: "Largos", v: w.pLargos * S.ramLargo * f, c: "#d71119" },
+      { k: "shorts", t: "Shorts", v: w.pShorts * S.ramShort * f, c: "#e8833a" },
+      { k: "sesiones", t: "Sesiones de Claude", v: w.pSesiones * S.ramSesion * f, c: "#2a5db0" },
+      { k: "apps", t: "Apps y dashboards", v: w.pApps * S.ramApp * f, c: "#6b4c9a" }
+    ];
+  }
+  function suma(arr) { return arr.reduce(function (a, b) { return a + b.v; }, 0); }
+  function vramPico() { var f = empresas(); return S.vramBase + (W.pLargos * S.vramLargo + W.pShorts * S.vramShort) * f; }
+  function minPico(e) { var f = empresas(); return (W.pLargos * S.minLargo + W.pShorts * S.minShort) * encFactor() * f / vel(e); }
+  function minSemana(e, vol, ses, apps, f, soft) {
+    var enc = encFactor();
+    var render = vol.largos * (S.minLargo * S.repLargo * enc + S.extraLargo)
+               + vol.shorts * (S.minShort * S.repShort * enc + S.extraShort)
+               + vol.blogs * S.minBlog;
+    var fondo = (ses * S.cpuSesion / 100 + apps * S.cpuApp / 100) * S.horasDia * S.dias * 60;
+    return (render + fondo) * f * (soft || 1) / vel(e);
+  }
+  function cargaSemana(e) {
+    var f = empresas();
+    var m = minSemana(e, { largos: W.largosSem, shorts: W.shortsSem, blogs: W.blogsSem }, W.pSesiones, W.pApps, f, 1);
+    return m / dispo(W.noches) * 100;
+  }
+  function volAnio(i) {
+    var v = 1 + (P.objetivo - 1) * Math.min(1, i / 3);
+    var anio = 2026 + i, r = 0;
+    if (P.reyDesde && anio >= P.reyDesde) r = Math.min(1, (anio - P.reyDesde + 1) / 2) * P.reyPct / 100;
+    return { v: v, r: r, ses: HOY.sesiones + 2 * (v - 1), apps: Math.min(3, Math.round(v - 1)) };
+  }
+  function cargaAnio(e, i) {
+    var a = volAnio(i);
+    var vol = { largos: HOY.largos * a.v, shorts: HOY.shorts * a.v, blogs: HOY.blogs * a.v };
+    var soft = Math.pow(1 + P.soft / 100, i);
+    return minSemana(e, vol, a.ses, a.apps, 1 + a.r, soft) / dispo(W.noches) * 100;
+  }
+
+  /* ───────── pintar: portada ───────── */
+  function pintarClaves() {
+    function pico(id) { var p = PRESETS.filter(function (x) { return x.id === id; })[0]; return suma(ramPico(p.w)); }
+    var hoy = pico("hoy"), obj = pico("objetivo"), rey = pico("objetivo-reynasa");
+    $("claves").innerHTML =
+      clave("Hoy, en el momento de más carga", dec(hoy) + " GB", "de memoria necesaria · el Acer tiene 16 GB", "Por eso se cuelga.") +
+      clave("Objetivo TDR (×4 y contenido por red)", dec(obj) + " GB", "a la vez", "Cabe en 64 GB, con poco margen.") +
+      clave("Objetivo TDR + Reynasa a la vez", dec(rey) + " GB", "a la vez", "Solo cabe ampliando la RAM, o haciéndolo por tandas.");
+    function clave(e, v, s1, s2) { return '<div class="clave"><div class="e">' + e + '</div><div class="v">' + v + ' <small>' + s1 + '</small></div><div class="s">' + s2 + "</div></div>"; }
+  }
+
+  /* ───────── pintar: opciones ───────── */
+  function pintarOpciones() {
+    $("lista-opciones").innerHTML = EQUIPOS.map(function (e) {
+      return '<article class="opcion" data-rank="' + e.rank + '">' +
+        (e.rank === 1 ? '<span class="sello">Recomendado</span>' : e.rank === 4 ? '<span class="sello gris">Más barato</span>' : "") +
+        '<div class="top"><span class="puesto">#' + e.rank + '</span><span class="color" style="background:' + e.color + '"></span></div>' +
+        "<h4>" + esc(e.nombre) + "</h4>" +
+        '<p class="sub">' + esc(e.sub) + "</p>" +
+        '<div class="precio"><span class="v">' + eur(e.precio) + "</span><small>" + esc(e.precioNota) + "</small></div>" +
+        '<a class="ir" href="' + e.url + '" target="_blank" rel="noopener">Ver en ' + esc(e.tienda) + " ↗</a>" +
+        '<dl class="specs">' +
+        "<dt>Procesador</dt><dd>" + esc(e.cpu) + ' · <span class="x">' + dec(vel(e), 2) + "× tu Acer</span></dd>" +
+        "<dt>RAM</dt><dd>" + esc(e.ramTxt) + " · " + esc(e.ramMaxTxt) + "</dd>" +
+        "<dt>Gráfica</dt><dd>" + esc(e.gpu) + "</dd>" +
+        "<dt>Disco</dt><dd>" + esc(e.ssd) + "</dd>" +
+        "<dt>Pantalla</dt><dd>" + esc(e.pantalla) + " · " + esc(e.peso) + "</dd>" +
+        "<dt>Garantía</dt><dd>" + esc(e.garantia) + "</dd>" +
+        "<dt>Windows</dt><dd>" + esc(e.so) + "</dd>" +
+        "</dl>" +
+        '<div class="pc"><ul class="mas">' + e.pros.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + '</ul><ul class="menos">' +
+        e.contras.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul></div>" +
+        '<div class="fuentes">Fuentes: ' + e.fuentes.map(function (f) { return '<a href="' + f[1] + '" target="_blank" rel="noopener">' + esc(f[0]) + "</a>"; }).join(" · ") + "</div>" +
+        "</article>";
+    }).join("");
+  }
+
+  function pintarComparativa() {
+    var filas = [
+      ["Precio", function (e) { return e.precio ? eur(e.precio) : "—"; }, "n"],
+      ["Procesador", function (e) { return esc(e.cpu); }],
+      ["Velocidad (× tu Acer)", function (e) { return dec(vel(e), 2) + "×"; }, "n"],
+      ["Cinebench R23 multinúcleo", function (e) { return miles(r23(e)) + (e.r23 ? "" : "*"); }, "n"],
+      ["RAM", function (e) { return esc(e.ramTxt); }],
+      ["RAM máxima", function (e) { return esc(e.ramMaxTxt); }],
+      ["Gráfica", function (e) { return esc(e.gpu); }],
+      ["Disco", function (e) { return esc(e.ssd); }],
+      ["Pantalla", function (e) { return esc(e.pantalla); }],
+      ["Peso", function (e) { return esc(e.peso); }],
+      ["Garantía", function (e) { return esc(e.garantia); }],
+      ["Windows", function (e) { return esc(e.so); }]
+    ];
+    var cols = EQUIPOS.concat(REFERENCIAS);
+    var h = "<thead><tr><th></th>" + cols.map(function (e) {
+      return "<th" + (e.ref ? ' style="opacity:.75"' : "") + '><span class="eq"><span class="color" style="background:' + e.color + '"></span>' + (e.rank ? "#" + e.rank + " " : "") + esc(e.corto) + "</span></th>";
+    }).join("") + "</tr></thead><tbody>";
+    filas.forEach(function (f) {
+      h += "<tr><th>" + f[0] + "</th>" + cols.map(function (e) { return "<td" + (f[2] ? ' class="n"' : "") + (e.ref ? ' style="color:var(--tinta-suave)"' : "") + ">" + f[1](e) + "</td>"; }).join("") + "</tr>";
+    });
+    $("tabla-comp").innerHTML = h + "</tbody>";
+  }
+
+  /* ───────── pintar: simulador ───────── */
+  function etiqueta(e) { return '<div class="et"><span class="color" style="background:' + e.color + '"></span><span>' + (e.rank ? "#" + e.rank + " " : "") + esc(e.corto) + "</span></div>"; }
+
+  function barrasCapacidad(el, filasDatos, unidad, apilado, textos) {
+    textos = textos || TXT;
+    var escala = 1;
+    filasDatos.forEach(function (d) { escala = Math.max(escala, d.cap, d.need); });
+    escala *= 1.04;
+    el.innerHTML = filasDatos.map(function (d) {
+      var pct = d.need / d.cap * 100, est = estadoMem(pct);
+      var wCap = d.cap / escala * 100, wNeed = Math.min(d.need, d.cap) / escala * 100;
+      var exceso = d.need > d.cap ? '<span class="exceso" style="left:' + wCap + "%;width:" + ((d.need - d.cap) / escala * 100) + '%"></span>' : "";
+      var relleno;
+      if (apilado) {
+        relleno = '<span class="pila" style="width:' + wNeed + '%">' + apilado.map(function (p) {
+          return '<span style="width:' + (p.v / Math.max(d.need, 0.0001) * 100 * (d.need > d.cap ? d.need / d.cap : 1)) + "%;background:" + p.c + '" title="' + esc(p.t) + ": " + dec(p.v) + ' GB"></span>';
+        }).join("") + "</span>";
+      } else {
+        relleno = '<span class="carga" style="width:' + wNeed + "%;background:" + COLOR[est] + '"></span>';
+      }
+      return '<div class="fila' + (d.e.ref ? " ref" : "") + '">' + etiqueta(d.e) +
+        '<div class="pista" role="img" aria-label="' + esc(d.e.corto) + ": necesita " + dec(d.need) + " " + unidad + " de " + dec(d.cap) + '">' +
+        '<span class="mesa" style="width:' + wCap + '%"></span>' + relleno + exceso + "</div>" +
+        '<div class="val"><span class="chip ' + est + '">' + Math.round(pct) + " % · " + textos[est] + "</span><small>" + dec(d.need) + " de " + dec(d.cap) + " " + unidad + "</small></div></div>";
+    }).join("");
+  }
+
+  function barrasValor(el, filasDatos, fmtVal, maxRef, estadoFn, textos) {
+    var escala = maxRef || 1;
+    filasDatos.forEach(function (d) { escala = Math.max(escala, d.v); });
+    escala *= 1.04;
+    el.innerHTML = filasDatos.map(function (d) {
+      var est = estadoFn(d);
+      var tope = maxRef ? '<span class="tope rojo" style="left:' + (maxRef / escala * 100) + '%" title="100 %"></span>' : "";
+      return '<div class="fila' + (d.e.ref ? " ref" : "") + '">' + etiqueta(d.e) +
+        '<div class="pista"><span class="carga" style="width:' + (d.v / escala * 100) + "%;background:" + COLOR[est] + '"></span>' + tope + "</div>" +
+        '<div class="val"><span class="chip ' + est + '">' + (textos ? textos(d, est) : TXT[est]) + "</span><small>" + fmtVal(d) + "</small></div></div>";
+    }).join("");
+  }
+
+  function pintarSimulador() {
+    var f = empresas();
+    var partes = ramPico();
+    var need = suma(partes);
+    $("ley-ram").innerHTML = partes.filter(function (p) { return p.v > 0; }).map(function (p) { return '<span><i style="background:' + p.c + '"></i>' + esc(p.t) + " " + dec(p.v) + " GB</span>"; }).join("");
+    $("q-ram").innerHTML = "Este escenario necesita <b>" + dec(need) + " GB</b> a la vez" + (W.ramMax ? " (comparado con la RAM máxima de cada uno)." : ".");
+    barrasCapacidad($("g-ram"), TODOS.map(function (e) { return { e: e, cap: ramDe(e), need: need }; }), "GB", partes.filter(function (p) { return p.v > 0; }));
+
+    var vr = vramPico();
+    $("q-vram").innerHTML = "Los renders en paralelo piden unos <b>" + dec(vr) + " GB</b> de memoria de gráfica.";
+    barrasCapacidad($("g-vram"), TODOS.map(function (e) { return { e: e, cap: e.vram, need: vr }; }), "GB", null,
+      { ok: "holgada", justo: "justa", limite: "al límite", mal: "saturada" });
+
+    var hayPico = (W.pLargos + W.pShorts) > 0 && f > 0;
+    $("q-tiempo").innerHTML = hayPico ? "Lo que tarda cada ordenador en terminar los <b>" + dec(W.pLargos * f) + " largos</b> y <b>" + dec(W.pShorts * f) + " shorts</b> lanzados a la vez (si caben en memoria)." : "No hay renders en el pico.";
+    var tiempos = TODOS.map(function (e) {
+      var cabe = need <= ramDe(e), lenta = vr > e.vram;
+      return { e: e, v: hayPico ? minPico(e) * (lenta ? 1.25 : 1) : 0, cabe: cabe, lenta: lenta };
+    });
+    barrasValor($("g-tiempo"), tiempos, function (d) { return !d.cabe ? horas(d.v) + " si cupiera" : d.lenta ? "gráfica saturada: algo más lento" : horas(d.v); }, 0,
+      function (d) { return !d.cabe ? "mal" : d.lenta ? "limite" : "ok"; },
+      function (d, est) { return d.cabe ? horas(d.v) : "no cabe a la vez"; });
+
+    var semana = TODOS.map(function (e) { return { e: e, v: f > 0 ? cargaSemana(e) : 0 }; });
+    var horasDisp = W.noches ? "24 h × 7 días" : S.horasDia + " h × " + S.dias + " días";
+    $("q-semana").innerHTML = "Volumen semanal: <b>" + dec(W.largosSem * f) + "</b> largos, <b>" + dec(W.shortsSem * f) + "</b> shorts y <b>" + dec(W.blogsSem * f) + "</b> blogs, con " + horasDisp + " disponibles.";
+    barrasValor($("g-semana"), semana, function (d) { return Math.round(d.v) + " % del tiempo"; }, 100,
+      function (d) { return estadoCpu(d.v); }, function (d, est) { return TXTCPU[est]; });
+
+    /* veredicto */
+    var h = '<thead><tr><th>Ordenador</th><th class="n">Precio</th><th class="n">RAM en el pico</th><th class="n">Gráfica en el pico</th><th class="n">Pico terminado en</th><th class="n">Semana</th><th>Veredicto</th></tr></thead><tbody>';
+    TODOS.forEach(function (e, i) {
+      var pr = need / ramDe(e) * 100, pv = vr / e.vram * 100, ps = semana[i].v;
+      var er = estadoMem(pr), ev = estadoMem(pv), es = estadoCpu(ps);
+      var ver;
+      if (f === 0) ver = '<span class="chip justo">Activa una empresa</span>';
+      else if (er === "mal") ver = '<span class="chip mal">No puede: se queda sin memoria</span>';
+      else if (es === "mal") ver = '<span class="chip mal">No le da tiempo en la semana</span>';
+      else if (ev === "mal") ver = '<span class="chip limite">Puede, pero con la gráfica saturada</span>';
+      else if (er === "limite" || ev === "limite" || es === "limite") ver = '<span class="chip limite">Puede, pero al límite</span>';
+      else if (er === "justo" || ev === "justo" || es === "justo") ver = '<span class="chip justo">Puede, con poco margen</span>';
+      else ver = '<span class="chip ok">Puede con holgura</span>';
+      h += '<tr class="' + (e.ref ? "ref" : "") + '"><td>' + '<span class="eq"><span class="color" style="background:' + e.color + '"></span>' + (e.rank ? "#" + e.rank + " " : "") + esc(e.corto) + "</span></td>" +
+        '<td class="n">' + (e.precio ? eur(e.precio) : "—") + "</td>" +
+        '<td class="n">' + Math.round(pr) + " %</td>" +
+        '<td class="n">' + Math.round(pv) + " %</td>" +
+        '<td class="n">' + (tiempos[i].cabe ? horas(tiempos[i].v) : "—") + "</td>" +
+        '<td class="n">' + Math.round(ps) + " %</td><td>" + ver + "</td></tr>";
+    });
+    $("tabla-veredicto").innerHTML = h + "</tbody>";
+  }
+
+  /* ───────── pintar: 5 años ───────── */
+  var animarProy = true;
+  function pintarFuturo() {
+    var anios = [2026, 2027, 2028, 2029, 2030, 2031];
+    var cont = $("multiples");
+    cont.classList.toggle("animar", animarProy);
+    animarProy = false;
+    var W0 = 300, H0 = 150, x0 = 30, y0 = 10, ph = 108, ancho = W0 - x0 - 6;
+    var datos = TODOS.map(function (e) { return { e: e, v: anios.map(function (a, i) { return cargaAnio(e, i); }) }; });
+    var maxV = 120;
+    datos.forEach(function (d) { d.v.forEach(function (x) { maxV = Math.max(maxV, x); }); });
+    maxV = Math.ceil(maxV / 50) * 50;
+    function y(v) { return y0 + ph - v / maxV * ph; }
+    cont.innerHTML = datos.map(function (d) {
+      var bw = ancho / anios.length;
+      var barras = d.v.map(function (v, i) {
+        var est = estadoCpu(v), x = x0 + i * bw + bw * 0.18, w = bw * 0.64, top = y(Math.min(v, maxV));
+        return '<rect class="barra-anio" style="animation-delay:' + (i * 50) + 'ms" x="' + x.toFixed(1) + '" y="' + top.toFixed(1) + '" width="' + w.toFixed(1) + '" height="' + (y0 + ph - top).toFixed(1) + '" rx="2" fill="' + COLOR[est] + '"><title>' + anios[i] + ": " + Math.round(v) + " %</title></rect>" +
+          '<text x="' + (x + w / 2).toFixed(1) + '" y="' + (top - 4).toFixed(1) + '" text-anchor="middle" font-size="9.5">' + Math.round(v) + "</text>" +
+          '<text x="' + (x + w / 2).toFixed(1) + '" y="' + (y0 + ph + 14) + '" text-anchor="middle" font-size="10">' + String(anios[i]).slice(2) + "</text>";
+      }).join("");
+      var rej = [0, 50, 100].concat(maxV > 150 ? [150] : []).concat(maxV > 200 ? [200] : []).map(function (g) {
+        return '<line x1="' + x0 + '" x2="' + (W0 - 4) + '" y1="' + y(g).toFixed(1) + '" y2="' + y(g).toFixed(1) + '" stroke="' + (g === 100 ? "#b80d16" : "#d9cfbd") + '" stroke-width="' + (g === 100 ? 1.4 : 1) + '"' + (g === 100 ? ' stroke-dasharray="4 3"' : "") + "/>" +
+          '<text x="' + (x0 - 5) + '" y="' + (y(g) + 3).toFixed(1) + '" text-anchor="end" font-size="9.5">' + g + "%</text>";
+      }).join("");
+      var corto = d.v.findIndex(function (v) { return v > 100; });
+      var justo = d.v.findIndex(function (v) { return v > 85; });
+      var ver = corto === 0 ? '<span class="chip mal">Ya hoy no le da tiempo</span>' :
+        corto > 0 ? '<span class="chip mal">Se queda corto en ' + anios[corto] + "</span>" :
+        justo >= 0 ? '<span class="chip limite">Aguanta, al límite desde ' + anios[justo] + "</span>" :
+        '<span class="chip ok">Aguanta los 5 años</span>';
+      return '<div class="mini"><h4><span class="color" style="background:' + d.e.color + '"></span>' + (d.e.rank ? "#" + d.e.rank + " " : "") + esc(d.e.corto) + '</h4><p class="ver">' + ver + "</p>" +
+        '<svg viewBox="0 0 ' + W0 + " " + H0 + '" role="img" aria-label="Carga semanal de ' + esc(d.e.corto) + ' de 2026 a 2031">' + rej + barras + "</svg></div>";
+    }).join("");
+
+    var h = '<thead><tr><th>Ordenador</th>' + anios.map(function (a) { return '<th class="n">' + a + "</th>"; }).join("") + "<th>Conclusión</th></tr></thead><tbody>";
+    datos.forEach(function (d) {
+      var corto = d.v.findIndex(function (v) { return v > 100; });
+      var concl = corto === 0 ? "No llega ni hoy" : corto > 0 ? "No llega desde " + anios[corto] : "Llega los 5 años";
+      h += '<tr class="' + (d.e.ref ? "ref" : "") + '"><td><span class="eq"><span class="color" style="background:' + d.e.color + '"></span>' + (d.e.rank ? "#" + d.e.rank + " " : "") + esc(d.e.corto) + "</span></td>" +
+        d.v.map(function (v) { var est = estadoCpu(v); return '<td class="n"><span class="chip ' + est + '">' + Math.round(v) + " %</span></td>"; }).join("") +
+        "<td>" + concl + "</td></tr>";
+    });
+    $("tabla-futuro").innerHTML = h + "</tbody>";
+    var a3 = volAnio(3), a5 = volAnio(5);
+    $("nota-futuro").innerHTML = "Escenario: TDR pasa de hoy (" + HOY.largos + " largos, " + HOY.shorts + " shorts y " + HOY.blogs + " blogs a la semana) a <b>×" + dec(P.objetivo) + "</b> en 2029" +
+      (P.reyDesde ? "; Reynasa empieza en " + P.reyDesde + " y llega al " + P.reyPct + " % del volumen de TDR" : "; sin Reynasa") +
+      "; los programas piden un " + P.soft + " % más cada año. En 2031: " + dec(HOY.largos * a5.v * (1 + a5.r)) + " largos y " + dec(HOY.shorts * a5.v * (1 + a5.r)) + " shorts a la semana entre las dos empresas, con " + dec(a5.ses) + " sesiones de Claude abiertas por empresa. " +
+      (W.noches ? "Contando noches y fines de semana." : "Solo en horario de trabajo (" + S.horasDia + " h × " + S.dias + " días).") +
+      " La memoria no se proyecta aquí: con más volumen habrá más cosas a la vez, y para eso cuenta la RAM máxima de cada uno (ver el simulador con «RAM ampliada al máximo»).";
+  }
+
+  /* ───────── contexto: publicaciones del panel ───────── */
+  function pintarPublicaciones(cuentas, fecha) {
+    var items = [["youtube-short", "Shorts en YouTube"], ["youtube-largo", "Largos en YouTube"], ["tiktok", "TikTok"], ["instagram", "Instagram"], ["facebook", "Facebook"]];
+    $("cifras-pub").innerHTML = items.map(function (it) { return "<div><b>" + (cuentas[it[0]] || 0) + "</b><span>" + it[1] + "</span></div>"; }).join("");
+    $("pub-fecha").textContent = fecha ? "datos del panel, " + fecha : "datos del panel del 13/10/2026";
+  }
+  function cargarPublicaciones() {
+    var fijo = { "youtube-short": 72, "youtube-largo": 4, instagram: 14, tiktok: 23, facebook: 11 };
+    pintarPublicaciones(fijo, null);
+    if (!window.fetch) return;
+    fetch("../datos_redes.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+      if (!j || !Array.isArray(j.publicaciones)) return;
+      var hoy = new Date(), desde = new Date(hoy.getTime() - 30 * 864e5), c = {};
+      j.publicaciones.forEach(function (p) {
+        var d = new Date(String(p.fecha || "").replace(" ", "T"));
+        if (isNaN(d) || d < desde) return;
+        var k = p.red === "youtube" ? "youtube-" + (p.tipo === "largo" ? "largo" : "short") : p.red;
+        c[k] = (c[k] || 0) + 1;
+      });
+      if (Object.keys(c).length) pintarPublicaciones(c, j.actualizado ? String(j.actualizado).replace(/^(\d{4})-(\d{2})-(\d{2}).*/, "$3/$2/$1") : null);
+    }).catch(function () {});
+  }
+
+  /* ───────── supuestos: formulario ───────── */
+  function pintarSupuestos() {
+    $("sup-grid").innerHTML = SUP.map(function (s) {
+      return '<label class="sup-item"><span>' + esc(s.t) + ' <span class="u">(' + esc(s.u) + ')</span></span><input type="number" step="any" min="0" data-k="' + s.k + '" value="' + S[s.k] + '">' +
+        (s.o ? "<small>" + esc(s.o) + "</small>" : "") + "</label>";
+    }).join("");
+    Array.prototype.forEach.call($("sup-grid").querySelectorAll("input"), function (inp) {
+      inp.addEventListener("input", function () {
+        var v = parseFloat(String(inp.value).replace(",", "."));
+        if (isFinite(v) && v >= 0) { S[inp.dataset.k] = v; if (inp.dataset.k === "r23Acer" && v === 0) S.r23Acer = 1; todo(); }
+      });
+    });
+  }
+
+  function pintarFuentes() {
+    var extra = [
+      ["Tiempos de render: registros del motor de vídeo (largos 28–32, shorts del 31)", null],
+      ["Publicaciones: datos del panel de redes", "../panel/"],
+      ["Remotion: aceleración por hardware (solo NVIDIA en Windows)", "https://www.remotion.dev/docs/hardware-acceleration"],
+      ["NVIDIA: codificadores de vídeo por gráfica", "https://developer.nvidia.com/video-encode-and-decode-gpu-support-matrix-new"],
+      ["Escasez de memoria y precios de la RAM hasta 2027", "https://wccftech.com/memory-ddr5-ddr4-shortages-last-till-q4-2027-higher-prices-throughout-2026/"],
+      ["Consumo de RAM de varias sesiones de Claude Code", "https://claudeissues.com/issue/63318-bug-excessive-ram-usage-with-multiple-parallel-chats-10-sessions-30-gb-memory-pr"],
+      ["Módulo de RAM para el Acer actual (Kingston KVR56S46BS8-16)", "https://www.pccomponentes.com/kingston-valueram-so-dimm-ddr5-5600-mhz-16gb-cl46"],
+      ["Garantía de MSI en España", "https://es-store.msi.com/pages/politica-de-garantias"]
+    ];
+    var todas = [];
+    EQUIPOS.forEach(function (e) { e.fuentes.forEach(function (f) { todas.push(["#" + e.rank + " " + e.corto + ": " + f[0], f[1]]); }); });
+    todas = todas.concat(extra);
+    $("fuentes-lista").innerHTML = todas.map(function (f) { return "<li>" + (f[1] ? '<a href="' + f[1] + '" target="_blank" rel="noopener">' + esc(f[0]) + "</a>" : esc(f[0])) + "</li>"; }).join("") +
+      "<li>* PCSpecialist: el máximo de 128 GB es el del chasis hermano XMG NEO 16 (M26); hay que confirmarlo con PCSpecialist antes de comprar.</li>";
+  }
+
+  /* ───────── mandos ───────── */
+  var CAMPOS = ["reyPct", "largosSem", "shortsSem", "blogsSem", "pLargos", "pShorts", "pSesiones", "pApps"];
+  var CHECKS = ["tdr", "rey", "nvenc", "noches", "ramMax"];
+  function aplicarPreset(id) {
+    var p = PRESETS.filter(function (x) { return x.id === id; })[0];
+    if (!p) return;
+    presetActivo = id;
+    for (var k in p.w) W[k] = p.w[k];
+    sincronizarMandos();
+    todo();
+  }
+  function sincronizarMandos() {
+    CAMPOS.forEach(function (k) { $("w-" + k).value = W[k]; });
+    CHECKS.forEach(function (k) { $("w-" + k).checked = !!W[k]; });
+    $("w-reyPct").disabled = !W.rey;
+    Array.prototype.forEach.call($("presets").querySelectorAll("button"), function (b) { b.setAttribute("aria-pressed", b.dataset.id === presetActivo ? "true" : "false"); });
+    salidas();
+  }
+  function salidas() {
+    $("o-reyPct").textContent = W.reyPct + " %";
+    ["largosSem", "shortsSem", "blogsSem", "pLargos", "pShorts", "pSesiones", "pApps"].forEach(function (k) { $("o-" + k).textContent = W[k]; });
+    $("o-objetivo").textContent = "×" + dec(P.objetivo);
+    $("o-p-reyPct").textContent = P.reyPct + " %";
+    $("o-soft").textContent = "+" + P.soft + " %";
+    $("p-reyPct").disabled = !P.reyDesde;
+  }
+  function montarMandos() {
+    $("presets").innerHTML = PRESETS.map(function (p) { return '<button type="button" data-id="' + p.id + '" aria-pressed="false"><b>' + esc(p.t) + "</b>" + esc(p.d) + "</button>"; }).join("");
+    $("presets").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) aplicarPreset(b.dataset.id); });
+    CAMPOS.forEach(function (k) {
+      $("w-" + k).addEventListener("input", function (ev) { W[k] = parseFloat(ev.target.value); presetActivo = null; sincronizarMandos(); todo(); });
+    });
+    CHECKS.forEach(function (k) {
+      $("w-" + k).addEventListener("change", function (ev) {
+        W[k] = ev.target.checked;
+        if (k === "tdr" || k === "rey") presetActivo = null;
+        sincronizarMandos(); todo();
+      });
+    });
+    $("p-objetivo").value = P.objetivo; $("p-reyDesde").value = String(P.reyDesde); $("p-reyPct").value = P.reyPct; $("p-soft").value = P.soft;
+    $("p-objetivo").addEventListener("input", function (ev) { P.objetivo = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
+    $("p-reyDesde").addEventListener("change", function (ev) { P.reyDesde = parseInt(ev.target.value, 10) || 0; salidas(); pintarFuturo(); });
+    $("p-reyPct").addEventListener("input", function (ev) { P.reyPct = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
+    $("p-soft").addEventListener("input", function (ev) { P.soft = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
+    $("sup-reset").addEventListener("click", function () { supDefecto(); pintarSupuestos(); todo(); });
+  }
+
+  function todo() {
+    pintarSimulador();
+    pintarFuturo();
+    pintarClaves();
+    pintarOpciones();
+    pintarComparativa();
+  }
+
+  /* arranque */
+  montarMandos();
+  pintarSupuestos();
+  pintarFuentes();
+  cargarPublicaciones();
+  var pedido = (new URLSearchParams(location.search)).get("escenario");
+  aplicarPreset(PRESETS.some(function (p) { return p.id === pedido; }) ? pedido : "objetivo");
+})();
+</script>
+</body>
+</html>
