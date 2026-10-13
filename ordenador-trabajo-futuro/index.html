@@ -95,8 +95,9 @@ h3 { margin: 0 0 8px; font: 600 12px/1.3 var(--f-cifra); letter-spacing: .06em; 
 .portada h1 em { font-style: normal; color: var(--marca-tinta); }
 .portada .ticker { font: 600 12px/1 var(--f-cifra); letter-spacing: .08em; color: var(--tinta-tenue); text-transform: uppercase; }
 .portada p { margin: 0 0 12px; max-width: 62ch; }
-.claves { display: grid; gap: 12px; }
-.clave { position: relative; background: var(--capa2); border: 1px solid var(--linea); border-radius: 10px 10px 0 0; padding: 14px 16px; margin-bottom: 10px; }
+.claves { display: grid; gap: 12px; min-width: 0; }
+.portada > div { min-width: 0; }
+.clave { position: relative; min-width: 0; background: var(--capa2); border: 1px solid var(--linea); border-radius: 10px 10px 0 0; padding: 14px 16px; margin-bottom: 10px; }
 .clave::after {
   content: ""; position: absolute; left: -1px; right: -1px; bottom: -10px; height: 10px;
   background: radial-gradient(circle at 7px 10px, transparent 6px, var(--capa2) 6.5px) repeat-x; background-size: 14px 10px;
@@ -132,6 +133,11 @@ h3 { margin: 0 0 8px; font: 600 12px/1.3 var(--f-cifra); letter-spacing: .06em; 
   border: 1px solid var(--marca); color: var(--marca-tinta); padding: 6px 12px; border-radius: 999px; min-height: 34px;
 }
 .ir:hover { background: var(--marca-suave); }
+.tiendas { display: flex; flex-direction: column; gap: 4px; border-top: 1px dashed var(--linea-fuerte); padding-top: 10px; }
+.tiendas .t-et { font: 600 11px/1.3 var(--f-cifra); letter-spacing: .06em; text-transform: uppercase; color: var(--tinta-tenue); margin-bottom: 2px; }
+.tiendas small { color: var(--tinta-tenue); font-size: 11.5px; margin: -1px 0 4px 4px; }
+.tiendas .no-tienda { font-size: 12px; color: var(--tinta-tenue); }
+.config { margin: 0; font-size: 12px; line-height: 1.45; color: var(--tinta-suave); background: var(--capa2); border: 1px dashed var(--linea-fuerte); border-radius: 6px; padding: 8px 10px; }
 .specs { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 13px; border-top: 1px dashed var(--linea-fuerte); padding-top: 10px; }
 .specs dt { color: var(--tinta-tenue); font: 500 11px/1.9 var(--f-cifra); text-transform: uppercase; letter-spacing: .05em; }
 .specs dd { margin: 0; }
@@ -212,10 +218,10 @@ tr.ref td { color: var(--tinta-suave); background: #00000006; }
 .marcas { display: flex; justify-content: space-between; font: 500 10.5px var(--f-cifra); color: var(--tinta-tenue); margin: 4px 0 0 170px; padding-right: 162px; }
 
 /* proyección a 5 años */
-.proy-mandos { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 12px 18px; background: var(--capa2); border: 1px solid var(--linea); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
+.proy-mandos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(210px, 100%), 1fr)); gap: 12px 18px; background: var(--capa2); border: 1px solid var(--linea); border-radius: 12px; padding: 14px 16px; margin-bottom: 16px; }
 .proy-mandos label.sel { display: grid; gap: 4px; font-size: 13px; }
 .proy-mandos select { border: 1px solid var(--linea-fuerte); background: var(--capa1); border-radius: 6px; padding: 7px 8px; min-height: 38px; }
-.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(270px, 1fr)); gap: 14px; }
+.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(270px, 100%), 1fr)); gap: 14px; }
 .mini { background: var(--capa1); border: 1px solid var(--linea); border-radius: 12px; padding: 12px 14px 8px; }
 .mini h4 { margin: 0 0 2px; display: flex; align-items: center; gap: 8px; font: 600 15px/1.2 var(--f-titulo); }
 .mini .ver { font-size: 12.5px; margin: 0 0 6px; }
@@ -240,7 +246,7 @@ details.sup summary { cursor: pointer; padding: 14px 16px; font-weight: 600; lis
 details.sup summary::-webkit-details-marker { display: none; }
 details.sup summary::after { content: "▾"; color: var(--tinta-tenue); }
 details.sup[open] summary::after { content: "▴"; }
-.sup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px 18px; padding: 0 16px 16px; }
+.sup-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); gap: 10px 18px; padding: 0 16px 16px; }
 .sup-item { display: grid; grid-template-columns: 1fr 96px; gap: 2px 10px; align-items: center; font-size: 13px; border-bottom: 1px dashed var(--linea-fuerte); padding: 6px 0; }
 .sup-item input { width: 96px; border: 1px solid var(--linea-fuerte); border-radius: 6px; padding: 6px 8px; background: var(--capa1); font-family: var(--f-cifra); text-align: right; min-height: 34px; }
 .sup-item small { grid-column: 1 / -1; color: var(--tinta-tenue); font-size: 11.5px; }
@@ -296,12 +302,13 @@ details.sup[open] summary::after { content: "▴"; }
 
 <nav class="indice" aria-label="Secciones">
   <a href="#resumen"><span class="n">01</span>Resumen</a>
-  <a href="#opciones"><span class="n">02</span>Las 5 opciones</a>
-  <a href="#comparativa"><span class="n">03</span>Comparativa</a>
-  <a href="#simulador"><span class="n">04</span>Simulador</a>
-  <a href="#futuro"><span class="n">05</span>A 5 años</a>
-  <a href="#contexto"><span class="n">06</span>Qué hace hoy el ordenador</a>
-  <a href="#supuestos"><span class="n">07</span>Supuestos y fuentes</a>
+  <a href="#prueba"><span class="n">02</span>Prueba a 5 años</a>
+  <a href="#opciones"><span class="n">03</span>Las opciones</a>
+  <a href="#comparativa"><span class="n">04</span>Comparativa</a>
+  <a href="#simulador"><span class="n">05</span>Simulador</a>
+  <a href="#futuro"><span class="n">06</span>Año a año</a>
+  <a href="#contexto"><span class="n">07</span>Qué hace hoy el ordenador</a>
+  <a href="#supuestos"><span class="n">08</span>Supuestos y fuentes</a>
 </nav>
 
 <main id="principal">
@@ -314,20 +321,43 @@ details.sup[open] summary::after { content: "▴"; }
         <p class="ticker">Decisión de compra · horizonte 5 años</p>
         <h1>Qué portátil comprar para <em>multiplicar por 4</em> el contenido de TDR y abrir Reynasa</h1>
         <p>Hoy el portátil se queda <b>sin memoria</b> y se cuelga cuando renderiza un vídeo largo, varios shorts y tiene abiertas sesiones de Claude a la vez. El plan es pasar de un largo cada pocos días a <b>uno al día</b>, hacer <b>contenido distinto para cada red</b> (YouTube, Instagram, TikTok y Facebook), seguir con los blogs, crear apps y dashboards, y <b>replicar todo para Reynasa</b>.</p>
-        <p>Esta página compara las 5 mejores opciones que encontré y deja <b>simular</b> cualquier volumen de trabajo para ver qué ordenador puede con él hoy y dentro de 5 años.</p>
+        <p>La recomendación no se hace con el volumen de hoy, sino con el de <b>2031</b> (TDR multiplicado por 4 y Reynasa funcionando) y con un <b>margen del 30 %</b> para lo que aún no sabemos que vendrá. La página compara las opciones y deja <b>simular</b> cualquier volumen.</p>
         <div class="reco">
-          <b>Recomendación: PCSpecialist Recoil IV 16 (3.752 €).</b><br>
-          Es el procesador más rápido de la lista (<span class="cifra">2,6×</span> el actual), trae 64 GB que se pueden ampliar, dos ranuras para discos y 3 años de garantía con recogida. Si hay que ajustar presupuesto, el <b>MSI Crosshair A16</b> (2.129 €) cumple lo mínimo: 64 GB y el doble de velocidad.
+          <b>Recomendación a 5 años: PCSpecialist Recoil IV 16 en configuración 5 años (5.117 €).</b><br>
+          Core Ultra 9 290HX Plus, <b>RTX 5090 de 24 GB</b>, <b>96 GB</b> de RAM y <b>2 TB</b> (5.284 € con Windows 11 Pro). Con margen, cubre el procesador y la gráfica hasta 2031 incluso con Reynasa al 100 %, siempre que los vídeos se codifiquen con la gráfica (ese cambio lo hago yo). La gráfica es lo único que no se puede ampliar después, y 24 GB dejan sitio para la IA en local, que es lo más probable que llegue.<br>
+          <span style="color:var(--tinta-suave)">Lo único que no cubre es el pico extremo de las dos empresas con todo a la vez (unos 127 GB con margen). Eso se reparte trabajando de noche o con un segundo equipo de render cuando arranque Reynasa. El único portátil que lo cubre todo él solo es el ASUS SCAR 18 con 128 GB, por unos 7.680 € y 3,6 kg.</span>
         </div>
       </div>
       <div class="claves" id="claves" aria-live="polite"></div>
     </div>
   </section>
 
-  <!-- 02 OPCIONES -->
+  <!-- 02 PRUEBA A 5 AÑOS -->
+  <section class="caja" id="prueba">
+    <h2>Prueba a 5 años con margen para imprevistos</h2>
+    <p class="bajada">La recomendación sale del trabajo de <b>2031</b>, no del de hoy: TDR multiplicado, Reynasa funcionando, programas más exigentes cada año y un <b>margen extra</b> para lo que aún no sabemos (IA en local, formatos nuevos, más redes…). Cada ordenador tiene que pasar tres pruebas con ese margen.</p>
+    <div class="proy-mandos">
+      <div class="deslizador"><label for="p-margen">Margen para imprevistos</label><output id="o-margen"></output><input type="range" id="p-margen" min="0" max="60" step="5"></div>
+      <div class="deslizador"><label for="p-objetivo">Volumen de TDR en 2029 frente a hoy</label><output id="o-objetivo"></output><input type="range" id="p-objetivo" min="1" max="6" step="0.5"></div>
+      <label class="sel">Reynasa empieza en
+        <select id="p-reyDesde"><option value="0">Nunca</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option></select>
+      </label>
+      <div class="deslizador"><label for="p-reyPct">Volumen de Reynasa frente a TDR</label><output id="o-p-reyPct"></output><input type="range" id="p-reyPct" min="25" max="150" step="25"></div>
+      <div class="deslizador"><label for="p-soft">Programas más exigentes cada año</label><output id="o-soft"></output><input type="range" id="p-soft" min="0" max="20" step="1"></div>
+      <div style="display:grid;gap:8px">
+        <label class="interruptor"><input type="checkbox" id="p-nvenc"><span>Codificar con la gráfica<small>cambio en el motor (lo hago yo)</small></span></label>
+        <label class="interruptor"><input type="checkbox" id="p-noches"><span>Trabajar de noche y en fin de semana<small>informática tiene que quitar el apagado de las 23:30</small></span></label>
+      </div>
+    </div>
+    <div class="claves" id="reco-auto" style="grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));margin-bottom:6px" aria-live="polite"></div>
+    <div class="tabla-env"><table id="tabla-prueba"></table></div>
+    <p class="nota" id="nota-prueba"></p>
+  </section>
+
+  <!-- 03 OPCIONES -->
   <section class="caja" id="opciones">
-    <h2>Las 5 opciones <small style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)">todas nuevas, con 64 GB y la RAM sin soldar</small></h2>
-    <p class="bajada">Ordenadas de mejor a peor para este trabajo. "× tu Acer" mide solo la velocidad del procesador (Cinebench R23 multinúcleo, media de Notebookcheck), que es lo que decide cuánto tarda cada render. La memoria decide cuántas cosas caben a la vez: las cinco tienen 4 veces la actual.</p>
+    <h2>Las opciones <small style="text-transform:none;letter-spacing:0;font:400 12px var(--f-texto);color:var(--tinta-tenue)">todas nuevas, con 64 GB o más y la RAM sin soldar</small></h2>
+    <p class="bajada">Ordenadas de mejor a peor para el trabajo futuro con margen. "× tu Acer" mide solo la velocidad del procesador (Cinebench R23 multinúcleo de Notebookcheck), que es lo que decide cuánto tarda cada render. La memoria decide cuántas cosas caben a la vez, y la gráfica, cuántos renders en paralelo y qué IA local se puede usar. Cada tarjeta tiene sus enlaces de compra (PCSpecialist, PcComponentes, MediaMarkt o la tienda oficial).</p>
     <div class="opciones" id="lista-opciones"></div>
   </section>
 
@@ -411,16 +441,8 @@ details.sup[open] summary::after { content: "▴"; }
 
   <!-- 05 FUTURO -->
   <section class="caja" id="futuro">
-    <h2>A 5 años: ¿cuándo se queda corto cada ordenador?</h2>
-    <p class="bajada">Carga de la semana de cada ordenador, año a año, si el volumen crece como indiques. También usa los interruptores del simulador (codificar con la gráfica y trabajar de noche). La raya roja es el 100 %: por encima, no le da tiempo.</p>
-    <div class="proy-mandos">
-      <div class="deslizador"><label for="p-objetivo">Volumen de TDR en 2029 frente a hoy</label><output id="o-objetivo"></output><input type="range" id="p-objetivo" min="1" max="6" step="0.5"></div>
-      <label class="sel">Reynasa empieza en
-        <select id="p-reyDesde"><option value="0">Nunca</option><option value="2027">2027</option><option value="2028">2028</option><option value="2029">2029</option><option value="2030">2030</option></select>
-      </label>
-      <div class="deslizador"><label for="p-reyPct">Volumen de Reynasa frente a TDR</label><output id="o-p-reyPct"></output><input type="range" id="p-reyPct" min="25" max="150" step="25"></div>
-      <div class="deslizador"><label for="p-soft">Programas más exigentes cada año</label><output id="o-soft"></output><input type="range" id="p-soft" min="0" max="20" step="1"></div>
-    </div>
+    <h2>Año a año: ¿cuándo se queda corto cada ordenador?</h2>
+    <p class="bajada">Carga de la semana de cada ordenador, de 2026 a 2031, sin contar el margen. Usa los mandos de la sección 02 (volumen, Reynasa, codificar con la gráfica y trabajar de noche). La raya roja es el 100 %: por encima, no le da tiempo.</p>
     <div class="leyenda"><span><i style="background:var(--ok)"></i>holgado (menos de 60 %)</span><span><i style="background:var(--justo)"></i>justo (60–85 %)</span><span><i style="background:#c9670f"></i>al límite (85–100 %)</span><span><i style="background:var(--mal)"></i>no le da tiempo (más de 100 %)</span></div>
     <div class="multiples" id="multiples"></div>
     <div class="tabla-env" style="margin-top:16px"><table id="tabla-futuro"></table></div>
@@ -493,17 +515,62 @@ details.sup[open] summary::after { content: "▴"; }
   /* ───────── datos de los ordenadores ───────── */
   var EQUIPOS = [
     {
-      id: "pcs", rank: 1, nombre: "PCSpecialist Recoil IV 16", corto: "PCS Recoil IV", color: "#d71119",
-      sub: "Intel Core Ultra 9 290HX Plus · RTX 5080 · 64 GB",
-      precio: 3752, precioNota: "configurado con 290HX Plus, RTX 5080, 64 GB y 1 TB, sin Windows",
+      id: "pcsfut", rank: 1, nombre: "PCSpecialist Recoil IV 16 · configuración 5 años", corto: "PCS 5 años", color: "#d71119",
+      sub: "Intel Core Ultra 9 290HX Plus · RTX 5090 · 96 GB · 2 TB",
+      precio: 5117, precioNota: "sin Windows · 5.284 € con Windows 11 Pro (configurador, 13/10/2026)",
       tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-IV-16/",
+      tiendas: [["PCSpecialist (configurador)", "https://www.pcspecialist.es/notebooks/recoil-IV-16/", "solo se vende allí: es un portátil montado por encargo"]],
+      config: "Elegir: Core Ultra 9 290HX Plus · 96 GB Kingston (2 × 48 GB) · RTX 5090 · SSD Samsung 990 EVO Plus 2 TB · fuente de 420 W · teclado español · garantía Oro 3 años",
       cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 128, ramMaxTxt: "hasta 128 GB (por confirmar)*",
+      ram: 96, ramTxt: "96 GB (2 × 48 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "96 GB: lo máximo que ofrece PCSpecialist",
+      gpu: "RTX 5090 · 24 GB · 175 W · 3 codificadores", vram: 24,
+      ssd: "2 TB (Samsung 990 EVO Plus) · 2.ª ranura M.2 libre", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
+      garantia: "3 años con recogida y entrega", so: "A elegir (sin Windows o con Windows 11 Pro)",
+      pros: ["Pasa procesador y gráfica hasta 2031 con margen (codificando con la gráfica)", "Gráfica de 24 GB: margen para IA en local, lo más probable que llegue", "96 GB y 2 TB desde el primer día, dentro de la garantía", "Sigue siendo portátil: 16″ y 2,8 kg"],
+      contras: ["1.352 € más que la configuración base", "Con las dos empresas a tope a la vez, 96 GB no llegan con margen", "Se monta por encargo: 1–1,5 semanas · ruidoso a tope"],
+      fuentes: [
+        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-IV-16/"],
+        ["Análisis del chasis con RTX 5090 (XMG NEO 16, Notebookcheck 90 %)", "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html"],
+        ["XMG NEO 16 con el 290HX Plus", "https://www.notebookcheck.com/XMG-NEO-16-erhaelt-Core-Ultra-9-290HX-Plus-und-erstmals-ein-OLED-Display.1377008.0.html"],
+        ["Procesador 290HX Plus", "https://www.notebookcheck.net/Intel-Core-Ultra-9-290HX-Plus-Processor-Benchmarks-and-Specs.1252402.0.html"]
+      ]
+    },
+    {
+      id: "scar", rank: 2, nombre: "ASUS ROG Strix SCAR 18 (2026) ampliado a 128 GB", corto: "ASUS SCAR 18", color: "#3d3a35",
+      sub: "Intel Core Ultra 9 290HX Plus · RTX 5090 · 64 → 128 GB · 2 TB",
+      precio: 7198, precioNota: "5.499 € el portátil (64 GB, 2 TB, Windows 11 Home) + 1.699 € del kit 2 × 64 GB (Crucial CT2K64G56C46S5, ahora sin stock)",
+      tienda: "PcComponentes", url: "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home",
+      tiendas: [
+        ["PcComponentes · portátil (5.499 €)", "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home", "64 GB, 2 TB, Windows 11 Home"],
+        ["PcComponentes · kit 2 × 64 GB (1.699 €)", "https://www.pccomponentes.com/memoria-ram-crucial-ct2k64g56c46s5-128gb-2x64gb-ddr5-5600mhz-cl46-so-dimm-ecc", "para llegar a 128 GB; ahora sin stock"],
+        ["MediaMarkt · versión anterior (275HX)", "https://www.mediamarkt.es/es/product/_portatil-gaming-asus-rog-strix-scar-18-g835lx-sa094w-18-wqxga-intelr-coretm-ultra-9-275hx-64-gb-ram-2-tb-ssd-geforce-rtxtm-5090-windows-11-1595249.html", "64 GB, 2 TB, RTX 5090, procesador 275HX"]
+      ],
+      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 42661,
+      ram: 128, ramTxt: "64 GB de serie → 128 GB cambiando los 2 módulos", ramMax: 128, ramMaxTxt: "128 GB (probado por Notebookcheck)",
+      gpu: "RTX 5090 · 24 GB · 175 W · 3 codificadores", vram: 24,
+      ssd: "2 TB · 2 ranuras M.2", pantalla: "18″ 240 Hz", peso: "3,7 kg + cargador de 450 W",
+      garantia: "ASUS (confirmar años)", so: "Windows 11 Home",
+      pros: ["El único portátil que pasa las tres pruebas con margen él solo", "El procesador más rápido medido en un portátil", "Cargador de 450 W: aguanta todo a tope"],
+      contras: ["Unos 2.080 € más que el número 1", "18″ y 3,7 kg: poco práctico para llevarlo cada día", "La RAM de 128 GB se compra aparte (ahora sin stock)"],
+      fuentes: [
+        ["PcComponentes (64 GB, 2 TB)", "https://www.pccomponentes.com/portatil-asus-rog-strix-scar-18-18-intel-core-ultra-9-290hx-plus-64gb-2tb-ssd-rtx-5090-windows-11-home"],
+        ["Análisis con 128 GB (Notebookcheck)", "https://www.notebookcheck.com/Gaming-Monster-mit-4K-Mini-LED-RTX-5090-und-128-GB-RAM-Asus-ROG-Strix-SCAR-18-G835LXG-im-Test.1341621.0.html"]
+      ]
+    },
+    {
+      id: "pcs", rank: 3, nombre: "PCSpecialist Recoil IV 16 · configuración base", corto: "PCS base", color: "#e8833a",
+      sub: "Intel Core Ultra 9 290HX Plus · RTX 5080 · 64 GB · 1 TB",
+      precio: 3765, precioNota: "sin Windows (configurador, 13/10/2026)",
+      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-IV-16/",
+      tiendas: [["PCSpecialist (configurador)", "https://www.pcspecialist.es/notebooks/recoil-IV-16/", "solo se vende allí"]],
+      config: "Elegir: Core Ultra 9 290HX Plus · 64 GB Corsair (2 × 32 GB) · RTX 5080 · SSD SanDisk 1 TB · teclado español · garantía Oro 3 años",
+      cpu: "Intel Core Ultra 9 290HX Plus · 24 núcleos (2026)", r23: 39617,
+      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB (cambiando los 2 módulos)",
       gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
       ssd: "1 TB · 2 ranuras M.2 (PCIe 5.0 + 4.0)", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
       garantia: "3 años con recogida y entrega", so: "A elegir (sin Windows o con Windows)",
-      pros: ["El procesador más rápido de la lista", "Chasis con 89–90 % en Notebookcheck (XMG NEO 16)", "Dos ranuras para discos", "3 años de garantía con recogida a domicilio"],
-      contras: ["Unos 450 € más que el MSI Vector A16", "Se monta por encargo: 1–1,5 semanas", "Ruidoso a tope (≈ 55 dB)"],
+      pros: ["El mismo procesador que el número 1", "Chasis con 89–90 % en Notebookcheck (XMG NEO 16)", "Dos ranuras para discos", "3 años de garantía con recogida a domicilio"],
+      contras: ["Gráfica de 16 GB: no se puede mejorar después", "Con margen, la gráfica y la RAM se quedan cortas para el escenario con Reynasa", "Se monta por encargo: 1–1,5 semanas"],
       fuentes: [
         ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-IV-16/"],
         ["Análisis del chasis (XMG NEO 16, Notebookcheck)", "https://www.notebookcheck.net/The-fastest-gaming-laptop-is-now-even-better-thanks-to-300-Hz-mini-LED-XMG-Neo-16-E25-RTX-5090-laptop-review.1016705.0.html"],
@@ -512,10 +579,15 @@ details.sup[open] summary::after { content: "▴"; }
       ]
     },
     {
-      id: "vector", rank: 2, nombre: "MSI Vector A16 HX A8WIG-054XES", corto: "MSI Vector A16", color: "#2a5db0",
+      id: "vector", rank: 5, nombre: "MSI Vector A16 HX A8WIG-054XES", corto: "MSI Vector A16", color: "#2a5db0",
       sub: "AMD Ryzen 9 8940HX · RTX 5080 · 64 GB",
       precio: 3299, precioNota: "en la tienda oficial de MSI (3.327 € en PcComponentes)",
       tienda: "es-store.msi.com", url: "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles",
+      tiendas: [
+        ["PcComponentes (3.327 €)", "https://www.pccomponentes.com/portatil-msi-vector-a16-hx-a8wig-054xes-16-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5080-sin-s-o-rgb", "entrega al día siguiente"],
+        ["Tienda oficial MSI (3.299 €)", "https://es-store.msi.com/products/vector-a16-hx-a8wig-054xes-portatiles", ""],
+        ["MediaMarkt (buscar)", "https://www.mediamarkt.es/es/search.html?query=msi%20vector%20a16%20hx%208940hx", "aparece un Vector A16 HX con 64 GB y RTX 5080; confirmar referencia"]
+      ],
       cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
       ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5200), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
       gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
@@ -531,10 +603,15 @@ details.sup[open] summary::after { content: "▴"; }
       ]
     },
     {
-      id: "helios", rank: 3, nombre: "Acer Predator Helios 18 AI PH18-73-92JH", corto: "Acer Helios 18", color: "#2e7d57",
+      id: "helios", rank: 4, nombre: "Acer Predator Helios 18 AI PH18-73-92JH", corto: "Acer Helios 18", color: "#2e7d57",
       sub: "Intel Core Ultra 9 275HX · RTX 5080 · 64 GB",
       precio: 3299.99, precioNota: "en la tienda oficial de Acer",
       tienda: "store.acer.com", url: "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro",
+      tiendas: [
+        ["Tienda oficial Acer (3.299,99 €)", "https://store.acer.com/es-es/predator-helios-18-ai-portatil-gaming-ph18-73-negro", "la versión de 64 GB"],
+        ["MediaMarkt · versión de 32 GB", "https://www.mediamarkt.es/es/product/_portatil-gaming-acer-predator-helios-18-ai-18-wqxga-intelr-coretm-ultra-9-275hx-32gb-ram-1-tb-ssd-geforce-rtxtm-5080-sin-sistema-operativo-1607311.html", "sin Windows; tiene 2 ranuras libres para añadir RAM"],
+        ["PcComponentes · versión de 32 GB", "https://www.pccomponentes.com/portatil-acer-predator-helios-18-ai-ph18-73-18-intel-core-ultra-9-275hx-32gb-1tb-ssd-rtx-5080-windows-11-pro", "con Windows 11 Pro; confirmar teclado y stock"]
+      ],
       cpu: "Intel Core Ultra 9 275HX · 24 núcleos", r23: 33600,
       ram: 64, ramTxt: "64 GB (2 × 32 GB), 4 ranuras: 2 libres", ramMax: 192, ramMaxTxt: "hasta 192 GB, sin quitar lo que trae",
       gpu: "RTX 5080 · 16 GB · 165–175 W · 2 codificadores", vram: 16,
@@ -549,10 +626,14 @@ details.sup[open] summary::after { content: "▴"; }
       ]
     },
     {
-      id: "crosshair", rank: 4, nombre: "MSI Crosshair A16 HX D8WGKG-200XES", corto: "MSI Crosshair", color: "#a8620f",
+      id: "crosshair", rank: 6, nombre: "MSI Crosshair A16 HX D8WGKG-200XES", corto: "MSI Crosshair", color: "#a8620f",
       sub: "AMD Ryzen 9 8940HX · RTX 5070 · 64 GB",
       precio: 2129, precioNota: "en PcComponentes",
       tienda: "pccomponentes.com", url: "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz",
+      tiendas: [
+        ["PcComponentes (2.129 €)", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz", "entrega al día siguiente"],
+        ["MediaMarkt", "", "no lo vende (solo otros Crosshair)"]
+      ],
       cpu: "AMD Ryzen 9 8940HX · 16 núcleos / 32 hilos (Zen 4)", r23: 30804,
       ram: 64, ramTxt: "64 GB (2 × 32 GB), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
       gpu: "RTX 5070 · 8 GB · ≈115 W · 1 codificador", vram: 8,
@@ -564,24 +645,6 @@ details.sup[open] summary::after { content: "▴"; }
         ["PcComponentes", "https://www.pccomponentes.com/portatil-msi-crosshair-a16-hx-d8wgkg-200xes-amd-ryzen-9-8940hx-64gb-1tb-ssd-rtx-5070-qhd-240hz"],
         ["Análisis (Notebookcheck)", "https://www.notebookcheck.net/MSI-Crosshair-A16-HX-E8WGK-review-Ryzen-9-Zen-4-outperforming-Ryzen-9-AI-Zen-5.1332012.0.html"],
         ["El cargador de 240 W", "https://www.notebookcheck.com/240-Watt-Netzteil-reicht-fuer-das-MSI-Crosshair-A16-HX-gerade-so-aus.1335255.0.html"]
-      ]
-    },
-    {
-      id: "pcsamd", rank: 5, nombre: "PCSpecialist Recoil 16 AMD", corto: "PCS Recoil AMD", color: "#6b4c9a",
-      sub: "AMD Ryzen 9 9955HX3D · RTX 5080 · 64 GB",
-      precio: 3834, precioNota: "configurado con 9955HX3D, RTX 5080, 64 GB y 1 TB, sin Windows",
-      tienda: "pcspecialist.es (configurador)", url: "https://www.pcspecialist.es/notebooks/recoil-16-AMD/",
-      cpu: "AMD Ryzen 9 9955HX3D · 16 núcleos / 32 hilos (Zen 5)", r23: 38042,
-      ram: 64, ramTxt: "64 GB (2 × 32 GB DDR5-5600), sin soldar", ramMax: 96, ramMaxTxt: "hasta 96 GB",
-      gpu: "RTX 5080 · 16 GB · 175 W · 2 codificadores", vram: 16,
-      ssd: "1 TB · 2 ranuras M.2", pantalla: "16″ IPS 2560 × 1600 · 300 Hz", peso: "2,8 kg",
-      garantia: "3 años con recogida y entrega", so: "A elegir",
-      pros: ["Procesador de última generación de AMD", "Mismo chasis y garantía que el número 1"],
-      contras: ["Más caro y algo más lento que la versión Intel", "Sin USB4/Thunderbolt según el análisis del chasis"],
-      fuentes: [
-        ["Configurador PCSpecialist", "https://www.pcspecialist.es/notebooks/recoil-16-AMD/"],
-        ["Análisis del chasis (XMG NEO 16 A25, Notebookcheck)", "https://www.notebookcheck.net/AMD-Ryzen-9-9955HX3D-and-RTX-5090-Laptop-for-maximum-gaming-performance-XMG-Neo-16-A25-review.1028019.0.html"],
-        ["Procesador 9955HX3D", "https://www.notebookcheck.net/AMD-Ryzen-9-9955HX3D-Processor-Benchmarks-and-Specs.941514.0.html"]
       ]
     }
   ];
@@ -643,7 +706,7 @@ details.sup[open] summary::after { content: "▴"; }
       w: { tdr: true, rey: true, reyPct: 100, largosSem: 7, shortsSem: 112, blogsSem: 15, pLargos: 6, pShorts: 8, pSesiones: 12, pApps: 3 } }
   ];
   var W = {};
-  var P = { objetivo: 4, reyDesde: 2027, reyPct: 100, soft: 8 };
+  var P = { objetivo: 4, reyDesde: 2027, reyPct: 100, soft: 8, margen: 30, nvenc: true, noches: false };
   var presetActivo = "objetivo";
 
   /* ───────── utilidades ───────── */
@@ -691,8 +754,8 @@ details.sup[open] summary::after { content: "▴"; }
   function suma(arr) { return arr.reduce(function (a, b) { return a + b.v; }, 0); }
   function vramPico() { var f = empresas(); return S.vramBase + (W.pLargos * S.vramLargo + W.pShorts * S.vramShort) * f; }
   function minPico(e) { var f = empresas(); return (W.pLargos * S.minLargo + W.pShorts * S.minShort) * encFactor() * f / vel(e); }
-  function minSemana(e, vol, ses, apps, f, soft) {
-    var enc = encFactor();
+  function minSemana(e, vol, ses, apps, f, soft, nv) {
+    var enc = nv ? 1 - S.nvenc / 100 : 1;
     var render = vol.largos * (S.minLargo * S.repLargo * enc + S.extraLargo)
                + vol.shorts * (S.minShort * S.repShort * enc + S.extraShort)
                + vol.blogs * S.minBlog;
@@ -701,7 +764,7 @@ details.sup[open] summary::after { content: "▴"; }
   }
   function cargaSemana(e) {
     var f = empresas();
-    var m = minSemana(e, { largos: W.largosSem, shorts: W.shortsSem, blogs: W.blogsSem }, W.pSesiones, W.pApps, f, 1);
+    var m = minSemana(e, { largos: W.largosSem, shorts: W.shortsSem, blogs: W.blogsSem }, W.pSesiones, W.pApps, f, 1, W.nvenc);
     return m / dispo(W.noches) * 100;
   }
   function volAnio(i) {
@@ -714,7 +777,28 @@ details.sup[open] summary::after { content: "▴"; }
     var a = volAnio(i);
     var vol = { largos: HOY.largos * a.v, shorts: HOY.shorts * a.v, blogs: HOY.blogs * a.v };
     var soft = Math.pow(1 + P.soft / 100, i);
-    return minSemana(e, vol, a.ses, a.apps, 1 + a.r, soft) / dispo(W.noches) * 100;
+    return minSemana(e, vol, a.ses, a.apps, 1 + a.r, soft, P.nvenc) / dispo(P.noches) * 100;
+  }
+
+  /* prueba de futuro: pico de 2031 (objetivo por empresa) + margen */
+  function pruebaFuturo() {
+    var m = P.margen / 100;
+    var p = PRESETS.filter(function (x) { return x.id === "objetivo"; })[0].w;
+    var conRey = !!P.reyDesde;
+    var f = 1 + (conRey ? P.reyPct / 100 : 0);
+    var ram = suma(ramPico({ tdr: true, rey: conRey, reyPct: P.reyPct, pLargos: p.pLargos, pShorts: p.pShorts, pSesiones: p.pSesiones, pApps: p.pApps }));
+    var vram = S.vramBase + (p.pLargos * S.vramLargo + p.pShorts * S.vramShort) * f;
+    var filas = EQUIPOS.map(function (e) {
+      var cpu = cargaAnio(e, 5);
+      var r = {
+        e: e, ramNeed: ram * (1 + m), vramNeed: vram * (1 + m), cpu: cpu, cpuM: cpu * (1 + m),
+        ramOk: ram * (1 + m) <= e.ramMax, ramSerie: ram * (1 + m) <= e.ram,
+        cpuOk: cpu * (1 + m) <= 100, vramOk: vram * (1 + m) <= e.vram
+      };
+      r.pasa = (r.ramOk ? 1 : 0) + (r.cpuOk ? 1 : 0) + (r.vramOk ? 1 : 0);
+      return r;
+    });
+    return { ram: ram, vram: vram, m: m, f: f, filas: filas };
   }
 
   /* ───────── pintar: portada ───────── */
@@ -732,12 +816,16 @@ details.sup[open] summary::after { content: "▴"; }
   function pintarOpciones() {
     $("lista-opciones").innerHTML = EQUIPOS.map(function (e) {
       return '<article class="opcion" data-rank="' + e.rank + '">' +
-        (e.rank === 1 ? '<span class="sello">Recomendado</span>' : e.rank === 4 ? '<span class="sello gris">Más barato</span>' : "") +
+        (e.id === "pcsfut" ? '<span class="sello">Recomendado</span>' : e.id === "scar" ? '<span class="sello gris">Todo en uno</span>' : e.id === "crosshair" ? '<span class="sello gris">Más barato</span>' : "") +
         '<div class="top"><span class="puesto">#' + e.rank + '</span><span class="color" style="background:' + e.color + '"></span></div>' +
         "<h4>" + esc(e.nombre) + "</h4>" +
         '<p class="sub">' + esc(e.sub) + "</p>" +
         '<div class="precio"><span class="v">' + eur(e.precio) + "</span><small>" + esc(e.precioNota) + "</small></div>" +
-        '<a class="ir" href="' + e.url + '" target="_blank" rel="noopener">Ver en ' + esc(e.tienda) + " ↗</a>" +
+        '<div class="tiendas"><span class="t-et">Dónde comprarlo</span>' + (e.tiendas || [[e.tienda, e.url, ""]]).map(function (t) {
+          return t[1] ? '<a class="ir" href="' + t[1] + '" target="_blank" rel="noopener">' + esc(t[0]) + " ↗</a>" + (t[2] ? '<small>' + esc(t[2]) + "</small>" : "")
+                      : '<span class="no-tienda">' + esc(t[0]) + ": " + esc(t[2]) + "</span>";
+        }).join("") + "</div>" +
+        (e.config ? '<p class="config">' + esc(e.config) + "</p>" : "") +
         '<dl class="specs">' +
         "<dt>Procesador</dt><dd>" + esc(e.cpu) + ' · <span class="x">' + dec(vel(e), 2) + "× tu Acer</span></dd>" +
         "<dt>RAM</dt><dd>" + esc(e.ramTxt) + " · " + esc(e.ramMaxTxt) + "</dd>" +
@@ -757,6 +845,10 @@ details.sup[open] summary::after { content: "▴"; }
   function pintarComparativa() {
     var filas = [
       ["Precio", function (e) { return e.precio ? eur(e.precio) : "—"; }, "n"],
+      ["Dónde comprar", function (e) {
+        var t = e.tiendas || (e.url ? [["Ver", e.url, ""]] : []);
+        return t.filter(function (x) { return x[1]; }).map(function (x) { return '<a href="' + x[1] + '" target="_blank" rel="noopener">' + esc(x[0].split(" (")[0].split(" · ")[0]) + "</a>"; }).join("<br>") || "—";
+      }],
       ["Procesador", function (e) { return esc(e.cpu); }],
       ["Velocidad (× tu Acer)", function (e) { return dec(vel(e), 2) + "×"; }, "n"],
       ["Cinebench R23 multinúcleo", function (e) { return miles(r23(e)) + (e.r23 ? "" : "*"); }, "n"],
@@ -919,8 +1011,57 @@ details.sup[open] summary::after { content: "▴"; }
     $("nota-futuro").innerHTML = "Escenario: TDR pasa de hoy (" + HOY.largos + " largos, " + HOY.shorts + " shorts y " + HOY.blogs + " blogs a la semana) a <b>×" + dec(P.objetivo) + "</b> en 2029" +
       (P.reyDesde ? "; Reynasa empieza en " + P.reyDesde + " y llega al " + P.reyPct + " % del volumen de TDR" : "; sin Reynasa") +
       "; los programas piden un " + P.soft + " % más cada año. En 2031: " + dec(HOY.largos * a5.v * (1 + a5.r)) + " largos y " + dec(HOY.shorts * a5.v * (1 + a5.r)) + " shorts a la semana entre las dos empresas, con " + dec(a5.ses) + " sesiones de Claude abiertas por empresa. " +
-      (W.noches ? "Contando noches y fines de semana." : "Solo en horario de trabajo (" + S.horasDia + " h × " + S.dias + " días).") +
+      (P.noches ? "Contando noches y fines de semana." : "Solo en horario de trabajo (" + S.horasDia + " h × " + S.dias + " días).") +
+      (P.nvenc ? " Con los vídeos codificados con la gráfica." : " Con los vídeos codificados con el procesador, como ahora.") +
       " La memoria no se proyecta aquí: con más volumen habrá más cosas a la vez, y para eso cuenta la RAM máxima de cada uno (ver el simulador con «RAM ampliada al máximo»).";
+  }
+
+  /* ───────── pintar: prueba a 5 años con margen ───────── */
+  function pintarPrueba() {
+    var R = pruebaFuturo();
+    var si = function (ok) { return ok ? '<span class="chip ok">pasa</span>' : '<span class="chip mal">no pasa</span>'; };
+    var h = '<thead><tr><th>Ordenador</th><th class="n">Precio</th><th>Memoria en el pico de 2031</th><th>Procesador en 2031</th><th>Gráfica en el pico de 2031</th><th>Resultado</th></tr></thead><tbody>';
+    var orden = R.filas.slice().sort(function (a, b) { return a.e.rank - b.e.rank; });
+    orden.forEach(function (r) {
+      var e = r.e;
+      var ramTxt = dec(r.ramNeed, 0) + " GB de " + e.ramMax + " GB" + (r.ramOk && !r.ramSerie ? " (ampliando)" : "");
+      var res = r.pasa === 3 ? '<span class="chip ok">Soporta todo con margen</span>' :
+        r.pasa === 2 ? '<span class="chip justo">Pasa 2 de 3</span>' :
+        r.pasa === 1 ? '<span class="chip limite">Pasa 1 de 3</span>' : '<span class="chip mal">No pasa ninguna</span>';
+      h += '<tr><td><span class="eq"><span class="color" style="background:' + e.color + '"></span>#' + e.rank + " " + esc(e.corto) + "</span></td>" +
+        '<td class="n">' + eur(e.precio) + "</td>" +
+        "<td>" + si(r.ramOk) + ' <span class="cifra" style="font-size:12px">' + ramTxt + "</span></td>" +
+        "<td>" + si(r.cpuOk) + ' <span class="cifra" style="font-size:12px">' + Math.round(r.cpuM) + " % con margen</span></td>" +
+        "<td>" + si(r.vramOk) + ' <span class="cifra" style="font-size:12px">' + dec(r.vramNeed, 0) + " de " + e.vram + " GB</span></td>" +
+        "<td>" + res + "</td></tr>";
+    });
+    $("tabla-prueba").innerHTML = h + "</tbody>";
+
+    var todos = R.filas.filter(function (r) { return r.pasa === 3; }).sort(function (a, b) { return a.e.precio - b.e.precio; });
+    var mejor = R.filas.slice().sort(function (a, b) { return b.pasa - a.pasa || a.e.precio - b.e.precio; })[0];
+    var fut = R.filas.filter(function (r) { return r.e.id === "pcsfut"; })[0];
+    function fallos(r) {
+      var f = [];
+      if (!r.ramOk) f.push("memoria (" + dec(r.ramNeed, 0) + " GB con margen y llega a " + r.e.ramMax + ")");
+      if (!r.cpuOk) f.push("procesador (" + Math.round(r.cpuM) + " % en 2031 con margen)");
+      if (!r.vramOk) f.push("gráfica (" + dec(r.vramNeed, 0) + " GB con margen y tiene " + r.e.vram + ")");
+      return f.join(", ");
+    }
+    var b1 = todos.length
+      ? "El más barato que pasa las tres pruebas es <b>" + esc(todos[0].e.nombre) + "</b> por <b>" + eur(todos[0].e.precio) + "</b>." + (todos.length > 1 ? " También las pasa: " + todos.slice(1).map(function (r) { return esc(r.e.corto) + " (" + eur(r.e.precio) + ")"; }).join(", ") + "." : "")
+      : "Con este margen <b>ninguno pasa las tres pruebas</b>. El que más se acerca es <b>" + esc(mejor.e.nombre) + "</b>: no pasa " + fallos(mejor) + ".";
+    var b2 = fut.pasa === 3
+      ? "La configuración recomendada (PCS 5 años, " + eur(fut.e.precio) + ") pasa las tres pruebas con este margen."
+      : "La configuración recomendada (PCS 5 años, " + eur(fut.e.precio) + ") pasa " + fut.pasa + " de 3; le falla: " + fallos(fut) + "." +
+        (!fut.ramOk ? " Ese pico solo ocurre si las dos empresas lanzan todo a la vez: se reparte trabajando de noche o con un segundo equipo de render cuando arranque Reynasa." : "") +
+        (!fut.cpuOk ? " Para el procesador: codificar con la gráfica y que informática deje trabajar de noche." : "");
+    $("reco-auto").innerHTML =
+      '<div class="clave"><div class="e">El trabajo de 2031 con un ' + P.margen + ' % de margen</div><div class="v">' + dec(R.ram * (1 + R.m), 0) + ' <small>GB de RAM a la vez</small></div><div class="s">' + dec(R.vram * (1 + R.m), 0) + " GB de gráfica en los renders en paralelo · " +
+      (P.reyDesde ? "TDR y Reynasa (" + P.reyPct + " %)" : "solo TDR") + " con todo a la vez</div></div>" +
+      '<div class="clave"><div class="e">Resultado</div><div class="s" style="color:var(--tinta);font-size:14px">' + b1 + "</div></div>" +
+      '<div class="clave"><div class="e">La recomendada</div><div class="s" style="color:var(--tinta);font-size:14px">' + b2 + "</div></div>";
+    $("nota-prueba").innerHTML = "Las tres pruebas: (1) la <b>memoria</b> del momento de más carga de 2031 (5 largos, 5 shorts, 8 sesiones de Claude y 2 apps por empresa) más el margen tiene que caber en la RAM máxima del portátil; " +
+      "(2) la <b>carga de la semana</b> de 2031 más el margen no puede pasar del 100 %; (3) la <b>memoria de gráfica</b> de los renders en paralelo más el margen tiene que caber en la gráfica, que en un portátil no se puede cambiar. Son estimaciones; los supuestos se pueden cambiar en la sección 08.";
   }
 
   /* ───────── contexto: publicaciones del panel ───────── */
@@ -975,7 +1116,8 @@ details.sup[open] summary::after { content: "▴"; }
     EQUIPOS.forEach(function (e) { e.fuentes.forEach(function (f) { todas.push(["#" + e.rank + " " + e.corto + ": " + f[0], f[1]]); }); });
     todas = todas.concat(extra);
     $("fuentes-lista").innerHTML = todas.map(function (f) { return "<li>" + (f[1] ? '<a href="' + f[1] + '" target="_blank" rel="noopener">' + esc(f[0]) + "</a>" : esc(f[0])) + "</li>"; }).join("") +
-      "<li>* PCSpecialist: el máximo de 128 GB es el del chasis hermano XMG NEO 16 (M26); hay que confirmarlo con PCSpecialist antes de comprar.</li>";
+      "<li>PCSpecialist: precios del configurador el 13/10/2026 (teclado español, garantía Oro 3 años, sin Windows; Windows 11 Pro suma 167 €). El máximo de RAM que ofrece es 96 GB (2 × 48 GB). Resto de precios: 08/10/2026.</li>" +
+      "<li>Descartado: PCSpecialist Recoil 16 AMD (Ryzen 9 9955HX3D), más caro y algo más lento que la versión Intel.</li>";
   }
 
   /* ───────── mandos ───────── */
@@ -1002,8 +1144,10 @@ details.sup[open] summary::after { content: "▴"; }
     $("o-objetivo").textContent = "×" + dec(P.objetivo);
     $("o-p-reyPct").textContent = P.reyPct + " %";
     $("o-soft").textContent = "+" + P.soft + " %";
+    $("o-margen").textContent = "+" + P.margen + " %";
     $("p-reyPct").disabled = !P.reyDesde;
   }
+  function futuro() { salidas(); pintarFuturo(); pintarPrueba(); }
   function montarMandos() {
     $("presets").innerHTML = PRESETS.map(function (p) { return '<button type="button" data-id="' + p.id + '" aria-pressed="false"><b>' + esc(p.t) + "</b>" + esc(p.d) + "</button>"; }).join("");
     $("presets").addEventListener("click", function (ev) { var b = ev.target.closest("button"); if (b) aplicarPreset(b.dataset.id); });
@@ -1018,16 +1162,21 @@ details.sup[open] summary::after { content: "▴"; }
       });
     });
     $("p-objetivo").value = P.objetivo; $("p-reyDesde").value = String(P.reyDesde); $("p-reyPct").value = P.reyPct; $("p-soft").value = P.soft;
-    $("p-objetivo").addEventListener("input", function (ev) { P.objetivo = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
-    $("p-reyDesde").addEventListener("change", function (ev) { P.reyDesde = parseInt(ev.target.value, 10) || 0; salidas(); pintarFuturo(); });
-    $("p-reyPct").addEventListener("input", function (ev) { P.reyPct = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
-    $("p-soft").addEventListener("input", function (ev) { P.soft = parseFloat(ev.target.value); salidas(); pintarFuturo(); });
+    $("p-margen").value = P.margen; $("p-nvenc").checked = P.nvenc; $("p-noches").checked = P.noches;
+    $("p-objetivo").addEventListener("input", function (ev) { P.objetivo = parseFloat(ev.target.value); futuro(); });
+    $("p-reyDesde").addEventListener("change", function (ev) { P.reyDesde = parseInt(ev.target.value, 10) || 0; futuro(); });
+    $("p-reyPct").addEventListener("input", function (ev) { P.reyPct = parseFloat(ev.target.value); futuro(); });
+    $("p-soft").addEventListener("input", function (ev) { P.soft = parseFloat(ev.target.value); futuro(); });
+    $("p-margen").addEventListener("input", function (ev) { P.margen = parseFloat(ev.target.value); futuro(); });
+    $("p-nvenc").addEventListener("change", function (ev) { P.nvenc = ev.target.checked; futuro(); });
+    $("p-noches").addEventListener("change", function (ev) { P.noches = ev.target.checked; futuro(); });
     $("sup-reset").addEventListener("click", function () { supDefecto(); pintarSupuestos(); todo(); });
   }
 
   function todo() {
     pintarSimulador();
     pintarFuturo();
+    pintarPrueba();
     pintarClaves();
     pintarOpciones();
     pintarComparativa();
