@@ -2,7 +2,7 @@
    Facebook: todo lo que da la API de Meta (página, estadísticas de 30 días, comentarios CON NOMBRE y respuestas, reels con sus
    reproducciones y publicaciones). Datos: ../datos/facebook.json (PANEL-REDES/facebook_tablon.py).
    Instagram: «PENDIENTE» hasta que se conecte su API, con qué falta y cómo cerrarlo. Datos: ../datos/instagram.json
-   (PANEL-REDES/instagram_estado.py). Los dos los rehacen las rutinas de las 9:00 y las 17:00. Sin dependencias.
+   (PANEL-REDES/instagram_estado.py). Los dos los rehacen las rutinas de las 9:00, las 12:30 y las 17:00. Sin dependencias.
 
    montarTablon(contenedor, { red: "facebook"|"instagram", datos }) → { actualizarTema(), destruir() } */
 
@@ -124,7 +124,7 @@ function montarInstagram(raiz, I) {
     <section class="tb-caja tb-pendiente">
       <div class="tb-sello">${ok ? "CONECTADO" : "PENDIENTE"}</div>
       <p>${esc(I.por_que || "")}</p>
-      <p class="tb-nota">Última comprobación: ${esc(I.comprobacion || "")} · Se vuelve a comprobar en cada rutina (9:00 y 17:00)${I.comprobaciones ? ` · ${I.comprobaciones === 1 ? "primera comprobación sin conectar" : `lleva ${n(I.comprobaciones)} comprobaciones sin conectar`}` : ""}.</p>
+      <p class="tb-nota">Última comprobación: ${esc(I.comprobacion || "")} · Se vuelve a comprobar en cada rutina (9:00, 12:30 y 17:00)${I.comprobaciones ? ` · ${I.comprobaciones === 1 ? "primera comprobación sin conectar" : `lleva ${n(I.comprobaciones)} comprobaciones sin conectar`}` : ""}.</p>
     </section>
     <div class="tb-dos">
       <section class="tb-caja"><h2>Lo que falta</h2><ul class="tb-lista">${(I.falta || []).map(x => `<li><span>${esc(x)}</span></li>`).join("")}</ul>

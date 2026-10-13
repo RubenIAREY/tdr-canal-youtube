@@ -564,7 +564,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
       : "conclusiones de los comentarios de YouTube";
     const cab = `<div class="co-caja-cab"><h2 id="${uid}-t-dicen">Lo que nos dicen <small>${esc(meta)}</small></h2></div>`;
     if (!hayAnalisis) {
-      el.innerHTML = cab + `<p class="co-pendiente">El análisis se rehace en cada actualización (9:00 y 17:00).${AN ? "" : " Todavía no hay uno escrito."}</p>`;
+      el.innerHTML = cab + `<p class="co-pendiente">El análisis se rehace en cada actualización (9:00, 12:30 y 17:00).${AN ? "" : " Todavía no hay uno escrito."}</p>`;
       return;
     }
     const preg = lista("lo_que_mas_preguntan"), pat = lista("patrones"), ideas = lista("ideas_de_contenido"), ya = lista("responder_ya");
@@ -593,7 +593,7 @@ export async function montarComentarios(contenedor, opciones = {}) {
           <h4>${esc(i.idea || "")}</h4>${i.por_que ? `<p>${esc(i.por_que)}</p>` : ""}${ejemplosHTML(i.ejemplos, `Idea: ${corto(i.idea || "", 60)}`)}</article>`).join("")}</div>`) : ""}
       </div>` : ""}
       ${AN.sobre_nuestras_respuestas ? `<div class="co-sobre"><h3>Sobre nuestras respuestas</h3><p>${esc(AN.sobre_nuestras_respuestas)}</p></div>` : ""}
-      <p class="co-nota">El análisis lo escribe la rutina de las 9:00 y las 17:00 leyendo los comentarios de YouTube (las demás redes no dan el texto).</p>
+      <p class="co-nota">El análisis lo escribe la rutina de las 9:00, las 12:30 y las 17:00 leyendo los comentarios de YouTube (las demás redes no dan el texto).</p>
     </div>`;
   }
 

@@ -1,7 +1,7 @@
 /* Pestaña «Calendario» del Panel de redes TDR (08/10/2026, lo pidió Rubén).
    Todo lo que sale cada día, en qué red, qué es, con su imagen y su texto: el mes entero en una rejilla, se pincha un día y se ve
    todo lo de ese día; filtros por red, formato y estado, buscador y vista de lista. Datos: ../datos/calendario.json (lo rehace
-   PANEL-REDES/calendario_datos.py en las rutinas de las 9:00 y las 17:00). Sin dependencias.
+   PANEL-REDES/calendario_datos.py en las rutinas de las 9:00, las 12:30 y las 17:00). Sin dependencias.
 
    montarCalendario(contenedor, { datos: url|objeto, clave }) → { actualizarTema(), destruir() } */
 
@@ -78,7 +78,7 @@ export async function montarCalendario(contenedor, opciones = {}) {
       <div>
         <div class="ca-ticker">CAL · <em>${esc(HOY.split("-").reverse().join("/"))}</em> · ACTUALIZADO ${esc((C.actualizado || "").slice(8, 10) + "/" + (C.actualizado || "").slice(5, 7) + " " + (C.actualizado || "").slice(11))}</div>
         <h1>Calendario de publicaciones</h1>
-        <p>Qué sale cada día, en qué red y qué es. Pincha un día para verlo todo: la imagen, el texto y el enlace. Se rehace solo a las 9:00 y a las 17:00 con lo programado en Metricool y en YouTube.</p>
+        <p>Qué sale cada día, en qué red y qué es. Pincha un día para verlo todo: la imagen, el texto y el enlace. Se rehace solo a las 9:00, a las 12:30 y a las 17:00 con lo programado en Metricool y en YouTube.</p>
       </div>
       <div class="ca-resumen">
         <div class="ca-cifra"><b>${ITEMS.filter(x => x.dia >= HOY && x.estado === "programado").length}</b><span>programados</span></div>

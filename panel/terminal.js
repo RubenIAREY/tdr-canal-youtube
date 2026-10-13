@@ -1,10 +1,10 @@
 /* Panel de redes TDR · versión «Terminal papel 2» (prueba local, 06/10/2026).
-   Misma lógica y mismos datos que panel.js (datos_redes.json, que rehace PANEL-REDES/construir_panel.py a las 9:00 y a las 17:00),
+   Misma lógica y mismos datos que panel.js (datos_redes.json, que rehace PANEL-REDES/construir_panel.py a las 9:00, a las 12:30 y a las 17:00),
    con la presentación «Terminal» en colores papel y, además:
    - gráficas grandes una debajo de otra (tamaño en Ajustes), pantalla completa por gráfica y descargas CSV / Excel de lo que se ve;
    - eventos (../datos/eventos.json): marcas en las velas, ficha al hacer clic y «Qué pasó en este periodo» bajo cada gráfica;
    - tramos de 2, 4, 8 y 12 horas: ESTIMADOS en todas las redes, repartiendo el dato del día con la actividad de la audiencia por hora
-     (../datos/perfil_horario.json, Metricool); en YouTube, además, lo medido entre las fotos del canal de las 9:00 y las 17:00
+     (../datos/perfil_horario.json, Metricool); en YouTube, además, lo medido entre las fotos del canal de las 9:00, las 12:30 y las 17:00
      (../datos/intradia_youtube.json);
    - bloque «¿A qué hora está tu audiencia?», pestaña «Futuro» (módulo ../comun/futuro.js) y más paletas, con una personalizada;
    - pestaña «Comentarios» (módulo ../comun/comentarios.js, datos ../datos/comentarios.json) y su tarjeta pequeña en el carril de cada red.
@@ -381,7 +381,7 @@ function estadoHoras(k) {
     });
   });
 }
-// YouTube: lo medido de verdad entre dos fotos seguidas del canal (las que toman las rutinas de las 9:00 y las 17:00)
+// YouTube: lo medido de verdad entre dos fotos seguidas del canal (las que toman las rutinas de las 9:00, las 12:30 y las 17:00)
 function medidoYT() {
   if (!INTRA || INTRA.puntos.length < 2) return "";
   const P = INTRA.puntos.map(p => ({ ts: Date.parse(p[0]) / 1000, vis: p[1] })).filter(p => typeof p.vis === "number");
@@ -398,7 +398,7 @@ function medidoYT() {
   const L = [];
   if (dia) L.push(`el ${dm(dia.pa)}, de ${hm(dia.pa)} a ${hm(dia.pb)} se sumaron <b>${fmt(dia.suma)}</b> visualizaciones`);
   if (noche) L.push(`del ${dm(noche.pa)} al ${dm(noche.pb)}, de ${hm(noche.pa)} a ${hm(noche.pb)}, <b>${fmt(noche.suma)}</b>${dia ? "" : " visualizaciones"}`);
-  return `<span class="medido-et">Medido</span> ${L.join("; ")}. <small>Suma de todos los vídeos públicos del canal entre las fotos que toman las rutinas de las 9:00 y las 17:00.</small>`;
+  return `<span class="medido-et">Medido</span> ${L.join("; ")}. <small>Suma de todos los vídeos públicos del canal entre las fotos que toman las rutinas de las 9:00, las 12:30 y las 17:00.</small>`;
 }
 
 /* ─────────── carril: valores, tienda y teletipo ─────────── */
@@ -1266,7 +1266,7 @@ async function descargarTodo(boton) {
         R.vis_30, R.vis_prev_30, R.vis_cambio_30, R.vis_media_30, R.vis_7, R.vis_historico, R.lk_total, R.lk_30, R.lk_prev_30, R.lk_cambio_30, R.lk_media_30, R.lk_7,
         R.vis_30 ? R.lk_30 / R.vis_30 * 100 : null, k === "global" ? "" : D.redes[k].url];
     });
-    resumen.push({ t: ["txt"], v: [] }, { t: ["txt"], v: [`Datos del ${fecha(D.actualizado)} a las ${D.actualizado.slice(11)}; se rehacen a las 9:00 y a las 17:00. Fuentes: YouTube Analytics, Metricool, Google Analytics y Search Console.`] });
+    resumen.push({ t: ["txt"], v: [] }, { t: ["txt"], v: [`Datos del ${fecha(D.actualizado)} a las ${D.actualizado.slice(11)}; se rehacen a las 9:00, a las 12:30 y a las 17:00. Fuentes: YouTube Analytics, Metricool, Google Analytics y Search Console.`] });
     add("Resumen", hoja(X, ["Red", "Seguidores", "Dato del", "Cambio último día", "Cambio 7 días", "Cambio 30 días", "Cambio 90 días", "Cambio 365 días",
       "Seguidores al día (media 30 d)", "Seguidores al día (media 90 d)", "Visualizaciones 30 días", "Visualizaciones 30 días anteriores", "Cambio visualizaciones 30 d (%)",
       "Visualizaciones al día (media 30 d)", "Visualizaciones últimos 7 días", "Visualizaciones históricas", "Me gusta históricos", "Me gusta 30 días",
