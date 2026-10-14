@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-13 17:18",
- "hoy": "2026-10-13",
+ "actualizado": "2026-10-14 09:24",
+ "hoy": "2026-10-14",
  "desde": "2026-10-01",
- "hasta": "2026-11-22",
- "metricool_guardado": "2026-10-13 17:16",
+ "hasta": "2026-11-23",
+ "metricool_guardado": "2026-10-14 09:24",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -658,23 +658,6 @@
    "img": "cal/v-24372d437b.jpg",
    "enlace": "https://youtu.be/pHI83iVONCY",
    "segundos": 23,
-   "nota": "Publicado"
-  },
-  {
-   "id": "yt-DoHe8jeJ7Ss",
-   "dia": "2026-10-06",
-   "hora": "21:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "youtube",
-   "estado": "publicado",
-   "titulo": "Esto NO es un guante de moto: jardinería, esquí o lana no valen",
-   "texto": "",
-   "img": "https://i.ytimg.com/vi/DoHe8jeJ7Ss/hqdefault.jpg",
-   "enlace": "https://youtu.be/DoHe8jeJ7Ss",
-   "segundos": 18,
    "nota": "Publicado"
   },
   {
@@ -1375,24 +1358,21 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-394691302",
+   "id": "yt-oGkTtlskqcg",
    "dia": "2026-10-13",
-   "hora": "19:00",
+   "hora": "19:06",
    "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
     "youtube"
    ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
    "titulo": "¿La pastilla de freno nueva no entra? Por qué pasa",
-   "texto": "¿La pastilla de freno nueva no entra? 🔧\nUn mismo modelo puede montar frenos de dos tamaños o de dos fabricantes, y las pastillas de uno no entran en el otro.\nOjo también con el aviso de desgaste: si tu coche lo lleva, las pastillas tienen que ser de las que lo admiten. Y nunca, nunca, se fuerza una pastilla para que entre.\nPastillas de freno 👉 todoenrecambio.com/pastilla-de-freno-coche\n🤖 Vídeo creado con inteligencia artificial\n#pastillasdefreno #frenos #mantenimientocoche #recambioscoche #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-13529057003749805587.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-10005307482138857732.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/oGkTtlskqcg/hqdefault.jpg",
+   "enlace": "https://youtu.be/oGkTtlskqcg",
+   "segundos": 44,
+   "nota": "Publicado"
   },
   {
    "id": "mc-394695627",
