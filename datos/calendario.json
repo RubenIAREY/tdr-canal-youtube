@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-14 12:48",
+ "actualizado": "2026-10-14 17:10",
  "hoy": "2026-10-14",
  "desde": "2026-10-01",
  "hasta": "2026-11-23",
- "metricool_guardado": "2026-10-14 12:47",
+ "metricool_guardado": "2026-10-14 17:09",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -1420,13 +1420,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Cómo saber qué pieza lleva tu coche: mismo modelo, piezas distintas",
    "texto": "",
    "img": "cal/p-c7e28f3213.jpg",
    "enlace": "https://youtu.be/UfaVaU1iKbI",
    "segundos": 41,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-eyu7U70dSSY",
@@ -1437,13 +1437,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "En muchos motores la bomba de agua va con la correa de distribución",
    "texto": "",
    "img": "cal/v-1d31b7001d.jpg",
    "enlace": "https://youtu.be/eyu7U70dSSY",
    "segundos": 13,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-389215381",
