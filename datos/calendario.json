@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-14 17:10",
- "hoy": "2026-10-14",
+ "actualizado": "2026-10-15 09:16",
+ "hoy": "2026-10-15",
  "desde": "2026-10-01",
- "hasta": "2026-11-23",
- "metricool_guardado": "2026-10-14 17:09",
+ "hasta": "2026-11-24",
+ "metricool_guardado": "2026-10-15 09:15",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -746,23 +746,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "yt-I9cVczaUb7k",
-   "dia": "2026-10-07",
-   "hora": "18:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "youtube",
-   "estado": "publicado",
-   "titulo": "Si te quedas tirado con la moto en carretera: qué hacer en 4 pasos",
-   "texto": "",
-   "img": "https://i.ytimg.com/vi/I9cVczaUb7k/hqdefault.jpg",
-   "enlace": "https://youtu.be/I9cVczaUb7k",
-   "segundos": 25,
-   "nota": "Publicado"
-  },
-  {
    "id": "yt-hDL4T7VWpgo",
    "dia": "2026-10-07",
    "hora": "19:00",
@@ -1375,26 +1358,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-394695627",
-   "dia": "2026-10-14",
-   "hora": "10:00",
-   "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
-    "youtube"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Charco debajo del coche: ¿refrigerante o aire acondicionado?",
-   "texto": "La señal que más gente ve sin saber qué es: un charco debajo de la parte de delante del coche 💧\nSi tiene color (rosa, verde, naranja o azul) y huele dulce, es refrigerante.\nSi es transparente, no huele a nada y cae más atrás, hacia la zona del copiloto, es el agua del aire acondicionado. Esa es normal.\nAnticongelantes para coche 👉 todoenrecambio.com/lubricantes-coche-adicional\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #anticongelante #averiacoche #consejosdetaller #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-16565138038191071798.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-14791830004082650101.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
-  },
-  {
    "id": "yt-MkCMao56_Os",
    "dia": "2026-10-14",
    "hora": "10:04",
@@ -1446,24 +1409,21 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-389215381",
+   "id": "yt-6wtLpz61bVg",
    "dia": "2026-10-14",
-   "hora": "19:00",
+   "hora": "19:04",
    "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
     "youtube"
    ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
    "titulo": "Traje de lluvia para moto: Acerbis Rain Set Line y traje de agua Logo",
-   "texto": "🌧️ La ruta no se para por cuatro gotas. Pero tú sí, si no llevas esto.\n\nEn otoño el tiempo cambia en media hora: un traje de lluvia debería ir siempre en la moto.\n\n✅ Acerbis Rain Set Line: chaqueta y pantalón, costuras termoselladas y columna de agua de 3.000 mm. Se pliega para llevarlo bajo el asiento, en la mochila o en la maleta\n✅ Traje de agua Acerbis Logo: cremallera termosellada con solapa, capucha, bolsillo impermeable y reflectantes\n\n💡 Póntelo alguna vez en casa, con calma: el día que llueva de verdad lo harás mucho más rápido.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Acerbis Rain Set Line:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/trajes-lluvia/mono-lluvia/acerbis-rain-set-line-conjunto-impermeable-compacto-para-aventura-0026144090062acb.html\n🛒 Traje de agua Acerbis Logo:\nhttps://todoenrecambio.com/recambio-moto/equipamiento-motorista/trajes-lluvia/mono-lluvia/traje-de-agua-acerbis-acerbis-0016428-090-061-0016428090061acb.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#TrajeDeLluvia #Acerbis #EquipacionMoto #Otoño #TodoEnRecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-1093774664215788172.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-1916444006709985800.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/6wtLpz61bVg/hqdefault.jpg",
+   "enlace": "https://youtu.be/6wtLpz61bVg",
+   "segundos": 47,
+   "nota": "Publicado"
   },
   {
    "id": "yt-XgRQe-D_kZs",
@@ -1474,13 +1434,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "El coche se calienta: qué hacer cuando sube la aguja",
    "texto": "",
    "img": "cal/p-6508715038.jpg",
    "enlace": "https://youtu.be/XgRQe-D_kZs",
    "segundos": 31,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-0rknP0AzieE",
@@ -1491,13 +1451,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "El embrague son dos platos que se aprietan: ya está",
    "texto": "",
    "img": "cal/v-18104c1590.jpg",
    "enlace": "https://youtu.be/0rknP0AzieE",
    "segundos": 22,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-394691479",
