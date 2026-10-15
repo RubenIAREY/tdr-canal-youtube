@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-15 12:53",
+ "actualizado": "2026-10-15 16:38",
  "hoy": "2026-10-15",
  "desde": "2026-10-01",
  "hasta": "2026-11-24",
@@ -1454,13 +1454,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Buscar recambios por matrícula o por número de bastidor",
    "texto": "",
    "img": "cal/p-b602353b37.jpg",
    "enlace": "https://youtu.be/P2Uicf4IC3M",
    "segundos": 23,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-zIy5FyypGVI",
@@ -1471,13 +1471,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "El aluminio de la culata se pica sin los aditivos del anticongelante",
    "texto": "",
    "img": "cal/v-0a4a01bda0.jpg",
    "enlace": "https://youtu.be/zIy5FyypGVI",
    "segundos": 19,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-MyIb7U5LLSM",
@@ -1670,9 +1670,9 @@
    "estado": "aprobado",
    "titulo": "31 · Qué aceite lleva tu coche",
    "texto": "",
-   "img": "cal/mini-31.jpg",
+   "img": "cal/mini-31-663e991825.jpg",
    "largo": "31",
-   "nota": "Aprobado · se sube a YouTube el día antes por la mañana (cuota)"
+   "nota": "Aprobado (SIN SUBIR a YouTube: falta elegir miniatura) · se sube a YouTube el día antes por la mañana (cuota)"
   },
   {
    "id": "yt-S6yyjJ1ggTM",
@@ -2058,9 +2058,9 @@
    "estado": "aprobado",
    "titulo": "04 · Embrague de moto",
    "texto": "",
-   "img": "cal/mini-04.jpg",
+   "img": "cal/mini-04-cc84d2f4ec.jpg",
    "largo": "04",
-   "nota": "Aprobado (falta render y tu OK al vídeo) · se sube a YouTube el día antes por la mañana (cuota)"
+   "nota": "Aprobado (SIN SUBIR: vídeo terminado, falta tu OK y la miniatura) · se sube a YouTube el día antes por la mañana (cuota)"
   },
   {
    "id": "cola-02dd58a13a",
@@ -2466,7 +2466,7 @@
    "estado": "condicional",
    "titulo": "33 · EGR y filtro de partículas",
    "texto": "",
-   "img": "cal/mini-33.jpg",
+   "img": "cal/mini-33-3a552ca0a6.jpg",
    "largo": "33",
    "nota": "Solo si grabas su HeyGen"
   },
@@ -2874,7 +2874,7 @@
    "estado": "condicional",
    "titulo": "35 · Moto en invierno sin pasar frío",
    "texto": "",
-   "img": "cal/mini-35.jpg",
+   "img": "cal/mini-35-839a2c6429.jpg",
    "largo": "35",
    "nota": "Solo si grabas su HeyGen"
   },
@@ -3262,7 +3262,7 @@
    "estado": "condicional",
    "titulo": "34 · Batería de la moto en invierno",
    "texto": "",
-   "img": "cal/mini-34.jpg",
+   "img": "cal/mini-34-0a519d0c1d.jpg",
    "largo": "34",
    "nota": "Solo si grabas su HeyGen"
   },
@@ -3670,7 +3670,7 @@
    "estado": "condicional",
    "titulo": "36 · Cadenas de nieve",
    "texto": "",
-   "img": "cal/mini-36.jpg",
+   "img": "cal/mini-36-26ebc8b902.jpg",
    "largo": "36",
    "nota": "Solo si grabas su HeyGen"
   },
