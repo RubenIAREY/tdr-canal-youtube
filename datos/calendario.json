@@ -1,8 +1,8 @@
 {
- "actualizado": "2026-10-16 17:18",
+ "actualizado": "2026-10-16 17:30",
  "hoy": "2026-10-16",
  "desde": "2026-10-01",
- "hasta": "2026-11-25",
+ "hasta": "2027-02-04",
  "metricool_guardado": "2026-10-16 17:16",
  "avisos": [],
  "estados": {
@@ -4973,6 +4973,654 @@
    "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3261&action=edit",
    "yoast": false,
    "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3207",
+   "dia": "2026-11-26",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Testigos del coche: qué significa cada luz del cuadro",
+   "texto": "Rojos, amarillos o verdes: qué significan los testigos del coche según la norma, cuándo hay que parar y cuáles suspenden la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-06-testigos-coche-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3207&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3207&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3279",
+   "dia": "2026-11-28",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Líquido de frenos de moto: cuándo cambiarlo y cómo purgar",
+   "texto": "DOT 4, DOT 5.1 o DOT 5: qué líquido de frenos de moto usar, por qué absorbe agua, cada cuánto se cambia y cómo se purga.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-18-liquido-frenos-moto-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3279&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3279&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3177",
+   "dia": "2026-11-30",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Silentblock: qué es, síntomas de desgaste y cuándo cambiarlo",
+   "texto": "Golpes en los baches o tirones al frenar: qué es un silentblock, cómo se revisa, cuándo cambiar el trapecio y cómo se monta bien.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-01-silentblock-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3177&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3177&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3291",
+   "dia": "2026-12-02",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Regulador de moto: síntomas de fallo y cómo comprobarlo",
+   "texto": "La batería no carga o se hincha: qué hace el regulador de moto, sus síntomas y cómo comprobarlo paso a paso con el polímetro.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-20-regulador-moto-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3291&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3291&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3183",
+   "dia": "2026-12-04",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Servofreno: cómo funciona y síntomas de avería",
+   "texto": "Pedal de freno duro: cómo funciona el servofreno, cómo comprobarlo con el motor parado y qué pasa con la bomba de vacío en los diésel.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-02-servofreno-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3183&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3183&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3285",
+   "dia": "2026-12-06",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Rodilleras y protecciones de moto: niveles y cómo elegirlas",
+   "texto": "Nivel 1 o 2, tipo A o B, T+ y T-: qué significa el marcado de las rodilleras de moto, cómo elegirlas y si son obligatorias.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-19-protecciones-moto-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3285&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3285&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3237",
+   "dia": "2026-12-08",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Sensor de cigüeñal: síntomas de fallo y cómo comprobarlo",
+   "texto": "El motor se cala o no arranca: qué hace el sensor de cigüeñal, sus síntomas, sus códigos y cómo se comprueba sin estropearlo.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-11-sensor-ciguenal-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3237&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3237&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3267",
+   "dia": "2026-12-10",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Retenes de horquilla: síntomas de fuga y cuándo cambiarlos",
+   "texto": "Aceite en la barra: qué hacen los retenes de horquilla, por qué pierden, si se pueden limpiar, cómo se cambian y qué aceite llevan.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-16-retenes-horquilla-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3267&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3267&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3225",
+   "dia": "2026-12-12",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bombín de embrague: síntomas de fallo y purgado",
+   "texto": "Pedal que se queda abajo o esponjoso: cómo saber si falla el bombín de embrague, cómo se purga y por qué el concéntrico va con el kit.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-09-bombin-embrague-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3225&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3225&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3195",
+   "dia": "2026-12-14",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Válvula PCV: qué es, síntomas de fallo y cómo revisarla",
+   "texto": "Silbidos, ralentí irregular o consumo de aceite: qué es la válvula PCV, qué síntomas da cuando falla y cómo se comprueba bien.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-04-valvula-pcv-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3195&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3195&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3213",
+   "dia": "2026-12-16",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Copela del amortiguador: síntomas y cuándo cambiarla",
+   "texto": "Crujidos al girar o golpes en baches: qué es la copela del amortiguador, cómo se diagnostica y por qué se cambia con el amortiguador.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-07-copela-amortiguador-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3213&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3213&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3255",
+   "dia": "2026-12-18",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Aceite de la caja de cambios: cuándo cambiarlo y cuál usar",
+   "texto": "Manual, automática o de doble embrague: qué aceite de caja de cambios lleva cada una, GL-4 o GL-5 y cada cuánto se cambia.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-14-aceite-caja-cambios-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3255&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3255&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3243",
+   "dia": "2026-12-20",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Sensor ABS: síntomas y por qué se enciende el testigo",
+   "texto": "Testigo del ABS encendido o ESP desactivado: qué hace el sensor ABS, por qué falla, cómo se diagnostica y qué dice la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-12-sensor-abs-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3243&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3243&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3231",
+   "dia": "2026-12-22",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Polea de cigüeñal: síntomas de fallo y cuándo cambiarla",
+   "texto": "Vibraciones o ruido de correa: qué es la polea de cigüeñal o damper, cómo se revisa y cada cuánto se cambia según los fabricantes.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-10-polea-ciguenal-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3231&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3231&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3219",
+   "dia": "2026-12-24",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Junta de la tapa de balancines: síntomas de fuga y cambio",
+   "texto": "Aceite por la tapa o en los pozos de las bujías: síntomas de la junta de la tapa de balancines, por qué falla y cómo se cambia bien.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-08-junta-tapa-balancines-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3219&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3219&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3249",
+   "dia": "2026-12-26",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Electroventilador: síntomas de fallo y cómo comprobarlo",
+   "texto": "Se calienta en los atascos o el ventilador no para: cómo funciona el electroventilador, sus síntomas y cómo comprobarlo con seguridad.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-13-electroventilador-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3249&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3249&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3351",
+   "dia": "2026-12-28",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Luces del coche: cruce, posición, carretera y diurnas",
+   "texto": "Luces de cruce, de posición, de carretera y diurnas: cuándo es obligatoria cada una, qué multa hay y qué revisa la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-01-luces-coche-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3351&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3351&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3399",
+   "dia": "2026-12-30",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Chubasquero de moto: tipos y cómo elegir traje de agua",
+   "texto": "Chubasquero de moto: mono o dos piezas, cubrebotas, costuras selladas, talla, visibilidad y qué exige la normativa de 2026.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-18-chubasquero-moto-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3399&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3399&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3315",
+   "dia": "2027-01-01",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Motor del limpiaparabrisas: averías, bomba y depósito",
+   "texto": "Motor del limpiaparabrisas que no barre o se para, bomba que no echa agua y depósito: síntomas, diagnóstico y qué mira la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-07-limpiaparabrisas-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3315&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3315&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3405",
+   "dia": "2027-01-03",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Manetas de moto: tipos, ajuste y cables de mando",
+   "texto": "Manetas de moto fijas, regulables o abatibles, holgura del embrague y del puño del gas, cables gastados y qué revisa la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-19-manetas-moto-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3405&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3405&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3363",
+   "dia": "2027-01-05",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Fusibles del coche: tipos, colores y cómo comprobarlos",
+   "texto": "Fusibles del coche: tipos, código de colores, dónde está la caja, cómo saber si uno está fundido y por qué nunca poner uno mayor.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-05-fusibles-coche-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3363&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3363&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3357",
+   "dia": "2027-01-07",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Piloto trasero y luz de freno: averías y qué mira la ITV",
+   "texto": "Piloto trasero que no enciende, luz de freno que no se apaga o tercera luz fundida: causas, cómo se comprueba y qué mira la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-13-pilotos-traseros-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3357&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3357&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3333",
+   "dia": "2027-01-09",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Freno de mano: averías, ajuste y freno eléctrico",
+   "texto": "Freno de mano que no sujeta o no suelta: averías del de cable y del eléctrico, cómo se ajusta y qué mide la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-12-freno-mano-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3333&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3333&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3393",
+   "dia": "2027-01-11",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Aceite 2T: qué es, proporción de mezcla y cuál elegir",
+   "texto": "Aceite 2T para moto: mezcla o engrase separado, normas JASO FB, FC y FD e ISO, sintético o semisintético y qué proporción usar.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-17-aceite-2t-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3393&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3393&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3345",
+   "dia": "2027-01-13",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bomba de freno: síntomas de fallo y cómo se comprueba",
+   "texto": "Bomba de freno o cilindro maestro: qué hace, síntomas de fallo, con qué se confunde, cómo se comprueba y qué mira la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-09-bomba-freno-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3345&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3345&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3375",
+   "dia": "2027-01-15",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Taqués hidráulicos: por qué hacen ruido y qué hacer",
+   "texto": "Taqués hidráulicos: cómo funcionan, cuándo es normal el ruido en frío, por qué suenan en caliente y cuándo cambiarlos.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-16-taques-hidraulicos-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3375&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3375&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3321",
+   "dia": "2027-01-17",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Latiguillos de freno: cuándo cambiarlos y los de malla",
+   "texto": "Latiguillos de freno: síntomas de desgaste, cuándo cambiarlos, si los de malla necesitan reforma y qué revisa la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-08-latiguillos-freno-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3321&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3321&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3303",
+   "dia": "2027-01-19",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Sensor MAP: qué es, síntomas de fallo y cómo comprobarlo",
+   "texto": "Qué es el sensor MAP, en qué se diferencia del caudalímetro, qué síntomas da cuando falla y cómo se comprueba antes de cambiarlo.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-06-sensor-map-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3303&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3303&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3327",
+   "dia": "2027-01-21",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Pinza de freno agarrotada: síntomas, causas y solución",
+   "texto": "Pinza de freno agarrotada: síntomas, causas, cómo se revisa, kits de reparación y qué mide la ITV en el frenómetro.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-11-pinza-freno-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3327&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3327&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3369",
+   "dia": "2027-01-23",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Árbol de levas: qué es y síntomas de desgaste",
+   "texto": "Qué es el árbol de levas, cómo funciona, síntomas de desgaste, por qué se gasta, qué es el código P0340 y qué se cambia con él.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-02-arbol-levas-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3369&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3369&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3297",
+   "dia": "2027-01-25",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Intercooler: qué es, síntomas de avería y cuándo cambiarlo",
+   "texto": "Qué es el intercooler, qué síntomas da cuando falla, por qué aparece aceite dentro y cuándo basta el manguito o hay que cambiarlo.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-04-intercooler-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3297&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3297&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3309",
+   "dia": "2027-01-27",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Retén del cigüeñal: síntomas de fuga y cómo se cambia",
+   "texto": "Retén del cigüeñal: cómo distinguir la fuga del consumo de aceite, por qué falla, cómo se monta y qué mira la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-10-reten-ciguenal-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3309&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3309&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3381",
+   "dia": "2027-01-29",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bomba de aceite: síntomas de fallo y cómo se comprueba",
+   "texto": "Bomba de aceite del motor: qué hace, tipos, síntomas de fallo, por qué el testigo no basta, cómo se mide la presión y cuándo se cambia.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-14-bomba-aceite-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3381&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3381&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3387",
+   "dia": "2027-01-31",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Enfriador de aceite: síntomas de avería y diagnóstico",
+   "texto": "Enfriador de aceite: síntomas de avería, cómo distinguirlo de la junta de culata, cómo se comprueba y qué hacer tras la mezcla.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-15-enfriador-aceite-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3387&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3387&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3411",
+   "dia": "2027-02-02",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Mochila de moto o bolsa de depósito: cuál elegir",
+   "texto": "Mochila de moto o bolsa de depósito: imanes, cinchas o anclaje rápido, capacidad, riesgos y qué dice la normativa de la carga.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-20-bolsa-deposito-mochila-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3411&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3411&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3339",
+   "dia": "2027-02-04",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bola de remolque: tipos, homologación y cuándo pasar ITV",
+   "texto": "Bola de remolque fija, desmontable o retráctil: cuándo es reforma, en qué plazo pasar la ITV y qué carnet hace falta.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote7-03-enganche-remolque-producto1_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3339&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3339&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 7: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
   }
  ],
  "nota": "Calendario aprobado por Rubén el 08/10. Lo rehacen las rutinas de las 9:00, las 12:30 y las 17:00 (calendario_datos.py)."

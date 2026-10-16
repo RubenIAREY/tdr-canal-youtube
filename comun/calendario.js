@@ -80,13 +80,15 @@ export async function montarCalendario(contenedor, opciones = {}) {
       <div>
         <div class="ca-ticker">CAL · <em>${esc(HOY.split("-").reverse().join("/"))}</em> · ACTUALIZADO ${esc((C.actualizado || "").slice(8, 10) + "/" + (C.actualizado || "").slice(5, 7) + " " + (C.actualizado || "").slice(11))}</div>
         <h1>Calendario de publicaciones</h1>
-        <p>Qué sale cada día, en qué red y qué es. Pincha un día para verlo todo: la imagen, el texto y el enlace. Se rehace solo a las 9:00, a las 12:30 y a las 17:00 con lo programado en Metricool y en YouTube.</p>
+        <p>Qué sale cada día, en qué red y qué es. Pincha un día para verlo todo: la imagen, el texto y el enlace. Se rehace solo a las 9:00, a las 12:30 y a las 17:00 con lo programado en Metricool, en YouTube y en el blog (WordPress).</p>
       </div>
       <div class="ca-resumen">
         <div class="ca-cifra"><b>${ITEMS.filter(x => x.dia >= HOY && x.estado === "programado").length}</b><span>programados</span></div>
         <div class="ca-cifra"><b>${total("aprobado")}</b><span>falta programar</span></div>
         <div class="ca-cifra"><b>${total("previsto")}</b><span>en la cola de YouTube</span></div>
         <div class="ca-cifra"><b>${ITEMS.filter(x => x.dia >= HOY && x.formato === "largo" && x.estado !== "condicional").length}</b><span>largos</span></div>
+        <div class="ca-cifra"><b>${ITEMS.filter(x => x.dia >= HOY && x.formato === "blog" && x.estado === "programado").length}</b><span>blogs programados</span></div>
+        <div class="ca-cifra"><b>${ITEMS.filter(x => x.dia >= HOY && x.formato === "blog" && x.estado === "borrador").length}</b><span>blogs en borrador</span></div>
       </div>
     </header>
     ${(C.avisos || []).length ? `<p class="ca-avisos">${C.avisos.map(esc).join("<br>")}</p>` : ""}
@@ -138,12 +140,14 @@ export async function montarCalendario(contenedor, opciones = {}) {
         const largo = L.find(x => x.formato === "largo" && x.estado !== "condicional"), cond = L.find(x => x.formato === "largo" && x.estado === "condicional");
         const cuenta = Object.fromEntries(REDES.map(([r]) => [r, L.filter(x => (x.redes || []).includes(r)).length]));
         const fuera = s < C.desde || s > C.hasta;
-        const minis = L.filter(x => x.img).slice(0, 4);
+        const blogs = L.filter(x => x.formato === "blog");          // 16/10: el post del blog del día, con su título, a la vista
+        const minis = L.filter(x => x.img && x.formato !== "blog").slice(0, 4), resto = L.length - blogs.length;
         const pend = L.some(x => x.estado === "aprobado" || x.estado === "por hacer");
         const etiqueta = `${DIAS_LARGO[diaSemana(d)]} ${d.getDate()}: ${L.length} publicaciones` + (largo ? ", con vídeo largo" : "");
         return `<button class="ca-dia${s === HOY ? " hoy" : ""}${fuera ? " fuera" : ""}" role="gridcell" data-dia="${s}" aria-pressed="${s === st.dia}" aria-label="${esc(etiqueta)}">
           <span class="ca-dia-cab"><span class="ca-num">${d.getDate()}</span>${largo ? `<span class="ca-largo" title="${esc(largo.titulo)}">LARGO</span>` : cond ? `<span class="ca-largo cond" title="${esc(cond.titulo)}">¿LARGO?</span>` : ""}</span>
-          <span class="ca-minis">${minis.map(x => `<img src="${esc(src(x.img))}" alt="" loading="lazy">`).join("")}${L.length > minis.length && minis.length ? `<span class="mas">+${L.length - minis.length}</span>` : ""}</span>
+          ${blogs.map(x => `<span class="ca-blog ${esc(x.estado)}" title="Blog (${esc(x.estado)}${x.formato === "blog" && !x.yoast && x.estado !== "publicado" ? ", sin Yoast" : ""}): ${esc(x.titulo)}"><b>BLOG</b><span class="txt">${esc(x.titulo)}</span>${!x.yoast && x.estado !== "publicado" ? `<i class="sinyoast" aria-label="sin Yoast"></i>` : ""}</span>`).join("")}
+          <span class="ca-minis">${minis.map(x => `<img src="${esc(src(x.img))}" alt="" loading="lazy">`).join("")}${resto > minis.length && minis.length ? `<span class="mas">+${resto - minis.length}</span>` : ""}</span>
           <span class="ca-puntos">${REDES.filter(([r]) => cuenta[r]).map(([r, n, c]) => `<span title="${n}: ${cuenta[r]}"><i style="background:${c}"></i>${cuenta[r]}<b class="ca-solo-lector"> ${n}</b></span>`).join("")}</span>
           ${pend ? `<span class="ca-pend" title="Hay algo aprobado que falta programar"></span>` : ""}
         </button>`;
