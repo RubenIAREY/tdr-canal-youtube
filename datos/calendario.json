@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-15 17:18",
- "hoy": "2026-10-15",
+ "actualizado": "2026-10-16 09:23",
+ "hoy": "2026-10-16",
  "desde": "2026-10-01",
- "hasta": "2026-11-24",
- "metricool_guardado": "2026-10-15 17:17",
+ "hasta": "2026-11-25",
+ "metricool_guardado": "2026-10-16 09:22",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -1409,26 +1409,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-394691479",
-   "dia": "2026-10-15",
-   "hora": "10:00",
-   "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
-    "youtube"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Puños calefactables: ¿directos a la batería o con relé?",
-   "texto": "¿Los puños calefactables van directos a la batería o con un relé? 🔌\nDepende del kit. Te contamos lo que dice el manual de los Oxford Premium V8: dónde va el rojo, dónde el negro, el fusible y qué pasa si los cuelgas de la bocina o de las luces.\nPuños calefactables 👉 todoenrecambio.com/punos-calefactables\n🤖 Vídeo creado con inteligencia artificial\n#puñoscalefactables #motoeninvierno #oxford #recambiosmoto #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-11286543974580559192.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-2616416428467740883.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
-  },
-  {
    "id": "yt-xx4cVsyfXw0",
    "dia": "2026-10-15",
    "hora": "10:05",
@@ -1488,13 +1468,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Truco si se calienta el coche: pon la calefacción al máximo",
    "texto": "",
    "img": "cal/p-f15d66afe2.jpg",
    "enlace": "https://youtu.be/MyIb7U5LLSM",
    "segundos": 23,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-ZpqQz1_9aE4",
@@ -1505,13 +1485,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Lo que hace de verdad el pedal del embrague",
    "texto": "",
    "img": "cal/v-ee689a40cf.jpg",
    "enlace": "https://youtu.be/ZpqQz1_9aE4",
    "segundos": 10,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-394691560",
@@ -1659,20 +1639,21 @@
    "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
-   "id": "plan-largo-31",
+   "id": "yt-tLNvf-HSiy8",
    "dia": "2026-10-17",
    "hora": "16:00",
    "redes": [
     "youtube"
    ],
    "formato": "largo",
-   "fuente": "plan",
-   "estado": "aprobado",
-   "titulo": "31 · Qué aceite lleva tu coche",
-   "texto": "",
-   "img": "cal/mini-31-663e991825.jpg",
-   "largo": "31",
-   "nota": "Aprobado (SIN SUBIR a YouTube: falta elegir miniatura) · se sube a YouTube el día antes por la mañana (cuota)"
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad",
+   "texto": "Tu motor no pide un aceite bueno: pide uno concreto. Y está escrito en un sitio que casi nadie mira, el manual de tu coche. No hay un aceite mejor que otro: hay el aceite de tu motor, y en este vídeo te enseño a encontrarlo y a leerlo en la garrafa.\n\nPrimero, para qué sirve el aceite y cómo se mira el nivel: con la varilla, entre el mínimo y el máximo, y en el cuadro en los coches que ya no la llevan. Por qué pasarse tampoco es bueno, qué significa que el nivel baje (o se sale, o se quema, y cada uno tiene su pista) y la diferencia entre el testigo rojo del aceite, que es de presión y es urgente, y el aviso de mantenimiento.\n\nDespués, lo que dice la garrafa: el grado, los dos números con la uve doble en medio y qué dice cada uno del frío y del calor; la norma y las homologaciones de los fabricantes, que van en la letra pequeña y son lo que de verdad importa; el aceite sintético, semisintético o mineral; y cuándo se cambia de verdad, por kilómetros o por tiempo, lo que llegue antes, y antes si el uso es duro. Al final, qué pedir en el taller cuando lo cambias.\n\nCAPÍTULOS\n0:00 Tu motor no pide un aceite bueno: pide uno concreto\n0:21 Hola, soy Rubén: de qué va este vídeo\n0:38 Para qué sirve el aceite del motor\n1:20 Cómo mirar el nivel de aceite, con varilla y sin ella\n2:19 Si el aceite baja: se sale o se quema\n3:29 El grado del aceite: qué dicen los dos números\n4:33 La norma y las homologaciones: la letra pequeña\n5:42 Sintético, semisintético o mineral\n6:34 Cuándo se cambia el aceite de verdad\n7:26 Qué pedir cuando cambias el aceite\n8:11 En resumen: el aceite de tu coche está en el manual\n\nEN EL BLOG\n▶ Tipos de aceite de coche: viscosidades, normas ACEA y cómo elegir el correcto: https://todoenrecambio.com/blog/tipos-de-aceite-de-coche-viscosidades-normas-acea-y-como-elegir-el-correcto/\n▶ Cada cuánto cambiar el aceite del coche: https://todoenrecambio.com/blog/cada-cuanto-cambiar-el-aceite-del-coche-guia-practica-2026/\n▶ El vídeo del filtro de aceite: cómo saber cuál lleva tu coche: https://www.youtube.com/watch?v=8F-d-tXojfE\n\nEN TODOENRECAMBIO.COM\n· Aceites de motor: https://todoenrecambio.com/aceites-43806\n· Filtros de aceite: https://todoenrecambio.com/filtros-de-aceite-43427\n· Tapones del cárter: https://todoenrecambio.com/tornillo-de-descarga\n· Varillas del nivel de aceite: https://todoenrecambio.com/varilla-del-nivel-de-aceite-43801\n\nSi te ha servido, suscríbete: aún quedan muchas piezas por contar.\n\nVídeo hecho con avatar e imágenes generadas con IA. L",
+   "img": "cal/yt-tLNvf-HSiy8.jpg",
+   "enlace": "https://youtu.be/tLNvf-HSiy8",
+   "segundos": 513,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
    "id": "yt-S6yyjJ1ggTM",
