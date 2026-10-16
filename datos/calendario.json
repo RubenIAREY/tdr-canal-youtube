@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-16 12:53",
+ "actualizado": "2026-10-16 16:03",
  "hoy": "2026-10-16",
  "desde": "2026-10-01",
  "hasta": "2026-11-25",
- "metricool_guardado": "2026-10-16 12:52",
+ "metricool_guardado": "2026-10-16 16:02",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -848,6 +848,23 @@
    "nota": "Publicado"
   },
   {
+   "id": "yt--KZ7-xZ6mV0",
+   "dia": "2026-10-07",
+   "hora": "21:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Casco de moto en carretera: ¿integral, modular o jet? (normativa 2026)",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/-KZ7-xZ6mV0/hqdefault.jpg",
+   "enlace": "https://youtu.be/-KZ7-xZ6mV0",
+   "segundos": 22,
+   "nota": "Publicado"
+  },
+  {
    "id": "yt-NN-fvUgSIHA",
    "dia": "2026-10-08",
    "hora": "13:00",
@@ -930,23 +947,6 @@
    "img": "https://i.ytimg.com/vi/s22dzRe5MdY/hqdefault.jpg",
    "enlace": "https://youtu.be/s22dzRe5MdY",
    "segundos": 14,
-   "nota": "Publicado"
-  },
-  {
-   "id": "yt-GMtVYlX-G2w",
-   "dia": "2026-10-08",
-   "hora": "21:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "youtube",
-   "estado": "publicado",
-   "titulo": "¿Por qué ahora son obligatorios los guantes de moto? ¿Y en verano?",
-   "texto": "",
-   "img": "https://i.ytimg.com/vi/GMtVYlX-G2w/hqdefault.jpg",
-   "enlace": "https://youtu.be/GMtVYlX-G2w",
-   "segundos": 26,
    "nota": "Publicado"
   },
   {
@@ -1590,13 +1590,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Ficha técnica del coche: tenla en el móvil antes de comprar",
    "texto": "",
    "img": "cal/p-de6551432b.jpg",
    "enlace": "https://youtu.be/D0yrZgXJG5A",
    "segundos": 24,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-SnslIUgsY3Y",
@@ -1607,13 +1607,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Una aguja alta no siempre es el anticongelante: qué más puede ser",
    "texto": "",
    "img": "cal/v-1d6c4896d2.jpg",
    "enlace": "https://youtu.be/SnslIUgsY3Y",
    "segundos": 16,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-389215447",
@@ -2008,20 +2008,21 @@
    "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "plan-largo-04",
+   "id": "yt-9vC6hBH_B6k",
    "dia": "2026-10-20",
    "hora": "16:00",
    "redes": [
     "youtube"
    ],
    "formato": "largo",
-   "fuente": "plan",
-   "estado": "aprobado",
-   "titulo": "04 · Embrague de moto",
-   "texto": "",
-   "img": "cal/mini-04-cc84d2f4ec.jpg",
-   "largo": "04",
-   "nota": "Aprobado (SIN SUBIR: vídeo terminado; 16/10 Rubén lo pasa al martes 20/10; falta elegir miniatura TALLER-E1..E4) · se sube a YouTube el día antes por la mañana (cuota)"
+   "fuente": "youtube",
+   "estado": "programado",
+   "titulo": "Embrague de moto: cómo funciona, por qué se gasta y los 3 avisos antes de que falle",
+   "texto": "Aprietas la maneta y el motor se desconecta de la rueda; la sueltas y vuelve a conectar. En ese recorrido tan corto pasa absolutamente todo. En este vídeo te enseño cómo funciona por dentro el embrague de tu moto, por qué se gasta y los tres avisos que te da antes de dejarte tirado.\n\nPrimero, cómo funciona: una pila de discos alternados, los de fricción enganchados a la campana y los metálicos al buje, y unos muelles que empujan el plato de presión. Después, el detalle que lo cambia todo: en la mayoría de motos el embrague trabaja en baño de aceite, el mismo que lubrica el motor y la caja de cambios. Por eso el aceite de una moto pide la norma JASO MA, y por eso lo que se gasta del embrague acaba en ese aceite.\n\nLuego, por qué se gasta (el calor cada vez que patina, los muelles que pierden fuerza, la bola de nieve) y los tres avisos: el punto de agarre que se desplaza, el embrague que patina en carga y el que no termina de separar. Al final, cuándo cambiarlo: el conjunto entero, con su aceite, y el juego de la maneta si tu embrague es de cable.\n\nCAPÍTULOS\n0:00 Qué pasa cuando aprietas la maneta del embrague\n0:34 Cómo funciona el embrague de una moto: una pila de discos\n1:40 En baño de aceite: el mismo aceite que el motor\n2:11 Por qué se gasta: el calor, los muelles y el aceite\n3:23 Los tres avisos antes de que falle\n4:15 Cuándo cambiarlo: el conjunto, el aceite y el juego de la maneta\n5:05 En resumen: se gasta cada vez que lo haces patinar\n\nEN EL BLOG\n▶ Aceite de moto JASO MA, MA2 y MB: qué significa y cuál usar: https://todoenrecambio.com/blog/jaso-ma2-ma-mb/\n▶ Cómo elegir el mejor aceite para tu moto: https://todoenrecambio.com/blog/como-elegir-el-mejor-aceite-para-tu-moto/\n\nEN TODOENRECAMBIO.COM\n· Kits de embrague de moto: https://todoenrecambio.com/kit-embrague\n· Discos de embrague: https://todoenrecambio.com/discos-de-embrague\n· Muelles de embrague: https://todoenrecambio.com/muelles\n· Aceites de moto 4 tiempos: https://todoenrecambio.com/aceites-4-tiempos\n· Manetas de moto: https://todoenrecambio.com/maneta\n\nSi te ha servido, suscríbete: aún quedan muchas piezas por contar.\n\nVídeo hecho con avatar e imágenes generadas con IA. Las piezas que salen recortadas son fotos reales de las fichas de la tienda.\n\n#embrague #moto #mecanicademotos #motos #aceitemoto #todoenrecambio",
+   "img": "cal/yt-9vC6hBH_B6k.jpg",
+   "enlace": "https://youtu.be/9vC6hBH_B6k",
+   "segundos": 324,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
    "id": "cola-a0019c1cc0",
@@ -2058,23 +2059,6 @@
    "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "cola-1a7318c8e4",
-   "dia": "2026-10-20",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "La bomba de agua entra en el cambio de la correa",
-   "texto": "",
-   "img": "cal/v-1a7318c8e4.jpg",
-   "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
    "id": "mc-394696011",
    "dia": "2026-10-21",
    "hora": "10:00",
@@ -2095,9 +2079,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-678e564b5b",
+   "id": "cola-1a7318c8e4",
    "dia": "2026-10-21",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La bomba de agua entra en el cambio de la correa",
+   "texto": "",
+   "img": "cal/v-1a7318c8e4.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 18/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-678e564b5b",
+   "dia": "2026-10-21",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2109,23 +2110,6 @@
    "img": "cal/v-678e564b5b.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-de783b2667",
-   "dia": "2026-10-21",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Fotos de recambios: por qué no debes fiarte de la foto",
-   "texto": "Ojo con las fotos: muchas tiendas usan una foto genérica para piezas parecidas 📸\nFíate de la referencia y de las medidas, no de la foto.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#comprarrecambios #recambioscoche #comprasonline #consejosdetaller #todoenrecambio",
-   "img": "cal/p-de783b2667.jpg",
-   "largo": "30",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2149,9 +2133,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-f077c4bd32",
+   "id": "cola-de783b2667",
    "dia": "2026-10-21",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Fotos de recambios: por qué no debes fiarte de la foto",
+   "texto": "Ojo con las fotos: muchas tiendas usan una foto genérica para piezas parecidas 📸\nFíate de la referencia y de las medidas, no de la foto.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#comprarrecambios #recambioscoche #comprasonline #consejosdetaller #todoenrecambio",
+   "img": "cal/p-de783b2667.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-f077c4bd32",
+   "dia": "2026-10-21",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2163,23 +2164,6 @@
    "img": "cal/v-f077c4bd32.jpg",
    "largo": "19",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-1a2ed52253",
-   "dia": "2026-10-21",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Por qué el ventilador del coche sigue funcionando al parar",
-   "texto": "Cuando vas por carretera, el aire que entra por delante ya enfría el radiador. Pero parado, en un atasco o en un semáforo, no entra aire: ahí trabaja el ventilador 🌀\nNo va siempre encendido: un sensor mide la temperatura del líquido y, cuando sube, lo enciende. Por eso a veces, al parar el coche, lo oyes funcionar un rato.\nVentiladores del radiador 👉 todoenrecambio.com/ventilador-44836\n🤖 Vídeo creado con inteligencia artificial\n#ventilador #radiador #refrigeracion #mecanica #todoenrecambio",
-   "img": "cal/p-1a2ed52253.jpg",
-   "largo": "28",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2203,9 +2187,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-2a545242ad",
+   "id": "cola-1a2ed52253",
    "dia": "2026-10-22",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por qué el ventilador del coche sigue funcionando al parar",
+   "texto": "Cuando vas por carretera, el aire que entra por delante ya enfría el radiador. Pero parado, en un atasco o en un semáforo, no entra aire: ahí trabaja el ventilador 🌀\nNo va siempre encendido: un sensor mide la temperatura del líquido y, cuando sube, lo enciende. Por eso a veces, al parar el coche, lo oyes funcionar un rato.\nVentiladores del radiador 👉 todoenrecambio.com/ventilador-44836\n🤖 Vídeo creado con inteligencia artificial\n#ventilador #radiador #refrigeracion #mecanica #todoenrecambio",
+   "img": "cal/p-1a2ed52253.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 19/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-2a545242ad",
+   "dia": "2026-10-22",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2222,7 +2223,7 @@
   {
    "id": "cola-02dd58a13a",
    "dia": "2026-10-22",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -2239,7 +2240,7 @@
   {
    "id": "cola-accba4cef9",
    "dia": "2026-10-22",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2251,23 +2252,6 @@
    "img": "cal/v-accba4cef9.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-ce880cd717",
-   "dia": "2026-10-22",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Cómo mirar el nivel de aceite del coche (y cada cuánto)",
-   "texto": "Antes de comprar aceite, lo más básico: mirar cuánto llevas 🔎\nCon el coche en llano y el motor parado un rato, para que el aceite baje. Sacas la varilla, la limpias, la metes hasta el fondo y la vuelves a sacar.\n¿Cada cuánto? De vez en cuando, y siempre antes de un viaje largo. Se tarda nada, y te enteras tú antes que el motor.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#nivelaceite #aceitemotor #mantenimientocoche #consejosdetaller #todoenrecambio",
-   "img": "cal/p-ce880cd717.jpg",
-   "largo": "31",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2291,9 +2275,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-feb28bd213",
+   "id": "cola-ce880cd717",
    "dia": "2026-10-23",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Cómo mirar el nivel de aceite del coche (y cada cuánto)",
+   "texto": "Antes de comprar aceite, lo más básico: mirar cuánto llevas 🔎\nCon el coche en llano y el motor parado un rato, para que el aceite baje. Sacas la varilla, la limpias, la metes hasta el fondo y la vuelves a sacar.\n¿Cada cuánto? De vez en cuando, y siempre antes de un viaje largo. Se tarda nada, y te enteras tú antes que el motor.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#nivelaceite #aceitemotor #mantenimientocoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-ce880cd717.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 20/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-feb28bd213",
+   "dia": "2026-10-23",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2304,23 +2305,6 @@
    "texto": "",
    "img": "cal/v-feb28bd213.jpg",
    "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-cac46e812a",
-   "dia": "2026-10-23",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Los amortiguadores no van de comodidad: van de que el neumático toque el suelo",
-   "texto": "",
-   "img": "cal/v-cac46e812a.jpg",
-   "largo": "18",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -2345,9 +2329,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-3b5f4960a7",
+   "id": "cola-cac46e812a",
    "dia": "2026-10-23",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los amortiguadores no van de comodidad: van de que el neumático toque el suelo",
+   "texto": "",
+   "img": "cal/v-cac46e812a.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-3b5f4960a7",
+   "dia": "2026-10-23",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2359,23 +2360,6 @@
    "img": "cal/p-3b5f4960a7.jpg",
    "largo": "30",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-d18a53791a",
-   "dia": "2026-10-23",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Elegir el anticongelante por el color es acertar o fallar por casualidad",
-   "texto": "",
-   "img": "cal/v-d18a53791a.jpg",
-   "largo": "19",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2399,9 +2383,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-dee34baa1b",
+   "id": "cola-d18a53791a",
    "dia": "2026-10-24",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Elegir el anticongelante por el color es acertar o fallar por casualidad",
+   "texto": "",
+   "img": "cal/v-d18a53791a.jpg",
+   "largo": "19",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-dee34baa1b",
+   "dia": "2026-10-24",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2418,7 +2419,7 @@
   {
    "id": "cola-b1118f3a50",
    "dia": "2026-10-24",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -2435,7 +2436,7 @@
   {
    "id": "cola-50822fd4c3",
    "dia": "2026-10-24",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2447,23 +2448,6 @@
    "img": "cal/p-50822fd4c3.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-4aaadaa6f0",
-   "dia": "2026-10-24",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "La junta del filtro se cambia siempre, sin excepción",
-   "texto": "",
-   "img": "cal/v-4aaadaa6f0.jpg",
-   "largo": "20",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2487,7 +2471,7 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-217fabd47a",
+   "id": "cola-4aaadaa6f0",
    "dia": "2026-10-25",
    "hora": "13:00",
    "redes": [
@@ -2496,12 +2480,12 @@
    "formato": "short",
    "fuente": "cola",
    "estado": "previsto",
-   "titulo": "Varilla del aceite: entre el mínimo y el máximo (ni de más)",
-   "texto": "En la punta de la varilla hay dos marcas: el mínimo y el máximo. El aceite tiene que quedar entre las dos 🛢️\nSi está cerca del mínimo, se rellena poco a poco y volviendo a mirar.\nY ojo, que pasarse tampoco es bueno: un motor con aceite de más puede hacer espuma y dañar piezas que no esperas. Ni por debajo ni por encima.\nVarillas del nivel de aceite 👉 todoenrecambio.com/varilla-del-nivel-de-aceite-43801\n🤖 Vídeo creado con inteligencia artificial\n#varilladeaceite #nivelaceite #aceitemotor #consejosdetaller #todoenrecambio",
-   "img": "cal/p-217fabd47a.jpg",
-   "largo": "31",
-   "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "titulo": "La junta del filtro se cambia siempre, sin excepción",
+   "texto": "",
+   "img": "cal/v-4aaadaa6f0.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-33",
@@ -2520,9 +2504,26 @@
    "nota": "Solo si grabas su HeyGen"
   },
   {
-   "id": "cola-3dbbe5b44c",
+   "id": "cola-217fabd47a",
    "dia": "2026-10-25",
    "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Varilla del aceite: entre el mínimo y el máximo (ni de más)",
+   "texto": "En la punta de la varilla hay dos marcas: el mínimo y el máximo. El aceite tiene que quedar entre las dos 🛢️\nSi está cerca del mínimo, se rellena poco a poco y volviendo a mirar.\nY ojo, que pasarse tampoco es bueno: un motor con aceite de más puede hacer espuma y dañar piezas que no esperas. Ni por debajo ni por encima.\nVarillas del nivel de aceite 👉 todoenrecambio.com/varilla-del-nivel-de-aceite-43801\n🤖 Vídeo creado con inteligencia artificial\n#varilladeaceite #nivelaceite #aceitemotor #consejosdetaller #todoenrecambio",
+   "img": "cal/p-217fabd47a.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-3dbbe5b44c",
+   "dia": "2026-10-25",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -2539,7 +2540,7 @@
   {
    "id": "cola-ec54c0a9ab",
    "dia": "2026-10-25",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2551,23 +2552,6 @@
    "img": "cal/v-ec54c0a9ab.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-7425441bec",
-   "dia": "2026-10-25",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Lleva la pieza vieja al comprar el recambio: qué mirar",
-   "texto": "El mejor consejo: si puedes, ten la pieza vieja delante cuando compres. O por lo menos, fotos de todos sus lados y de su etiqueta 📸\nMira los agujeros de los anclajes, la forma, el tamaño y, si lleva cable, el conector.\nSi hay una sola diferencia, para y pregunta.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #piezasdecoche #mecanica #consejosdetaller #todoenrecambio",
-   "img": "cal/p-7425441bec.jpg",
-   "largo": "30",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2591,9 +2575,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-51eaecb0ba",
+   "id": "cola-7425441bec",
    "dia": "2026-10-26",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lleva la pieza vieja al comprar el recambio: qué mirar",
+   "texto": "El mejor consejo: si puedes, ten la pieza vieja delante cuando compres. O por lo menos, fotos de todos sus lados y de su etiqueta 📸\nMira los agujeros de los anclajes, la forma, el tamaño y, si lleva cable, el conector.\nSi hay una sola diferencia, para y pregunta.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #piezasdecoche #mecanica #consejosdetaller #todoenrecambio",
+   "img": "cal/p-7425441bec.jpg",
+   "largo": "30",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-51eaecb0ba",
+   "dia": "2026-10-26",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2605,23 +2606,6 @@
    "img": "cal/v-51eaecb0ba.jpg",
    "largo": "19",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-9ba306d3bc",
-   "dia": "2026-10-26",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Radiador tapado por fuera: hojas, insectos y suciedad",
-   "texto": "El radiador es ese panel de delante, lleno de tubos finos y de aletas: el líquido caliente pasa por los tubos y el aire, al atravesar las aletas, se lleva el calor 🌬️\nCon el tiempo se tapa por fuera: hojas, insectos, suciedad de la carretera. Y cada hueco tapado es aire que no pasa.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigeracion #mantenimientocoche #todoenrecambio",
-   "img": "cal/p-9ba306d3bc.jpg",
-   "largo": "28",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2645,9 +2629,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-8887eafbf0",
+   "id": "cola-9ba306d3bc",
    "dia": "2026-10-26",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Radiador tapado por fuera: hojas, insectos y suciedad",
+   "texto": "El radiador es ese panel de delante, lleno de tubos finos y de aletas: el líquido caliente pasa por los tubos y el aire, al atravesar las aletas, se lleva el calor 🌬️\nCon el tiempo se tapa por fuera: hojas, insectos, suciedad de la carretera. Y cada hueco tapado es aire que no pasa.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigeracion #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-9ba306d3bc.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-8887eafbf0",
+   "dia": "2026-10-26",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2659,23 +2660,6 @@
    "img": "cal/v-8887eafbf0.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-50e9c5360e",
-   "dia": "2026-10-26",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Volante torcido yendo recto: qué significa y de dónde viene",
-   "texto": "Vas recto, el coche va recto, pero el volante está un poco girado: casi siempre significa que las ruedas ya no apuntan como deberían 🛞\nSuele venir de un golpe (un bordillo, un bache fuerte) o de haber cambiado una pieza de la dirección o de la suspensión sin alinear después.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#volantetorcido #alineacion #direccion #consejosdetaller #todoenrecambio",
-   "img": "cal/p-50e9c5360e.jpg",
-   "largo": "29",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2699,9 +2683,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-c1d923894a",
+   "id": "cola-50e9c5360e",
    "dia": "2026-10-27",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Volante torcido yendo recto: qué significa y de dónde viene",
+   "texto": "Vas recto, el coche va recto, pero el volante está un poco girado: casi siempre significa que las ruedas ya no apuntan como deberían 🛞\nSuele venir de un golpe (un bordillo, un bache fuerte) o de haber cambiado una pieza de la dirección o de la suspensión sin alinear después.\nRótulas y terminales de dirección 👉 todoenrecambio.com/rotulas-de-direccion\n🤖 Vídeo creado con inteligencia artificial\n#volantetorcido #alineacion #direccion #consejosdetaller #todoenrecambio",
+   "img": "cal/p-50e9c5360e.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c1d923894a",
+   "dia": "2026-10-27",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2718,7 +2719,7 @@
   {
    "id": "cola-334899141c",
    "dia": "2026-10-27",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -2735,7 +2736,7 @@
   {
    "id": "cola-2a8d56770b",
    "dia": "2026-10-27",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2746,23 +2747,6 @@
    "texto": "",
    "img": "cal/v-2a8d56770b.jpg",
    "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-90c704520c",
-   "dia": "2026-10-27",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "La prueba del bache no sirve para decir que están bien",
-   "texto": "",
-   "img": "cal/v-90c704520c.jpg",
-   "largo": "18",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -2787,9 +2771,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-afa3207694",
+   "id": "cola-90c704520c",
    "dia": "2026-10-28",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "La prueba del bache no sirve para decir que están bien",
+   "texto": "",
+   "img": "cal/v-90c704520c.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-afa3207694",
+   "dia": "2026-10-28",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -2800,23 +2801,6 @@
    "texto": "Con los sensores de las ruedas pasa igual: el de la rueda de delante y el de la de detrás pueden ser distintos, aunque parezcan el mismo cable 🔌\nY el lado se cuenta siempre desde el asiento del conductor, mirando hacia delante: izquierda es tu izquierda sentado al volante. Delantero y trasero tampoco son lo mismo.\nSensores ABS y piezas de freno 👉 todoenrecambio.com/accesorios-piezas-44031\n🤖 Vídeo creado con inteligencia artificial\n#sensorabs #frenos #recambioscoche #consejosdetaller #todoenrecambio",
    "img": "cal/p-afa3207694.jpg",
    "largo": "30",
-   "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-f7c41df3bc",
-   "dia": "2026-10-28",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "El coche se calienta subiendo un puerto: el radiador tapado",
-   "texto": "El radiador también se puede tapar por dentro, sobre todo si alguna vez se le ha echado agua o se han mezclado refrigerantes distintos: se forman depósitos que van estrechando los tubos 🔧\nLa pista: el coche aguanta bien en ciudad, pero se calienta subiendo un puerto o con calor y el coche cargado. Un radiador medio tapado no da abasto.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigerante #mecanica #todoenrecambio",
-   "img": "cal/p-f7c41df3bc.jpg",
-   "largo": "28",
    "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -2841,9 +2825,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-b872994821",
+   "id": "cola-f7c41df3bc",
    "dia": "2026-10-28",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se calienta subiendo un puerto: el radiador tapado",
+   "texto": "El radiador también se puede tapar por dentro, sobre todo si alguna vez se le ha echado agua o se han mezclado refrigerantes distintos: se forman depósitos que van estrechando los tubos 🔧\nLa pista: el coche aguanta bien en ciudad, pero se calienta subiendo un puerto o con calor y el coche cargado. Un radiador medio tapado no da abasto.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#radiador #cochesecalienta #refrigerante #mecanica #todoenrecambio",
+   "img": "cal/p-f7c41df3bc.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b872994821",
+   "dia": "2026-10-28",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2855,23 +2856,6 @@
    "img": "cal/v-b872994821.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-47957578f9",
-   "dia": "2026-10-28",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Golpe con un bordillo y el volante ya no está recto",
-   "texto": "Un golpe fuerte puede torcer una pieza sin que se vea nada por fuera 💥\nSi después de un bordillo el volante ya no está recto, el problema no es el volante: es algo de abajo.\nBarras de acoplamiento y piezas 👉 todoenrecambio.com/barras-de-acoplamiento-piezas\n🤖 Vídeo creado con inteligencia artificial\n#bordillo #volantetorcido #direccion #averiacoche #todoenrecambio",
-   "img": "cal/p-47957578f9.jpg",
-   "largo": "29",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -2895,7 +2879,7 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-3012a73a8e",
+   "id": "cola-47957578f9",
    "dia": "2026-10-29",
    "hora": "13:00",
    "redes": [
@@ -2904,12 +2888,12 @@
    "formato": "short",
    "fuente": "cola",
    "estado": "previsto",
-   "titulo": "El filtro de aceite de cartucho: qué cambia respecto al otro",
-   "texto": "",
-   "img": "cal/v-3012a73a8e.jpg",
-   "largo": "20",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "titulo": "Golpe con un bordillo y el volante ya no está recto",
+   "texto": "Un golpe fuerte puede torcer una pieza sin que se vea nada por fuera 💥\nSi después de un bordillo el volante ya no está recto, el problema no es el volante: es algo de abajo.\nBarras de acoplamiento y piezas 👉 todoenrecambio.com/barras-de-acoplamiento-piezas\n🤖 Vídeo creado con inteligencia artificial\n#bordillo #volantetorcido #direccion #averiacoche #todoenrecambio",
+   "img": "cal/p-47957578f9.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-35",
@@ -2928,9 +2912,26 @@
    "nota": "Solo si grabas su HeyGen"
   },
   {
-   "id": "cola-63f25adc9d",
+   "id": "cola-3012a73a8e",
    "dia": "2026-10-29",
    "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El filtro de aceite de cartucho: qué cambia respecto al otro",
+   "texto": "",
+   "img": "cal/v-3012a73a8e.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-63f25adc9d",
+   "dia": "2026-10-29",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -2947,7 +2948,7 @@
   {
    "id": "cola-14364f4776",
    "dia": "2026-10-29",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -2958,23 +2959,6 @@
    "texto": "",
    "img": "cal/v-14364f4776.jpg",
    "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-0d6904508a",
-   "dia": "2026-10-29",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Por favor, no compres un amortiguador solo",
-   "texto": "",
-   "img": "cal/v-0d6904508a.jpg",
-   "largo": "18",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -2999,9 +2983,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-10a6df67d1",
+   "id": "cola-0d6904508a",
    "dia": "2026-10-30",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Por favor, no compres un amortiguador solo",
+   "texto": "",
+   "img": "cal/v-0d6904508a.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-10a6df67d1",
+   "dia": "2026-10-30",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3012,23 +3013,6 @@
    "texto": "Cuando te llegue la pieza, antes de montar nada: ábrela, ponla al lado de la vieja y compárala con calma. Agujeros, forma, conector 🔍\nSi algo no cuadra, no la montes.\nY mira también lo que trae la caja: hay piezas que vienen con sus tornillos, sus juntas o su grasa, y otras que no.\nRecambios para tu coche 👉 todoenrecambio.com/recambio-coche\n🤖 Vídeo creado con inteligencia artificial\n#recambioscoche #mecanica #bricolajecoche #consejosdetaller #todoenrecambio",
    "img": "cal/p-10a6df67d1.jpg",
    "largo": "30",
-   "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-fb53c65c7b",
-   "dia": "2026-10-30",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Fuga de refrigerante: rellenar no es arreglar",
-   "texto": "Si es refrigerante, busca de dónde sale: un manguito, una abrazadera, la bomba o el propio radiador 🔍\nY no te acostumbres a rellenar, porque cada vez que rellenas, la fuga sigue ahí.\nRellenar no es arreglar.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #fugarefrigerante #averiacoche #consejosdetaller #todoenrecambio",
-   "img": "cal/p-fb53c65c7b.jpg",
-   "largo": "28",
    "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -3053,9 +3037,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-878c8603b7",
+   "id": "cola-fb53c65c7b",
    "dia": "2026-10-30",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Fuga de refrigerante: rellenar no es arreglar",
+   "texto": "Si es refrigerante, busca de dónde sale: un manguito, una abrazadera, la bomba o el propio radiador 🔍\nY no te acostumbres a rellenar, porque cada vez que rellenas, la fuga sigue ahí.\nRellenar no es arreglar.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#refrigerante #fugarefrigerante #averiacoche #consejosdetaller #todoenrecambio",
+   "img": "cal/p-fb53c65c7b.jpg",
+   "largo": "28",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-878c8603b7",
+   "dia": "2026-10-30",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3067,23 +3068,6 @@
    "img": "cal/v-878c8603b7.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-9d067e7f25",
-   "dia": "2026-10-30",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Qué es alinear un coche y cómo se hace",
-   "texto": "Alinear es poner las ruedas en su sitio: que apunten recto y que las dos lo hagan igual. Con el uso y los golpes, eso se va perdiendo poco a poco 🛠️\nSe hace en una máquina: se ponen unos lectores en las ruedas, la máquina mide cómo apunta cada una y el mecánico la ajusta hasta dejarla en lo que dice el fabricante de tu coche.\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #direccion #ruedas #mantenimientocoche #todoenrecambio",
-   "img": "cal/p-9d067e7f25.jpg",
-   "largo": "29",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3107,9 +3091,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-eb916bbd1e",
+   "id": "cola-9d067e7f25",
    "dia": "2026-10-31",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué es alinear un coche y cómo se hace",
+   "texto": "Alinear es poner las ruedas en su sitio: que apunten recto y que las dos lo hagan igual. Con el uso y los golpes, eso se va perdiendo poco a poco 🛠️\nSe hace en una máquina: se ponen unos lectores en las ruedas, la máquina mide cómo apunta cada una y el mecánico la ajusta hasta dejarla en lo que dice el fabricante de tu coche.\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #direccion #ruedas #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-9d067e7f25.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-eb916bbd1e",
+   "dia": "2026-10-31",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3126,7 +3127,7 @@
   {
    "id": "cola-a678936405",
    "dia": "2026-10-31",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3143,7 +3144,7 @@
   {
    "id": "cola-b3209ae871",
    "dia": "2026-10-31",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3154,23 +3155,6 @@
    "texto": "",
    "img": "cal/v-b3209ae871.jpg",
    "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-2974e3e1ae",
-   "dia": "2026-10-31",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "El fallo que trae el ruido de vuelta después de cambiar el amortiguador",
-   "texto": "",
-   "img": "cal/v-2974e3e1ae.jpg",
-   "largo": "18",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -3195,9 +3179,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-b4029e2acb",
+   "id": "cola-2974e3e1ae",
    "dia": "2026-11-01",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El fallo que trae el ruido de vuelta después de cambiar el amortiguador",
+   "texto": "",
+   "img": "cal/v-2974e3e1ae.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b4029e2acb",
+   "dia": "2026-11-01",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3214,7 +3215,7 @@
   {
    "id": "cola-d19132ff63",
    "dia": "2026-11-01",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3231,7 +3232,7 @@
   {
    "id": "cola-038cc0a92f",
    "dia": "2026-11-01",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3243,23 +3244,6 @@
    "img": "cal/v-038cc0a92f.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-9651756510",
-   "dia": "2026-11-01",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Cuándo hay que alinear el coche: las tres señales",
-   "texto": "Hay tres señales de que el coche necesita alinearse: que tire hacia un lado, que el volante esté torcido yendo recto y, la que más dinero cuesta, que las ruedas se gasten mal 🛞\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #cochetira #neumaticos #consejosdetaller #todoenrecambio",
-   "img": "cal/p-9651756510.jpg",
-   "largo": "29",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3283,7 +3267,7 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-6e62a848ba",
+   "id": "cola-9651756510",
    "dia": "2026-11-02",
    "hora": "13:00",
    "redes": [
@@ -3292,12 +3276,12 @@
    "formato": "short",
    "fuente": "cola",
    "estado": "previsto",
-   "titulo": "Una válvula mal calibrada arruina el filtro nuevo",
-   "texto": "",
-   "img": "cal/v-6e62a848ba.jpg",
-   "largo": "20",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "titulo": "Cuándo hay que alinear el coche: las tres señales",
+   "texto": "Hay tres señales de que el coche necesita alinearse: que tire hacia un lado, que el volante esté torcido yendo recto y, la que más dinero cuesta, que las ruedas se gasten mal 🛞\nBarras de acoplamiento 👉 todoenrecambio.com/barra-de-acoplamiento-rotula\n🤖 Vídeo creado con inteligencia artificial\n#alineacion #cochetira #neumaticos #consejosdetaller #todoenrecambio",
+   "img": "cal/p-9651756510.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-34",
@@ -3316,7 +3300,7 @@
    "nota": "Solo si grabas su HeyGen"
   },
   {
-   "id": "cola-c41a71d9d8",
+   "id": "cola-6e62a848ba",
    "dia": "2026-11-02",
    "hora": "18:00",
    "redes": [
@@ -3325,11 +3309,11 @@
    "formato": "short",
    "fuente": "cola",
    "estado": "previsto",
-   "titulo": "Arranque en frío: qué grado de aceite elegir según el clima",
-   "texto": "Mucho del desgaste de un motor ocurre justo después de arrancar, cuando el aceite todavía no ha llegado a todas partes ❄️\n¿Y cuál es el bueno? El que ponga el manual de tu coche: no es mejor más espeso ni más fino. El motor está diseñado para uno, y con otro trabaja peor.\nEn algunos manuales no sale un solo grado, sino varios, según el clima donde vivas. Si es tu caso, elige el que corresponde a tu zona.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #arranqueenfrio #gradoaceite #mantenimientocoche #todoenrecambio",
-   "img": "cal/p-c41a71d9d8.jpg",
-   "largo": "31",
-   "tipo_cola": "en papel",
+   "titulo": "Una válvula mal calibrada arruina el filtro nuevo",
+   "texto": "",
+   "img": "cal/v-6e62a848ba.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3353,9 +3337,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-1126fdacb6",
+   "id": "cola-c41a71d9d8",
    "dia": "2026-11-02",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Arranque en frío: qué grado de aceite elegir según el clima",
+   "texto": "Mucho del desgaste de un motor ocurre justo después de arrancar, cuando el aceite todavía no ha llegado a todas partes ❄️\n¿Y cuál es el bueno? El que ponga el manual de tu coche: no es mejor más espeso ni más fino. El motor está diseñado para uno, y con otro trabaja peor.\nEn algunos manuales no sale un solo grado, sino varios, según el clima donde vivas. Si es tu caso, elige el que corresponde a tu zona.\nAceites de motor para coche 👉 todoenrecambio.com/aceites-43806\n🤖 Vídeo creado con inteligencia artificial\n#aceitemotor #arranqueenfrio #gradoaceite #mantenimientocoche #todoenrecambio",
+   "img": "cal/p-c41a71d9d8.jpg",
+   "largo": "31",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-1126fdacb6",
+   "dia": "2026-11-02",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3366,23 +3367,6 @@
    "texto": "",
    "img": "cal/v-1126fdacb6.jpg",
    "largo": "21",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-13befb1880",
-   "dia": "2026-11-02",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Con los amortiguadores gastados le estás quitando agarre al ABS",
-   "texto": "",
-   "img": "cal/v-13befb1880.jpg",
-   "largo": "18",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -3407,9 +3391,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-23ff5aa26e",
+   "id": "cola-13befb1880",
    "dia": "2026-11-03",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Con los amortiguadores gastados le estás quitando agarre al ABS",
+   "texto": "",
+   "img": "cal/v-13befb1880.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-23ff5aa26e",
+   "dia": "2026-11-03",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3426,7 +3427,7 @@
   {
    "id": "cola-46ca73bbd3",
    "dia": "2026-11-03",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3443,7 +3444,7 @@
   {
    "id": "cola-1da06ee75f",
    "dia": "2026-11-03",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3455,23 +3456,6 @@
    "img": "cal/p-1da06ee75f.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-cfae15a321",
-   "dia": "2026-11-03",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Los pliegues del filtro y cuánta suciedad aguantan",
-   "texto": "",
-   "img": "cal/v-cfae15a321.jpg",
-   "largo": "20",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3495,9 +3479,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-5af241a7c9",
+   "id": "cola-cfae15a321",
    "dia": "2026-11-04",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los pliegues del filtro y cuánta suciedad aguantan",
+   "texto": "",
+   "img": "cal/v-cfae15a321.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-5af241a7c9",
+   "dia": "2026-11-04",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3509,23 +3510,6 @@
    "img": "cal/p-5af241a7c9.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-b4692efab2",
-   "dia": "2026-11-04",
-   "hora": "16:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "¿Cada cuántos kilómetros se cambia la correa? Mala pregunta",
-   "texto": "",
-   "img": "cal/v-b4692efab2.jpg",
-   "largo": "21",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3549,9 +3533,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-45eef7577b",
+   "id": "cola-b4692efab2",
    "dia": "2026-11-04",
    "hora": "20:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "¿Cada cuántos kilómetros se cambia la correa? Mala pregunta",
+   "texto": "",
+   "img": "cal/v-b4692efab2.jpg",
+   "largo": "21",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-45eef7577b",
+   "dia": "2026-11-04",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3562,23 +3563,6 @@
    "texto": "",
    "img": "cal/v-45eef7577b.jpg",
    "largo": "18",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-642bb82379",
-   "dia": "2026-11-04",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Si vibra al soltar el embrague, esto es lo que pasa",
-   "texto": "",
-   "img": "cal/v-642bb82379.jpg",
-   "largo": "23",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -3603,9 +3587,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-d68442356e",
+   "id": "cola-642bb82379",
    "dia": "2026-11-05",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Si vibra al soltar el embrague, esto es lo que pasa",
+   "texto": "",
+   "img": "cal/v-642bb82379.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-d68442356e",
+   "dia": "2026-11-05",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3622,7 +3623,7 @@
   {
    "id": "cola-5fef289caa",
    "dia": "2026-11-05",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3639,7 +3640,7 @@
   {
    "id": "cola-fd0099d0d5",
    "dia": "2026-11-05",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3651,23 +3652,6 @@
    "img": "cal/p-fd0099d0d5.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-3e9f38c64f",
-   "dia": "2026-11-05",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "La correa de distribución: si te llevas una sola cosa",
-   "texto": "",
-   "img": "cal/v-3e9f38c64f.jpg",
-   "largo": "21",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3691,7 +3675,7 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-0e0a35ff98",
+   "id": "cola-3e9f38c64f",
    "dia": "2026-11-06",
    "hora": "13:00",
    "redes": [
@@ -3700,12 +3684,12 @@
    "formato": "short",
    "fuente": "cola",
    "estado": "previsto",
-   "titulo": "Tus neumáticos te escriben si los amortiguadores están gastados",
+   "titulo": "La correa de distribución: si te llevas una sola cosa",
    "texto": "",
-   "img": "cal/v-0e0a35ff98.jpg",
-   "largo": "18",
+   "img": "cal/v-3e9f38c64f.jpg",
+   "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-36",
@@ -3724,9 +3708,26 @@
    "nota": "Solo si grabas su HeyGen"
   },
   {
-   "id": "cola-c4fabdd319",
+   "id": "cola-0e0a35ff98",
    "dia": "2026-11-06",
    "hora": "18:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Tus neumáticos te escriben si los amortiguadores están gastados",
+   "texto": "",
+   "img": "cal/v-0e0a35ff98.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c4fabdd319",
+   "dia": "2026-11-06",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3743,7 +3744,7 @@
   {
    "id": "cola-f963173a37",
    "dia": "2026-11-06",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3755,23 +3756,6 @@
    "img": "cal/p-f963173a37.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-0d95da648c",
-   "dia": "2026-11-06",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Lo que no se ve por fuera de un filtro de aceite",
-   "texto": "",
-   "img": "cal/v-0d95da648c.jpg",
-   "largo": "20",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3795,9 +3779,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-257f637205",
+   "id": "cola-0d95da648c",
    "dia": "2026-11-07",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Lo que no se ve por fuera de un filtro de aceite",
+   "texto": "",
+   "img": "cal/v-0d95da648c.jpg",
+   "largo": "20",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-257f637205",
+   "dia": "2026-11-07",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3814,7 +3815,7 @@
   {
    "id": "cola-e7501cb71d",
    "dia": "2026-11-07",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3831,7 +3832,7 @@
   {
    "id": "cola-3939d1c4ba",
    "dia": "2026-11-07",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3843,23 +3844,6 @@
    "img": "cal/v-3939d1c4ba.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-bccf05b9a5",
-   "dia": "2026-11-07",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "El coche se va a un lado al frenar: la pinza de freno agarrada",
-   "texto": "Fíjate en cuándo tira: si solo se va al frenar, la causa suele estar en los frenos, no en la dirección. Una pinza que se queda agarrada tira del coche hacia su lado 🛑\nOtra pista: al parar, esa rueda suele oler a quemado y su llanta está mucho más caliente que las otras. Es un fallo que hay que mirar pronto.\nSi tira de golpe, mucho o al frenar, no lo dejes para otro día.\nPinzas de freno 👉 todoenrecambio.com/pinza-del-freno\n🤖 Vídeo creado con inteligencia artificial\n#frenos #pinzadefreno #cochetira #seguridadvial #todoenrecambio",
-   "img": "cal/p-bccf05b9a5.jpg",
-   "largo": "29",
-   "tipo_cola": "en papel",
    "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -3883,9 +3867,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-67b5729b91",
+   "id": "cola-bccf05b9a5",
    "dia": "2026-11-08",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "El coche se va a un lado al frenar: la pinza de freno agarrada",
+   "texto": "Fíjate en cuándo tira: si solo se va al frenar, la causa suele estar en los frenos, no en la dirección. Una pinza que se queda agarrada tira del coche hacia su lado 🛑\nOtra pista: al parar, esa rueda suele oler a quemado y su llanta está mucho más caliente que las otras. Es un fallo que hay que mirar pronto.\nSi tira de golpe, mucho o al frenar, no lo dejes para otro día.\nPinzas de freno 👉 todoenrecambio.com/pinza-del-freno\n🤖 Vídeo creado con inteligencia artificial\n#frenos #pinzadefreno #cochetira #seguridadvial #todoenrecambio",
+   "img": "cal/p-bccf05b9a5.jpg",
+   "largo": "29",
+   "tipo_cola": "en papel",
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-67b5729b91",
+   "dia": "2026-11-08",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3902,7 +3903,7 @@
   {
    "id": "cola-82289eaf19",
    "dia": "2026-11-08",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -3919,7 +3920,7 @@
   {
    "id": "cola-f958ec3dd4",
    "dia": "2026-11-08",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -3930,23 +3931,6 @@
    "texto": "",
    "img": "cal/v-f958ec3dd4.jpg",
    "largo": "18",
-   "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-17d13d7d6e",
-   "dia": "2026-11-08",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Los dos ruidos del embrague: al pisar y al soltar",
-   "texto": "",
-   "img": "cal/v-17d13d7d6e.jpg",
-   "largo": "23",
    "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
@@ -3971,9 +3955,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-c826180491",
+   "id": "cola-17d13d7d6e",
    "dia": "2026-11-09",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Los dos ruidos del embrague: al pisar y al soltar",
+   "texto": "",
+   "img": "cal/v-17d13d7d6e.jpg",
+   "largo": "23",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-c826180491",
+   "dia": "2026-11-09",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -3990,7 +3991,7 @@
   {
    "id": "cola-90a0c8bc02",
    "dia": "2026-11-09",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4007,7 +4008,7 @@
   {
    "id": "cola-0ac2c0dad1",
    "dia": "2026-11-09",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4019,23 +4020,6 @@
    "img": "cal/p-0ac2c0dad1.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
-  },
-  {
-   "id": "cola-99d11bd4e2",
-   "dia": "2026-11-09",
-   "hora": "22:30",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "cola",
-   "estado": "previsto",
-   "titulo": "Qué pasa dentro de un amortiguador cuando pisas un bache",
-   "texto": "",
-   "img": "cal/v-99d11bd4e2.jpg",
-   "largo": "18",
-   "tipo_cola": "antiguo",
    "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
@@ -4059,9 +4043,26 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "cola-b553a8c09d",
+   "id": "cola-99d11bd4e2",
    "dia": "2026-11-10",
    "hora": "13:00",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "cola",
+   "estado": "previsto",
+   "titulo": "Qué pasa dentro de un amortiguador cuando pisas un bache",
+   "texto": "",
+   "img": "cal/v-99d11bd4e2.jpg",
+   "largo": "18",
+   "tipo_cola": "antiguo",
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+  },
+  {
+   "id": "cola-b553a8c09d",
+   "dia": "2026-11-10",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -4078,7 +4079,7 @@
   {
    "id": "cola-ec2cdbbb02",
    "dia": "2026-11-10",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4095,7 +4096,7 @@
   {
    "id": "cola-751ab27e96",
    "dia": "2026-11-10",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4110,9 +4111,30 @@
    "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
+   "id": "plan-04-S1",
+   "dia": "2026-11-11",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 1 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
    "id": "cola-b07660e433",
-   "dia": "2026-11-10",
-   "hora": "22:30",
+   "dia": "2026-11-11",
+   "hora": "13:00",
    "redes": [
     "youtube"
    ],
@@ -4127,29 +4149,9 @@
    "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "plan-04-S1",
-   "dia": "2026-11-11",
-   "hora": "10:00",
-   "redes": [
-    "instagram",
-    "tiktok",
-    "facebook"
-   ],
-   "formato": "reel",
-   "fuente": "plan",
-   "estado": "por hacer",
-   "titulo": "Short 1 del 04 «Embrague de moto» (por hacer)",
-   "texto": "",
-   "img": null,
-   "largo": "04",
-   "tema": "moto",
-   "segundos": null,
-   "nota": "Short del 04 por hacer: se monta después del render del largo"
-  },
-  {
    "id": "cola-e8f454a790",
    "dia": "2026-11-11",
-   "hora": "13:00",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -4166,7 +4168,7 @@
   {
    "id": "cola-48411f88e9",
    "dia": "2026-11-11",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4183,7 +4185,7 @@
   {
    "id": "cola-54b99120ed",
    "dia": "2026-11-11",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4198,9 +4200,30 @@
    "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
+   "id": "plan-04-S2",
+   "dia": "2026-11-12",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 2 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
    "id": "cola-ee4fee6b82",
-   "dia": "2026-11-11",
-   "hora": "22:30",
+   "dia": "2026-11-12",
+   "hora": "13:00",
    "redes": [
     "youtube"
    ],
@@ -4215,29 +4238,9 @@
    "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "plan-04-S2",
-   "dia": "2026-11-12",
-   "hora": "10:00",
-   "redes": [
-    "instagram",
-    "tiktok",
-    "facebook"
-   ],
-   "formato": "reel",
-   "fuente": "plan",
-   "estado": "por hacer",
-   "titulo": "Short 2 del 04 «Embrague de moto» (por hacer)",
-   "texto": "",
-   "img": null,
-   "largo": "04",
-   "tema": "moto",
-   "segundos": null,
-   "nota": "Short del 04 por hacer: se monta después del render del largo"
-  },
-  {
    "id": "cola-f1dba59fa4",
    "dia": "2026-11-12",
-   "hora": "13:00",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -4254,7 +4257,7 @@
   {
    "id": "cola-41acc56403",
    "dia": "2026-11-12",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4271,7 +4274,7 @@
   {
    "id": "cola-fac0c4e53f",
    "dia": "2026-11-12",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4286,9 +4289,30 @@
    "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
+   "id": "plan-04-S3",
+   "dia": "2026-11-13",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 3 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
    "id": "cola-0691492b13",
-   "dia": "2026-11-12",
-   "hora": "22:30",
+   "dia": "2026-11-13",
+   "hora": "13:00",
    "redes": [
     "youtube"
    ],
@@ -4303,29 +4327,9 @@
    "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "plan-04-S3",
-   "dia": "2026-11-13",
-   "hora": "10:00",
-   "redes": [
-    "instagram",
-    "tiktok",
-    "facebook"
-   ],
-   "formato": "reel",
-   "fuente": "plan",
-   "estado": "por hacer",
-   "titulo": "Short 3 del 04 «Embrague de moto» (por hacer)",
-   "texto": "",
-   "img": null,
-   "largo": "04",
-   "tema": "moto",
-   "segundos": null,
-   "nota": "Short del 04 por hacer: se monta después del render del largo"
-  },
-  {
    "id": "cola-011149b057",
    "dia": "2026-11-13",
-   "hora": "13:00",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -4342,7 +4346,7 @@
   {
    "id": "cola-f019d2b172",
    "dia": "2026-11-13",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4359,7 +4363,7 @@
   {
    "id": "cola-16202a80d8",
    "dia": "2026-11-13",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4374,9 +4378,30 @@
    "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
+   "id": "plan-04-S4",
+   "dia": "2026-11-14",
+   "hora": "10:00",
+   "redes": [
+    "instagram",
+    "tiktok",
+    "facebook",
+    "youtube"
+   ],
+   "formato": "reel",
+   "fuente": "plan",
+   "estado": "por hacer",
+   "titulo": "Short 4 del 04 «Embrague de moto» (por hacer)",
+   "texto": "",
+   "img": null,
+   "largo": "04",
+   "tema": "moto",
+   "segundos": null,
+   "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
    "id": "cola-209caf0694",
-   "dia": "2026-11-13",
-   "hora": "22:30",
+   "dia": "2026-11-14",
+   "hora": "13:00",
    "redes": [
     "youtube"
    ],
@@ -4391,29 +4416,9 @@
    "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
-   "id": "plan-04-S4",
-   "dia": "2026-11-14",
-   "hora": "10:00",
-   "redes": [
-    "instagram",
-    "tiktok",
-    "facebook"
-   ],
-   "formato": "reel",
-   "fuente": "plan",
-   "estado": "por hacer",
-   "titulo": "Short 4 del 04 «Embrague de moto» (por hacer)",
-   "texto": "",
-   "img": null,
-   "largo": "04",
-   "tema": "moto",
-   "segundos": null,
-   "nota": "Short del 04 por hacer: se monta después del render del largo"
-  },
-  {
    "id": "cola-3ffcc7dff3",
    "dia": "2026-11-14",
-   "hora": "13:00",
+   "hora": "16:00",
    "redes": [
     "youtube"
    ],
@@ -4430,7 +4435,7 @@
   {
    "id": "cola-8360349eff",
    "dia": "2026-11-14",
-   "hora": "16:00",
+   "hora": "20:00",
    "redes": [
     "youtube"
    ],
@@ -4447,7 +4452,7 @@
   {
    "id": "cola-69ffe28357",
    "dia": "2026-11-14",
-   "hora": "20:00",
+   "hora": "22:30",
    "redes": [
     "youtube"
    ],
@@ -4468,7 +4473,8 @@
    "redes": [
     "instagram",
     "tiktok",
-    "facebook"
+    "facebook",
+    "youtube"
    ],
    "formato": "reel",
    "fuente": "plan",
