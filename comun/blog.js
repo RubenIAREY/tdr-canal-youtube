@@ -580,9 +580,9 @@ export async function montarBlog(contenedor, opciones = {}) {
     a.download = `blog-tdr-${HOY}.csv`; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 2000);
   }
 
-  function irA(id) {
+  function irA(id, como = "smooth") {
     const el = id && raiz.querySelector("#" + CSS.escape(id));
-    if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (el) el.scrollIntoView({ behavior: como, block: "start" });
   }
 
   function todo() { cifras(); tareasHtml(); cola(); mandos(); lista(); videos(); google(); oportunidades(); visitas(); tienda(); ia(); }
@@ -591,7 +591,7 @@ export async function montarBlog(contenedor, opciones = {}) {
   enganchar(raiz.querySelector("#bl-tareas")); enganchar(raiz.querySelector("#bl-cola"));
   $("[data-csv]").onclick = csv;
   raiz.querySelectorAll(".bl-indice a").forEach(a => a.onclick = e => { e.preventDefault(); history.replaceState(null, "", location.search + "#" + a.dataset.ir); irA(a.dataset.ir); });
-  if (sec && sec !== "blog") setTimeout(() => irA(sec), 60);
+  if (sec && sec !== "blog") { setTimeout(() => irA(sec, "auto"), 250); setTimeout(() => irA(sec, "auto"), 900); }   // la segunda, por si las imágenes movieron la página
 
   return {
     actualizarTema() { google(); visitas(); },
