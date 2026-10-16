@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-16 16:03",
+ "actualizado": "2026-10-16 17:18",
  "hoy": "2026-10-16",
  "desde": "2026-10-01",
  "hasta": "2026-11-25",
- "metricool_guardado": "2026-10-16 16:02",
+ "metricool_guardado": "2026-10-16 17:16",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -11,9 +11,28 @@
   "aprobado": "Aprobado en el calendario, falta programarlo",
   "previsto": "La cola automática de YouTube lo sube sola",
   "condicional": "Solo si se graba su HeyGen",
-  "por hacer": "Aún hay que hacerlo"
+  "por hacer": "Aún hay que hacerlo",
+  "borrador": "Post del blog en borrador con fecha propuesta: falta el Yoast y programarlo"
  },
  "items": [
+  {
+   "id": "blog-3002",
+   "dia": "2026-10-01",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Qué filtro de aceite lleva mi moto: cómo leer el código HF",
+   "texto": "Cómo identificar el filtro de aceite de tu moto, qué es el código HF y qué significa RC. Cartucho o roscado y cómo montarlo sin fugas.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog08-filtro-aceite-moto-portada_con_logo-1.jpg",
+   "enlace": "https://todoenrecambio.com/blog/filtro-aceite-moto-codigo-hf/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3002&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog · lleva vídeo"
+  },
   {
    "id": "yt-JsU5dTuwkUs",
    "dia": "2026-10-01",
@@ -236,6 +255,24 @@
    "nota": "Publicado"
   },
   {
+   "id": "blog-2988",
+   "dia": "2026-10-03",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Cadenas de nieve: qué medida necesitas y cómo montarlas",
+   "texto": "Se eligen por la medida del neumático, van en el eje motriz y hay que probarlas antes en casa. Tipos, montaje y qué exige la DGT.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog06-cadenas-nieve-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/cadenas-nieve-medida-montaje/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2988&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog"
+  },
+  {
    "id": "yt-O3uDy0hBMMw",
    "dia": "2026-10-03",
    "hora": "13:00",
@@ -455,6 +492,24 @@
    "enlace": "https://youtu.be/lZPSZPzHQW8",
    "segundos": 20,
    "nota": "Publicado"
+  },
+  {
+   "id": "blog-3008",
+   "dia": "2026-10-05",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Aceite de moto JASO MA, MA2 y MB: qué significa y cuál usar",
+   "texto": "Qué diferencia un aceite JASO MA, MA2 o MB, qué pasa si pones un MB con embrague bañado y cómo se lee el código del envase.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog09-jaso-aceite-moto-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/jaso-ma2-ma-mb/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3008&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog"
   },
   {
    "id": "yt-5OOkOWxHM8Q",
@@ -712,6 +767,24 @@
    "nota": "Publicado"
   },
   {
+   "id": "blog-2994",
+   "dia": "2026-10-07",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Código de una bujía NGK: cómo leerlo letra a letra",
+   "texto": "BKR6E, CR7E o CR9EIA-9: qué indica cada letra y número del código NGK, qué es el grado térmico y qué significa el número de la caja.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog07-codigo-bujia-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/codigo-bujia-ngk/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2994&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog · lleva vídeo"
+  },
+  {
    "id": "yt-2jXa9tWNH0E",
    "dia": "2026-10-07",
    "hora": "13:00",
@@ -965,6 +1038,24 @@
    "enlace": "https://youtu.be/0Oju-1cbpYg",
    "segundos": 26,
    "nota": "Publicado"
+  },
+  {
+   "id": "blog-3014",
+   "dia": "2026-10-09",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Discos de embrague de moto: cuándo cambiarlos y cómo saberlo",
+   "texto": "Si sube de vueltas y no acelera, el embrague patina. Qué descartar antes de abrir, cómo medir los discos y qué indica el código TRW.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog10-embrague-moto-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/discos-embrague-moto/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3014&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog"
   },
   {
    "id": "yt-XOdnZciI-OA",
@@ -1324,6 +1415,24 @@
    "nota": "Publicado"
   },
   {
+   "id": "blog-3033",
+   "dia": "2026-10-13",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Nueva normativa moto 2026: qué cambia, punto por punto",
+   "texto": "Guantes, calzado, chaleco, arcén y casco: qué exige la nueva normativa de moto desde el 1 de octubre y qué se está contando mal.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/blog12-normativa-moto-punto-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/nueva-normativa-moto-2026/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3033&action=edit",
+   "yoast": true,
+   "nota": "Publicado en el blog · lleva vídeo"
+  },
+  {
    "id": "yt-xAb07YNipeA",
    "dia": "2026-10-13",
    "hora": "16:00",
@@ -1475,6 +1584,24 @@
    "enlace": "https://youtu.be/xx4cVsyfXw0",
    "segundos": 41,
    "nota": "Publicado"
+  },
+  {
+   "id": "blog-2964",
+   "dia": "2026-10-15",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Por qué no calienta la calefacción del coche y cómo saberlo",
+   "texto": "Aire frío con el mando al máximo: la prueba de los dos manguitos te dice si falla el agua o el aire, y qué pieza revisar primero.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog02-calefaccion-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/calefaccion-coche-no-calienta/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2964&action=edit",
+   "yoast": false,
+   "nota": "Publicado en el blog"
   },
   {
    "id": "yt-P2Uicf4IC3M",
@@ -1690,6 +1817,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-2970",
+   "dia": "2026-10-17",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "El ventilador de la calefacción no funciona: qué pieza falla",
+   "texto": "Aire frío con el mando al máximo: la prueba de los dos manguitos te dice si falla el agua o el aire, y qué pieza revisar primero.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog03-ventilador-calefaccion-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2970&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2970&action=edit",
+   "yoast": true,
+   "nota": "Programado en WordPress: sale solo a su hora"
+  },
+  {
    "id": "yt-8G8sMWEbSl0",
    "dia": "2026-10-17",
    "hora": "13:00",
@@ -1881,6 +2026,24 @@
    "video": "https://static.metricool.com/planner/202610/6422269-file-6005339910092228138.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
+  },
+  {
+   "id": "blog-2976",
+   "dia": "2026-10-19",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "Calentadores del diésel: síntomas y cuándo cambiarlos",
+   "texto": "Arranca mal solo en frío y echa humo blanco: así fallan los calentadores. Cómo comprobarlos con polímetro y cambiarlos sin partirlos.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog04-calentadores-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2976&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2976&action=edit",
+   "yoast": false,
+   "nota": "Programado en WordPress: sale solo a su hora · SIN YOAST"
   },
   {
    "id": "cola-ef56a33b98",
@@ -2079,6 +2242,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-2982",
+   "dia": "2026-10-21",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "Motor de arranque del coche: síntomas de avería por el sonido",
+   "texto": "Clic seco, clic-clic rápido, giro lento o rascado: qué significa cada sonido y cómo saber si falla la batería o el motor de arranque.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/09/blog05-motor-arranque-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2982&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2982&action=edit",
+   "yoast": false,
+   "nota": "Programado en WordPress: sale solo a su hora · SIN YOAST"
+  },
+  {
    "id": "cola-1a7318c8e4",
    "dia": "2026-10-21",
    "hora": "13:00",
@@ -2275,6 +2456,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-2869",
+   "dia": "2026-10-23",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "Fuelle de transmisión roto: por qué corre prisa",
+   "texto": "",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/08/blog09-fuelle-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2869&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2869&action=edit",
+   "yoast": false,
+   "nota": "Programado en WordPress: sale solo a su hora · SIN YOAST"
+  },
+  {
    "id": "cola-ce880cd717",
    "dia": "2026-10-23",
    "hora": "13:00",
@@ -2469,6 +2668,24 @@
    "video": "https://static.metricool.com/planner/202610/6422269-file-13782864528333743438.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
+  },
+  {
+   "id": "blog-2875",
+   "dia": "2026-10-25",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "Freno de tambor y zapatas: por qué el trasero suspende la ITV",
+   "texto": "",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/08/blog10-freno-tambor-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2875&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2875&action=edit",
+   "yoast": false,
+   "nota": "Programado en WordPress: sale solo a su hora · SIN YOAST"
   },
   {
    "id": "cola-4aaadaa6f0",
@@ -2683,6 +2900,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-2391",
+   "dia": "2026-10-27",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "programado",
+   "titulo": "Cascos de motocross y offroad: guía de compra 2026",
+   "texto": "Cascos de motocross y offroad: cross puro o trail, homologación ECE 22.06, cómo elegirlos y cómo acertar con la talla.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/07/blog-cascos-offroad-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=2391&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2391&action=edit",
+   "yoast": true,
+   "nota": "Programado en WordPress: sale solo a su hora"
+  },
+  {
    "id": "cola-50e9c5360e",
    "dia": "2026-10-27",
    "hora": "13:00",
@@ -2877,6 +3112,24 @@
    "video": "https://static.metricool.com/planner/202610/6422269-file-7172364942389117393.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
+  },
+  {
+   "id": "blog-3159",
+   "dia": "2026-10-29",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Cómo no pasar frío en moto: la equipación de invierno",
+   "texto": "Capas, guantes de invierno, puños calefactables, manoplas y cubrepiernas: cómo no pasar frío en moto y qué dice la ley de guantes.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-08-invierno-moto-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3159&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3159&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
   },
   {
    "id": "cola-47957578f9",
@@ -3091,6 +3344,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-3122",
+   "dia": "2026-10-31",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Luces antiniebla: cuándo usarlas y qué dice la ley",
+   "texto": "Cuándo se pueden usar las luces antiniebla delanteras y la trasera según el Reglamento, qué multa hay y qué hacer si una no funciona.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-03-antiniebla-uso_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3122&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3122&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
    "id": "cola-9d067e7f25",
    "dia": "2026-10-31",
    "hora": "13:00",
@@ -3265,6 +3536,24 @@
    "video": "https://static.metricool.com/planner/202610/6422269-file-13373040247495811412.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
+  },
+  {
+   "id": "blog-3110",
+   "dia": "2026-11-02",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Junta de culata: síntomas de avería y cómo confirmarla",
+   "texto": "Mayonesa en el tapón, burbujas en el vaso, humo blanco dulzón: cómo reconocer una junta de culata rota y confirmarla sin desmontar.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-01-junta-culata-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3110&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3110&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
   },
   {
    "id": "cola-9651756510",
@@ -3479,6 +3768,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-3165",
+   "dia": "2026-11-04",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Funda para moto: cómo elegir talla, tipo y material",
+   "texto": "Cómo elegir una funda para moto: exterior o interior, cómo medir la moto para acertar con la talla y qué detalles marcan la diferencia.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-09-funda-moto-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3165&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3165&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
    "id": "cola-cfae15a321",
    "dia": "2026-11-04",
    "hora": "13:00",
@@ -3675,6 +3982,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-3134",
+   "dia": "2026-11-06",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Amortiguador del maletero: síntomas y cómo cambiarlo",
+   "texto": "Si el portón baja solo o se cae con el frío, el amortiguador del maletero está gastado. Cómo elegir el correcto y cambiarlo.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-04-muelles-maletero-uso_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3134&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3134&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
    "id": "cola-3e9f38c64f",
    "dia": "2026-11-06",
    "hora": "13:00",
@@ -3867,6 +4192,24 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "blog-3116",
+   "dia": "2026-11-08",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Vaso de expansión del coche: para qué sirve y averías",
+   "texto": "Qué hace el vaso de expansión y su tapón, cómo mirar el nivel sin quemarte, qué averías da y por qué baja el líquido refrigerante.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-02-vaso-expansion-uso_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3116&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3116&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
    "id": "cola-bccf05b9a5",
    "dia": "2026-11-08",
    "hora": "13:00",
@@ -4041,6 +4384,24 @@
    "video": "https://static.metricool.com/planner/202610/6422269-file-1416798847147912257.mp4",
    "ia": true,
    "nota": "Programado en Metricool"
+  },
+  {
+   "id": "blog-3171",
+   "dia": "2026-11-10",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Espaldera de moto: niveles, tipos y cómo elegirla",
+   "texto": "Qué protege una espaldera de moto, qué significan el nivel 1 y el 2 de la EN 1621-2, cómo leer su etiqueta y cómo acertar con la talla.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-10-espaldera-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3171&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3171&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
   },
   {
    "id": "cola-99d11bd4e2",
@@ -4221,6 +4582,24 @@
    "nota": "Short del 04 por hacer: se monta después del render del largo"
   },
   {
+   "id": "blog-3140",
+   "dia": "2026-11-12",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bobina de encendido: síntomas de fallo y cómo probarla",
+   "texto": "Tirones, ralentí irregular y testigo de avería: cómo saber si la bobina de encendido está mal y cómo probarla con los códigos OBD.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-05-bobina-encendido-uso_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3140&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3140&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
    "id": "cola-ee4fee6b82",
    "dia": "2026-11-12",
    "hora": "13:00",
@@ -4399,6 +4778,24 @@
    "nota": "Short del 04 por hacer: se monta después del render del largo"
   },
   {
+   "id": "blog-3147",
+   "dia": "2026-11-14",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Turbo del coche: síntomas de avería y cómo cuidarlo",
+   "texto": "Pérdida de empuje, silbido nuevo o humo azul: cómo saber si falla el turbo del coche, qué se confunde con él y cómo cuidarlo.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-06-turbo-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3147&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3147&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
    "id": "cola-209caf0694",
    "dia": "2026-11-14",
    "hora": "13:00",
@@ -4486,6 +4883,96 @@
    "tema": "moto",
    "segundos": null,
    "nota": "Short del 04 por hacer: se monta después del render del largo"
+  },
+  {
+   "id": "blog-3153",
+   "dia": "2026-11-16",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Dirección asistida: fallos, ruidos y qué líquido lleva",
+   "texto": "Volante duro, zumbido al girar o nivel que baja: cómo falla la dirección asistida, qué significa cada ruido y qué líquido lleva.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-07-direccion-asistida-uso_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3153&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3153&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 5: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3189",
+   "dia": "2026-11-18",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Humo blanco, azul o negro por el escape: qué significa",
+   "texto": "Humo blanco, azul o negro por el escape: qué indica cada color, cuándo es normal y qué revisar antes de cambiar piezas o pasar la ITV.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-03-humo-escape-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3189&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3189&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST · lleva vídeo"
+  },
+  {
+   "id": "blog-3273",
+   "dia": "2026-11-20",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Líquido refrigerante de moto: cuál usar y cuándo cambiarlo",
+   "texto": "Sin silicatos, listo para usar o concentrado: qué refrigerante de moto usar, cómo se comprueba el nivel y cada cuánto se cambia.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-17-refrigerante-moto-producto_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3273&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3273&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3201",
+   "dia": "2026-11-22",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Inyectores diésel: síntomas de avería y diagnóstico",
+   "texto": "Tirones, humo o más consumo: síntomas de los inyectores diésel, cómo se diagnostican, la arandela de cobre y por qué se codifican.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-05-inyectores-diesel-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3201&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3201&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
+  },
+  {
+   "id": "blog-3261",
+   "dia": "2026-11-24",
+   "hora": "13:00",
+   "redes": [
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "borrador",
+   "titulo": "Bujía de moto: cuándo cambiarla y cómo elegirla",
+   "texto": "Arranque difícil o tirones: cuándo cambiar la bujía de moto, cómo leer su electrodo, cómo elegir el grado térmico y cómo se aprieta.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote6-15-bujia-moto-tecnica_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/?p=3261&preview=true",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3261&action=edit",
+   "yoast": false,
+   "nota": "Borrador del lote 6: fecha propuesta; falta pegar el Yoast y programarlo · SIN YOAST"
   }
  ],
  "nota": "Calendario aprobado por Rubén el 08/10. Lo rehacen las rutinas de las 9:00, las 12:30 y las 17:00 (calendario_datos.py)."

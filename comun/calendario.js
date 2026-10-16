@@ -7,15 +7,16 @@
 
 const CSS_URL = new URL("./calendario.css", import.meta.url).href;
 const BASE_DATOS = new URL("../datos/", import.meta.url).href;
-const REDES = [["youtube", "YouTube", "var(--ca-yt)"], ["instagram", "Instagram", "var(--ca-ig)"], ["tiktok", "TikTok", "var(--ca-tt)"], ["facebook", "Facebook", "var(--ca-fb)"]];
-const FORMATOS = [["todos", "Todo"], ["largo", "Largos"], ["short", "Shorts"], ["reel", "Reels"], ["foto", "Fotos"]];
+const REDES = [["youtube", "YouTube", "var(--ca-yt)"], ["instagram", "Instagram", "var(--ca-ig)"], ["tiktok", "TikTok", "var(--ca-tt)"], ["facebook", "Facebook", "var(--ca-fb)"],
+  ["blog", "Blog", "var(--ca-blog)"]];     // 16/10: los posts del blog (programados, publicados y borradores con fecha propuesta)
+const FORMATOS = [["todos", "Todo"], ["largo", "Largos"], ["short", "Shorts"], ["reel", "Reels"], ["foto", "Fotos"], ["blog", "Blogs"]];
 const ESTADOS = [["todos", "Todos"], ["programado", "Programado"], ["aprobado", "Falta programar"], ["previsto", "Cola de YouTube"],
-  ["condicional", "Si hay HeyGen"], ["por hacer", "Por hacer"], ["publicado", "Publicado"]];
+  ["condicional", "Si hay HeyGen"], ["por hacer", "Por hacer"], ["borrador", "Borrador del blog"], ["publicado", "Publicado"]];
 const DIAS = ["L", "M", "X", "J", "V", "S", "D"];
 const DIAS_LARGO = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
 const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 const NOMBRE_RED = Object.fromEntries(REDES.map(r => [r[0], r[1]]));
-const FMT = { largo: "Largo", short: "Short", reel: "Reel", foto: "Foto" };
+const FMT = { largo: "Largo", short: "Short", reel: "Reel", foto: "Foto", blog: "Post del blog" };
 
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -59,13 +60,14 @@ export async function montarCalendario(contenedor, opciones = {}) {
   /* estado de la vista (se recuerda en el navegador) */
   let G = {};
   try { G = JSON.parse(localStorage.getItem(CLAVE) || "{}"); } catch (e) { G = {}; }
+  if (G.redes && !G.conBlog) G.redes.push("blog");      // quien ya tenía filtros guardados ve también el blog (16/10)
   const st = {
     mes: G.mes || HOY.slice(0, 7), dia: null, redes: new Set(G.redes || REDES.map(r => r[0])), formato: G.formato || "todos",
     estado: G.estado || "todos", texto: "", vista: G.vista || "mes",
   };
   if (st.mes < C.desde.slice(0, 7) || st.mes > C.hasta.slice(0, 7)) st.mes = HOY.slice(0, 7);
   st.dia = HOY.slice(0, 7) === st.mes ? HOY : null;
-  const guardar = () => { try { localStorage.setItem(CLAVE, JSON.stringify({ mes: st.mes, redes: [...st.redes], formato: st.formato, estado: st.estado, vista: st.vista })); } catch (e) { /* sin almacenamiento */ } };
+  const guardar = () => { try { localStorage.setItem(CLAVE, JSON.stringify({ mes: st.mes, redes: [...st.redes], formato: st.formato, estado: st.estado, vista: st.vista, conBlog: true })); } catch (e) { /* sin almacenamiento */ } };
 
   const pasa = x => (x.redes || []).some(r => st.redes.has(r)) && (st.formato === "todos" || x.formato === st.formato)
     && (st.estado === "todos" || x.estado === st.estado) && (!st.texto || x._busca.includes(st.texto));
@@ -152,19 +154,21 @@ export async function montarCalendario(contenedor, opciones = {}) {
   }
 
   function tarjeta(x) {
-    const vertical = x.formato !== "largo";
+    const vertical = x.formato !== "largo" && x.formato !== "blog";
     const foto = x.img ? `<img class="ca-foto" src="${esc(src(x.img))}" alt="Portada: ${esc(x.titulo)}" loading="lazy" data-ver="${x._i}">`
       : `<div class="ca-foto ca-sinfoto">${x.estado === "por hacer" ? "POR HACER" : "SIN IMAGEN"}</div>`;
     const redes = (x.redes || []).map(r => `<span class="ca-red ${r}">${esc(NOMBRE_RED[r] || r)}</span>`).join("");
     const links = [];
-    if (x.enlace) links.push(`<a href="${esc(x.enlace)}" target="_blank" rel="noopener">Abrir en YouTube</a>`);
+    if (x.enlace) links.push(`<a href="${esc(x.enlace)}" target="_blank" rel="noopener">${x.formato === "blog" ? (x.estado === "publicado" ? "Abrir el post" : "Vista previa") : "Abrir en YouTube"}</a>`);
+    if (x.editar) links.push(`<a href="${esc(x.editar)}" target="_blank" rel="noopener">Editar en WordPress</a>`);
     if (x.video) links.push(`<button type="button" data-video="${x._i}">Ver el vídeo</button>`);
     if (x.texto) links.push(`<button type="button" data-texto="${x._i}" aria-expanded="false">Ver el texto</button>`);
     return `<article class="ca-pieza ${vertical ? "" : "largo"} ${x.formato === "foto" ? "foto" : ""}">
       ${foto}
       <div>
         <div class="ca-linea1"><span class="ca-hora">${esc(x.hora || "")}</span>${redes}<span class="ca-fmt">${esc(FMT[x.formato] || x.formato)}${x.segundos ? " · " + (x.segundos >= 120 ? Math.round(x.segundos / 60) + " min" : x.segundos + " s") : ""}</span>
-          <span class="ca-est ${esc((x.estado || "").replace(" ", "-"))}">${esc(x.estado === "aprobado" ? "falta programar" : x.estado === "previsto" ? "cola YouTube" : x.estado)}</span></div>
+          <span class="ca-est ${esc((x.estado || "").replace(" ", "-"))}">${esc(x.estado === "aprobado" ? "falta programar" : x.estado === "previsto" ? "cola YouTube" : x.estado)}</span>
+          ${x.formato === "blog" ? (x.yoast ? `<span class="ca-est publicado">Yoast ✓</span>` : `<span class="ca-est por-hacer">Falta Yoast</span>`) : ""}</div>
         <p class="ca-tit">${esc(x.titulo)}</p>
         <p class="ca-nota">${esc(x.nota || "")}${x.tipo_cola ? " · short " + esc(x.tipo_cola) : ""}${x.largo ? " · del vídeo " + esc(x.largo) : ""}${x.ia ? " · marcado como IA" : ""}</p>
         ${links.length ? `<div class="ca-acciones">${links.join("")}</div>` : ""}

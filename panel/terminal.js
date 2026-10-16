@@ -276,6 +276,7 @@ function arrancar() {
   document.addEventListener("fullscreenchange", alCambiarPantalla);
   document.addEventListener("webkitfullscreenchange", alCambiarPantalla);
   const h = location.hash.slice(1);
+  if (h.startsWith("blog")) { subBlog = h; ir("blog"); return; }      // #blog, #blog-posts, #blog-posts&video=sin… (16/10)
   ir(["global", ...REDES, "calendario", "impacto", "videos", "comentarios", "tablon-facebook", "tablon-instagram", "futuro", "mapa"].includes(h) ? h : "global");
 }
 function marcar(sel, b, filtro = "") {
@@ -434,7 +435,7 @@ function teletipo() {
 function ir(v, conAnimacion = true) {
   const cambia = v !== vista;
   vista = v;
-  history.replaceState(null, "", location.search + "#" + v);
+  if (!(v === "blog" && location.hash.startsWith("#blog"))) history.replaceState(null, "", location.search + "#" + v);
   document.querySelectorAll("#pestanas button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.vista === v)));
   document.querySelectorAll(".valor").forEach(b => b.classList.toggle("on", b.dataset.k === v));
   const activo = document.querySelector(`#cinta .valor[data-k="${v}"]`);
@@ -447,6 +448,7 @@ function ir(v, conAnimacion = true) {
   $("#v-videos").classList.toggle("oculta", v !== "videos");
   $("#v-comentarios").classList.toggle("oculta", v !== "comentarios");
   $("#v-calendario").classList.toggle("oculta", v !== "calendario");
+  $("#v-blog").classList.toggle("oculta", v !== "blog");
   $("#v-tablon-facebook").classList.toggle("oculta", v !== "tablon-facebook");
   $("#v-tablon-instagram").classList.toggle("oculta", v !== "tablon-instagram");
   $("#v-futuro").classList.toggle("oculta", v !== "futuro");
@@ -454,7 +456,7 @@ function ir(v, conAnimacion = true) {
   if (v !== "mapa" && mapa) mapa.pausar();
   if (v === "impacto") impacto(conAnimacion); else if (v === "videos") tablaVideos(); else if (v === "mapa") abrirMapa();
   else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios();
-  else if (v === "calendario") abrirCalendario(); else if (v === "tablon-facebook") abrirTablon("facebook");
+  else if (v === "calendario") abrirCalendario(); else if (v === "blog") abrirBlog(); else if (v === "tablon-facebook") abrirTablon("facebook");
   else if (v === "tablon-instagram") abrirTablon("instagram"); else pintarRed(v, conAnimacion);
   if (conAnimacion) window.scrollTo({ top: 0 });
 }
@@ -463,6 +465,7 @@ function repintar() {
   ir(vista, false);
   if (futuro) try { futuro.actualizarTema(); } catch (e) { /* nada */ }
   if (comentarios) try { comentarios.actualizarTema(); } catch (e) { /* nada */ }
+  if (blog) try { blog.actualizarTema(); } catch (e) { /* nada */ }
 }
 
 /* ─────────── gráficas ─────────── */
@@ -1391,6 +1394,27 @@ function abrirTablon(red) {
     }
     intentosTb[red] = (intentosTb[red] || 0) + 1;
     cargandoTb[red] = null;
+  })();
+}
+
+/* ─────────── Blog (módulo comun/blog.js, 16/10): cola, Yoast, vídeos, Google, Analytics, tienda e IA ─────────── */
+let blog = null, cargandoBlog = null, intentosBlog = 0, subBlog = null;
+function abrirBlog() {
+  if (blog) { if (subBlog) { blog.irA(subBlog); subBlog = null; } return; }
+  if (cargandoBlog) return;
+  const cont = $("#blog");
+  cargandoBlog = (async () => {
+    try {
+      const { montarBlog } = await import("../comun/blog.js" + (intentosBlog ? "?r=" + intentosBlog : ""));
+      cont.innerHTML = "";
+      blog = await montarBlog(cont, { datos: "../datos/blog.json", clave: "tdr-terminal-papel-2-blog", seccion: subBlog || location.hash });
+      subBlog = null;
+    } catch (e) {
+      blog = null;
+      cont.innerHTML = `<p class="futuro-aviso">La pestaña Blog se está preparando (${esc(e && e.message || e)}).</p>`;
+    }
+    intentosBlog++;
+    cargandoBlog = null;
   })();
 }
 

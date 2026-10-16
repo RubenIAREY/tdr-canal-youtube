@@ -3,7 +3,7 @@
    --marca-tinta, --sube, --baja, --f-titulo, --f-texto, --f-cifra, --sombra-1, --r1…3, --s1…8. */
 
 .ca {
-  --ca-yt: #ff3b30; --ca-ig: #e1306c; --ca-tt: #13c7c0; --ca-fb: #1877f2;
+  --ca-yt: #ff3b30; --ca-ig: #e1306c; --ca-tt: #13c7c0; --ca-fb: #1877f2; --ca-blog: #6b4f2a;
   --ca-programado: var(--sube); --ca-aprobado: #d99a1e; --ca-previsto: #6c8fd6; --ca-condicional: var(--tinta-tenue);
   --ca-porhacer: var(--baja); --ca-publicado: var(--tinta-suave);
   display: flex; flex-direction: column; gap: var(--s4); min-width: 0;
@@ -89,12 +89,13 @@
 .ca-hora { font: 700 15px/1 var(--f-cifra); }
 .ca-red { font: 700 10px/1 var(--f-cifra); letter-spacing: .04em; color: #fff; padding: 3px 6px; border-radius: 3px; }
 .ca-red.youtube { background: var(--ca-yt); } .ca-red.instagram { background: var(--ca-ig); } .ca-red.tiktok { background: #111; color: var(--ca-tt); }
-.ca-red.facebook { background: var(--ca-fb); }
+.ca-red.facebook { background: var(--ca-fb); } .ca-red.blog { background: var(--ca-blog); }
 .ca-fmt { font: 600 10.5px/1 var(--f-cifra); letter-spacing: .05em; text-transform: uppercase; color: var(--tinta-suave); border: 1px solid var(--linea-fuerte); padding: 3px 6px; border-radius: 3px; }
 .ca-est { font: 700 10.5px/1 var(--f-cifra); letter-spacing: .04em; text-transform: uppercase; padding: 3px 7px; border-radius: 999px; color: #fff; }
 .ca-est.programado { background: var(--ca-programado); } .ca-est.aprobado { background: var(--ca-aprobado); } .ca-est.previsto { background: var(--ca-previsto); }
 .ca-est.condicional { background: transparent; color: var(--tinta-suave); border: 1px dashed var(--tinta-tenue); } .ca-est.por-hacer { background: var(--ca-porhacer); }
 .ca-est.publicado { background: var(--capa3); color: var(--tinta-suave); }
+.ca-est.borrador { background: transparent; color: var(--ca-blog); border: 1px dashed var(--ca-blog); }
 .ca-tit { margin: 2px 0 4px; font: 600 14.5px/1.35 var(--f-texto); }
 .ca-nota { margin: 0; color: var(--tinta-suave); font-size: 12px; }
 .ca-texto { margin: 6px 0 0; white-space: pre-wrap; font-size: 13px; line-height: 1.5; background: var(--capa2); border: 1px solid var(--linea); border-radius: var(--r1); padding: 8px 10px; max-height: 320px; overflow: auto; }
