@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19 12:48",
+ "generado": "2026-10-19 17:16",
  "eventos": [
   {
    "id": "2024-11-14-global-vis-subida",
@@ -1279,13 +1279,13 @@
    "esperado": null,
    "titulo": "Largo: Turbo del coche: 3 síntomas de que se es",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata» (11 min). Hoy lleva 4.874 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata» (11 min). Hoy lleva 4.883 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata",
      "url": "https://youtu.be/owrrPGwo4wM",
-     "vis": 4874
+     "vis": 4883
     }
    ]
   },
@@ -1522,13 +1522,13 @@
    "esperado": null,
    "titulo": "Largo: Amortiguadores gastados: las señales que",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Amortiguadores gastados: las señales que notas conduciendo (y la que no admite discusión)» (9 min). Hoy lleva 182 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Amortiguadores gastados: las señales que notas conduciendo (y la que no admite discusión)» (9 min). Hoy lleva 185 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Amortiguadores gastados: las señales que notas conduciendo (y la que no admite discusión)",
      "url": "https://youtu.be/zqbl3mRGB00",
-     "vis": 182
+     "vis": 185
     }
    ]
   },
@@ -1603,13 +1603,13 @@
    "esperado": null,
    "titulo": "Largo: Correa de distribución: cuándo se cambia",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)» (11 min). Hoy lleva 2.025 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)» (11 min). Hoy lleva 2.034 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)",
      "url": "https://youtu.be/Gseqihh4toc",
-     "vis": 2025
+     "vis": 2034
     }
    ]
   },
@@ -1831,13 +1831,13 @@
    "esperado": null,
    "titulo": "Largo: El coche se calienta: qué hacer cuando s",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla» (8 min). Hoy lleva 81 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla» (8 min). Hoy lleva 83 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla",
      "url": "https://youtu.be/CK0qcbou-yM",
-     "vis": 81
+     "vis": 83
     }
    ]
   },
@@ -1852,13 +1852,13 @@
    "esperado": null,
    "titulo": "Largo: El coche se va hacia un lado: alineación",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «El coche se va hacia un lado: alineación, neumáticos o dirección» (8 min). Hoy lleva 145 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «El coche se va hacia un lado: alineación, neumáticos o dirección» (8 min). Hoy lleva 146 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "El coche se va hacia un lado: alineación, neumáticos o dirección",
      "url": "https://youtu.be/xAb07YNipeA",
-     "vis": 145
+     "vis": 146
     }
    ]
   },
@@ -1906,13 +1906,34 @@
    "esperado": null,
    "titulo": "Largo: Qué aceite lleva tu coche: el grado, la ",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 121 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 124 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad",
      "url": "https://youtu.be/tLNvf-HSiy8",
-     "vis": 121
+     "vis": 124
+    }
+   ]
+  },
+  {
+   "id": "2026-10-19-youtube-largo-kvbk56xDh2A",
+   "fecha": "2026-10-19",
+   "hasta": "2026-10-19",
+   "red": "youtube",
+   "metrica": "vis",
+   "tipo": "nota",
+   "valor": null,
+   "esperado": null,
+   "titulo": "Largo: Tesla Roadster: así funciona el coche qu",
+   "origen": "auto",
+   "detalle": "Se publica el vídeo largo «Tesla Roadster: así funciona el coche que «vuela» (y por qué con ruedas es imposible)» (9 min). Hoy lleva 2 visualizaciones.",
+   "causa": [
+    {
+     "red": "youtube",
+     "titulo": "Tesla Roadster: así funciona el coche que «vuela» (y por qué con ruedas es imposible)",
+     "url": "https://youtu.be/kvbk56xDh2A",
+     "vis": 2
     }
    ]
   }
