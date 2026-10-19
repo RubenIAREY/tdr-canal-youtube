@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19 08:14",
+ "generado": "2026-10-19 08:16",
  "eventos": [
   {
    "id": "2024-11-14-global-vis-subida",
@@ -1906,13 +1906,13 @@
    "esperado": null,
    "titulo": "Largo: Qué aceite lleva tu coche: el grado, la ",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 107 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 113 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad",
      "url": "https://youtu.be/tLNvf-HSiy8",
-     "vis": 107
+     "vis": 113
     }
    ]
   }

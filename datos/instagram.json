@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-19 08:14",
+ "actualizado": "2026-10-19 08:16",
  "estado": "pendiente",
  "comprobacion": "Instagram: el token NO funciona → Invalid OAuth access token - Cannot parse access token (código 190)",
  "pendiente_desde": "2026-10-08",
- "comprobaciones": 17,
+ "comprobaciones": 18,
  "cuenta": "@todoenrecambio (2.321 seguidores el 06/10)",
  "por_que": "El Instagram @todoenrecambio pertenece en Meta a otro portfolio, «DeepMoto», que nadie sabe quién administra. Mientras un administrador de DeepMoto no apruebe la solicitud (o no se use la app de Iván), la clave de Instagram no funciona y no se pueden leer sus comentarios ni sus estadísticas por la API.",
  "falta": [
