@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-19 08:16",
+ "generado": "2026-10-19 08:27",
  "eventos": [
   {
    "id": "2024-11-14-global-vis-subida",
@@ -1129,13 +1129,13 @@
    "esperado": null,
    "titulo": "Largo: Tu coche gasta más gasolina: empieza por",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Tu coche gasta más gasolina: empieza por la sonda lambda» (5 min). Hoy lleva 29 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Tu coche gasta más gasolina: empieza por la sonda lambda» (5 min). Hoy lleva 30 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Tu coche gasta más gasolina: empieza por la sonda lambda",
      "url": "https://youtu.be/2O1Fu6S6drw",
-     "vis": 29
+     "vis": 30
     }
    ]
   },
