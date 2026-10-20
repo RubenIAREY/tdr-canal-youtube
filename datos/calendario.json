@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-19 17:17",
- "hoy": "2026-10-19",
+ "actualizado": "2026-10-20 09:48",
+ "hoy": "2026-10-20",
  "desde": "2026-10-01",
  "hasta": "2027-02-04",
- "metricool_guardado": "2026-10-19 17:15",
+ "metricool_guardado": "2026-10-20 09:43",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -2013,26 +2013,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-394691592",
-   "dia": "2026-10-19",
-   "hora": "10:00",
-   "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
-    "youtube"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Filtro de habitáculo: ¿la flecha va hacia arriba o hacia abajo?",
-   "texto": "¿La flecha del filtro de habitáculo va hacia arriba o hacia abajo? 🤔\nNi una cosa ni la otra: depende de lo que ponga al lado. AIR FLOW y UP no significan lo mismo. Te lo explicamos en 30 segundos.\nFiltros de habitáculo 👉 todoenrecambio.com/filtro-de-aire-del-habitaculo\n🤖 Vídeo creado con inteligencia artificial\n#filtrohabitaculo #mantenimientocoche #airecondicionado #recambioscoche #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-13129505756789692681.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-6005339910092228138.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
-  },
-  {
    "id": "yt-wD6Fzr76QI4",
    "dia": "2026-10-19",
    "hora": "10:03",
@@ -2085,24 +2065,39 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-389215589",
+   "id": "blog-3435",
    "dia": "2026-10-19",
-   "hora": "19:00",
+   "hora": "17:42",
    "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
+    "blog"
+   ],
+   "formato": "blog",
+   "fuente": "blog",
+   "estado": "publicado",
+   "titulo": "Tesla Roadster 2026: cómo funciona y qué hay de real",
+   "texto": "Ventiladores que lo pegan al suelo y propulsores de gas frío: así hace el Tesla Roadster el 0 a 97 en 0,81 s, y qué es real.",
+   "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/tesla-roadster-portada_con_logo.jpg",
+   "enlace": "https://todoenrecambio.com/blog/tesla-roadster-como-funciona/",
+   "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3435&action=edit",
+   "yoast": true,
+   "nota": "Publicado en el blog · lleva vídeo"
+  },
+  {
+   "id": "yt-pyrzHjArn8g",
+   "dia": "2026-10-19",
+   "hora": "19:01",
+   "redes": [
     "youtube"
    ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
    "titulo": "Intercomunicador RESO Pilot Pro: rutas en grupo de hasta 30 motoristas",
-   "texto": "🏍️🏍️ Rutas en grupo, sin tener que hacer señas con la mano.\n\n✅ Tecnología DuoSync: mesh por hardware y por software\n✅ Grupos de hasta 30 motoristas\n✅ Control por voz y cancelación de ruido con IA\n✅ Protección IP67 frente al agua y el polvo\n✅ Módulo con base magnética: lo pones y lo quitas en un momento\n✅ Registro de ruta, localización del grupo y alerta SOS\n\nℹ️ La parte que va por internet depende de tener cobertura y datos; en zonas sin señal, conexión directa entre cascos.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 RESO Pilot Pro:\nhttps://todoenrecambio.com/recambio-moto/accesorios/telemetria/intercomunicadores/intercomunicador-moto-reso-001pro-pilot-pro-duosync-mesh-ip67-001prores.html\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Intercomunicador #RESO #RutasEnMoto #AccesoriosMoto #TodoEnRecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-3551832472072058226.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-2201283226356150879.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/pyrzHjArn8g/hqdefault.jpg",
+   "enlace": "https://youtu.be/pyrzHjArn8g",
+   "segundos": 47,
+   "nota": "Publicado"
   },
   {
    "id": "mc-394695894",
