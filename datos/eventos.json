@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21 09:22",
+ "generado": "2026-10-21 11:25",
  "eventos": [
   {
    "id": "2024-11-14-global-vis-subida",
@@ -1279,13 +1279,13 @@
    "esperado": null,
    "titulo": "Largo: Turbo del coche: 3 síntomas de que se es",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata» (11 min). Hoy lleva 5.111 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata» (11 min). Hoy lleva 5.119 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Turbo del coche: 3 síntomas de que se está muriendo y el error que lo mata",
      "url": "https://youtu.be/owrrPGwo4wM",
-     "vis": 5111
+     "vis": 5119
     }
    ]
   },
@@ -1603,13 +1603,13 @@
    "esperado": null,
    "titulo": "Largo: Correa de distribución: cuándo se cambia",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)» (11 min). Hoy lleva 2.235 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)» (11 min). Hoy lleva 2.250 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Correa de distribución: cuándo se cambia de verdad (no es por kilómetros)",
      "url": "https://youtu.be/Gseqihh4toc",
-     "vis": 2235
+     "vis": 2250
     }
    ]
   },
@@ -1831,13 +1831,13 @@
    "esperado": null,
    "titulo": "Largo: El coche se calienta: qué hacer cuando s",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla» (8 min). Hoy lleva 91 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla» (8 min). Hoy lleva 93 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "El coche se calienta: qué hacer cuando sube la aguja y qué pieza falla",
      "url": "https://youtu.be/CK0qcbou-yM",
-     "vis": 91
+     "vis": 93
     }
    ]
   },
@@ -1906,13 +1906,13 @@
    "esperado": null,
    "titulo": "Largo: Qué aceite lleva tu coche: el grado, la ",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 174 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad» (8 min). Hoy lleva 175 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Qué aceite lleva tu coche: el grado, la norma y cuándo se cambia de verdad",
      "url": "https://youtu.be/tLNvf-HSiy8",
-     "vis": 174
+     "vis": 175
     }
    ]
   },
@@ -1927,13 +1927,13 @@
    "esperado": null,
    "titulo": "Largo: Tesla Roadster: así funciona el coche qu",
    "origen": "auto",
-   "detalle": "Se publica el vídeo largo «Tesla Roadster: así funciona el coche que «vuela» (y por qué con ruedas es imposible)» (9 min). Hoy lleva 68 visualizaciones.",
+   "detalle": "Se publica el vídeo largo «Tesla Roadster: así funciona el coche que «vuela» (y por qué con ruedas es imposible)» (9 min). Hoy lleva 76 visualizaciones.",
    "causa": [
     {
      "red": "youtube",
      "titulo": "Tesla Roadster: así funciona el coche que «vuela» (y por qué con ruedas es imposible)",
      "url": "https://youtu.be/kvbk56xDh2A",
-     "vis": 68
+     "vis": 76
     }
    ]
   }

@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21 09:23",
+ "actualizado": "2026-10-21 11:26",
  "hoy": "2026-10-21",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
@@ -1415,23 +1415,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "yt-_BxvaKFX2ws",
-   "dia": "2026-10-12",
-   "hora": "19:04",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "short",
-   "fuente": "youtube",
-   "estado": "publicado",
-   "titulo": "Cómo poner la funda de la moto: el error de ponerla nada más aparcar",
-   "texto": "",
-   "img": "https://i.ytimg.com/vi/_BxvaKFX2ws/hqdefault.jpg",
-   "enlace": "https://youtu.be/_BxvaKFX2ws",
-   "segundos": 42,
-   "nota": "Publicado"
-  },
-  {
    "id": "yt-oFkdGeqYK10",
    "dia": "2026-10-12",
    "hora": "20:00",
@@ -2205,6 +2188,23 @@
    "nota": "Programado en Metricool"
   },
   {
+   "id": "yt-ABiPgEgpWco",
+   "dia": "2026-10-21",
+   "hora": "10:03",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Qué aceite lleva mi coche: no pide uno bueno, pide el suyo",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/ABiPgEgpWco/hqdefault.jpg",
+   "enlace": "https://youtu.be/ABiPgEgpWco",
+   "segundos": 31,
+   "nota": "Publicado"
+  },
+  {
    "id": "blog-2982",
    "dia": "2026-10-21",
    "hora": "13:00",
@@ -2523,7 +2523,7 @@
    "img": "cal/p-7425441bec.jpg",
    "largo": "30",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-51eaecb0ba",
@@ -2540,7 +2540,7 @@
    "img": "cal/v-51eaecb0ba.jpg",
    "largo": "19",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696276",
@@ -2577,7 +2577,7 @@
    "img": "cal/p-9ba306d3bc.jpg",
    "largo": "28",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-8887eafbf0",
@@ -2594,7 +2594,7 @@
    "img": "cal/v-8887eafbf0.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 21/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-068384acf2",
@@ -2611,7 +2611,7 @@
    "img": "cal/p-068384acf2.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-a0019c1cc0",
@@ -2628,7 +2628,7 @@
    "img": "cal/v-a0019c1cc0.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394691739",
@@ -2665,7 +2665,7 @@
    "img": "cal/p-1ffda4dba1.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-1a7318c8e4",
@@ -2682,7 +2682,7 @@
    "img": "cal/v-1a7318c8e4.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 22/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-678e564b5b",
@@ -2699,7 +2699,7 @@
    "img": "cal/v-678e564b5b.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-afa3207694",
@@ -2716,7 +2716,7 @@
    "img": "cal/p-afa3207694.jpg",
    "largo": "30",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696415",
@@ -2771,7 +2771,7 @@
    "img": "cal/p-f7c41df3bc.jpg",
    "largo": "28",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-33",
@@ -2804,7 +2804,7 @@
    "img": "cal/v-b872994821.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 23/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-389216319",
@@ -2841,7 +2841,7 @@
    "img": "cal/p-02dd58a13a.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-accba4cef9",
@@ -2858,7 +2858,7 @@
    "img": "cal/v-accba4cef9.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696500",
@@ -2913,7 +2913,7 @@
    "img": "cal/p-ce880cd717.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-feb28bd213",
@@ -2930,7 +2930,7 @@
    "img": "cal/v-feb28bd213.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 24/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-cac46e812a",
@@ -2947,7 +2947,7 @@
    "img": "cal/v-cac46e812a.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-10a6df67d1",
@@ -2964,7 +2964,7 @@
    "img": "cal/p-10a6df67d1.jpg",
    "largo": "30",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696556",
@@ -3019,7 +3019,7 @@
    "img": "cal/p-fb53c65c7b.jpg",
    "largo": "28",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-878c8603b7",
@@ -3036,7 +3036,7 @@
    "img": "cal/v-878c8603b7.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 25/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-389216392",
@@ -3073,7 +3073,7 @@
    "img": "cal/p-50822fd4c3.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-4aaadaa6f0",
@@ -3090,7 +3090,7 @@
    "img": "cal/v-4aaadaa6f0.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696610",
@@ -3145,7 +3145,7 @@
    "img": "cal/p-217fabd47a.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-35",
@@ -3178,7 +3178,7 @@
    "img": "cal/v-3dbbe5b44c.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 26/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-ec54c0a9ab",
@@ -3195,7 +3195,7 @@
    "img": "cal/v-ec54c0a9ab.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-b4029e2acb",
@@ -3212,7 +3212,7 @@
    "img": "cal/p-b4029e2acb.jpg",
    "largo": "30",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394691814",
@@ -3267,7 +3267,7 @@
    "img": "cal/p-d19132ff63.jpg",
    "largo": "28",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-038cc0a92f",
@@ -3284,7 +3284,7 @@
    "img": "cal/v-038cc0a92f.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 27/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-389216511",
@@ -3321,7 +3321,7 @@
    "img": "cal/p-50e9c5360e.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-c1d923894a",
@@ -3338,7 +3338,7 @@
    "img": "cal/v-c1d923894a.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696690",
@@ -3375,7 +3375,7 @@
    "img": "cal/p-334899141c.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-2a8d56770b",
@@ -3392,7 +3392,7 @@
    "img": "cal/v-2a8d56770b.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 28/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-90c704520c",
@@ -3409,7 +3409,7 @@
    "img": "cal/v-90c704520c.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-23ff5aa26e",
@@ -3426,7 +3426,7 @@
    "img": "cal/p-23ff5aa26e.jpg",
    "largo": "28",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696741",
@@ -3463,7 +3463,7 @@
    "img": "cal/v-46ca73bbd3.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-47957578f9",
@@ -3480,7 +3480,7 @@
    "img": "cal/p-47957578f9.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 29/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-3012a73a8e",
@@ -3497,7 +3497,7 @@
    "img": "cal/v-3012a73a8e.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-63f25adc9d",
@@ -3514,7 +3514,7 @@
    "img": "cal/p-63f25adc9d.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696809",
@@ -3569,7 +3569,7 @@
    "img": "cal/v-14364f4776.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-34",
@@ -3602,7 +3602,7 @@
    "img": "cal/v-0d6904508a.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 30/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-389216573",
@@ -3639,7 +3639,7 @@
    "img": "cal/v-642bb82379.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-9d067e7f25",
@@ -3656,7 +3656,7 @@
    "img": "cal/p-9d067e7f25.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394696955",
@@ -3711,7 +3711,7 @@
    "img": "cal/v-eb916bbd1e.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-a678936405",
@@ -3728,7 +3728,7 @@
    "img": "cal/p-a678936405.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 31/10 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-b3209ae871",
@@ -3745,7 +3745,7 @@
    "img": "cal/v-b3209ae871.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-2974e3e1ae",
@@ -3762,7 +3762,7 @@
    "img": "cal/v-2974e3e1ae.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697048",
@@ -3817,7 +3817,7 @@
    "img": "cal/v-c4fabdd319.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-9651756510",
@@ -3834,7 +3834,7 @@
    "img": "cal/p-9651756510.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 01/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-389216646",
@@ -3871,7 +3871,7 @@
    "img": "cal/v-6e62a848ba.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-c41a71d9d8",
@@ -3888,7 +3888,7 @@
    "img": "cal/p-c41a71d9d8.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697115",
@@ -3943,7 +3943,7 @@
    "img": "cal/v-1126fdacb6.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-13befb1880",
@@ -3960,7 +3960,7 @@
    "img": "cal/v-13befb1880.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 02/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-3939d1c4ba",
@@ -3977,7 +3977,7 @@
    "img": "cal/v-3939d1c4ba.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-1da06ee75f",
@@ -3994,7 +3994,7 @@
    "img": "cal/p-1da06ee75f.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697195",
@@ -4049,7 +4049,7 @@
    "img": "cal/v-cfae15a321.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-largo-36",
@@ -4082,7 +4082,7 @@
    "img": "cal/p-5af241a7c9.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 03/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-b4692efab2",
@@ -4099,7 +4099,7 @@
    "img": "cal/v-b4692efab2.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-45eef7577b",
@@ -4116,7 +4116,7 @@
    "img": "cal/v-45eef7577b.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697264",
@@ -4153,7 +4153,7 @@
    "img": "cal/v-17d13d7d6e.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-d68442356e",
@@ -4170,7 +4170,7 @@
    "img": "cal/p-d68442356e.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 04/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-5fef289caa",
@@ -4187,7 +4187,7 @@
    "img": "cal/v-5fef289caa.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-fd0099d0d5",
@@ -4204,7 +4204,7 @@
    "img": "cal/p-fd0099d0d5.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697339",
@@ -4241,7 +4241,7 @@
    "img": "cal/v-3e9f38c64f.jpg",
    "largo": "21",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-0e0a35ff98",
@@ -4258,7 +4258,7 @@
    "img": "cal/v-0e0a35ff98.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 05/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-b553a8c09d",
@@ -4275,7 +4275,7 @@
    "img": "cal/v-b553a8c09d.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-f963173a37",
@@ -4292,7 +4292,7 @@
    "img": "cal/p-f963173a37.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697408",
@@ -4347,7 +4347,7 @@
    "img": "cal/v-0d95da648c.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-257f637205",
@@ -4364,7 +4364,7 @@
    "img": "cal/p-257f637205.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 06/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-e7501cb71d",
@@ -4381,7 +4381,7 @@
    "img": "cal/v-e7501cb71d.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-48411f88e9",
@@ -4398,7 +4398,7 @@
    "img": "cal/v-48411f88e9.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "mc-394697488",
@@ -4453,7 +4453,7 @@
    "img": "cal/p-bccf05b9a5.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-67b5729b91",
@@ -4470,7 +4470,7 @@
    "img": "cal/v-67b5729b91.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 07/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-82289eaf19",
@@ -4487,7 +4487,7 @@
    "img": "cal/p-82289eaf19.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-f958ec3dd4",
@@ -4504,7 +4504,7 @@
    "img": "cal/v-f958ec3dd4.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-04-S1",
@@ -4560,7 +4560,7 @@
    "img": "cal/v-fac0c4e53f.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-c826180491",
@@ -4577,7 +4577,7 @@
    "img": "cal/p-c826180491.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 08/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-90a0c8bc02",
@@ -4594,7 +4594,7 @@
    "img": "cal/v-90a0c8bc02.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-0ac2c0dad1",
@@ -4611,7 +4611,7 @@
    "img": "cal/p-0ac2c0dad1.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-04-S2",
@@ -4667,7 +4667,7 @@
    "img": "cal/v-99d11bd4e2.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-16202a80d8",
@@ -4684,7 +4684,7 @@
    "img": "cal/v-16202a80d8.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 09/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-ec2cdbbb02",
@@ -4701,7 +4701,7 @@
    "img": "cal/p-ec2cdbbb02.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-751ab27e96",
@@ -4718,7 +4718,7 @@
    "img": "cal/v-751ab27e96.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-04-S3",
@@ -4774,7 +4774,7 @@
    "img": "cal/p-b07660e433.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-e8f454a790",
@@ -4791,7 +4791,7 @@
    "img": "cal/v-e8f454a790.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 10/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-3ffcc7dff3",
@@ -4808,7 +4808,7 @@
    "img": "cal/v-3ffcc7dff3.jpg",
    "largo": "23",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-54b99120ed",
@@ -4825,7 +4825,7 @@
    "img": "cal/p-54b99120ed.jpg",
    "largo": "29",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-04-S4",
@@ -4863,7 +4863,7 @@
    "img": "cal/v-ee4fee6b82.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-f1dba59fa4",
@@ -4880,7 +4880,7 @@
    "img": "cal/p-f1dba59fa4.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 11/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-41acc56403",
@@ -4897,7 +4897,7 @@
    "img": "cal/v-41acc56403.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-0691492b13",
@@ -4914,7 +4914,7 @@
    "img": "cal/v-0691492b13.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "plan-04-S5",
@@ -4952,7 +4952,7 @@
    "img": "cal/p-011149b057.jpg",
    "largo": "31",
    "tipo_cola": "en papel",
-   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-f019d2b172",
@@ -4969,7 +4969,7 @@
    "img": "cal/v-f019d2b172.jpg",
    "largo": "18",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 12/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-209caf0694",
@@ -4986,7 +4986,7 @@
    "img": "cal/v-209caf0694.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 14/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "cola-8360349eff",
@@ -5003,7 +5003,7 @@
    "img": "cal/v-8360349eff.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 14/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "blog-3207",
@@ -5038,7 +5038,7 @@
    "img": "cal/v-69ffe28357.jpg",
    "largo": "20",
    "tipo_cola": "antiguo",
-   "nota": "Cola automática: se sube sola el 13/11 a las 10:00 como privado y YouTube lo publica a su hora"
+   "nota": "Cola automática: se sube sola el 14/11 a las 10:00 como privado y YouTube lo publica a su hora"
   },
   {
    "id": "blog-3279",
