@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-21 17:14",
+ "generado": "2026-10-22 09:20",
  "eventos": [
   {
    "id": "2024-11-14-global-vis-subida",
@@ -1705,7 +1705,7 @@
      "red": "instagram",
      "titulo": "🏍️ ¿Pones la funda nada más aparcar? Error.",
      "url": "https://www.instagram.com/reel/DeZukPDDJMv/",
-     "vis": 540
+     "vis": 543
     }
    ],
    "origen": "auto",
@@ -1769,7 +1769,7 @@
   {
    "id": "2026-10-06-facebook-vis-subida",
    "fecha": "2026-10-06",
-   "hasta": "2026-10-20",
+   "hasta": "2026-10-21",
    "red": "facebook",
    "metrica": "vis",
    "tipo": "subida",
@@ -1786,7 +1786,7 @@
      "red": "facebook",
      "titulo": "Las señales caras de la junta de culata: humo blanco por el escape que huele dulce, burbujas en el vaso de exp",
      "url": "https://www.facebook.com/reel/869802022821349/",
-     "vis": 510
+     "vis": 512
     },
     {
      "red": "facebook",
@@ -1797,7 +1797,7 @@
    ],
    "origen": "auto",
    "titulo": "Pico: «La señal que más gente ve sin saber qu»",
-   "detalle": "Del 6 oct 2026 al 20 oct 2026 Facebook llegó a 926 visualizaciones en un día, frente a unas 4 normales."
+   "detalle": "Del 6 oct 2026 al 21 oct 2026 Facebook llegó a 926 visualizaciones en un día, frente a unas 4 normales."
   },
   {
    "id": "2026-10-07-youtube-largo-hDL4T7VWpgo",
@@ -1876,19 +1876,19 @@
      "red": "instagram",
      "titulo": "¿Los puños calefactables van directos a la batería o con un relé? 🔌",
      "url": "https://www.instagram.com/reel/DegfNGIFGg7/",
-     "vis": 549
+     "vis": 552
     },
     {
      "red": "instagram",
      "titulo": "La señal que más gente ve sin saber qué es: un charco debajo de la parte de delante del coche 💧",
      "url": "https://www.instagram.com/reel/Ded6M80jKmk/",
-     "vis": 359
+     "vis": 365
     },
     {
      "red": "instagram",
      "titulo": "¿Tu coche tira hacia un lado en una recta? No siempre es la alineación 🚗",
      "url": "https://www.instagram.com/reel/DejD3eIDKfp/",
-     "vis": 225
+     "vis": 227
     }
    ],
    "origen": "auto",
