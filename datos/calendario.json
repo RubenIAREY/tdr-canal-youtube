@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-23 12:51",
+ "actualizado": "2026-10-23 17:16",
  "hoy": "2026-10-23",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
- "metricool_guardado": "2026-10-23 12:49",
+ "metricool_guardado": "2026-10-23 17:15",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -2436,14 +2436,14 @@
    ],
    "formato": "blog",
    "fuente": "blog",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Fuelle de transmisión roto: por qué corre prisa",
    "texto": "Una goma cuyo único trabajo es estar entera. Roto, la junta que protege se destruye en semanas. Cómo detectarlo a tiempo.",
    "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/08/blog09-fuelle-portada_con_logo.jpg",
-   "enlace": "https://todoenrecambio.com/blog/?p=2869&preview=true",
+   "enlace": "https://todoenrecambio.com/blog/fuelle-transmision-roto/",
    "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2869&action=edit",
    "yoast": true,
-   "nota": "Programado en WordPress: sale solo a su hora"
+   "nota": "Publicado en el blog"
   },
   {
    "id": "mc-402179900",
@@ -2473,13 +2473,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "¿Cambiar la bomba de agua con la correa de distribución?",
    "texto": "",
    "img": "cal/p-dee34baa1b.jpg",
    "enlace": "https://youtu.be/Bkmm2YQEg14",
    "segundos": 32,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-1i6oOMgJAKU",
@@ -2490,13 +2490,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "El embrague no vuelve atrás: lo que se gasta no se recupera",
    "texto": "",
    "img": "cal/v-b1118f3a50.jpg",
    "enlace": "https://youtu.be/1i6oOMgJAKU",
    "segundos": 10,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-389216068",
