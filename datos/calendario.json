@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-26 12:49",
+ "actualizado": "2026-10-26 17:11",
  "hoy": "2026-10-26",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
- "metricool_guardado": "2026-10-26 12:47",
+ "metricool_guardado": "2026-10-26 17:09",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -2013,6 +2013,23 @@
    "nota": "Publicado"
   },
   {
+   "id": "yt-wD6Fzr76QI4",
+   "dia": "2026-10-19",
+   "hora": "10:03",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Filtro de habitáculo: ¿la flecha va hacia arriba o hacia abajo?",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/wD6Fzr76QI4/hqdefault.jpg",
+   "enlace": "https://youtu.be/wD6Fzr76QI4",
+   "segundos": 34,
+   "nota": "Publicado"
+  },
+  {
    "id": "blog-2976",
    "dia": "2026-10-19",
    "hora": "13:00",
@@ -2406,6 +2423,23 @@
    "enlace": "https://youtu.be/z5R2Hic63TA",
    "segundos": 32,
    "nota": "Publicado"
+  },
+  {
+   "id": "yt-mVXZK_Vl_VU",
+   "dia": "2026-10-23",
+   "hora": "10:17",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "largo",
+   "fuente": "youtube",
+   "estado": "privado",
+   "titulo": "Puños o guantes calefactables para moto: cuál elegir, manoplas y cubrepiernas",
+   "texto": "Con frío, en moto, se reacciona más despacio, y las manos, las que frenan y aceleran, son de lo primero que se enfría. En este vídeo te cuento cómo rodar en invierno sin pasar frío: puños o guantes calefactables, manoplas, cubrepiernas y cómo vestirte por capas.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/los-punos-calefactables-oxford-elevan-la-experiencia-de-conduccion-a-nuevas-alturas/\n🛒 Puños calefactables: https://todoenrecambio.com/punos-calefactables\n\nPrimero, por qué se pasa tanto frío en moto (el viento, y lo que dice la guía de la DGT) y cómo vestirte: por capas y holgadas. Después, el guante de invierno y los dos que tenemos en la tienda, los puños calefactables Oxford (cómo calientan y cuál elegir para tu moto o tu scooter) y los guantes calefactables, frente a frente con los puños. Luego, las manoplas y el cubrepiernas.\n\nY lo más importante: cómo se conecta un puño calefactable, siguiendo el manual del kit y el esquema eléctrico de tu moto, y los cinco errores de invierno que te dejan helado.\n\n📖 Más en el blog:\n· Guantes de moto homologados: normativa EN 13594 y guía de compra: https://todoenrecambio.com/blog/guantes-moto-homologados-en-13594/\n\n▶ La etiqueta de los guantes, en el vídeo de la normativa de moto: https://youtu.be/h_TgaUz-ANE\n\n🛒 También te puede servir:\n· Manoplas: https://todoenrecambio.com/manoplas\n· Cubrepiernas: https://todoenrecambio.com/cubrepiernas-y-manopla\n· Guantes de moto: https://todoenrecambio.com/guantes-de-moto\n· Chaquetas de moto: https://todoenrecambio.com/chaquetas-de-moto\n· Accesorios de casco (lentes Pinlock): https://todoenrecambio.com/accesorios-casco\n· Cargadores de batería: https://todoenrecambio.com/cargadores-de-bateria\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 Rodar en invierno sin pasar frío\n0:41 Por qué se pasa tanto frío en moto\n1:22 Vestirse por capas\n2:06 Guantes de invierno para moto\n2:55 Puños calefactables: cómo calientan\n3:45 Guantes calefactables frente a puños\n4:34 Manoplas para moto y scooter\n5:26 Cubrepiernas para scooter\n6:09 Cómo se conecta un puño calefactable\n7:15 Los 5 errores de invierno\n8:17 Tu equipo de invierno, entero\n\nSi te ha servido, compártelo con tu grupo de moteros y suscríbete.\n\nVídeo hecho con avatar e imágenes generadas con IA. Las piezas que salen recortadas son fotos reales de las fichas de la tienda.\n\n#moto #invierno #punoscalefactables #motoristas #equipamientomoto #todoenrecambio",
+   "img": null,
+   "enlace": "https://youtu.be/mVXZK_Vl_VU",
+   "segundos": 535,
+   "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
   {
    "id": "yt-Kxua--qLGZY",
@@ -2862,14 +2896,14 @@
    ],
    "formato": "blog",
    "fuente": "blog",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Freno de tambor y zapatas: por qué el trasero suspende la ITV",
    "texto": "No se inspecciona a la vista y por eso se olvida. El freno de mano es tu mejor chivato y el desequilibrio no se nota conduciendo.",
    "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/08/blog10-freno-tambor-portada_con_logo.jpg",
-   "enlace": "https://todoenrecambio.com/blog/?p=2875&preview=true",
+   "enlace": "https://todoenrecambio.com/blog/freno-tambor-zapatas-itv/",
    "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2875&action=edit",
    "yoast": true,
-   "nota": "Programado en WordPress: sale solo a su hora"
+   "nota": "Publicado en el blog"
   },
   {
    "id": "mc-402180795",
@@ -2899,13 +2933,13 @@
    ],
    "formato": "largo",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Válvula EGR y filtro de partículas: por qué se atascan, cómo se limpian y por qué no anularlos",
    "texto": "Dos piezas de tu diésel se atascan con lo mismo: el hollín, el polvo negro del humo. En este vídeo te cuento qué hacen la válvula EGR y el filtro de partículas, por qué se atascan, cómo se limpian y por qué no conviene anularlos.\n\nPrimero, la EGR: una compuerta que deja volver al motor parte de los gases ya quemados, para que la llama sea más fría y se formen menos óxidos de nitrógeno (según Pierburg, que fabrica estas válvulas, hasta la mitad). Por qué se ensucia (la carbonilla), las causas que resume Pierburg y cómo avisa: ralentí irregular, tirones, falta de fuerza, el testigo de avería y, si se queda abierta, humo negro.\n\nDespués, el filtro de partículas: un panal de cerámica con los canales tapados uno sí y uno no, la regeneración que quema el hollín, por qué se queda a medias en los trayectos cortos, qué dice Hella de su testigo y la ceniza, que no se quema nunca (por eso muchos coches con filtro piden un aceite bajo en cenizas, el de la letra C de ACEA).\n\nAl final: qué se limpia y qué se cambia, qué pueden hacer los limpiadores y los aditivos, por qué anular la EGR o quitar el filtro te juega la ITV (es defecto grave) y lo que respiras, y las cuatro cosas que sí funcionan, una por cada causa.\n\nCAPÍTULOS\n0:00 Dos piezas del diésel que se atascan con lo mismo\n0:41 El hollín y el recorrido de los gases\n1:13 Qué es la válvula EGR y para qué sirve\n1:54 Por qué se ensucia la EGR: la carbonilla\n2:36 Síntomas de una EGR sucia\n3:15 Qué es el filtro de partículas (FAP)\n3:46 La regeneración del filtro de partículas\n4:39 El testigo del filtro y la ceniza\n5:32 ¿Se limpian o se cambian?\n6:26 Por qué no anular la EGR ni quitar el filtro\n7:47 Lo que sí funciona: una solución por causa\n\nEN TODOENRECAMBIO.COM\n· Válvulas EGR: https://todoenrecambio.com/valvula-egr-tubo-de-admision\n· Filtros de partículas: https://todoenrecambio.com/filtro-de-particulas\n· Sensores y sondas: https://todoenrecambio.com/sensor-sonda-44303\n· Aditivos para el filtro de partículas: https://todoenrecambio.com/aditivos-44559\n· Aditivos para diésel: https://todoenrecambio.com/aditivos-coche-diesel\n· Aceites de motor: https://todoenrecambio.com/aceites-43806\n\nSi te ha servido, suscríbete: aún quedan muchas piezas por contar.\n\nVídeo hecho con avatar e imágenes generadas con IA. Las piezas que salen recortadas son fotos reales de las fichas de la tienda.\n\n#EGR #filtrodeparticulas #diesel #mecanica #ITV #todoenrecambio",
    "img": "cal/yt-1wrNcDZ9114.jpg",
    "enlace": "https://youtu.be/1wrNcDZ9114",
    "segundos": 524,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-389216319",
@@ -3342,7 +3376,7 @@
    "nota": "Programado en Metricool"
   },
   {
-   "id": "yt-mVXZK_Vl_VU",
+   "id": "yt-FInJrzb5GIE",
    "dia": "2026-10-29",
    "hora": "16:00",
    "redes": [
@@ -3352,9 +3386,9 @@
    "fuente": "youtube",
    "estado": "programado",
    "titulo": "Puños o guantes calefactables para moto: cuál elegir, manoplas y cubrepiernas",
-   "texto": "Con frío, en moto, se reacciona más despacio, y las manos, las que frenan y aceleran, son de lo primero que se enfría. En este vídeo te cuento cómo rodar en invierno sin pasar frío: puños o guantes calefactables, manoplas, cubrepiernas y cómo vestirte por capas.\n\n▶ Artículo completo: https://todoenrecambio.com/blog/los-punos-calefactables-oxford-elevan-la-experiencia-de-conduccion-a-nuevas-alturas/\n🛒 Puños calefactables: https://todoenrecambio.com/punos-calefactables\n\nPrimero, por qué se pasa tanto frío en moto (el viento, y lo que dice la guía de la DGT) y cómo vestirte: por capas y holgadas. Después, el guante de invierno y los dos que tenemos en la tienda, los puños calefactables Oxford (cómo calientan y cuál elegir para tu moto o tu scooter) y los guantes calefactables, frente a frente con los puños. Luego, las manoplas y el cubrepiernas.\n\nY lo más importante: cómo se conecta un puño calefactable, siguiendo el manual del kit y el esquema eléctrico de tu moto, y los cinco errores de invierno que te dejan helado.\n\n📖 Más en el blog:\n· Guantes de moto homologados: normativa EN 13594 y guía de compra: https://todoenrecambio.com/blog/guantes-moto-homologados-en-13594/\n\n▶ La etiqueta de los guantes, en el vídeo de la normativa de moto: https://youtu.be/h_TgaUz-ANE\n\n🛒 También te puede servir:\n· Manoplas: https://todoenrecambio.com/manoplas\n· Cubrepiernas: https://todoenrecambio.com/cubrepiernas-y-manopla\n· Guantes de moto: https://todoenrecambio.com/guantes-de-moto\n· Chaquetas de moto: https://todoenrecambio.com/chaquetas-de-moto\n· Accesorios de casco (lentes Pinlock): https://todoenrecambio.com/accesorios-casco\n· Cargadores de batería: https://todoenrecambio.com/cargadores-de-bateria\n\nCatálogo completo de recambio de coche y moto: https://todoenrecambio.com\n\nCAPÍTULOS\n0:00 Rodar en invierno sin pasar frío\n0:41 Por qué se pasa tanto frío en moto\n1:22 Vestirse por capas\n2:06 Guantes de invierno para moto\n2:55 Puños calefactables: cómo calientan\n3:45 Guantes calefactables frente a puños\n4:34 Manoplas para moto y scooter\n5:26 Cubrepiernas para scooter\n6:09 Cómo se conecta un puño calefactable\n7:15 Los 5 errores de invierno\n8:17 Tu equipo de invierno, entero\n\nSi te ha servido, compártelo con tu grupo de moteros y suscríbete.\n\nVídeo hecho con avatar e imágenes generadas con IA. Las piezas que salen recortadas son fotos reales de las fichas de la tienda.\n\n#moto #invierno #punoscalefactables #motoristas #equipamientomoto #todoenrecambio",
-   "img": "cal/yt-mVXZK_Vl_VU.jpg",
-   "enlace": "https://youtu.be/mVXZK_Vl_VU",
+   "texto": "Con frío, en moto, se reacciona más despacio, y las manos, las que frenan y aceleran, son de lo primero que se enfría. En este vídeo te cuento cómo rodar en invierno sin pasar frío: puños o guantes calefactables, manoplas, cubrepiernas y cómo vestirte por capas.\n\nPrimero, por qué se pasa tanto frío en moto (el viento, y lo que dice la guía de la DGT) y cómo vestirte: por capas y holgadas. Después, el guante de invierno y los dos que tenemos en la tienda, los puños calefactables Oxford (cómo calientan y cuál elegir para tu moto o tu scooter) y los guantes calefactables, frente a frente con los puños. Luego, las manoplas y el cubrepiernas.\n\nY lo más importante: cómo se conecta un puño calefactable, siguiendo el manual del kit y el esquema eléctrico de tu moto, y los cinco errores de invierno que te dejan helado.\n\nCAPÍTULOS\n0:00 Rodar en invierno sin pasar frío\n0:41 Por qué se pasa tanto frío en moto\n1:22 Vestirse por capas\n2:06 Guantes de invierno para moto\n2:55 Puños calefactables: cómo calientan\n3:45 Guantes calefactables frente a puños\n4:34 Manoplas para moto y scooter\n5:26 Cubrepiernas para scooter\n6:09 Cómo se conecta un puño calefactable\n7:15 Los 5 errores de invierno\n8:17 Tu equipo de invierno, entero\n\n▶ La etiqueta de los guantes, en el vídeo de la normativa de moto: https://youtu.be/h_TgaUz-ANE\n\nEN TODOENRECAMBIO.COM\n· Puños calefactables: https://todoenrecambio.com/punos-calefactables\n· Manoplas: https://todoenrecambio.com/manoplas\n· Cubrepiernas: https://todoenrecambio.com/cubrepiernas-y-manopla\n· Guantes de moto: https://todoenrecambio.com/guantes-de-moto\n· Chaquetas de moto: https://todoenrecambio.com/chaquetas-de-moto\n· Accesorios de casco (lentes Pinlock): https://todoenrecambio.com/accesorios-casco\n· Cargadores de batería: https://todoenrecambio.com/cargadores-de-bateria\n\nSi te ha servido, compártelo con tu grupo de moteros y suscríbete.\n\nVídeo hecho con avatar e imágenes generadas con IA. Las piezas que salen recortadas son fotos reales de las fichas de la tienda.\n\n#moto #invierno #punoscalefactables #motoristas #equipamientomoto #todoenrecambio",
+   "img": "cal/yt-FInJrzb5GIE.jpg",
+   "enlace": "https://youtu.be/FInJrzb5GIE",
    "segundos": 535,
    "nota": "Subido como privado; YouTube lo publica solo a su hora"
   },
