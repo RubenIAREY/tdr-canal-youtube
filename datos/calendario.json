@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-27 12:50",
+ "actualizado": "2026-10-27 17:15",
  "hoy": "2026-10-27",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
- "metricool_guardado": "2026-10-27 12:49",
+ "metricool_guardado": "2026-10-27 17:13",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -2982,14 +2982,14 @@
    ],
    "formato": "blog",
    "fuente": "blog",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Cascos de motocross y offroad: guía de compra 2026",
    "texto": "Cascos de motocross y offroad: cross puro o trail, homologación ECE 22.06, cómo elegirlos y cómo acertar con la talla.",
    "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/07/blog-cascos-offroad-portada_con_logo.jpg",
-   "enlace": "https://todoenrecambio.com/blog/?p=2391&preview=true",
+   "enlace": "https://todoenrecambio.com/blog/cascos-motocross-offroad/",
    "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=2391&action=edit",
    "yoast": true,
-   "nota": "Programado en WordPress: sale solo a su hora"
+   "nota": "Publicado en el blog"
   },
   {
    "id": "mc-402181093",
@@ -3019,13 +3019,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Antes de montar un recambio: compáralo con la pieza vieja",
    "texto": "",
    "img": "cal/p-10a6df67d1.jpg",
    "enlace": "https://youtu.be/htK0LJRYptA",
    "segundos": 34,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-Ofo58xAcGiQ",
@@ -3036,13 +3036,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Fuga de refrigerante: rellenar no es arreglar",
    "texto": "",
    "img": "cal/p-fb53c65c7b.jpg",
    "enlace": "https://youtu.be/Ofo58xAcGiQ",
    "segundos": 26,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-402180964",
