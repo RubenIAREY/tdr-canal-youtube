@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-28 12:46",
+ "actualizado": "2026-10-28 17:15",
  "hoy": "2026-10-28",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
- "metricool_guardado": "2026-10-28 12:45",
+ "metricool_guardado": "2026-10-28 17:13",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -3085,14 +3085,14 @@
    ],
    "formato": "blog",
    "fuente": "blog",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Funda para moto: cómo elegir talla, tipo y material",
    "texto": "Cómo elegir una funda para moto: exterior o interior, cómo medir la moto para acertar con la talla y qué detalles marcan la diferencia.",
    "img": "https://todoenrecambio.com/blog/wp-content/uploads/2026/10/lote5-09-funda-moto-portada_con_logo.jpg",
-   "enlace": "https://todoenrecambio.com/blog/?p=3165&preview=true",
+   "enlace": "https://todoenrecambio.com/blog/funda-para-moto/",
    "editar": "https://todoenrecambio.com/blog/wp-admin/post.php?post=3165&action=edit",
    "yoast": true,
-   "nota": "Programado en WordPress: sale solo a su hora"
+   "nota": "Publicado en el blog"
   },
   {
    "id": "mc-402181375",
@@ -3122,13 +3122,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Cómo devolver un recambio: guarda la caja y la factura",
    "texto": "",
    "img": "cal/p-b4029e2acb.jpg",
    "enlace": "https://youtu.be/gI3n3jJTbvs",
    "segundos": 44,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-DQf-uLwaGXo",
@@ -3139,13 +3139,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Motor caliente: la culata se deforma y la junta deja de sellar",
    "texto": "",
    "img": "cal/p-d19132ff63.jpg",
    "enlace": "https://youtu.be/DQf-uLwaGXo",
    "segundos": 31,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-389216392",
