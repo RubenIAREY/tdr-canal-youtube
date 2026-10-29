@@ -1078,7 +1078,7 @@ details.sup[open] summary::after { content: "▴"; }
     var fijo = { "youtube-short": 72, "youtube-largo": 4, instagram: 14, tiktok: 23, facebook: 11 };
     pintarPublicaciones(fijo, null);
     if (!window.fetch) return;
-    fetch("../datos_redes.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+    fetch("../datos_publicos.json", { cache: "no-store" }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
       if (!j || !Array.isArray(j.publicaciones)) return;
       var hoy = new Date(), desde = new Date(hoy.getTime() - 30 * 864e5), c = {};
       j.publicaciones.forEach(function (p) {

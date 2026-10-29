@@ -277,7 +277,7 @@ function arrancar() {
   document.addEventListener("webkitfullscreenchange", alCambiarPantalla);
   const h = location.hash.slice(1);
   if (h.startsWith("blog")) { subBlog = h; ir("blog"); return; }      // #blog, #blog-posts, #blog-posts&video=sin… (16/10)
-  ir(["global", ...REDES, "calendario", "impacto", "videos", "comentarios", "tablon-facebook", "tablon-instagram", "futuro", "mapa"].includes(h) ? h : "global");
+  ir(["global", ...REDES, ...INFORMES, "calendario", "impacto", "videos", "comentarios", "tablon-facebook", "tablon-instagram", "futuro", "mapa"].includes(h) ? h : "global");
 }
 function marcar(sel, b, filtro = "") {
   const g = typeof sel === "string" ? $(sel) : sel;
@@ -453,11 +453,12 @@ function ir(v, conAnimacion = true) {
   $("#v-tablon-instagram").classList.toggle("oculta", v !== "tablon-instagram");
   $("#v-futuro").classList.toggle("oculta", v !== "futuro");
   $("#v-mapa").classList.toggle("oculta", v !== "mapa");
+  INFORMES.forEach(k => $("#v-" + k).classList.toggle("oculta", v !== k));
   if (v !== "mapa" && mapa) mapa.pausar();
   if (v === "impacto") impacto(conAnimacion); else if (v === "videos") tablaVideos(); else if (v === "mapa") abrirMapa();
   else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios();
   else if (v === "calendario") abrirCalendario(); else if (v === "blog") abrirBlog(); else if (v === "tablon-facebook") abrirTablon("facebook");
-  else if (v === "tablon-instagram") abrirTablon("instagram"); else pintarRed(v, conAnimacion);
+  else if (v === "tablon-instagram") abrirTablon("instagram"); else if (INFORMES.includes(v)) abrirInforme(v); else pintarRed(v, conAnimacion);
   if (conAnimacion) window.scrollTo({ top: 0 });
 }
 function repintar() {
@@ -466,6 +467,7 @@ function repintar() {
   if (futuro) try { futuro.actualizarTema(); } catch (e) { /* nada */ }
   if (comentarios) try { comentarios.actualizarTema(); } catch (e) { /* nada */ }
   if (blog) try { blog.actualizarTema(); } catch (e) { /* nada */ }
+  Object.values(informes).forEach(x => { if (x) try { x.actualizarTema(); } catch (e) { /* nada */ } });
 }
 
 /* ─────────── gráficas ─────────── */
@@ -1459,3 +1461,26 @@ function abrirFuturo() {
     cargandoFuturo = null;
   })();
 }
+
+/* ─────────── pestañas de negocio (29/10/2026): Urgente, Tienda, Analytics y Search Console (módulo comun/informe.js) ─────────── */
+const INFORMES = ["urgente", "tienda", "analytics", "search-console"];
+const FICHERO_INFORME = { urgente: "urgente", tienda: "tienda", analytics: "ga", "search-console": "gsc" };
+const informes = {}, cargandoInf = {}, intentosInf = {};
+function abrirInforme(v) {
+  if (informes[v] || cargandoInf[v]) return;
+  const cont = $("#inf-" + v);
+  cargandoInf[v] = (async () => {
+    try {
+      const { montarInforme } = await import("../comun/informe.js" + (intentosInf[v] ? "?r=" + intentosInf[v] : ""));
+      cont.innerHTML = "";
+      informes[v] = await montarInforme(cont, { datos: `../datos/${FICHERO_INFORME[v]}.json`, clave: "tdr-terminal-papel-2-" + v });
+    } catch (e) {
+      informes[v] = null;
+      cont.innerHTML = `<p class="futuro-aviso">Esta pestaña se rellena en la próxima rutina (9:00, 12:30 o 17:00). (${esc(e && e.message || e)})</p>`;
+    }
+    intentosInf[v] = (intentosInf[v] || 0) + 1;
+    cargandoInf[v] = null;
+  })();
+}
+window.irPanel = v => ir(v);
+if ($("#salir-panel")) $("#salir-panel").onclick = e => { e.preventDefault(); if (window.panelPrivado) window.panelPrivado.salir(); };

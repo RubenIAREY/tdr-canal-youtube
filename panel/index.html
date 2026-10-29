@@ -12,6 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link id="fuentes" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="terminal.css">
+<link rel="stylesheet" href="../comun/informe.css">
 <script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M2.5 13.5h11"/></svg>
     <span class="solo-pc">Descargar datos</span><span class="solo-movil">Datos</span>
   </button>
-  <nav class="enlaces" aria-label="Otras páginas"><a href="../disenos/">Otras versiones</a><a href="../panel-clasico.html">Panel clásico</a><a href="../index.html">Web del canal ↗</a></nav>
+  <nav class="enlaces" aria-label="Otras páginas"><a href="../index.html">Web del canal ↗</a><a href="#" id="salir-panel" title="Olvida la contraseña en este navegador">Cerrar sesión</a></nav>
 </header>
 
 <div class="cinta" id="cinta" aria-label="Seguidores por red"></div>
@@ -34,6 +35,11 @@
   <button role="tab" data-vista="instagram" aria-selected="false"><i style="background:#e1306c"></i>Instagram <span class="tk">IG</span></button>
   <button role="tab" data-vista="tiktok" aria-selected="false"><i style="background:#25f4ee"></i>TikTok <span class="tk">TT</span></button>
   <button role="tab" data-vista="facebook" aria-selected="false"><i style="background:#1877f2"></i>Facebook <span class="tk">FB</span></button>
+  <span class="sep" aria-hidden="true"></span>
+  <button role="tab" data-vista="urgente" aria-selected="false"><i style="background:#d71119"></i>Urgente <span class="tk">HOY</span></button>
+  <button role="tab" data-vista="tienda" aria-selected="false">Tienda <span class="tk">€</span></button>
+  <button role="tab" data-vista="analytics" aria-selected="false">Analytics <span class="tk">GA4</span></button>
+  <button role="tab" data-vista="search-console" aria-selected="false">Search Console <span class="tk">GSC</span></button>
   <span class="sep" aria-hidden="true"></span>
   <button role="tab" data-vista="calendario" aria-selected="false">Calendario</button>
   <button role="tab" data-vista="blog" aria-selected="false">Blog <span class="tk">WEB</span></button>
@@ -193,6 +199,18 @@
   <section id="v-comentarios" class="vista vista-ancha oculta" aria-label="Comentarios y preguntas">
     <div id="comentarios" class="comentarios-anfitrion"><p class="futuro-aviso">Cargando la sección Comentarios…</p></div>
   </section>
+  <section id="v-urgente" class="vista vista-ancha oculta" aria-label="Urgente y sugerencias">
+    <div id="inf-urgente" class="futuro-anfitrion"><p class="futuro-aviso">Cargando urgente y sugerencias…</p></div>
+  </section>
+  <section id="v-tienda" class="vista vista-ancha oculta" aria-label="Tienda">
+    <div id="inf-tienda" class="futuro-anfitrion"><p class="futuro-aviso">Cargando tienda…</p></div>
+  </section>
+  <section id="v-analytics" class="vista vista-ancha oculta" aria-label="Google Analytics">
+    <div id="inf-analytics" class="futuro-anfitrion"><p class="futuro-aviso">Cargando google analytics…</p></div>
+  </section>
+  <section id="v-search-console" class="vista vista-ancha oculta" aria-label="Search Console">
+    <div id="inf-search-console" class="futuro-anfitrion"><p class="futuro-aviso">Cargando search console…</p></div>
+  </section>
   <section id="v-futuro" class="vista vista-ancha oculta" aria-label="Futuro: previsión de las redes">
     <div id="futuro" class="futuro-anfitrion"><p class="futuro-aviso">Cargando la sección Futuro…</p></div>
   </section>
@@ -202,6 +220,7 @@
 </main>
 
 <footer class="pie">
+  <p><b>Panel privado.</b> Desde el 29/10/2026 los datos se publican cifrados y solo se ven con la contraseña. Urgente: avisos automáticos de todas las pestañas y sugerencias que escribe Claude en cada rutina. Tienda: PrestaShop por el MCP Bridge (solo lectura, sin datos de clientes). Analytics: Google Analytics 4 de toda la web. Search Console: todo el dominio. Se rehacen a las 9:00, a las 12:30 y a las 17:00.</p>
   <p><b>De dónde sale cada número.</b> YouTube: API de YouTube y YouTube Analytics, desde que se abrió el canal (los seguidores de cada día se
     reconstruyen con los suscriptores ganados y perdidos). Instagram, TikTok y Facebook: Metricool, desde el primer día que tiene guardado
     (por eso su historia empieza más tarde). Tienda: Google Analytics. Marca: Google Search Console. Las redes publican sus datos con 1-3 días de retraso.</p>
@@ -237,6 +256,6 @@
   <div class="fe-cuerpo"></div>
 </div>
 <p class="toast" id="toast" role="status" aria-live="polite"></p>
-<script src="terminal.js"></script>
+<script src="../comun/candado.js" data-arrancar="terminal.js"></script>
 </body>
 </html>

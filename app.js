@@ -46,7 +46,7 @@ function vivos() {
   const dd = (id, v, b) => { const e = document.getElementById(id); if (e) e.innerHTML = fmt(v) + ex(v, b); };
   dd("c-vd", h.vd, an.vd); dd("c-md", h.md, an.md); dd("c-subs", h.subs_mes, an.subs_mes);
   // me gusta al día en los tres tramos (del panel de redes, que está en el mismo repositorio)
-  fetch("datos_redes.json?" + Date.now()).then(r => r.json()).then(RD => {
+  fetch("datos_publicos.json?" + Date.now()).then(r => r.json()).then(RD => {
     const s = RD.series.youtube.filter(x => x[5] != null);
     if (!s.length) return;
     const lk = (a, b) => { const xs = s.filter(x => x[0] >= a && x[0] <= b); return xs.length ? xs.reduce((t, x) => t + x[5], 0) / xs.length : null; };

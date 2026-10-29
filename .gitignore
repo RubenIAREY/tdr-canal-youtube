@@ -1,0 +1,3 @@
+# Panel privado (29/10/2026): los datos en claro no se publican; se publica cifrado/ (ver PANEL-REDES/cifrar_panel.py)
+/datos_redes.json
+/datos/*.json
