@@ -1471,7 +1471,7 @@ function abrirInforme(v) {
   const cont = $("#inf-" + v);
   cargandoInf[v] = (async () => {
     try {
-      const { montarInforme } = await import("../comun/informe.js" + (intentosInf[v] ? "?r=" + intentosInf[v] : ""));
+      const { montarInforme } = await import("../comun/informe.js?v=20261029" + (intentosInf[v] ? "&r=" + intentosInf[v] : ""));
       cont.innerHTML = "";
       informes[v] = await montarInforme(cont, { datos: `../datos/${FICHERO_INFORME[v]}.json`, clave: "tdr-terminal-papel-2-" + v });
     } catch (e) {
