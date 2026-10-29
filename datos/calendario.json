@@ -1,9 +1,9 @@
 {
- "actualizado": "2026-10-28 17:15",
- "hoy": "2026-10-28",
+ "actualizado": "2026-10-29 09:24",
+ "hoy": "2026-10-29",
  "desde": "2026-10-01",
  "hasta": "2027-01-04",
- "metricool_guardado": "2026-10-28 17:13",
+ "metricool_guardado": "2026-10-29 09:22",
  "avisos": [],
  "estados": {
   "publicado": "Ya ha salido",
@@ -1191,6 +1191,23 @@
    "img": "https://i.ytimg.com/vi/kcNAco6dLMY/hqdefault.jpg",
    "enlace": "https://youtu.be/kcNAco6dLMY",
    "segundos": 21,
+   "nota": "Publicado"
+  },
+  {
+   "id": "yt-JLoTqV4FcEo",
+   "dia": "2026-10-09",
+   "hora": "19:04",
+   "redes": [
+    "youtube"
+   ],
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
+   "titulo": "Protector de depósito Oxford: que la chaqueta no te raye la moto",
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/JLoTqV4FcEo/hqdefault.jpg",
+   "enlace": "https://youtu.be/JLoTqV4FcEo",
+   "segundos": 46,
    "nota": "Publicado"
   },
   {
@@ -3006,26 +3023,6 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-394696556",
-   "dia": "2026-10-28",
-   "hora": "10:00",
-   "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
-    "youtube"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Coche que se calienta: qué pedir en el taller (prueba de presión)",
-   "texto": "Cuando lleves el coche al taller, hay una prueba que lo dice casi todo: la prueba de presión 🔧\nSe conecta una bomba de mano al vaso de expansión, se mete presión en el circuito y se mira si la aguja del reloj aguanta. Si baja, hay una fuga, aunque no se vea ningún charco.\nPide también que comprueben que el ventilador arranca, que el termostato abre y cómo están los manguitos.\nRefrigeración del coche 👉 todoenrecambio.com/refrigeracion-43288\n🤖 Vídeo creado con inteligencia artificial\n#cochesecalienta #taller #refrigeracion #consejosdetaller #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-1142703449138379450.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-15018999730930178357.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
-  },
-  {
    "id": "yt-7vgZDx1YHJA",
    "dia": "2026-10-28",
    "hora": "10:03",
@@ -3041,23 +3038,6 @@
    "enlace": "https://youtu.be/7vgZDx1YHJA",
    "segundos": 40,
    "nota": "Publicado"
-  },
-  {
-   "id": "mc-402204911",
-   "dia": "2026-10-28",
-   "hora": "11:00",
-   "redes": [
-    "youtube"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Cómo funciona el embrague de la moto: una pila de discos",
-   "texto": "Aprietas la maneta y el motor se desconecta de la rueda. La sueltas y vuelve a conectar 🏍️\nEl embrague de una moto es una pila de discos alternados: uno de fricción, uno metálico, uno de fricción, uno metálico… hasta completar el paquete.\nY en ese recorrido tan corto de la maneta pasa absolutamente todo.\nKits de embrague de moto 👉 todoenrecambio.com/kit-embrague\n🤖 Vídeo creado con inteligencia artificial\n#embrague #moto #mecanicademotos #motos #todoenrecambio\n\n#Shorts",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-10352692700552624174.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-10008262152808445314.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
   },
   {
    "id": "yt-qevgt36TFrw",
@@ -3095,25 +3075,6 @@
    "nota": "Publicado en el blog"
   },
   {
-   "id": "mc-402181375",
-   "dia": "2026-10-28",
-   "hora": "13:00",
-   "redes": [
-    "facebook",
-    "instagram",
-    "tiktok"
-   ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
-   "titulo": "Cómo funciona el embrague de la moto: una pila de discos",
-   "texto": "Aprietas la maneta y el motor se desconecta de la rueda. La sueltas y vuelve a conectar 🏍️\nEl embrague de una moto es una pila de discos alternados: uno de fricción, uno metálico, uno de fricción, uno metálico… hasta completar el paquete.\nY en ese recorrido tan corto de la maneta pasa absolutamente todo.\nEl vídeo completo del embrague, en YouTube: búscalo en @todoenrecambio.\nKits de embrague de moto 👉 todoenrecambio.com/kit-embrague\n🤖 Vídeo creado con inteligencia artificial\n#embrague #moto #mecanicademotos #motos #todoenrecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-11273732783755219355.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-12113554499541418606.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
-  },
-  {
    "id": "yt-gI3n3jJTbvs",
    "dia": "2026-10-28",
    "hora": "13:00",
@@ -3148,24 +3109,21 @@
    "nota": "Publicado"
   },
   {
-   "id": "mc-389216392",
+   "id": "yt-ta-LwHEQ6AI",
    "dia": "2026-10-28",
-   "hora": "19:00",
+   "hora": "19:01",
    "redes": [
-    "facebook",
-    "instagram",
-    "tiktok",
     "youtube"
    ],
-   "formato": "reel",
-   "fuente": "metricool",
-   "estado": "programado",
+   "formato": "short",
+   "fuente": "youtube",
+   "estado": "publicado",
    "titulo": "¿Qué escobillas lleva tu coche? Búscalas por matrícula",
-   "texto": "🌧️ ¿Sabes qué escobillas lleva tu coche? Tranquilo, casi nadie se lo sabe de memoria.\n\nLa medida correcta depende de tu vehículo: longitud, lado y adaptador. Por eso en todoenrecambio.com no tienes que adivinar:\n\n1️⃣ Mete tu matrícula\n2️⃣ O elige marca, modelo y motor\n✅ Te salen solo las compatibles con tu coche\n\nY tu coche se queda guardado en tu garaje, sin registrarte: la próxima vez que entres desde el mismo navegador, lo tienes a mano.\n\n📦 Envío gratis a partir de 70 € · Envíos 24/48 h\n🛒 Escobillas limpiaparabrisas:\nhttps://todoenrecambio.com/limpiaparabrisas-escobillas\n\n🤖 Vídeo creado con inteligencia artificial.\n\n#Escobillas #Limpiaparabrisas #RecambiosCoche #Otoño #TodoEnRecambio",
-   "img": "https://static.metricool.com/planner/202610/6422269-file-10264241138763620546.jpeg",
-   "video": "https://static.metricool.com/planner/202610/6422269-file-10203891173559481721.mp4",
-   "ia": true,
-   "nota": "Programado en Metricool"
+   "texto": "",
+   "img": "https://i.ytimg.com/vi/ta-LwHEQ6AI/hqdefault.jpg",
+   "enlace": "https://youtu.be/ta-LwHEQ6AI",
+   "segundos": 21,
+   "nota": "Publicado"
   },
   {
    "id": "yt-7znBx7Q0MOg",
@@ -3176,13 +3134,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "Cómo suena un embrague que se está yendo",
    "texto": "",
    "img": "cal/v-038cc0a92f.jpg",
    "enlace": "https://youtu.be/7znBx7Q0MOg",
    "segundos": 13,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "yt-Del8tEubMFA",
@@ -3193,13 +3151,13 @@
    ],
    "formato": "short",
    "fuente": "youtube",
-   "estado": "programado",
+   "estado": "publicado",
    "titulo": "¿El coche tira desde que cambiaste una rueda? Mira el neumático",
    "texto": "",
    "img": "cal/p-50822fd4c3.jpg",
    "enlace": "https://youtu.be/Del8tEubMFA",
    "segundos": 26,
-   "nota": "Subido como privado; YouTube lo publica solo a su hora"
+   "nota": "Publicado"
   },
   {
    "id": "mc-394696610",
