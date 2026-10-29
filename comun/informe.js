@@ -82,7 +82,7 @@ function pintarSerie(el, b) {
   const S = b.series, n = b.fechas.length;
   const vals = S.flatMap(s => s.valores).filter(v => v != null && !isNaN(v));
   if (!n || !vals.length) { el.innerHTML = `<p class="nota">Sin datos.</p>`; return; }
-  const barras = b.grafica === "barras" && S.length === 1;
+  const barras = b.grafica === "barras";   // barras para la 1.ª serie; las demás (p. ej. la media de 7 días) van como líneas encima
   let lo = Math.min(0, ...vals), hi = Math.max(...vals); if (hi === lo) hi = lo + 1;
   const x = i => mi + (barras ? (i + 0.5) * (W - mi - md) / n : (n === 1 ? (W - mi - md) / 2 : i * (W - mi - md) / (n - 1)));
   const y = v => ms + (H - ms - mb) * (1 - (v - lo) / (hi - lo));
@@ -91,16 +91,18 @@ function pintarSerie(el, b) {
   for (let k = 0; k <= 3; k++) { const v = lo + (hi - lo) * k / 3; g += `<line x1="${mi}" x2="${W - md}" y1="${y(v)}" y2="${y(v)}" class="rej"/><text x="${mi - 6}" y="${y(v) + 4}" class="ej" text-anchor="end">${fmt(v, f === "eur" ? "eur0" : f === "pct" ? "pct" : "num")}</text>`; }
   const paso = Math.max(1, Math.ceil(n / 7));
   for (let i = 0; i < n; i += paso) g += `<text x="${x(i)}" y="${H - 8}" class="ej" text-anchor="middle">${esc(etiquetaX(b.fechas[i]))}</text>`;
+  const linea = (s, k) => {
+    let d = "", pen = false;
+    s.valores.forEach((v, i) => { if (v == null || isNaN(v)) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1); pen = true; });
+    return `<path d="${d}" fill="none" stroke="${COLORES[k % 4]}" stroke-width="${k ? 1.6 : 2}" stroke-linejoin="round"/>`;
+  };
   if (barras) {
     const bw = Math.max(1, (W - mi - md) / n * 0.72);
     S[0].valores.forEach((v, i) => { if (v == null) return; const y0 = y(Math.max(0, v)), y1 = y(Math.min(0, v));
-      g += `<rect x="${x(i) - bw / 2}" y="${y0}" width="${bw}" height="${Math.max(0.5, y1 - y0)}" fill="${COLORES[0]}" opacity=".85"><title>${esc(etiquetaX(b.fechas[i], true))}: ${fmt(v, f)}</title></rect>`; });
+      g += `<rect x="${x(i) - bw / 2}" y="${y0}" width="${bw}" height="${Math.max(0.5, y1 - y0)}" fill="${COLORES[0]}" opacity="${S.length > 1 ? ".55" : ".85"}"><title>${esc(etiquetaX(b.fechas[i], true))}\n${S.map(s => `${s.nombre}: ${fmt(s.valores[i], s.formato || f)}`).join("\n")}</title></rect>`; });
+    S.slice(1).forEach((s, k) => { g += linea(s, k + 1); });
   } else {
-    S.forEach((s, k) => {
-      let d = "", pen = false;
-      s.valores.forEach((v, i) => { if (v == null || isNaN(v)) { pen = false; return; } d += (pen ? "L" : "M") + x(i).toFixed(1) + " " + y(v).toFixed(1); pen = true; });
-      g += `<path d="${d}" fill="none" stroke="${COLORES[k % 4]}" stroke-width="${k ? 1.6 : 2}" stroke-linejoin="round"/>`;
-    });
+    S.forEach((s, k) => { g += linea(s, k); });
     const w = (W - mi - md) / Math.max(1, n - 1);
     for (let i = 0; i < n; i++) g += `<rect x="${x(i) - w / 2}" y="${ms}" width="${w}" height="${H - ms - mb}" fill="transparent" class="zona"><title>${esc(etiquetaX(b.fechas[i], true))}\n${S.map(s => `${s.nombre}: ${fmt(s.valores[i], s.formato || f)}`).join("\n")}</title></rect>`;
   }
@@ -109,7 +111,9 @@ function pintarSerie(el, b) {
 }
 function etiquetaX(v, largo) {
   const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(String(v));
-  return m ? (largo ? `${m[3]}/${m[2]}/${m[1]}` : `${m[3]}/${m[2]}`) : String(v);
+  if (m) return largo ? `${m[3]}/${m[2]}/${m[1]}` : `${m[3]}/${m[2]}`;
+  const mm = /^(\d{4})-(\d\d)$/.exec(String(v));
+  return mm ? `${["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"][+mm[2] - 1]} ${mm[1].slice(2)}` : String(v);
 }
 
 /* ─────────── montaje ─────────── */

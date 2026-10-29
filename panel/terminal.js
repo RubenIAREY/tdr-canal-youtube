@@ -1463,15 +1463,15 @@ function abrirFuturo() {
 }
 
 /* ─────────── pestañas de negocio (29/10/2026): Urgente, Tienda, Analytics y Search Console (módulo comun/informe.js) ─────────── */
-const INFORMES = ["urgente", "tienda", "analytics", "search-console"];
-const FICHERO_INFORME = { urgente: "urgente", tienda: "tienda", analytics: "ga", "search-console": "gsc" };
+const INFORMES = ["urgente", "tienda", "analytics", "search-console", "evolucion"];
+const FICHERO_INFORME = { urgente: "urgente", tienda: "tienda", analytics: "ga", "search-console": "gsc", evolucion: "evolucion" };
 const informes = {}, cargandoInf = {}, intentosInf = {};
 function abrirInforme(v) {
   if (informes[v] || cargandoInf[v]) return;
   const cont = $("#inf-" + v);
   cargandoInf[v] = (async () => {
     try {
-      const { montarInforme } = await import("../comun/informe.js?v=20261029" + (intentosInf[v] ? "&r=" + intentosInf[v] : ""));
+      const { montarInforme } = await import("../comun/informe.js?v=20261029b" + (intentosInf[v] ? "&r=" + intentosInf[v] : ""));
       cont.innerHTML = "";
       informes[v] = await montarInforme(cont, { datos: `../datos/${FICHERO_INFORME[v]}.json`, clave: "tdr-terminal-papel-2-" + v });
     } catch (e) {
