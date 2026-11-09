@@ -2,7 +2,7 @@
  "v": 1,
  "sal": "7d983e6dfe41df917679aa5a6df84fb1",
  "iteraciones": 600000,
- "comprobacion": "+1iO/2DdxYcDhaIRJOyRdvwTpe99utQgqK8bN22re+TmNqfY7RXMsnhDPJv7",
+ "comprobacion": "0xrmPfUIIC7LRX0UlVWCcqL6pU9kO6y7wtA9y2h6Jm448x8keYE9mfYWTz67",
  "archivos": {
   "datos_redes.json": {
    "t": "2026-11-09 12:48",
@@ -17,7 +17,7 @@
    "kb": 13
   },
   "datos/comentarios.json": {
-   "t": "2026-11-09 12:48",
+   "t": "2026-11-09 12:51",
    "kb": 29
   },
   "datos/eventos.json": {
@@ -61,9 +61,9 @@
    "kb": 10
   },
   "datos/urgente.json": {
-   "t": "2026-11-09 12:49",
+   "t": "2026-11-09 12:51",
    "kb": 4
   }
  },
- "actualizado": "2026-11-09 12:49"
+ "actualizado": "2026-11-09 12:51"
 }
