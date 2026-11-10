@@ -13,6 +13,7 @@
 <link id="fuentes" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="terminal.css?v=20261029b">
 <link rel="stylesheet" href="../comun/informe.css?v=20261029b">
+<link rel="stylesheet" href="auditoria.css?v=20261110a">
 <script src="https://unpkg.com/lightweight-charts@4.2.3/dist/lightweight-charts.standalone.production.js"></script>
 </head>
 <body>
@@ -41,6 +42,7 @@
   <button role="tab" data-vista="analytics" aria-selected="false">Analytics <span class="tk">GA4</span></button>
   <button role="tab" data-vista="search-console" aria-selected="false">Search Console <span class="tk">GSC</span></button>
   <button role="tab" data-vista="evolucion" aria-selected="false">Evolución <span class="tk">HIST</span></button>
+  <button role="tab" data-vista="auditoria" aria-selected="false">Auditoría SEO <span class="tk">SEO</span></button>
   <span class="sep" aria-hidden="true"></span>
   <button role="tab" data-vista="calendario" aria-selected="false">Calendario</button>
   <button role="tab" data-vista="blog" aria-selected="false">Blog <span class="tk">WEB</span></button>
@@ -215,6 +217,9 @@
   <section id="v-evolucion" class="vista vista-ancha oculta" aria-label="Evolución">
     <div id="inf-evolucion" class="futuro-anfitrion"><p class="futuro-aviso">Cargando la evolución…</p></div>
   </section>
+  <section id="v-auditoria" class="vista vista-ancha oculta" aria-label="Auditoría SEO">
+    <div id="auditoria" class="futuro-anfitrion"><p class="futuro-aviso">Cargando la auditoría SEO…</p></div>
+  </section>
   <section id="v-futuro" class="vista vista-ancha oculta" aria-label="Futuro: previsión de las redes">
     <div id="futuro" class="futuro-anfitrion"><p class="futuro-aviso">Cargando la sección Futuro…</p></div>
   </section>
@@ -260,6 +265,6 @@
   <div class="fe-cuerpo"></div>
 </div>
 <p class="toast" id="toast" role="status" aria-live="polite"></p>
-<script src="../comun/candado.js?v=20261029b" data-arrancar="terminal.js?v=20261029b"></script>
+<script src="../comun/candado.js?v=20261029b" data-arrancar="terminal.js?v=20261110a"></script>
 </body>
 </html>

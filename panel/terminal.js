@@ -277,6 +277,7 @@ function arrancar() {
   document.addEventListener("webkitfullscreenchange", alCambiarPantalla);
   const h = location.hash.slice(1);
   if (h.startsWith("blog")) { subBlog = h; ir("blog"); return; }      // #blog, #blog-posts, #blog-posts&video=sin… (16/10)
+  if (h.startsWith("auditoria")) { subAud = "#" + h; ir("auditoria"); return; }      // #auditoria-plan&a=…&pri=… (10/11)
   ir(["global", ...REDES, ...INFORMES, "calendario", "impacto", "videos", "comentarios", "tablon-facebook", "tablon-instagram", "futuro", "mapa"].includes(h) ? h : "global");
 }
 function marcar(sel, b, filtro = "") {
@@ -435,7 +436,7 @@ function teletipo() {
 function ir(v, conAnimacion = true) {
   const cambia = v !== vista;
   vista = v;
-  if (!(v === "blog" && location.hash.startsWith("#blog"))) history.replaceState(null, "", location.search + "#" + v);
+  if (!((v === "blog" || v === "auditoria") && location.hash.startsWith("#" + v))) history.replaceState(null, "", location.search + "#" + v);
   document.querySelectorAll("#pestanas button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.vista === v)));
   document.querySelectorAll(".valor").forEach(b => b.classList.toggle("on", b.dataset.k === v));
   const activo = document.querySelector(`#cinta .valor[data-k="${v}"]`);
@@ -453,12 +454,13 @@ function ir(v, conAnimacion = true) {
   $("#v-tablon-instagram").classList.toggle("oculta", v !== "tablon-instagram");
   $("#v-futuro").classList.toggle("oculta", v !== "futuro");
   $("#v-mapa").classList.toggle("oculta", v !== "mapa");
+  $("#v-auditoria").classList.toggle("oculta", v !== "auditoria");
   INFORMES.forEach(k => $("#v-" + k).classList.toggle("oculta", v !== k));
   if (v !== "mapa" && mapa) mapa.pausar();
   if (v === "impacto") impacto(conAnimacion); else if (v === "videos") tablaVideos(); else if (v === "mapa") abrirMapa();
   else if (v === "futuro") abrirFuturo(); else if (v === "comentarios") abrirComentarios();
   else if (v === "calendario") abrirCalendario(); else if (v === "blog") abrirBlog(); else if (v === "tablon-facebook") abrirTablon("facebook");
-  else if (v === "tablon-instagram") abrirTablon("instagram"); else if (INFORMES.includes(v)) abrirInforme(v); else pintarRed(v, conAnimacion);
+  else if (v === "tablon-instagram") abrirTablon("instagram"); else if (v === "auditoria") abrirAuditoria(); else if (INFORMES.includes(v)) abrirInforme(v); else pintarRed(v, conAnimacion);
   if (conAnimacion) window.scrollTo({ top: 0 });
 }
 function repintar() {
@@ -1480,6 +1482,25 @@ function abrirInforme(v) {
     }
     intentosInf[v] = (intentosInf[v] || 0) + 1;
     cargandoInf[v] = null;
+  })();
+}
+/* ─────────── Auditoría SEO (módulo panel/auditoria.js, 10/11/2026; datos ../datos/auditoria_seo.json) ─────────── */
+let auditoria = null, cargandoAud = null, intentosAud = 0, subAud = null;
+function abrirAuditoria() {
+  if (auditoria) { if (subAud) auditoria.irA(subAud); else auditoria.mostrar(); subAud = null; return; }
+  if (cargandoAud) return;
+  const cont = $("#auditoria");
+  cargandoAud = (async () => {
+    try {
+      const { montarAuditoria } = await import("./auditoria.js?v=20261110a" + (intentosAud ? "&r=" + intentosAud : ""));
+      auditoria = await montarAuditoria(cont, { datos: "../datos/auditoria_seo.json", hash: subAud || location.hash });
+      subAud = null;
+    } catch (e) {
+      auditoria = null;
+      cont.innerHTML = `<p class="futuro-aviso">La pestaña Auditoría SEO se está preparando (${esc(e && e.message || e)}).</p>`;
+    }
+    intentosAud++;
+    cargandoAud = null;
   })();
 }
 window.irPanel = v => ir(v);
