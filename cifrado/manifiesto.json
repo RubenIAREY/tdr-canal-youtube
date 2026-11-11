@@ -2,15 +2,15 @@
  "v": 1,
  "sal": "7d983e6dfe41df917679aa5a6df84fb1",
  "iteraciones": 600000,
- "comprobacion": "LVFl2pMROwAE/CvpjLt9Wh5fM0+aqJArJ1BQtYrIaTIwbAnIbn7B8CoDu6Y3",
+ "comprobacion": "zW3/S8pwSKbJgBIMXPG1hUkteGB+1avW1VSIvfLVATYdp3s/O9Euu4cQYsZj",
  "archivos": {
   "datos_redes.json": {
    "t": "2026-11-11 12:55",
    "kb": 40
   },
   "datos/auditoria_seo.json": {
-   "t": "2026-11-10 14:39",
-   "kb": 230
+   "t": "2026-11-11 13:20",
+   "kb": 231
   },
   "datos/blog.json": {
    "t": "2026-11-11 12:55",
@@ -21,7 +21,7 @@
    "kb": 38
   },
   "datos/comentarios.json": {
-   "t": "2026-11-11 12:57",
+   "t": "2026-11-11 13:21",
    "kb": 29
   },
   "datos/eventos.json": {
@@ -65,9 +65,9 @@
    "kb": 10
   },
   "datos/urgente.json": {
-   "t": "2026-11-11 12:58",
+   "t": "2026-11-11 13:21",
    "kb": 5
   }
  },
- "actualizado": "2026-11-11 12:58"
+ "actualizado": "2026-11-11 13:21"
 }
