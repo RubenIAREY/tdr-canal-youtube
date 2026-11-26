@@ -2,10 +2,10 @@
  "v": 1,
  "sal": "7d983e6dfe41df917679aa5a6df84fb1",
  "iteraciones": 600000,
- "comprobacion": "kh1wc9qUv6klNcd5VmMFAFDLD3s6SzBI+ax6OH/kVplOYN9X3XUivwLkvLwe",
+ "comprobacion": "HU/CoKnlwkFscjKrtQ1fM720PzkVRysqdpcdvWlUw7DzzC/yVkAtRCqGxNZ1",
  "archivos": {
   "datos_redes.json": {
-   "t": "2026-11-25 17:20",
+   "t": "2026-11-26 09:30",
    "kb": 41
   },
   "datos/auditoria_seo.json": {
@@ -13,61 +13,61 @@
    "kb": 231
   },
   "datos/blog.json": {
-   "t": "2026-11-25 17:21",
+   "t": "2026-11-26 09:31",
    "kb": 92
   },
   "datos/calendario.json": {
-   "t": "2026-11-25 17:21",
-   "kb": 38
+   "t": "2026-11-26 09:31",
+   "kb": 37
   },
   "datos/comentarios.json": {
-   "t": "2026-11-25 17:23",
+   "t": "2026-11-26 09:30",
    "kb": 33
   },
   "datos/eventos.json": {
-   "t": "2026-11-25 17:20",
+   "t": "2026-11-26 09:30",
    "kb": 11
   },
   "datos/evolucion.json": {
-   "t": "2026-11-25 17:19",
+   "t": "2026-11-26 09:29",
    "kb": 14
   },
   "datos/facebook.json": {
-   "t": "2026-11-25 17:20",
+   "t": "2026-11-26 09:30",
    "kb": 80
   },
   "datos/ga.json": {
-   "t": "2026-11-25 17:18",
+   "t": "2026-11-26 09:26",
    "kb": 14
   },
   "datos/gsc.json": {
-   "t": "2026-11-25 17:18",
+   "t": "2026-11-26 09:28",
    "kb": 13
   },
   "datos/instagram.json": {
-   "t": "2026-11-25 17:20",
+   "t": "2026-11-26 09:30",
    "kb": 1
   },
   "datos/intradia_youtube.json": {
-   "t": "2026-11-25 17:19",
+   "t": "2026-11-26 09:29",
    "kb": 2
   },
   "datos/perfil_horario.json": {
-   "t": "2026-11-25 17:13",
+   "t": "2026-11-26 09:19",
    "kb": 4
   },
   "datos/prediccion.json": {
-   "t": "2026-11-25 17:20",
-   "kb": 126
+   "t": "2026-11-26 09:30",
+   "kb": 128
   },
   "datos/tienda.json": {
-   "t": "2026-11-25 17:17",
+   "t": "2026-11-26 09:25",
    "kb": 5
   },
   "datos/urgente.json": {
-   "t": "2026-11-25 17:23",
+   "t": "2026-11-26 09:31",
    "kb": 5
   }
  },
- "actualizado": "2026-11-25 17:23"
+ "actualizado": "2026-11-26 09:31"
 }
